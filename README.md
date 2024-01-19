@@ -21,3 +21,6 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
     2. FireFox
     3. Safari
 15. The website MUST NOT require more than 1 hour per month of touch time for maintenance.
+
+## Developer Get Started
+1. Follow the instructions at https://jekyllrb.com/docs/installation/ to install the Jekyll generator on your machine.
