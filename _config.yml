@@ -31,6 +31,8 @@ instagram_username: ucsde4e
 youtube_username: "@ucsde4e"
 linkedin_username: "e4e-ucsd"
 
+permalink: /:categories/:title
+
 # Build settings
 plugins:
   - jekyll-feed
