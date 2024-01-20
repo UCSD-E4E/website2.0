@@ -1,0 +1,27 @@
+---
+---
+<style>ol.bibliography li { list-style: none }</style>
+{{ reference }}
+
+{% assign urls = "" %}
+{% capture doi_url %}<a href="https://doi.org/{{ entry.doi| remove_first: "https://doi.org/"}}">DOI</a>|{% endcapture %}
+{%if entry.doi%}{% capture urls %}{{urls | append: doi_url }}{% endcapture %}{% endif %}
+
+{% capture arxiv_url %}<a href="https://arxiv.org/abs/{{ entry.eprint }}">arXiv</a>|{% endcapture %}
+{% if entry.eprint %}{% capture urls %}{{urls | append: arxiv_url }}{% endcapture %} {% endif %}
+
+{% capture http_url %}<a href="{{ entry.url }}">http</a>|{% endcapture %}
+{% if entry.url %}{% capture urls %}{{urls | append: http_url }}{% endcapture %} {% endif %}
+
+
+
+<p>[{{urls | split: "|" | join: " | "}}]</p>
+
+{% if entry.abstract %}
+<p></p>
+<blockquote><p>{{ entry.abstract }}</p></blockquote>
+{% endif %}
+
+{% if entry.keywords %}
+<blockquote><p>Keywords: {{ entry.keywords }}</p></blockquote>
+{% endif %}

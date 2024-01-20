@@ -37,7 +37,7 @@ permalink: /:categories/:title
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyl-redirect-from
+  - jekyll-redirect-from
 
 whitelist:
   - jekyll-redirect-from
@@ -64,3 +64,12 @@ exclude:
 #   - vendor/ruby/
 
 is_dev: false
+
+scholar:
+  style: ieee
+  bibliography: publications.bib
+  bibtex_filters:
+    - latex
+    - smallcaps
+    - superscript
+  bibliography_template: bib
