@@ -52,7 +52,6 @@ whitelist:
 #
 exclude:
   - README.md
-  - publications.bib
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -65,3 +64,12 @@ exclude:
 #   - vendor/ruby/
 
 is_dev: false
+
+scholar:
+  style: ieee
+  bibliography: publications.bib
+  bibtex_filters:
+    - latex
+    - smallcaps
+    - superscript
+  bibliography_template: bib
