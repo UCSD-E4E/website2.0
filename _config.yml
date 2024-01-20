@@ -37,7 +37,7 @@ permalink: /:categories/:title
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyl-redirect-from
+  - jekyll-redirect-from
 
 whitelist:
   - jekyll-redirect-from
