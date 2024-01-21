@@ -1,0 +1,15 @@
+---
+title: Expeditions
+layout: page
+---
+{% assign expeditions = site.data.expeditions | sort: "date" | reverse %}
+{% for trip in expeditions %}
+<h2>{% if trip.link %}<a href="{{trip.link}}">{% endif %}{{trip.project}} - {{trip.month}} {{trip.year}}{% if trip.link %}</a>{% endif %}</h2>
+<p>
+    <strong>Location:</strong>  {{trip.location}}
+</p>
+<ul>
+    {% if trip.lead %}<li>{{trip.lead}}*</li>{% endif %}
+    {% for people in trip.people %}<li>{{people}}</li>{% endfor %}
+</ul>
+{% endfor %}
