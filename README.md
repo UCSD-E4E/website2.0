@@ -30,3 +30,25 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 19. The website MUST maintain existing links.
 20. The website SHOULD provide page view analytics.
 21. The website MUST NOT require more than 1 hour per month of touch time for maintenance.
+
+## Developer Get Started
+1. Follow the instructions at https://jekyllrb.com/docs/installation/ to install the Jekyll generator on your machine.
+2. Run `jekyll serve --livereload --safe` in this repository root to deploy a live server to http://localhost:4000 or http://localhost:35729
+
+Dev deployment target: https://ucsd-e4e.github.io/website2.0/
+
+## Adding Publications
+1. Open [_bibliography/publications.bib](_bibliography/publications.bib) in [JabRef](https://www.jabref.org/).
+2. Add the new publication using the correct classification
+    1. Books should use `@Book`
+    2. PhD theses should `@PhdThesis` with `type` set to `PhD Thesis`
+    3. MS theses should use `@MastersThesis` with `type` set to `MS Thesis`
+    4. Patents should use `@Patent` with `number` set to the full US Patent number (e.g. `US0123456789`)
+    5. Book chapters should use `@InBook`
+    6. Conference papers should use `@InProceedings`
+    7. Journal articles should use `@Article`
+    8. All papers should include their abstract and keywords.
+    9. All papers should include their DOI reference (if available).
+    10. Where possible, include the non-DOI permalink to the article in the `url` field.
+    11. If a copy is available on arXiV, please include the arXiV identifier in the `preprint` field.
+3. Commit the updated `.bib` file and push to `main`
