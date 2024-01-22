@@ -124,6 +124,17 @@
   month: May
   lead:
     - Nathan Hui
+- project: Blueprint Earth
+  location: Mojave National Monument
+  date: 2016-11
+  year: 2016
+  month: November
+  lead:
+    - Sebastian Afshari
+  people:
+    - Eric Lo
+    - Nathan Hui
+  
 - project: Maya Archaeology
   location: El Zotz - Guatemala
   date: 2017-06
