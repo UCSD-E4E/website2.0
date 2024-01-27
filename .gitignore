@@ -1,5 +1,10 @@
-# Created by https://www.toptal.com/developers/gitignore/api/jekyll,windows,visualstudiocode,macos,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=jekyll,windows,visualstudiocode,macos,linux
+# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,jekyll,windows,visualstudiocode,jabref
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,jekyll,windows,visualstudiocode,jabref
+
+### JabRef ###
+# JabRef - https://www.jabref.org/
+*.bak
+*.sav
 
 ### Jekyll ###
 _site/
@@ -103,4 +108,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/jekyll,windows,visualstudiocode,macos,linux
+# End of https://www.toptal.com/developers/gitignore/api/linux,macos,jekyll,windows,visualstudiocode,jabref
