@@ -4,7 +4,7 @@ title: Contact
 ---
 Interested in joining us or collaborating?
 
-To get involved with research and development, contact our program directors and come to our general meetings, which are listed on our [Calendar of Events](/calendar). If you're interested in a particular project, contact one of the project leaders listed below to learn more.
+To get involved with research and development, contact our program directors and come to our general meetings, which are listed on our [Calendar of Events]({{site.url}}/calendar). If you're interested in a particular project, contact one of the project leaders listed below to learn more.
 
 If you want to collaborate with us, please see below for the appropriate contact person for your application.
 
