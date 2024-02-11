@@ -14,17 +14,6 @@ Ryan Kastner, Co-Director: [kastner@ucsd.edu](mailto:kastner@ucsd.edu)
 Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 
 ## Project Contacts
-### Aerial Mapping
-
-**Structure from Motion Applications (General):** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
-
-### Archaeology Projects
-**Maya Archaeology (Aerial Surveys):** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
-
-**Maya Archaeology (Tunnel Mapping):** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
-
-**Maya Archaeology (VR):**  Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu)) 
-
 ### Environmental Monitoring Projects
 **Smartfin:** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
 
@@ -49,6 +38,17 @@ Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 **Acoustic Species Identification:** Sean Perry and Samantha Prestrelski ([shperry@ucsd.edu](mailto:shperry@ucsd.edu), [sprestrelski@ucsd.edu](mailto:sprestrelski@ucsd.edu))
 
 **FishSense:**  Christopher Crutchfield, Kyle Hu, and Avik Ghosh ([ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu), [kshu@ucsd.edu](mailto:kshu@ucsd.edu), [a8ghosh@ucsd.edu](a8ghosh@ucsd.edu)) 
+
+### Aerial Mapping
+
+**Structure from Motion Applications (General):** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
+
+### Archaeology Projects
+**Maya Archaeology (Aerial Surveys):** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
+
+**Maya Archaeology (Tunnel Mapping):** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
+
+**Maya Archaeology (VR):**  Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu)) 
 
 ## Other Information
 For all other inquiries, contact our staff engineer Nathan Hui at [nthui@ucsd.edu](mailto:nthui@ucsd.edu).
