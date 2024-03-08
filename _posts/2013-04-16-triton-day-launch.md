@@ -14,7 +14,7 @@ post_format:
 
 Triton Day is UCSD's day to show off to new admits what we're all about, so we took the opportunity to send up the balloon. Here's some imagery we got.
 
-![]({{"/assets/2013-04-16-warren-bear.jpg" | absolute_url}}){: width="200" }
+![]({{"/assets/2013-04-16-warren-bear.jpg" | resize: "200x200>"}})
 ![]({{"/assets/2013-04-16-triton-day-crowd.jpg" | absolute_url}}){: width="200" }
 ![]({{"/assets/2013-04-16-ebu1-house-below.jpg" | absolute_url}}){: width="200" }
 ![]({{"/assets/2013-04-16-geisel-and-ocean.jpg" | absolute_url}}){: width="200" }
