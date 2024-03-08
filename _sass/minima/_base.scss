@@ -79,6 +79,11 @@ figure > img {
   clear: both;
   margin: 0 auto;
 }
+figure > iframe {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+}
 
 figcaption {
   font-size: $small-font-size;
