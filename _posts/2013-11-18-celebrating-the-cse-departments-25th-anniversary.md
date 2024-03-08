@@ -31,4 +31,6 @@ Finally, I took some video of the balloon being blown around by the wind to show
 
 We attempted a structure from motion reconstruction of the Warren bear, but did not have sufficient angles to create a good reconstruction. We will attempt this again with a quadcopter, which is better suited to getting the exact angles we need.
 
-![]({{'/assets/2013-10-e4e-poster.svg'}})
+Here’s our poster from the session:
+
+![]({{'/assets/2013-10-e4e-poster.svg' | absolute_url}})
