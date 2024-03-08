@@ -64,12 +64,19 @@ img {
 /**
  * Figures
  */
+figure {
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
 figure > img {
   display: block;
+  clear: both;
+  margin: 0 auto;
 }
 
 figcaption {
   font-size: $small-font-size;
+  text-align: center;
 }
 
 
