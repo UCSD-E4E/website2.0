@@ -1,7 +1,7 @@
 ---
 date: 2013-08-14 17:17:16+00:00
 description: null
-featuredImage: http://e4e.ucsd.edu/wp-content/uploads/rigging-1024x685.jpg
+featuredImage: /assets/2013-08-14-balloon-house.jpg
 layout: blog-post
 slug: /balloon-test-in-warren-mall
 title: Balloon Test in Warren Mall
