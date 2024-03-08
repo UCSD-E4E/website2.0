@@ -277,3 +277,4 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,jekyll,windows,visualstudiocode,python
 *.bib.sav
+*.sql
