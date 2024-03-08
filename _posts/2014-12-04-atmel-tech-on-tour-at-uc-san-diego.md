@@ -5,7 +5,7 @@ featuredImage: /assets/2014-12-04-atmel-truck-1.jpg
 layout: blog-post
 slug: /atmel-tech-on-tour-at-uc-san-diego
 title: Atmel Tech on Tour at UC San Diego
-author: Elioth Frajo
+author: Elioth Fraijo
 categories:
 - news-and-updates
 ---
