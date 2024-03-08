@@ -5,9 +5,13 @@
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  padding-bottom: 15px;
+  padding-top: 15px;
 
   // Positioning context for the mobile navigation icon
   position: relative;
+  background: #000;
+
 }
 
 .site-title {
@@ -37,7 +41,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: #999;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -100,6 +104,10 @@
   }
 }
 
+.main_logo {
+	max-width: 350px;
+	max-height: 100px;
+}
 
 
 /**
