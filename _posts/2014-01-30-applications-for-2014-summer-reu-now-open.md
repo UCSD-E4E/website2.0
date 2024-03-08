@@ -22,4 +22,4 @@ $500/week stipend
 
 For more information about the program and requirements, please visit the [REU Application site](https://reumanager.com/efore).
 
-_(Photo: 2013 REU students mapping the San Dieguito River Valley Conservancy with an aerial balloon survey drone.) _
+_(Photo: 2013 REU students mapping the San Dieguito River Valley Conservancy with an aerial balloon survey drone.)_
