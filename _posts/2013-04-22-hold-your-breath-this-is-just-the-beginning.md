@@ -32,8 +32,8 @@ We have been working on some structure from motion algorithms to try to recreate
 
 VIDEOS:
 
-[cannon](/assets/2013-04-22-cannon.mp4)
+[cannon]({{"/assets/2013-04-22-cannon.mp4" | absolute_url}})
 
-[onion jar](/assets/2013-04-22-onion.mp4)
+[onion jar]({{"/assets/2013-04-22-onion.mp4" | absolute_url}})
 
-[bellarmine jar](/assets/2013-04-22-bellarmine.mp4)
+[bellarmine jar]({{"/assets/2013-04-22-bellarmine.mp4" | absolute_url}})
