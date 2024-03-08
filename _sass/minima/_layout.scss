@@ -29,10 +29,60 @@
 }
 
 .site-nav {
+  clear: right;
   float: right;
+  margin: auto;
+  padding: 8px 4px 4px 4px;
+  margin-top: 5px;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+  }
+
+  li {
+    float: left;
+    position: relative;
+
+  }
+
+  a {
+    font-family: 'Cabin Condensed', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: #999;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 5px 8px;
+
+  }
+
+  ul ul {
+    display: none;
+    position: absolute;
+    background: #000;
+
+  }
+
+  ul ul a {
+    font-size: 14px;
+    font-weight: 100;
+
+  }
+
+  li:hover>a {
+    color: #fff;
+
+  }
+
+  ul li:hover>ul {
+    display: block;
+
+  }
 
   .nav-trigger {
-      display: none;
+    display: none;
   }
 
   .menu-icon {
@@ -76,17 +126,17 @@
       padding-top: 10px;
       text-align: center;
 
-      > svg {
+      >svg {
         fill: $grey-color-dark;
       }
     }
 
-    input ~ .trigger {
+    input~.trigger {
       clear: both;
       display: none;
     }
 
-    input:checked ~ .trigger {
+    input:checked~.trigger {
       display: block;
       padding-bottom: 5px;
     }
@@ -98,6 +148,7 @@
       &:not(:last-child) {
         margin-right: 0;
       }
+
       margin-left: 20px;
     }
   }
