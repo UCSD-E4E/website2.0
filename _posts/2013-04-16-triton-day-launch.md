@@ -5,6 +5,7 @@ featuredImage: /assets/2013-04-16-balloon-launch.jpg
 layout: blog-post
 slug: /triton-day-launch
 title: Triton Day Launch
+author: Eric Lo
 categories:
 - stabilized-aerial-camera-platform
 post_format:

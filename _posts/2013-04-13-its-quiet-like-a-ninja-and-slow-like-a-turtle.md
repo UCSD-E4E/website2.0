@@ -5,6 +5,7 @@ featuredImage: assets/2013-04-13-e4e-x10-1024x768.jpg
 layout: blog-post
 slug: /its-quiet-like-a-ninja-and-slow-like-a-turtle
 title: '"It''s quiet like a ninja, and slow like a turtle."'
+author: Riley Yeakle
 categories:
 - intelligent-camera-trap
 tags:
