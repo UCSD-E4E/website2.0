@@ -5,7 +5,7 @@ featuredImage: /assets/2013-11-25-wolf.jpg
 layout: blog-post
 slug: /engineers-for-exploration-accepted-into-intel-cornell-cup
 title: Engineers For Exploration Accepted into Intel Cornell Cup
-author: Xavier Tajeda
+author: Xavier Tejeda
 categories:
 - terrestrial-vehicle
 post_format:
