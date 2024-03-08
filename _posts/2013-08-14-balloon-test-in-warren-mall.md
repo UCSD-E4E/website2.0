@@ -55,7 +55,7 @@ The weather was great, the equipment worked, and we were able to get some fantas
 
 As we've done previously, we created a high resolution panoramic by stitching together individual photos. This provides a very wide field of view as well as lots of detail when zooming in, which is ideal for analyzing aerial surveys.
 
-![]({{'/assets/2013-07-30-gigapan.png'}})
+![]({{'/assets/2013-07-30-gigapan.png' | absolute_url}})
 
 In addition to the DSLR mounted on the gimbal, we attached a GoPro Hero 3 Black to the T-frame to see how the stabilization was working, as well as test the new GoPro's performance as payload for the balloon. Due to the wide field of view, the angular disturbances from the wind gusting is less apparent, which is ideal for an unstabilized camera.
 
