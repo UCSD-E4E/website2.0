@@ -7,7 +7,6 @@ slug: /stingray-testing-at-canyonview-pool
 title: Stingray Testing at Canyonview Pool
 author: Antonella Wilby
 categories:
-- stingray
 - underwater-projects
 post_format:
 - post-format-gallery

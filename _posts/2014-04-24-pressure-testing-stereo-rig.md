@@ -7,8 +7,6 @@ slug: /pressure-testing-stereo-rig
 title: Pressure Testing Underwater Enclosures
 author: Antonella Wilby
 categories:
-- nautical-archaeology
-- stereo-diving-rig
 - underwater-projects
 tags:
 - noaa

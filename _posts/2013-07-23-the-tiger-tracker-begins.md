@@ -8,7 +8,6 @@ title: The Tiger Tracker Begins
 author: Riley Yeakle, Eric Lo, David Muller
 categories:
 - intelligent-camera-trap
-- tiger-tracking
 ---
 (Photography by [Jennifer Batryn](http://www.flickr.com/photos/kokosnu55/))
 

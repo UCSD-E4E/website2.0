@@ -8,7 +8,6 @@ title: Engineers For Exploration Accepted into Intel Cornell Cup
 author: Xavier Tajeda
 categories:
 - terrestrial-vehicle
-- wolf-tracking
 post_format:
 - post-format-gallery
 ---

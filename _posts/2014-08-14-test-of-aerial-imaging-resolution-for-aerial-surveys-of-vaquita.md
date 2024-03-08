@@ -7,8 +7,6 @@ slug: /test-of-aerial-imaging-resolution-for-aerial-surveys-of-vaquita
 title: Test of Aerial Imaging Resolution for Aerial Surveys of Vaquita
 author: Antonella Wilby
 categories:
-- autonomous-planes
-- underwater-projects
 - vaquita
 tags:
 - conservation

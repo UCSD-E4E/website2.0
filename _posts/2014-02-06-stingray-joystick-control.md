@@ -7,7 +7,6 @@ slug: /stingray-joystick-control
 title: Stingray Joystick Control
 author: Justin Chen
 categories:
-- stingray
 - underwater-projects
 tags:
 - auv

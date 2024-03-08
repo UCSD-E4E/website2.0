@@ -7,7 +7,6 @@ slug: /hold-your-breath-this-is-just-the-beginning
 title: Hold Your Breath! This is just the beginning....
 author: Perry Naughton
 categories:
-- stingray
 - underwater-projects
 ---
 

@@ -7,8 +7,6 @@ slug: /expedition-lake-tahoe
 title: Expedition Lake Tahoe
 author: Antonella Wilby
 categories:
-- nautical-archaeology
-- stereo-diving-rig
 - underwater-projects
 tags:
 - 3d-reconstruction

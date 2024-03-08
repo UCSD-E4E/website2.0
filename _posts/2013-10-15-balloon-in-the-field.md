@@ -7,7 +7,6 @@ slug: /balloon-in-the-field
 title: Balloon in the Field
 author: Eric Lo
 categories:
-- del-dios-monitoring
 - stabilized-aerial-camera-platform
 ---
 As the Engineers for Exploration Summer REU program drew to a close, we set out for one last mission: to perform an aerial survey of a restoration zone in Del Dios Gorge. Our collaborator from the San Dieguito River Valley Conservancy, David O'Connor, wanted to investigate the regrowth of native plants in the area where [invasive eucalyptus trees had been taken out](https://sdrvc.org/current/invasives-management/). With our balloon surveying platform and structure from motion reconstructions, we can capture a snapshot of the area at one time. In this case, we captured the state of the plant life, enabling an accurate assessment over time of change in the environment over time, be it the growth of native plants, or just a comparison populations of native and non-native plants. By repeating the survey in the future, we hope to help the San Dieguito River Valley Conservancy monitor the regrowth of Del Dios Gorge.

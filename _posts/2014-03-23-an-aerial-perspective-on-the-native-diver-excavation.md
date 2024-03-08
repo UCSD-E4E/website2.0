@@ -7,7 +7,6 @@ slug: /an-aerial-perspective-on-the-native-diver-excavation
 title: An Aerial Perspective on the Native Diver Excavation
 author: Antonella Wilby
 categories:
-- news-and-updates
 - stabilized-aerial-camera-platform
 tags:
 - aerial-imaging
