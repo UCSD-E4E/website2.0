@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<!-- TODO what is itemtype + itemscope-->
+<article class="project h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="project-header">
+    <h1 class="project-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="project-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</article>
