@@ -1,0 +1,37 @@
+---
+layout: default
+
+---
+
+<div class="feed">
+  {%- if page.enable_nav -%}
+    <nav id="project-navigation">
+      <ul id="menu-project-nav" class="menu-project">
+        <li id="" class="menu-projects">
+        <a href={{ "./update"  }}>
+            Project Updates
+            </a>
+        </li>
+        <li id="" class="menu-projects">
+            <a  aria-current="page">
+            Media
+            </a>
+        </li>
+        <li id="" class="menu-projects">
+            <a href={{ "./" }}>
+            {{ page.title }}
+            </a>
+        </li>
+      </ul>
+    </nav>
+  {%- endif -%}
+
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }} Media</h1>
+  {%- endif -%}
+  
+  {% include gallery_component.html media=page.media grid=page.grid %}
+</div>
+
+

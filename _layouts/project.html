@@ -4,7 +4,27 @@ layout: default
 
 <!-- TODO what is itemtype + itemscope-->
 <article class="project h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-
+  {%- if page.enable_nav -%}
+  <nav id="project-navigation">
+    <ul id="menu-project-nav" class="menu-project">
+      <li id="" class="menu-projects">
+        <a href={{ page.permalink | append: "/update"  }}>
+          Project Updates
+        </a>
+      </li>
+      <li id="" class="menu-projects">
+        <a href={{ page.permalink | append: "/media"  }}>
+          Media
+        </a>
+      </li>
+      <li id="" class="menu-projects">
+        <a href={{ page.permalink }} aria-current="page">
+          {{ page.title }}
+        </a>
+      </li>
+    </ul>
+  </nav>
+  {%- endif -%}
   <header class="project-header">
     <h1 class="project-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
