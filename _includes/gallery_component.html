@@ -14,15 +14,17 @@
         <!-- https://www.w3schools.com/css/css_grid.asp -->
         <style>
             .gallery {
-                display: grid;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
                 justify-content: space-evenly;
-                grid-template-columns: auto auto auto;
+                /* grid-template-columns: auto auto auto; */
                 gap: 10px;
             }
 
             .image_container {
-                /* height: 300px;
-                width: 300px; */
+                height: 200px;
+                width: 200px;
             }
 
             img {
