@@ -1,6 +1,6 @@
 ---
 layout: gallery
-permalink: /radio-collar-tracker/update
+permalink: /radio-collar-tracker/media
 title:  Radio Telemetry Tracker
 category: radio-collar-tracker
 enable_nav: true
