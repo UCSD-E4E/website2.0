@@ -16,5 +16,3 @@ media:
  - assets/projects/ASID/gallery/AudiomothAcousticArray.png
 ---
 
-TESTING
-
