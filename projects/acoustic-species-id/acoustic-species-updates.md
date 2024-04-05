@@ -6,5 +6,3 @@ title: Acoustic Species Identification
 category: acoustic-species-identification
 enable_nav: true
 ---
-
-TESTING
