@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: project_gallery
 permalink: /projects
-test: "test"
+title: Projects
 blurbs: 
  - photo: "assets/projects/ASID/acoustic_species_id_thumbnail.png"
    text: "Collaboration with the San Diego Zoo to parse through and extract meaningful fauna vocalizations from massive audiosets"
@@ -32,50 +32,3 @@ blurbs:
    text: "The Research Support Group supports all research operations at E4E"
    redict: "/research-support-group"
 ---
-
-<!-- Contains data for indivual project webpage -->
-<div class="projects-overview">
-    <!--TODO INSERT TITLE-->
-
-    <div class="project-gallery">
-        {%- for project_data in page.blurbs -%}
-        <div class="project-container">
-            <a href={{ project_data.redict }}>
-                <img 
-                    src="{{site.url | append: "/" | append: project_data.photo}}" 
-                    class="gallery_img" 
-                    decoding="async" alt="">
-            </a>
-            <div description>
-                <a href={{ project_data.redict }}>
-                    {{ project_data.project_name }}
-                </a>
-
-                <p>
-                    {{ project_data.text }}
-                </p>
-            </div>
-        </div>
-    {%- endfor -%}
-    </div>
-
-    <style>
-        .project-gallery {
-            display: flex;
-            flex: auto;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            gap: 10px;
-        }
-
-        .project-container {
-            width: 250px;
-        }
-
-        img {
-            width: 250px;
-            height: 250px;
-        }
-    </style>
-</div>
