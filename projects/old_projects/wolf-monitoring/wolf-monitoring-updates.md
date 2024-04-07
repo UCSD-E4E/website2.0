@@ -1,0 +1,8 @@
+---
+layout: post_feed
+
+permalink: /wolf-tracking/update
+title: Wolf Monitoring
+tag: wolf-monitoring
+enable_nav: true
+---

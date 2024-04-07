@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Page not found | UCSD Engineers For Exploration</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://e4e.ucsd.edu/xmlrpc.php">
+
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="UCSD Engineers For Exploration &raquo; Feed" href="https://e4e.ucsd.edu/feed" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/e4e.ucsd.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://e4e.ucsd.edu/wp-includes/css/dist/block-library/style.min.css?ver=6.5' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='cryptx-styles-css' href='https://e4e.ucsd.edu/wp-content/plugins/cryptx/css/cryptx.css?ver=6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='plyr-css-css' href='https://e4e.ucsd.edu/wp-content/plugins/easy-video-player/lib/plyr.css?ver=6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='justifiedGallery-css' href='https://e4e.ucsd.edu/wp-content/plugins/flickr-justified-gallery/css/justifiedGallery.min.css?ver=v3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='flickrJustifiedGalleryWPPlugin-css' href='https://e4e.ucsd.edu/wp-content/plugins/flickr-justified-gallery/css/flickrJustifiedGalleryWPPlugin.css?ver=v3.6' type='text/css' media='all' />
+<link rel='stylesheet' id='swipebox-css' href='https://e4e.ucsd.edu/wp-content/plugins/flickr-justified-gallery/lightboxes/swipebox/css/swipebox.min.css?ver=6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='newp-fonts-css' href='//fonts.googleapis.com/css?family=Cabin+Condensed%7CYanone+Kaffeesatz%3A400%2C200%7CMontserrat%3A700%7COpen+Sans&#038;ver=6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='newp-style-css' href='https://e4e.ucsd.edu/wp-content/themes/e4e/style.css?ver=6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='newp-nivo-slider-dark-style-css' href='https://e4e.ucsd.edu/wp-content/themes/e4e/css/themes/dark/dark.css?ver=6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='newp-nivo-slider-style-css' href='https://e4e.ucsd.edu/wp-content/themes/e4e/css/nivo.css?ver=6.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://e4e.ucsd.edu/wp-content/plugins/tablepress/css/build/default.css?ver=2.3' type='text/css' media='all' />
+<link rel='stylesheet' id='photonic-slider-css' href='https://e4e.ucsd.edu/wp-content/plugins/photonic/include/ext/splide/splide.min.css?ver=20240229-202237' type='text/css' media='all' />
+<link rel='stylesheet' id='photonic-lightbox-css' href='https://e4e.ucsd.edu/wp-content/plugins/photonic/include/ext/baguettebox/baguettebox.min.css?ver=20240229-202237' type='text/css' media='all' />
+<link rel='stylesheet' id='photonic-css' href='https://e4e.ucsd.edu/wp-content/plugins/photonic/include/css/front-end/core/photonic.min.css?ver=20240229-202237' type='text/css' media='all' />
+<style id='photonic-inline-css' type='text/css'>
+/* Retrieved from saved CSS */
+.photonic-panel { background:  rgb(17,17,17)  !important;
+
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+ }
+.photonic-flickr-stream .photonic-pad-photosets { margin: 10px; }
+.photonic-flickr-stream .photonic-pad-galleries { margin: 10px; }
+.photonic-flickr-stream .photonic-pad-photos { padding: 5px 10px; }
+.photonic-google-stream .photonic-pad-photos { padding: 5px 15px; }
+.photonic-zenfolio-stream .photonic-pad-photos { padding: 5px 10px; }
+.photonic-zenfolio-stream .photonic-pad-photosets { margin: 5px 10px; }
+.photonic-smug-stream .photonic-pad-albums { margin: 10px; }
+.photonic-smug-stream .photonic-pad-photos { padding: 5px 10px; }
+.photonic-random-layout .photonic-thumb { padding: 2px}
+.photonic-masonry-layout .photonic-thumb { padding: 2px}
+.photonic-mosaic-layout .photonic-thumb { padding: 2px}
+
+</style>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/plugins/cryptx/js/cryptx.min.js?ver=6.5" id="cryptx-js-js"></script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" id="plyr-js-js-extra">
+/* <![CDATA[ */
+var easy_video_player = {"plyr_iconUrl":"https:\/\/e4e.ucsd.edu\/wp-content\/plugins\/easy-video-player\/lib\/plyr.svg","plyr_blankVideo":"https:\/\/e4e.ucsd.edu\/wp-content\/plugins\/easy-video-player\/lib\/blank.mp4"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/plugins/easy-video-player/lib/plyr.js?ver=6.5" id="plyr-js-js"></script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/themes/e4e/js/nivo.slider.js?ver=6.5" id="newp-nivo-slider-js"></script>
+<link rel="https://api.w.org/" href="https://e4e.ucsd.edu/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://e4e.ucsd.edu/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5" />
+
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-186880532-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-186880532-1');
+		</script>
+
+	<style data-context="foundation-flickity-css">/*! Flickity v2.0.2
+http://flickity.metafizzy.co
+---------------------------------------------- */.flickity-enabled{position:relative}.flickity-enabled:focus{outline:0}.flickity-viewport{overflow:hidden;position:relative;height:100%}.flickity-slider{position:absolute;width:100%;height:100%}.flickity-enabled.is-draggable{-webkit-tap-highlight-color:transparent;tap-highlight-color:transparent;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.flickity-enabled.is-draggable .flickity-viewport{cursor:move;cursor:-webkit-grab;cursor:grab}.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down{cursor:-webkit-grabbing;cursor:grabbing}.flickity-prev-next-button{position:absolute;top:50%;width:44px;height:44px;border:none;border-radius:50%;background:#fff;background:hsla(0,0%,100%,.75);cursor:pointer;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.flickity-prev-next-button:hover{background:#fff}.flickity-prev-next-button:focus{outline:0;box-shadow:0 0 0 5px #09f}.flickity-prev-next-button:active{opacity:.6}.flickity-prev-next-button.previous{left:10px}.flickity-prev-next-button.next{right:10px}.flickity-rtl .flickity-prev-next-button.previous{left:auto;right:10px}.flickity-rtl .flickity-prev-next-button.next{right:auto;left:10px}.flickity-prev-next-button:disabled{opacity:.3;cursor:auto}.flickity-prev-next-button svg{position:absolute;left:20%;top:20%;width:60%;height:60%}.flickity-prev-next-button .arrow{fill:#333}.flickity-page-dots{position:absolute;width:100%;bottom:-25px;padding:0;margin:0;list-style:none;text-align:center;line-height:1}.flickity-rtl .flickity-page-dots{direction:rtl}.flickity-page-dots .dot{display:inline-block;width:10px;height:10px;margin:0 8px;background:#333;border-radius:50%;opacity:.25;cursor:pointer}.flickity-page-dots .dot.is-selected{opacity:1}</style><style data-context="foundation-slideout-css">.slideout-menu{position:fixed;left:0;top:0;bottom:0;right:auto;z-index:0;width:256px;overflow-y:auto;-webkit-overflow-scrolling:touch;display:none}.slideout-menu.pushit-right{left:auto;right:0}.slideout-panel{position:relative;z-index:1;will-change:transform}.slideout-open,.slideout-open .slideout-panel,.slideout-open body{overflow:hidden}.slideout-open .slideout-menu{display:block}.pushit{display:none}</style><style>h3 {
+  color: #333333;
+}
+
+h1.project_header {
+
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #333333;
+        padding-bottom: 15px;
+
+}
+
+
+
+
+h2 { 
+  color: #666666;
+/*  background: url("http://e4e.ucsd.edu/wp-content/uploads/header_icon.png") no-repeat left center; */
+  display: block;
+}
+
+h2 span {
+  padding-left: 30px;
+}
+
+a.link {color: #666666;}
+
+div.project {
+  margin-bottom: 35px;
+  margin-right: 30px;
+  background-color: #131313;
+  width: 250px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
+}
+
+div.personnel {
+  margin-bottom: 35px;
+  margin-right: 20px;
+  background-color: #131313;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+  float: left;
+  object-fit: contain;
+}
+
+img.profileimg {
+	object-fit:contain;
+	height:200px;
+	width:200px;
+}
+
+h3 { 
+  color: #333333;
+  font-style: bold;
+  font-size: 14px;
+}
+
+p.projecttitle {
+  color: #FFE87C;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: -20px;
+}
+
+p.projecttitle a {
+  color: #F1CC15;
+}
+
+p.projecttitle a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+p.projectdescription {
+  margin-top: -20px;
+  font-size: 12px;
+  /*font-style: italic;*/
+  color: #838383;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+}
+
+p.caption {
+   font-family: Times;
+   font-size: 12px;
+   color: #666666;
+   text-align: center;
+   font-style: italic;
+}
+
+
+/*  Page Navigation
+----------------------------------------------- */
+
+.page-content [class*="navigation"] {
+	margin: -20px 0px 0px 15px;
+	overflow: hidden;
+}
+[class*="navigation"] .nav-previous {
+	float: right;
+	width: 50%;
+}
+[class*="navigation"] .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+/* Menu Bar Page
+----------------------------------------------- */
+
+.page-navigation {
+	float: right;
+	display: inline-block;
+	padding: 8px 4px 4px 4px;
+        margin-top: 0px;
+	margin-bottom: 0px;
+}
+.page-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+.page-navigation li {
+	float: right;
+	position: relative;
+}
+.page-navigation a {
+	display: block;
+	text-decoration: none;
+	font-family: 'Cabin Condensed', 'Arial Narrow', Arial, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 8px;
+}
+.page-navigation a:hover {
+	background: #FFE87C;
+	color: #999999;
+}
+.page-navigation ul ul {
+	display: none;
+	float: right;
+	position: absolute;
+		top: 2em; /*fixed issue which causes drop down to disappear real quick*/
+		left: 0;
+	z-index: 999999;
+	background: #000;
+}
+.page-navigation ul ul a {
+	color: #9d9d9d;
+	font-size: 14px;
+	font-weight: 100;
+}
+.page-navigation ul ul a:hover {
+	color: #fff;
+}
+	
+.page-navigation ul ul ul {
+	left: 100%;
+	top: 0;
+}
+.page-navigation ul ul a {
+	max-width: 200px;
+	min-width: 125px;
+}
+.page-navigation ul ul li {
+}
+.page-navigation li:hover &gt; a {
+	background: #000;
+	color: #fff;
+}
+.page-navigation ul ul :hover &gt; a {
+	background: #000;
+	color: #fff;
+}
+.page-navigation ul ul a:hover {
+}
+.page-navigation ul li:hover &gt; ul {
+	display: block;
+}
+.page-navigation li.current_page_item a,
+.page-navigation li.current-menu-item a {
+}
+
+@media screen and (max-width: 600px) {
+	.menu-toggle,
+	.page-navigation.toggled .nav-menu {
+		display: block;
+	}
+	.page-navigation ul {
+		display: none;
+	}
+	
+}
+
+h1.project-updates {
+	font-family: "Montserrat", Arial, sans-serif;
+	text-transform: uppercase;
+	color: #a4a4a4;
+	letter-spacing: 0px;
+	font-weight: 700;
+}
+
+/* Email Address Styles */
+
+email-link::after {
+	content: attr(data-domain);
+}
+
+email-link::before {
+	content: attr(data-user);
+}
+
+/* YouTube Video Centering */
+
+.youtube-center {
+   display: block;
+   margin: 0 auto;
+}
+
+.email-obfuscate {
+    display: none;
+}
+
+div#director-bio-left {
+     float: left;
+     width: 33%;
+     padding-right: 25px;
+}
+
+div#director-bio-center {
+     display: inline-block;
+     width: 31%;
+     padding-right: 25px;
+}
+
+div#director-bio-right {
+     float: right;
+     width: 31%;
+}
+
+.director-bio-photo {
+   display: block;
+   margin: auto;
+}
+
+iframe#calendar-desktop {
+     border: 0px;
+     width: 100%;
+     height: 800px;
+}
+
+iframe#calendar-mobile {
+     display: none;
+     border: 0px;
+}
+
+</style><!-- All in one Favicon 4.8 --><link rel="icon" href="https://e4e.ucsd.edu/wp-content/uploads/e4esquarelogo-v2.png" type="image/png"/>
+<link rel="icon" href="https://e4e.ucsd.edu/wp-content/uploads/e4esquarelogo-v2-1-144x144.png" sizes="32x32" />
+<link rel="icon" href="https://e4e.ucsd.edu/wp-content/uploads/e4esquarelogo-v2-1-200x200.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://e4e.ucsd.edu/wp-content/uploads/e4esquarelogo-v2-1-200x200.png" />
+<meta name="msapplication-TileImage" content="https://e4e.ucsd.edu/wp-content/uploads/e4esquarelogo-v2-1.png" />
+<style>.ios7.web-app-mode.has-fixed header{ background-color: rgba(0,0,0,.88);}</style></head>
+
+<body class="error404 group-blog">
+
+		<header id="masthead" class="site-header" role="banner">
+    <div id="head-wrapper">	
+		<div class="site-branding">
+			<h1 class="site-title logo-container"><a href="https://e4e.ucsd.edu/" title="UCSD Engineers For Exploration" rel="home">
+      <img class='main_logo' src='https://e4e.ucsd.edu/wp-content/uploads/e4e_website-no-e4e.png' title='UCSD Engineers For Exploration'></a></h1>		</div>
+
+<!-- SOCIAL ICONS -->        
+<div id="social_icons">
+		    			 <a href="https://www.facebook.com/ucsde4e" title="Facebook" ><img src="https://e4e.ucsd.edu/wp-content/themes/e4e/images/facebook.png"></a>
+                         			 <a href="http://twitter.com/ucsde4e" title="Twitter" ><img src="https://e4e.ucsd.edu/wp-content/themes/e4e/images/twitter.png"></a>
+                                                                 			 <a href="https://www.flickr.com/photos/ucsd-e4e/" title="Flickr" ><img src="https://e4e.ucsd.edu/wp-content/themes/e4e/images/flickr.png"></a>
+             		
+					<a href="https://github.com/UCSD-E4E" title="Github"><img src="https://e4e.ucsd.edu/wp-content/themes/e4e/images/github.png"></a>
+		
+            </div>
+<!-- END SOCIAL ICONS -->
+
+
+<!-- NAVIGATION BAR -->
+<nav id="site-navigation" class="main-navigation" role="navigation">
+    <h1 class="menu-toggle">Menu</h1>
+    <div class="screen-reader-text skip-link"><a href="#content" title="Skip to content">Skip to content</a></div>
+    <div class="menu-navigation-container"><ul id="menu-navigation" class="menu"><li id="menu-item-1138" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1138"><a href="http://e4e.ucsd.edu/">Home</a></li>
+<li id="menu-item-1139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1139"><a href="https://e4e.ucsd.edu/about">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-4979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4979"><a href="https://e4e.ucsd.edu/open-opportunities">Open Opportunities – Academic Year</a></li>
+	<li id="menu-item-1374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1374"><a href="https://e4e.ucsd.edu/contact">Contact</a></li>
+	<li id="menu-item-5375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5375"><a href="https://e4e.ucsd.edu/people">Current Students</a></li>
+	<li id="menu-item-5357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5357"><a href="https://e4e.ucsd.edu/alumni">Alumni</a></li>
+	<li id="menu-item-5531" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5531"><a href="https://e4e.ucsd.edu/publications">Publications</a></li>
+	<li id="menu-item-5596" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5596"><a href="https://e4e.ucsd.edu/expeditions">Expeditions</a></li>
+</ul>
+</li>
+<li id="menu-item-1873" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1873"><a href="https://e4e.ucsd.edu/projects">Projects</a>
+<ul class="sub-menu">
+	<li id="menu-item-2944" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2944"><a href="https://e4e.ucsd.edu/radio-collar-tracker">Radio Telemetry Tracker</a></li>
+	<li id="menu-item-4871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4871"><a href="https://e4e.ucsd.edu/baboons-on-the-move">Baboons on the Move</a></li>
+	<li id="menu-item-5036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5036"><a href="https://e4e.ucsd.edu/acoustic-species-identification">Acoustic Species Identification</a></li>
+	<li id="menu-item-4618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4618"><a href="https://e4e.ucsd.edu/mangrove-monitoring">Mangrove Monitoring</a></li>
+	<li id="menu-item-5103" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5103"><a href="https://e4e.ucsd.edu/smartfin">Smartfin</a></li>
+	<li id="menu-item-5128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5128"><a href="https://e4e.ucsd.edu/fishsense">FishSense</a></li>
+	<li id="menu-item-6260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6260"><a href="https://e4e.ucsd.edu/research-support-group">Research Support Group</a></li>
+	<li id="menu-item-4606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4606"><a href="https://e4e.ucsd.edu/past-projects">Past Projects</a></li>
+</ul>
+</li>
+<li id="menu-item-3862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3862"><a href="https://e4e.ucsd.edu/calendar">Calendar</a></li>
+<li id="menu-item-4592" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4592"><a href="https://e4e.ucsd.edu/welcome">How to Join</a>
+<ul class="sub-menu">
+	<li id="menu-item-4980" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4980"><a href="https://e4e.ucsd.edu/open-opportunities">Open Opportunities – Academic Year</a></li>
+	<li id="menu-item-6210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6210"><a href="https://e4e.ucsd.edu/onboarding-papers">Onboarding Papers</a></li>
+	<li id="menu-item-5672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5672"><a href="https://e4e.ucsd.edu/tips-for-effective-applications">Tips for Effective Applications</a></li>
+</ul>
+</li>
+</ul></div></nav>
+
+<!-- END NAVIGATION BAR -->
+        
+
+<!-- SEARCH -->
+<!--<div id="top_search">
+			<form role="search" method="get" class="search-form" action="https://e4e.ucsd.edu/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+        </div>-->
+<!-- END SEARCH -->
+      
+</div>  
+	</header><!-- #masthead -->
+
+
+    <div id="page" class="hfeed site">
+    
+<!-- SLIDER -->
+<!-- END SLIDER --> 
+	
+<div id="content" class="site-content">
+
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<section class="error-404 not-found">
+				<header class="page-header">
+					<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+				</header><!-- .page-header -->
+
+				<div class="page-content">
+					<p>It looks like nothing was found at this location. Maybe try one of the links below or a search?</p>
+
+					<form role="search" method="get" class="search-form" action="https://e4e.ucsd.edu/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:">
+	</label>
+	<input type="submit" class="search-submit" value="Search">
+</form>
+
+					
+		<div class="widget widget_recent_entries">
+		<h2 class="widgettitle">Recent Posts</h2>
+		<ul>
+											<li>
+					<a href="https://e4e.ucsd.edu/news-and-updates/spring-2024-info-session">Spring 2024 Info Session</a>
+									</li>
+											<li>
+					<a href="https://e4e.ucsd.edu/news-and-updates/engineers-for-exploration-e4e-summer-research-program-at-uc-san-diego-application-submission-by-february-15th-2024">Engineers for Exploration (E4E) Summer Research Program at UC San Diego ­- Application Submission by February 15th, 2024</a>
+									</li>
+											<li>
+					<a href="https://e4e.ucsd.edu/news-and-updates/fall-2023-info-session">Fall 2023 Info Session</a>
+									</li>
+											<li>
+					<a href="https://e4e.ucsd.edu/news-and-updates/summer-2023-final-presentations">Summer 2023 Final Presentations</a>
+									</li>
+											<li>
+					<a href="https://e4e.ucsd.edu/news-and-updates/2023-summer-research-students">2023 Summer Research Students</a>
+									</li>
+					</ul>
+
+		</div>
+										<div class="widget widget_categories">
+						<h2 class="widgettitle">Most Used Categories</h2>
+						<ul>
+							<li class="cat-item cat-item-37"><a href="https://e4e.ucsd.edu/category/news-and-updates">News &amp; Updates</a> (60)
+</li>
+	<li class="cat-item cat-item-38"><a href="https://e4e.ucsd.edu/category/underwater-projects">Underwater Projects</a> (16)
+<ul class='children'>
+	<li class="cat-item cat-item-39"><a href="https://e4e.ucsd.edu/category/underwater-projects/stereo-diving-rig">Stereo Diving Rig</a> (4)
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://e4e.ucsd.edu/category/uncategorized">Uncategorized</a> (9)
+</li>
+	<li class="cat-item cat-item-95"><a href="https://e4e.ucsd.edu/category/autonomous-copters">Autonomous Copters</a> (7)
+</li>
+	<li class="cat-item cat-item-26"><a href="https://e4e.ucsd.edu/category/vaquita">Vaquita</a> (6)
+</li>
+	<li class="cat-item cat-item-9"><a href="https://e4e.ucsd.edu/category/stabilized-aerial-camera-platform">Stabilized Aerial Camera Platform</a> (6)
+</li>
+	<li class="cat-item cat-item-124"><a href="https://e4e.ucsd.edu/category/acoustic-species-id">Acoustic Species ID</a> (4)
+</li>
+	<li class="cat-item cat-item-8"><a href="https://e4e.ucsd.edu/category/radio-collar-tracker">Radio Collar Tracker</a> (4)
+</li>
+	<li class="cat-item cat-item-114"><a href="https://e4e.ucsd.edu/category/coastal-conservation/mangrove-monitoring">Mangrove Monitoring</a> (4)
+</li>
+						</ul>
+					</div><!-- .widget -->
+					
+					<div class="widget widget_archive"><h2 class="widgettitle">Archives</h2><p>Try looking in the monthly archives. 🙂</p>		<label class="screen-reader-text" for="archives-dropdown--1">Archives</label>
+		<select id="archives-dropdown--1" name="archive-dropdown">
+			
+			<option value="">Select Month</option>
+				<option value='https://e4e.ucsd.edu/2024/04'> April 2024 </option>
+	<option value='https://e4e.ucsd.edu/2023/10'> October 2023 </option>
+	<option value='https://e4e.ucsd.edu/2023/09'> September 2023 </option>
+	<option value='https://e4e.ucsd.edu/2023/08'> August 2023 </option>
+	<option value='https://e4e.ucsd.edu/2023/06'> June 2023 </option>
+	<option value='https://e4e.ucsd.edu/2023/04'> April 2023 </option>
+	<option value='https://e4e.ucsd.edu/2023/01'> January 2023 </option>
+	<option value='https://e4e.ucsd.edu/2022/11'> November 2022 </option>
+	<option value='https://e4e.ucsd.edu/2022/10'> October 2022 </option>
+	<option value='https://e4e.ucsd.edu/2022/09'> September 2022 </option>
+	<option value='https://e4e.ucsd.edu/2022/08'> August 2022 </option>
+	<option value='https://e4e.ucsd.edu/2022/05'> May 2022 </option>
+	<option value='https://e4e.ucsd.edu/2022/03'> March 2022 </option>
+	<option value='https://e4e.ucsd.edu/2022/01'> January 2022 </option>
+	<option value='https://e4e.ucsd.edu/2021/12'> December 2021 </option>
+	<option value='https://e4e.ucsd.edu/2021/09'> September 2021 </option>
+	<option value='https://e4e.ucsd.edu/2021/08'> August 2021 </option>
+	<option value='https://e4e.ucsd.edu/2021/07'> July 2021 </option>
+	<option value='https://e4e.ucsd.edu/2021/04'> April 2021 </option>
+	<option value='https://e4e.ucsd.edu/2021/03'> March 2021 </option>
+	<option value='https://e4e.ucsd.edu/2021/01'> January 2021 </option>
+	<option value='https://e4e.ucsd.edu/2020/12'> December 2020 </option>
+	<option value='https://e4e.ucsd.edu/2020/11'> November 2020 </option>
+	<option value='https://e4e.ucsd.edu/2020/10'> October 2020 </option>
+	<option value='https://e4e.ucsd.edu/2020/08'> August 2020 </option>
+	<option value='https://e4e.ucsd.edu/2020/07'> July 2020 </option>
+	<option value='https://e4e.ucsd.edu/2019/12'> December 2019 </option>
+	<option value='https://e4e.ucsd.edu/2019/11'> November 2019 </option>
+	<option value='https://e4e.ucsd.edu/2019/09'> September 2019 </option>
+	<option value='https://e4e.ucsd.edu/2019/08'> August 2019 </option>
+	<option value='https://e4e.ucsd.edu/2019/07'> July 2019 </option>
+	<option value='https://e4e.ucsd.edu/2019/06'> June 2019 </option>
+	<option value='https://e4e.ucsd.edu/2018/12'> December 2018 </option>
+	<option value='https://e4e.ucsd.edu/2018/10'> October 2018 </option>
+	<option value='https://e4e.ucsd.edu/2018/08'> August 2018 </option>
+	<option value='https://e4e.ucsd.edu/2018/07'> July 2018 </option>
+	<option value='https://e4e.ucsd.edu/2018/06'> June 2018 </option>
+	<option value='https://e4e.ucsd.edu/2018/04'> April 2018 </option>
+	<option value='https://e4e.ucsd.edu/2017/12'> December 2017 </option>
+	<option value='https://e4e.ucsd.edu/2017/11'> November 2017 </option>
+	<option value='https://e4e.ucsd.edu/2017/10'> October 2017 </option>
+	<option value='https://e4e.ucsd.edu/2017/07'> July 2017 </option>
+	<option value='https://e4e.ucsd.edu/2017/05'> May 2017 </option>
+	<option value='https://e4e.ucsd.edu/2016/12'> December 2016 </option>
+	<option value='https://e4e.ucsd.edu/2016/10'> October 2016 </option>
+	<option value='https://e4e.ucsd.edu/2016/09'> September 2016 </option>
+	<option value='https://e4e.ucsd.edu/2016/08'> August 2016 </option>
+	<option value='https://e4e.ucsd.edu/2016/01'> January 2016 </option>
+	<option value='https://e4e.ucsd.edu/2015/10'> October 2015 </option>
+	<option value='https://e4e.ucsd.edu/2015/09'> September 2015 </option>
+	<option value='https://e4e.ucsd.edu/2015/08'> August 2015 </option>
+	<option value='https://e4e.ucsd.edu/2015/03'> March 2015 </option>
+	<option value='https://e4e.ucsd.edu/2015/02'> February 2015 </option>
+	<option value='https://e4e.ucsd.edu/2014/12'> December 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/10'> October 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/09'> September 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/08'> August 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/07'> July 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/06'> June 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/04'> April 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/03'> March 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/02'> February 2014 </option>
+	<option value='https://e4e.ucsd.edu/2014/01'> January 2014 </option>
+	<option value='https://e4e.ucsd.edu/2013/11'> November 2013 </option>
+	<option value='https://e4e.ucsd.edu/2013/10'> October 2013 </option>
+	<option value='https://e4e.ucsd.edu/2013/08'> August 2013 </option>
+	<option value='https://e4e.ucsd.edu/2013/07'> July 2013 </option>
+	<option value='https://e4e.ucsd.edu/2013/05'> May 2013 </option>
+	<option value='https://e4e.ucsd.edu/2013/04'> April 2013 </option>
+
+		</select>
+
+			<script type="text/javascript">
+/* <![CDATA[ */
+
+(function() {
+	var dropdown = document.getElementById( "archives-dropdown--1" );
+	function onSelectChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value !== '' ) {
+			document.location.href = this.options[ this.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onSelectChange;
+})();
+
+/* ]]> */
+</script>
+</div>
+					<div class="widget widget_tag_cloud"><h2 class="widgettitle">Tags</h2><div class="tagcloud"><a href="https://e4e.ucsd.edu/tag/3d-reconstruction" class="tag-cloud-link tag-link-55 tag-link-position-1" style="font-size: 10.863636363636pt;" aria-label="3d reconstruction (2 items)">3d reconstruction</a>
+<a href="https://e4e.ucsd.edu/tag/acoustic-species" class="tag-cloud-link tag-link-127 tag-link-position-2" style="font-size: 10.863636363636pt;" aria-label="acoustic species (2 items)">acoustic species</a>
+<a href="https://e4e.ucsd.edu/tag/aerial-imaging" class="tag-cloud-link tag-link-67 tag-link-position-3" style="font-size: 12.772727272727pt;" aria-label="aerial imaging (3 items)">aerial imaging</a>
+<a href="https://e4e.ucsd.edu/tag/archaeology" class="tag-cloud-link tag-link-51 tag-link-position-4" style="font-size: 14.363636363636pt;" aria-label="archaeology (4 items)">archaeology</a>
+<a href="https://e4e.ucsd.edu/tag/bioacoustics" class="tag-cloud-link tag-link-86 tag-link-position-5" style="font-size: 10.863636363636pt;" aria-label="bioacoustics (2 items)">bioacoustics</a>
+<a href="https://e4e.ucsd.edu/tag/camera" class="tag-cloud-link tag-link-3 tag-link-position-6" style="font-size: 12.772727272727pt;" aria-label="camera (3 items)">camera</a>
+<a href="https://e4e.ucsd.edu/tag/camera-trap" class="tag-cloud-link tag-link-10 tag-link-position-7" style="font-size: 10.863636363636pt;" aria-label="camera trap (2 items)">camera trap</a>
+<a href="https://e4e.ucsd.edu/tag/classification" class="tag-cloud-link tag-link-89 tag-link-position-8" style="font-size: 10.863636363636pt;" aria-label="classification (2 items)">classification</a>
+<a href="https://e4e.ucsd.edu/tag/coastal-conservation" class="tag-cloud-link tag-link-117 tag-link-position-9" style="font-size: 8pt;" aria-label="coastal conservation (1 item)">coastal conservation</a>
+<a href="https://e4e.ucsd.edu/tag/computer-vision" class="tag-cloud-link tag-link-21 tag-link-position-10" style="font-size: 12.772727272727pt;" aria-label="computer vision (3 items)">computer vision</a>
+<a href="https://e4e.ucsd.edu/tag/conservation" class="tag-cloud-link tag-link-49 tag-link-position-11" style="font-size: 20.409090909091pt;" aria-label="conservation (11 items)">conservation</a>
+<a href="https://e4e.ucsd.edu/tag/coral-reefs" class="tag-cloud-link tag-link-110 tag-link-position-12" style="font-size: 8pt;" aria-label="coral reefs (1 item)">coral reefs</a>
+<a href="https://e4e.ucsd.edu/tag/deployment" class="tag-cloud-link tag-link-128 tag-link-position-13" style="font-size: 8pt;" aria-label="deployment (1 item)">deployment</a>
+<a href="https://e4e.ucsd.edu/tag/exploration" class="tag-cloud-link tag-link-45 tag-link-position-14" style="font-size: 22pt;" aria-label="exploration (14 items)">exploration</a>
+<a href="https://e4e.ucsd.edu/tag/imaging" class="tag-cloud-link tag-link-20 tag-link-position-15" style="font-size: 16.75pt;" aria-label="imaging (6 items)">imaging</a>
+<a href="https://e4e.ucsd.edu/tag/machine-learning" class="tag-cloud-link tag-link-88 tag-link-position-16" style="font-size: 10.863636363636pt;" aria-label="machine learning (2 items)">machine learning</a>
+<a href="https://e4e.ucsd.edu/tag/mangrove" class="tag-cloud-link tag-link-115 tag-link-position-17" style="font-size: 10.863636363636pt;" aria-label="Mangrove (2 items)">Mangrove</a>
+<a href="https://e4e.ucsd.edu/tag/mangrove-monitoring" class="tag-cloud-link tag-link-116 tag-link-position-18" style="font-size: 10.863636363636pt;" aria-label="Mangrove-monitoring (2 items)">Mangrove-monitoring</a>
+<a href="https://e4e.ucsd.edu/tag/mapping" class="tag-cloud-link tag-link-111 tag-link-position-19" style="font-size: 8pt;" aria-label="mapping (1 item)">mapping</a>
+<a href="https://e4e.ucsd.edu/tag/mexico" class="tag-cloud-link tag-link-50 tag-link-position-20" style="font-size: 12.772727272727pt;" aria-label="mexico (3 items)">mexico</a>
+<a href="https://e4e.ucsd.edu/tag/nautical-archaeology" class="tag-cloud-link tag-link-54 tag-link-position-21" style="font-size: 10.863636363636pt;" aria-label="nautical archaeology (2 items)">nautical archaeology</a>
+<a href="https://e4e.ucsd.edu/tag/nsf" class="tag-cloud-link tag-link-64 tag-link-position-22" style="font-size: 19.772727272727pt;" aria-label="nsf (10 items)">nsf</a>
+<a href="https://e4e.ucsd.edu/tag/openrov-3" class="tag-cloud-link tag-link-42 tag-link-position-23" style="font-size: 10.863636363636pt;" aria-label="openrov (2 items)">openrov</a>
+<a href="https://e4e.ucsd.edu/tag/outreach" class="tag-cloud-link tag-link-57 tag-link-position-24" style="font-size: 14.363636363636pt;" aria-label="outreach (4 items)">outreach</a>
+<a href="https://e4e.ucsd.edu/tag/pressure-test" class="tag-cloud-link tag-link-47 tag-link-position-25" style="font-size: 10.863636363636pt;" aria-label="pressure test (2 items)">pressure test</a>
+<a href="https://e4e.ucsd.edu/tag/projects" class="tag-cloud-link tag-link-122 tag-link-position-26" style="font-size: 8pt;" aria-label="Projects (1 item)">Projects</a>
+<a href="https://e4e.ucsd.edu/tag/radio-collar" class="tag-cloud-link tag-link-79 tag-link-position-27" style="font-size: 10.863636363636pt;" aria-label="radio collar (2 items)">radio collar</a>
+<a href="https://e4e.ucsd.edu/tag/research" class="tag-cloud-link tag-link-66 tag-link-position-28" style="font-size: 20.886363636364pt;" aria-label="research (12 items)">research</a>
+<a href="https://e4e.ucsd.edu/tag/reu" class="tag-cloud-link tag-link-63 tag-link-position-29" style="font-size: 22pt;" aria-label="reu (14 items)">reu</a>
+<a href="https://e4e.ucsd.edu/tag/reu2019" class="tag-cloud-link tag-link-119 tag-link-position-30" style="font-size: 10.863636363636pt;" aria-label="reu2019 (2 items)">reu2019</a>
+<a href="https://e4e.ucsd.edu/tag/reu2020" class="tag-cloud-link tag-link-123 tag-link-position-31" style="font-size: 12.772727272727pt;" aria-label="reu2020 (3 items)">reu2020</a>
+<a href="https://e4e.ucsd.edu/tag/robotics" class="tag-cloud-link tag-link-44 tag-link-position-32" style="font-size: 19.772727272727pt;" aria-label="robotics (10 items)">robotics</a>
+<a href="https://e4e.ucsd.edu/tag/rov" class="tag-cloud-link tag-link-46 tag-link-position-33" style="font-size: 10.863636363636pt;" aria-label="rov (2 items)">rov</a>
+<a href="https://e4e.ucsd.edu/tag/scripps-coastal-reserve" class="tag-cloud-link tag-link-126 tag-link-position-34" style="font-size: 8pt;" aria-label="Scripps Coastal Reserve (1 item)">Scripps Coastal Reserve</a>
+<a href="https://e4e.ucsd.edu/tag/shipwrecks" class="tag-cloud-link tag-link-53 tag-link-position-35" style="font-size: 10.863636363636pt;" aria-label="shipwrecks (2 items)">shipwrecks</a>
+<a href="https://e4e.ucsd.edu/tag/structure-from-motion" class="tag-cloud-link tag-link-56 tag-link-position-36" style="font-size: 14.363636363636pt;" aria-label="structure from motion (4 items)">structure from motion</a>
+<a href="https://e4e.ucsd.edu/tag/summer" class="tag-cloud-link tag-link-65 tag-link-position-37" style="font-size: 20.886363636364pt;" aria-label="summer (12 items)">summer</a>
+<a href="https://e4e.ucsd.edu/tag/trap" class="tag-cloud-link tag-link-4 tag-link-position-38" style="font-size: 10.863636363636pt;" aria-label="trap (2 items)">trap</a>
+<a href="https://e4e.ucsd.edu/tag/turret" class="tag-cloud-link tag-link-13 tag-link-position-39" style="font-size: 10.863636363636pt;" aria-label="turret. (2 items)">turret.</a>
+<a href="https://e4e.ucsd.edu/tag/underwater" class="tag-cloud-link tag-link-52 tag-link-position-40" style="font-size: 15.636363636364pt;" aria-label="underwater (5 items)">underwater</a>
+<a href="https://e4e.ucsd.edu/tag/underwater-robot" class="tag-cloud-link tag-link-43 tag-link-position-41" style="font-size: 12.772727272727pt;" aria-label="underwater robot (3 items)">underwater robot</a>
+<a href="https://e4e.ucsd.edu/tag/update" class="tag-cloud-link tag-link-11 tag-link-position-42" style="font-size: 8pt;" aria-label="update (1 item)">update</a>
+<a href="https://e4e.ucsd.edu/tag/vaquita-3" class="tag-cloud-link tag-link-48 tag-link-position-43" style="font-size: 14.363636363636pt;" aria-label="vaquita (4 items)">vaquita</a>
+<a href="https://e4e.ucsd.edu/tag/wi20" class="tag-cloud-link tag-link-121 tag-link-position-44" style="font-size: 8pt;" aria-label="WI20 (1 item)">WI20</a>
+<a href="https://e4e.ucsd.edu/tag/x10" class="tag-cloud-link tag-link-12 tag-link-position-45" style="font-size: 8pt;" aria-label="x10 (1 item)">x10</a></div>
+</div>
+				</div><!-- .page-content -->
+			</section><!-- .error-404 -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
+	</div><!-- #content -->
+</div><!-- #page -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+    
+    <div id="footer-container">
+      		<div class="site-info">
+						<!--Newp Theme by <a href="http://rohitink.com" rel="designer">Rohit Tripathi</a>-->
+		</div><!-- .site-info -->
+        
+        <div id="footertext">
+        	<a href="https://ucsd.edu/" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/ucsdlogo_tiny.png" alt="UCSD" /></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://nsf.gov/" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/nsf_logo_tiny.png" alt="NSF" /></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://qi.ucsd.edu/" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/qi_logo_tiny.png" alt="Qualcomm Institute" /></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.nationalgeographic.com/" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/natgeo_logo_tiny.png" alt="National Geographic" /></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://www.bluerobotics.com/" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/BlueRobotics-e1467869361673.png" alt="BlueRobotics" /></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/intel_logo_tiny.png" alt="Intel" /></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<a href="https://www.ui.com/" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/ubnt_logo_tiny.png" alt="Ubiquiti Networks" /></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<a href="https://structure.io/" target="_blank"><img src="https://e4e.ucsd.edu/wp-content/uploads/occipital-white-logo.png" alt="Occipital" width="150" /></a>
+
+<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;&nbsp;2015-2023 UCSD Engineers for Exploration.        </div>    
+        
+        </div><!--#footer-container-->
+	</footer><!-- #colophon -->
+	<!-- Powered by WPtouch: 4.3.56 --><script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/plugins/flickr-justified-gallery/lightboxes/swipebox/js/jquery.swipebox.min.js?ver=6.5" id="swipebox-js"></script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/plugins/flickr-justified-gallery/js/jquery.justifiedGallery.min.js?ver=6.5" id="justifiedGallery-js"></script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/plugins/flickr-justified-gallery/js/flickrJustifiedGalleryWPPlugin.js?ver=6.5" id="flickrJustifiedGalleryWPPlugin-js"></script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/themes/e4e/js/navigation.js?ver=20120206" id="newp-navigation-js"></script>
+<script type="text/javascript" src="https://e4e.ucsd.edu/wp-content/themes/e4e/js/skip-link-focus-fix.js?ver=20130115" id="newp-skip-link-focus-fix-js"></script>
+
+</body>
+</html>
