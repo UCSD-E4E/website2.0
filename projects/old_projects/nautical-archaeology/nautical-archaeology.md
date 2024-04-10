@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: nautical-archaeology
+permalink: /nautical-archaeology
 title: Nautical Archaeology
 tag: nautical-archaeology
 enable_nav: true

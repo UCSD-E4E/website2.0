@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: autonomous-copters
+permalink: /autonomous-copters
 title: Autonomous Copters
 tag: autonomous-copters
 enable_nav: true

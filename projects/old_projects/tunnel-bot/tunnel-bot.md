@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: tunnel-bot
+permalink: /tunnel-bot
 title: Tunnel Bot
 tag: tunnel-bot
 enable_nav: True

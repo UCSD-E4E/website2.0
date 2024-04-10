@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: openrov
+permalink: /openrov
 title: OpenROV
 tag: openrov
 enable_nav: True

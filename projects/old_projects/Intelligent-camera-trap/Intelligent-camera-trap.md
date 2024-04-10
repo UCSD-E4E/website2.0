@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: intelligent-camera-trap
+permalink: /intelligent-camera-trap
 title: Intelligent Camera Trap
 tag: Intelligent-camera-trap
 enable_nav: True

@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: terrestrial-vechicle
+permalink: /terrestrial-vechicle
 title: Terrestrial Vechicle
 tag: terrestrial-vechicle
 enable_nav: true

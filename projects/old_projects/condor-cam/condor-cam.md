@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: condor-cam
+permalink: /condor-cam
 title: Condor Cam
 tag: condor-cam
 enable_nav: true

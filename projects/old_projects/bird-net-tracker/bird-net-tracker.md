@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: bird-nest-tracker
+permalink: /bird-nest-tracker
 title: Bird Net Tracker
 tag: bird-nest-tracker
 enable_nav: true

@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: harpy_find
+permalink: /harpy_find
 title: Searching For Harpy Eagles
 tag: harpy_find
 enable_nav: false

@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: maya-achaeology
+permalink: /maya-achaeology
 title: Maya Achaeology
 tag: maya-achaeology
 enable_nav: false

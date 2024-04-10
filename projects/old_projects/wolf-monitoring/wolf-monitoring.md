@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: wolf-tracking
+permalink: /wolf-tracking
 title: Wolf Monitoring
 tag: wolf-monitoring
 enable_nav: true

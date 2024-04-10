@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: elephant-monitoring
+permalink: /elephant-monitoring
 title: Elephant Monitoring
 tag: elephant-monitoring
 enable_nav: true

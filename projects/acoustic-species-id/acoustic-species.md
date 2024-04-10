@@ -15,6 +15,7 @@ The Acoustic Species Identification project is a collaboration between Engineers
 ![]({{"/assets/projects-ASID-ASID_Becard_fullres-813x1074.png" | absolute_url}})
 
 Project Lead: Sean Perry (<a href="mailto:shperry@ucsd.edu">shperry@ucsd.edu</a>), Samantha Prestrelski(<a href="mailto:sprestrelski@ucsd.edu">sprestrelski@ucsd.edu</a>)
+
 Slack channel: acoustic-species-id
 
 [//]: # (got to love markdown files)

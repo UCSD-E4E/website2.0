@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: del-dios-monitoring
+permalink: /del-dios-monitoring
 title: Del Dios Monitoring
 tag: del-dios-monitoring
 enable_nav: true

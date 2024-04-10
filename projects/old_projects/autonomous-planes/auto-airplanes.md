@@ -1,6 +1,6 @@
 ---
 layout: project
-permalink: autonomous-planes
+permalink: /autonomous-planes
 title: Autonomous Airplanes
 tag: autonomous-planes
 enable_nav: true
