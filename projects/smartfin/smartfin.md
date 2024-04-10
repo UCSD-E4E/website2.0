@@ -8,9 +8,9 @@ enable_nav: false
 # Quick Summary
 Smartfin brings surfers and scientists together to collect important oceanic data from coastlines by developing a surfboard fin that can passively collect information and seamlessly upload it to a cloud for use by scientists.
 
-![]({{"assets/projects/smartfin/SF_internals_fullres-1074x604.jpg" | absolute_url}}) 
+![]({{"assets/projects-smartfin-SF_internals_fullres-1074x604.jpg" | absolute_url}}) 
 
-![]({{"assets/projects/smartfin/SF_finScripps_fullres.jpg" | absolute_url}})
+![]({{"assets/projects-smartfin-SF_finScripps_fullres.jpg" | absolute_url}})
 
 Images left to right from [sciencemag.org](sciencemag.org) and [aquarium.ucsd.edu](aquarium.ucsd.edu)
 
@@ -24,14 +24,14 @@ As climate change becomes a growing crisis in our society, oceanography is a pow
 Searching for a solution to this problem, the Surfrider Foundation has partnered with the Scripps Institution of Oceanography to develop a solution called Smartfin that would allow surfers to passively collect this crucial data while they are in the water. The Smartfin hardware has been developed with many sensors designed to measure temperature, location, and wave characteristics, with more currently in development to study pH, dissolved oxygen, and chlorophyll. Preliminary testing of the Smartfin has shown its potential, as shown below temperature data from the board was compared to standard data collected from a near offshore buoy run by Scripps. As many beaches do not have this capability, providing this tool to surfers in select locations will give ordinary citizens the power to make powerful scientific observations, all while catching waves.
 
 
-![]({{"assets/projects/smartfin/SF_waveData_fullres-1074x210.jpg" | absolute_url}})
+![]({{"assets/projects-smartfin-SF_waveData_fullres-1074x210.jpg" | absolute_url}})
 
 In the chart above, Smartfin user data is recorded in black on top verified temperature measurements from Scripps Pier in blue. The data points line up nicely, showing the impressive accuracy and reliability of the Smartfin to record this ocean parameter.
 Image courtesy of Dr. Tyler Cyronak, Scripps Institute of Oceanography
 Seen below is an early model of the Smartfin attached to a surfboard. This clear fin shows the battery, GPS, temperature sensor, and IMU (inertial measurement unit). The fin is still going through an iterative design process as more hardware is added to increase its capabilities. As seen on the photo to its right.
 
 
-![]({{"assets/projects/smartfin/SF_seeThrough_fullres-1074x747.jpg" | absolute_url}}) ![]({{"assets/projects/smartfin/SF_handFin_fullres.jpg" | absolute_url}})
+![]({{"assets/projects-smartfin-SF_seeThrough_fullres-1074x747.jpg" | absolute_url}}) ![]({{"assets/projects-smartfin-SF_handFin_fullres.jpg" | absolute_url}})
 Images from [surfrider.org](surfrider.org)
 
 # Technical

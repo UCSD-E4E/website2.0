@@ -11,13 +11,13 @@ These planes can be outfitted with a variety of sensors, including high-resoluti
 
 # 3DR Aero
 
-![]({{"assets/projects/old_projects/autonomous-planes/aero-1024x386.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-autonomous-planes-aero-1024x386.jpg" | absolute_url}})
 
 # Ranger
 
-![]({{"assets/projects/old_projects/autonomous-planes/ranger.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-autonomous-planes-ranger.jpg" | absolute_url}})
 
 # Talon
 
-![]({{"assets/projects/old_projects/autonomous-planes/talon.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-autonomous-planes-talon.jpg" | absolute_url}})
    

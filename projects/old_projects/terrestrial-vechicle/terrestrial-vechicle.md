@@ -5,7 +5,7 @@ title: Terrestrial Vechicle
 tag: terrestrial-vechicle
 enable_nav: true
 ---
-![]({{"assets/projects/old_projects/terrestrial-vehicle/project_vehicle.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-terrestrial-vehicle-project_vehicle.jpg" | absolute_url}})
 
 
 The Terrestrial Vehicle was developed for remote wildlife surveys. It can be used in applications where animals’ behavior needs to be observed, but human contact needs to be limited, such as in wolves that are being prepared for re-introduction to the wild.
@@ -14,7 +14,7 @@ The Terrestrial Vehicle was developed for remote wildlife surveys. It can be use
 
 The above animation shows a CAD model of a stabilized gimbal that can be mounted on top of the vehicle to obtain stabilized video.
 
-![]({{"assets/projects/old_projects/terrestrial-vehicle/terrestrial_vehicle_thumb.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-terrestrial-vehicle-terrestrial_vehicle_thumb.jpg" | absolute_url}})
 
 
 The Terrestrial Vehicle has gone through many design iterations over the years. The CAD model above shows a concept waterproof shell to enable deployment of the vehicle in harsh weather conditions.

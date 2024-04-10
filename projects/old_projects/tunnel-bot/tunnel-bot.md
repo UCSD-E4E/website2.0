@@ -11,7 +11,7 @@ ERROR: <p style="text-align: center;"><a href="https://e4e.ucsd.edu/tunnel-bot/a
 
 IMG_18091
 
-![]({{"assets/projects/old_projects/tunnel-bot/IMG_18091.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-tunnel-bot-IMG_18091.jpg" | absolute_url}})
 
 Tunnel Bot setup showing vehicle, joystick, and viewing screen.
 

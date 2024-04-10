@@ -5,7 +5,7 @@ title: OpenROV
 tag: openrov
 enable_nav: True
 ---
-![]({{"assets/projects/old_projects/openrov/openrov_big-1024x691.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-openrov-openrov_big-1024x691.jpg" | absolute_url}})
 
  
 

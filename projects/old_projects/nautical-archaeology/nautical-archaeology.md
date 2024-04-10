@@ -5,7 +5,7 @@ title: Nautical Archaeology
 tag: nautical-archaeology
 enable_nav: true
 ---
-![]({{"assets/projects/old_projects/nautical-archaeology/15451427822_4af33f13a2_o-1024x577.png" | absolute_url}})
+![]({{"assets/projects-old_projects-nautical-archaeology-15451427822_4af33f13a2_o-1024x577.png" | absolute_url}})
 
 In the field in summer 2014 imaging Gold Rush-era sunken barges in Lake Tahoe
 
@@ -13,7 +13,7 @@ We collaborate with nautical archaeologists from the <a href="http://www.amari-a
 
 # Stereo Camera Rig Platform
 
-![]({{"assets/projects/old_projects/nautical-archaeology/IMG_0849-1024x368.jpg" | absolute_url}})
+![]({{"assets/projects-old_projects-nautical-archaeology-IMG_0849-1024x368.jpg" | absolute_url}})
 
 Our Stereo Camera Rig platform fuses measurements from a variety of sensors to gain more accurate underwater pose estimates and create high-accuracy underwater models using Structure from Motion and other 3D reconstruction algorithms. 
 
