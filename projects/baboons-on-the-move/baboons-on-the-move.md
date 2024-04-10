@@ -14,7 +14,9 @@ Our collaborator [Dr. Shirley C. Strum](https://www.baboonsrus.com/) and her tea
 
 Since drone footage will give a view of the “big picture”, Dr. Strum hopes that the drone footage will be advantageous to her research.
 
-If you are interested in learning more about labeling events or becoming involved in this project contact us. tflar@ucsd.edu
+If you are interested in learning more about labeling events or becoming involved in this project contact us. 
+
+[tflar@ucsd.edu](mailto:tflar@ucsd.edu)
 
 Videos and photos provided by [Neil Thomas](https://www.neilthomas.com/).
 
