@@ -8,8 +8,14 @@ enable_nav: false
 
 As weather patterns change across the world, there are communities impacted by climate change that are left unnoticed. In the Himalayan mountain range, communities have suffered, experiencing an increase in flash flooding and droughts. For Lubra Village in Lower Mustang, Nepal, the community faces threats of flash flooding.
 
-![]({{"assets/projects-floods-of-lubra-Lubra_Village_Shot.jpg" | absolute_url}})
-In the Annapurna Conservation Area, Lubra Village is under threat as Himalayan climate changes. (Photo by Ronan Wallace, 2022)
+{% include 
+    img_caption.html
+    src="assets/projects-floods-of-lubra-Lubra_Village_Shot.jpg"
+    caption="In the Annapurna Conservation Area, Lubra Village is under threat as Himalayan climate changes. (Photo by Ronan Wallace, 2022)"
+%}
+
+<!-- ![]({{"assets/projects-floods-of-lubra-Lubra_Village_Shot.jpg" | absolute_url}}) -->
+
 
 Over the last ten years, the amount of flash flooding has increased, occurring more than once each monsoon season. After every flood, concrete-like sediment is left behind, hardening across the riverbed and increasing the elevation. As the riverbed elevation increases, this sediment encroaches on Lubra Village’s agricultural fields and homes, making them more vulnerable to flood damages. In the last monsoon season alone, the village has seen the flood swallowing several fields, as well as damaging two homes.
 
