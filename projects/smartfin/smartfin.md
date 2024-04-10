@@ -8,11 +8,20 @@ enable_nav: false
 # Quick Summary
 Smartfin brings surfers and scientists together to collect important oceanic data from coastlines by developing a surfboard fin that can passively collect information and seamlessly upload it to a cloud for use by scientists.
 
+{% include 
+    img_caption.html
+    src="assets/projects-smartfin-SF_internals_fullres-1074x604.jpg"
+    src2="assets/projects-smartfin-SF_finScripps_fullres.jpg"
+    caption='Images left to right from sciencemag.org and aquarium.ucsd.edu'
+%}
+
+<!-- 
+
 ![]({{"assets/projects-smartfin-SF_internals_fullres-1074x604.jpg" | absolute_url}}) 
 
 ![]({{"assets/projects-smartfin-SF_finScripps_fullres.jpg" | absolute_url}})
 
-Images left to right from [sciencemag.org](sciencemag.org) and [aquarium.ucsd.edu](aquarium.ucsd.edu)
+Images left to right from [sciencemag.org](sciencemag.org) and [aquarium.ucsd.edu](aquarium.ucsd.edu) -->
 
 <iframe width="800" height="475" src="https://www.youtube.com/embed/rY145HV-ReM" title="Smartfin: Surfing for Science" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -30,9 +39,15 @@ In the chart above, Smartfin user data is recorded in black on top verified temp
 Image courtesy of Dr. Tyler Cyronak, Scripps Institute of Oceanography
 Seen below is an early model of the Smartfin attached to a surfboard. This clear fin shows the battery, GPS, temperature sensor, and IMU (inertial measurement unit). The fin is still going through an iterative design process as more hardware is added to increase its capabilities. As seen on the photo to its right.
 
+{% include 
+    img_caption.html
+    src="assets/projects-smartfin-SF_seeThrough_fullres-1074x747.jpg"
+    src2="assets/projects-smartfin-SF_handFin_fullres.jpg"
+    caption="Images from surfrider.org"
+%}
 
-![]({{"assets/projects-smartfin-SF_seeThrough_fullres-1074x747.jpg" | absolute_url}}) ![]({{"assets/projects-smartfin-SF_handFin_fullres.jpg" | absolute_url}})
-Images from [surfrider.org](surfrider.org)
+<!-- ![]({{"assets/projects-smartfin-SF_seeThrough_fullres-1074x747.jpg" | absolute_url}}) ![]({{"assets/projects-smartfin-SF_handFin_fullres.jpg" | absolute_url}})
+Images from [surfrider.org](surfrider.org) -->
 
 # Technical
 Smartfin in its current state is very accurate at measuring sea surface temperature (SST) through its on board temperature sensor, as measured against a control of the Scripps Buoy. Recently, it has also shown that it can calculate certain wave statistics such as wave height very accurately as well.
