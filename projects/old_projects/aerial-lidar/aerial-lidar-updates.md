@@ -1,7 +1,7 @@
 ---
 layout: post_feed
 
-permalink: /aerial-lidar/update
+permalink: /aerial-lidar/project-updates
 title: Aerial Lidar
 tag: aerial-lidar
 enable_nav: true
