@@ -7,7 +7,7 @@ enable_nav: true
 ---
 {% include 
     img_caption.html
-    src="/assets/projects-old_projects-nautical-archaeology-15451427822_4af33f13a2_o-1024x577.png"
+    src="/assets/15451427822_4af33f13a2_o.png"
     caption="In the field in summer 2014 imaging Gold Rush-era sunken barges in Lake Tahoe"
 %}
 
