@@ -20,19 +20,43 @@ As weather patterns change across the world, there are communities impacted by c
 Over the last ten years, the amount of flash flooding has increased, occurring more than once each monsoon season. After every flood, concrete-like sediment is left behind, hardening across the riverbed and increasing the elevation. As the riverbed elevation increases, this sediment encroaches on Lubra Village’s agricultural fields and homes, making them more vulnerable to flood damages. In the last monsoon season alone, the village has seen the flood swallowing several fields, as well as damaging two homes.
 
 
-![]({{"assets/projects-floods-of-lubra-Lubra_Village_Air.jpg" | absolute_url}})
-Lubra Village situated on the river edge in Lubra Valley. (Photo by Ronan Wallace, 2022)
+{% include 
+    img_caption.html
+    src="assets/projects-floods-of-lubra-Lubra_Village_Air.jpg"
+    caption="Lubra Village situated on the river edge in Lubra Valley. (Photo by Ronan Wallace, 2022)"
+%}
+<!-- ![]({{"assets/projects-floods-of-lubra-Lubra_Village_Air.jpg" | absolute_url}})
+Lubra Village situated on the river edge in Lubra Valley. (Photo by Ronan Wallace, 2022) -->
 
-![]({{"assets/projects-floods-of-lubra-submerged-house-ps-1.png" | absolute_url}})
+
+{% include 
+    img_caption.html
+    src="assets/projects-floods-of-lubra-submerged-house-ps-1.png"
+    src2="assets/projects-floods-of-lubra-flood-sludge-ps-1-1074x606.png"
+    src3="assets/projects-floods-of-lubra-flood-wide-village-ps-1-1074x605.png"
+    caption="In the Annapurna Conservation Area, Lubra Village is under threat as Himalayan climate changes. (Photo by Ronan Wallace, 2022)"
+%}
+<!-- ![]({{"assets/projects-floods-of-lubra-submerged-house-ps-1.png" | absolute_url}})
 ![]({{"assets/projects-floods-of-lubra-flood-sludge-ps-1-1074x606.png" | absolute_url}})
 ![]({{"assets/projects-floods-of-lubra-flood-wide-village-ps-1-1074x605.png" | absolute_url}})
-Flooding in Lubra Valley. (Photos by Dara Varrgongwa, 2021)
+Flooding in Lubra Valley. (Photos by Dara Varrgongwa, 2021) -->
 
-![]({{"assets/projects-floods-of-lubra-luprak_field-loss-cropped-1074x638.png" | absolute_url}})
-Land changes recorded during the 1950s (yellow line), 2002 (blue line), 2018 (red line), and 2022 (purple line). (Photo by Ronan Wallace and Dane Carlson, 2022)
 
-![]({{"assets/projects-floods-of-lubra-2022-2016-comparison-line-label-1074x465.jpg" | absolute_url}})
-Two 3D models of Lubra Village showing how the riverbed has risen between 2016 and 2022. (Figure by Ronan Wallace, 2022)
+{% include 
+    img_caption.html
+    src="assets/projects-floods-of-lubra-luprak_field-loss-cropped-1074x638.png"
+    caption="Land changes recorded during the 1950s (yellow line), 2002 (blue line), 2018 (red line), and 2022 (purple line). (Photo by Ronan Wallace and Dane Carlson, 2022)"
+%}
+<!-- ![]({{"assets/projects-floods-of-lubra-luprak_field-loss-cropped-1074x638.png" | absolute_url}})
+Land changes recorded during the 1950s (yellow line), 2002 (blue line), 2018 (red line), and 2022 (purple line). (Photo by Ronan Wallace and Dane Carlson, 2022) -->
+
+{% include 
+    img_caption.html
+    src="assets/projects-floods-of-lubra-2022-2016-comparison-line-label-1074x465.jpg"
+    caption="Two 3D models of Lubra Village showing how the riverbed has risen between 2016 and 2022. (Figure by Ronan Wallace, 2022)"
+%}
+<!-- ![]({{"assets/projects-floods-of-lubra-2022-2016-comparison-line-label-1074x465.jpg" | absolute_url}})
+Two 3D models of Lubra Village showing how the riverbed has risen between 2016 and 2022. (Figure by Ronan Wallace, 2022) -->
 
 In order to keep the community safe, the community has been in discussion of relocating the village entirely to a new and safer location. However, relocating the village is a challenging task, where complex nuances exist in both aspects of civil engineering and communal opinions.
 
@@ -67,6 +91,7 @@ To understand flooding further, we can look at how the elevation of the riverbed
 When it comes to visualizing flood damages, there is a lack of data and lack of visuals in representing the floods that occur in Lubra. Because of this, not many people know about the flooding, and those that do, react briefly then forget about the issue after the monsoon. Furthermore, Mustang locals and trekkers are skeptical of the Panda Khola River being dangerous in terms of flooding. These conclusions are made, however, when the river is visually small and tame. These people don’t actually see how catastrophic it can be. Additionally, other villages are skeptical because they experience climate change in terms of drought, not flooding, so they don’t believe that there is damage occurring from excess water.
 
 With that being said, it is imperative to develop a way to effectively visualize flooding in a way that conveys the damages it is causing. After acquiring the riverbed elevation prediction as mentioned above, we can get a general idea of where the elevation will be after the next monsoon season and beyond. We can then visualize this using a 3D model of the village to demonstrate where the new elevation will be, and show how imperative it is to act now. These visualizations can be further used in proposal development for acquiring funding to relocate the village and redirect the floods.
+
 
 ![]({{"assets/projects-floods-of-lubra-rb-aerial-1-1074x503.jpg" | absolute_url}})
 ![]({{"assets/projects-floods-of-lubra-vsm3-frontal-1-1074x503.jpg" | absolute_url}})
