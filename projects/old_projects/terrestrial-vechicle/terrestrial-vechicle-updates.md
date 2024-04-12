@@ -1,8 +1,8 @@
 ---
 layout: post_feed
 
-permalink: /terrestrial-vechicle/project-updates
+permalink: /terrestrial-vehicle/project-updates
 title: Terrestrial Vechicle
-tag: terrestrial-vechicle
+tag: terrestrial-vehicle
 enable_nav: true
 ---

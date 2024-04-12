@@ -1,8 +1,8 @@
 ---
 layout: gallery
-permalink: /terrestrial-vechicle/media
+permalink: /terrestrial-vehicle/media
 title: Terrestrial Vechicle
-tag: terrestrial-vechicle
+tag: terrestrial-vehicle
 enable_nav: true
 grid: true
 media: 
