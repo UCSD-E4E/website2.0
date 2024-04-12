@@ -70,7 +70,7 @@ blurbs:
  - project_name: "Terrestrial Vehicle"
    photo: "assets/projects-old_projects-project_vehicle.jpg"
    text: "Terrestrial vehicle for remote mobile wildlife photography"
-   redict: "terrestrial-vechicle"
+   redict: "terrestrial-vehicle"
  - project_name: "Tunnel Bot"
    photo: "assets/projects-old_projects-project_tunnelbot.jpg"
    text: "Mobile rover for capturing footage inside underground tunnels"
