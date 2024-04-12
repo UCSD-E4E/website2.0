@@ -1,8 +1,8 @@
 ---
 layout: project
-permalink: /maya-achaeology
-title: Maya Achaeology
-tag: maya-achaeology
+permalink: /maya-archaeology
+title: Maya Archaeology
+tag: maya-archaeology
 enable_nav: false
 ---
 
@@ -20,7 +20,7 @@ This project is divided into 3 main parts:
 
  - <strong>Virtual Reality Visualization</strong>: To create a immersive visualization of digital models of archaeological sites and artifacts.
 
-#Aerial Surveys
+# Aerial Surveys
 
 <div style="text-align: left;"><iframe frameborder="0" height="281" src="//player.vimeo.com/video/88212266" width="500"></iframe></div>
 
@@ -30,7 +30,7 @@ The Tunnel Mapping project aims to lower the cost of digital documentation by ex
 
 <div style="float: left; margin-right: 14px;"><iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/7tKovc0Eo54" width="540"></iframe></div>
 
-<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/pTD_uXEwNHw" width="540"></iframe><p><iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/pTD_uXEwNHw" width="540"></iframe></p>
+<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/pTD_uXEwNHw" width="540"></iframe>
 
 Below, is a fly-through video created from a composite point cloud generated from 50 LIDAR scans.
 
@@ -54,7 +54,12 @@ Visualization of Structure M7-1 in El Zotz Guatemala
 
 Created using Point clouds from the Faro Focus 3D 120, Lieca BLK360
 
-![]({{"assets/projects-old_projects-maya-archaeology-SpiderMonkeyBowlUnrealEngine-350x255.png" | absolute_url}})
+
+{% include 
+    img_caption.html
+    src="/assets/projects-old_projects-maya-archaeology-SpiderMonkeyBowlUnrealEngine-350x255.png"
+    caption="Mayan Ceramic in Unreal Engine"
+%}
 
 # Approach
 
