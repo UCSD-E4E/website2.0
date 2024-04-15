@@ -62,7 +62,7 @@ blurbs:
  - project_name: "Stabilized Aerial Camera Platform"
    photo: "assets/projects-old_projects-project_balloon.jpg"
    text: "Stabilized camera platform for recording gigapan aerial imagery and Structure from Motion"
-   redict: "TODO"
+   redict: "stabilized-aerial-camera-platform"
  - project_name: "Intelligent Camera Trap"
    photo: "assets/projects-old_projects-project_cameratrap.jpg"
    text: "Camera system for autonomously monitoring and logging animal behavior"
