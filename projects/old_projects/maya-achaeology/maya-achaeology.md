@@ -61,9 +61,7 @@ Created using Point clouds from the Faro Focus 3D 120, Lieca BLK360
     caption="Mayan Ceramic in Unreal Engine"
 %}
 
-# Approach
-
-# Data Acquisition through Remote Scanning
+# Approach: Data Acquisition through Remote Scanning
 
 ### Terrestrial Light Detection and Ranging (LiDAR)
 The process for Terrestrial LiDAR Scanning (TLS) generally involves setting the desired scan density, which in affect increases the number of points collected and time needed per scan. In the case of the Lieca BLK360 TLS, medium quality was sufficient for our purposes and took 3 minutes per scan. Each scan occurred more than 1 meter apart depending on if all the environment’s geometry could be reached from the previous scans location. The set of individual point clouds obtained was then registered using visual alignment in Lieca’s propriety software Cyclone Register 360. The output of all this is several standard file format .ptx files all in alignment with each other, which can then be brought to external software for further 3D point cloud and mesh processing.
