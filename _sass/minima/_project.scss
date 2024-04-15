@@ -24,6 +24,32 @@
     margin-right: auto;
   }
 
+.captioned-img-container{
+    width: fit-content; margin: auto; text-align: center;
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.side_img{
+    min-width: 0;
+    flex: 2 0 10%;
+    object-fit: cover;
+    width: auto;
+    min-height: 200px;
+    height: auto;
+}
+
+.caption{
+    text-align: center;
+}
+
 iframe {
     display: block;
     margin-left: auto;
