@@ -86,7 +86,7 @@ blurbs:
  - project_name: "Vaquita Monitoring"
    photo: "assets/projects-old_projects-vaquita_monitoring.jpg"
    text: "Technology to enable visual monitoring of the vaquita porpoise, the most endangered marine mammal in the world"
-   redict: "TODO"
+   redict: "vaquita"
  - project_name: "Searching for Harpy Eagles"
    photo: "assets/projects-old_projects-harpy-eagle.jpg"
    text: "Searching for New Harpy eagles in the Belize Jungle"
