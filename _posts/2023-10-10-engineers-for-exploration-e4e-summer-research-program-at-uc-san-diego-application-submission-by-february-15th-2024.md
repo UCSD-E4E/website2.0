@@ -2,7 +2,7 @@
 layout: post
 title:  "Engineers for Exploration (E4E) Summer Research Program at UC San Diego ­- Application Submission by February 15th, 2024"
 date:   2023-10-10 20:29:36 -0800
-categories: new-and-updates
+categories: news-and-updates
 author: Nathan
 tags: ["nsf", "research", "reu", "summer"]
 ---
