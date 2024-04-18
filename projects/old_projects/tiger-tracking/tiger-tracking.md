@@ -2,7 +2,7 @@
 layout: project
 permalink: /tiger-tracking
 title: Tiger Tracking
-tag: tiger-tracking
+category: tiger-tracking
 enable_nav: false
 ---
 ![]({{"assets/projects-old_projects-tiger-tracking-e4e-tiger3.jpg" | absolute_url}}) 

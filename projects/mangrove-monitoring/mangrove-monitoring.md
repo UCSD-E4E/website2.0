@@ -2,7 +2,7 @@
 layout: project
 permalink: /mangrove-monitoring
 title: Mangrove Monitoring
-tag: mangrove-monitoring
+category: mangrove-monitoring
 enable_nav: false
 ---
 

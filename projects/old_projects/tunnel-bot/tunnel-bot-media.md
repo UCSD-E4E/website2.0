@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /tunnel-bot/media
 title: Tunnel Bot
-tag: tunnel-bot
+category: tunnel-bot
 enable_nav: true
 grid: true
 media: 

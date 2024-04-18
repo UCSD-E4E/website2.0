@@ -3,6 +3,6 @@ layout: post_feed
 
 permalink: /wolf-tracking/project-updates
 title: Wolf Monitoring
-tag: wolf-monitoring
+category: wolf-monitoring
 enable_nav: true
 ---

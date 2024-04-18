@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /acoustic-species-identification/media
 title: Acoustic Species Identification
-tag: acoustic-species-identification
+category: acoustic-species-identification
 enable_nav: true
 grid: true
 media: 

@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /wolf-tracking/media
 title: Wolf Monitoring
-tag: wolf-tracking
+category: wolf-tracking
 enable_nav: true
 grid: true
 media: 

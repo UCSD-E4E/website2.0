@@ -2,7 +2,7 @@
 layout: project
 permalink: /harpy_find
 title: Searching For Harpy Eagles
-tag: harpy_find
+category: harpy_find
 enable_nav: false
 ---
 Harpy Eagles are the largest and most powerful raptors in the Americas with ecological importance as an apex predator as well as a cultural icon. Unfortunately their populations have dwindled over the last few decades due to forest fragmentation and hunting. Understanding the conditions favored by Harpy Eagles will help researchers protect current populations and make reintroduction of the species more successful. Therefore we are leveraging the power of deep learning to help ecologists better understand the rain forests that the Harpy Eagle inhabits.

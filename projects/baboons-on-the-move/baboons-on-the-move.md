@@ -2,7 +2,7 @@
 layout: project
 permalink: /baboons-on-the-move
 title: Baboons on the Move
-tag: baboons-on-the-move
+category: baboons-on-the-move
 enable_nav: false
 ---
 

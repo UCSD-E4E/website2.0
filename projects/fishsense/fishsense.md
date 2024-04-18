@@ -2,7 +2,7 @@
 layout: project
 permalink: /fishsense
 title: Fishsense
-tag: fishsense
+category: fishsense
 enable_nav: false
 ---
 Monitoring fish species to keep track of their population growth and general health is vitally important. Current techniques for assessing fishes range from “capture and release” methods to manually conducting surveys within an area. In particular, our collaborators at the Scripps Institute of Oceanography and the Reef Environmental Education Foundation ([reef.org](https://www.reef.org/)) are interested in studying the lengths within a fish population over time to allow fisheries to better manage their stocks. 

@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /nautical-archaeology/media
 title: Nautical Archaeology
-tag: nautical-archaeology
+category: nautical-archaeology
 enable_nav: true
 grid: true
 media: 

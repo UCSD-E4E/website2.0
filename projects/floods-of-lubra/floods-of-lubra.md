@@ -2,7 +2,7 @@
 layout: project
 permalink: /floods-of-lubra
 title: Floods of Lubra
-tag: floods-of-lubra
+category: floods-of-lubra
 enable_nav: false
 ---
 

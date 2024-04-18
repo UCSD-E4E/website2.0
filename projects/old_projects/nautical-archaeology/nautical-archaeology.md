@@ -2,7 +2,7 @@
 layout: project
 permalink: /nautical-archaeology
 title: Nautical Archaeology
-tag: nautical-archaeology
+category: nautical-archaeology
 enable_nav: true
 ---
 {% include 

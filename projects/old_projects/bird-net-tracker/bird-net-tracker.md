@@ -2,7 +2,7 @@
 layout: project
 permalink: /bird-nest-tracker
 title: Bird Net Tracker
-tag: bird-nest-tracker
+category: bird-nest-tracker
 enable_nav: true
 ---
 ![]({{"assets/projects-old_projects-bird-nest-tracker-Birdnest-Deployment-1024x683.png" | absolute_url}})

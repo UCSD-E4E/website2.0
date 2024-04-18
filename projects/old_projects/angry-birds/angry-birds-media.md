@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /angry-birds/media
 title: Angry Birds
-tag: angry-birds
+category: angry-birds
 enable_nav: true
 grid: true
 media: 

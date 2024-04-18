@@ -2,7 +2,7 @@
 layout: project
 permalink: /terrestrial-vehicle
 title: Terrestrial Vechicle
-tag: terrestrial-vechicle
+category: terrestrial-vechicle
 enable_nav: true
 ---
 ![]({{"/assets/projects-old_projects_terrestrial_vehicle-project_vehicle.jpg" | absolute_url}})

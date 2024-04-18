@@ -2,7 +2,7 @@
 layout: project
 permalink: /research-support-group
 title: Research Support Group
-tag: research-support-group
+category: research-support-group
 enable_nav: false
 ---
 

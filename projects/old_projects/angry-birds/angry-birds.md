@@ -2,7 +2,7 @@
 layout: project
 permalink: /angry-birds
 title: Angry Birds
-tag: angry-birds
+category: angry-birds
 enable_nav: true
 ---
 The autonomous bird collision monitor (fondly named Angry Birds) is a simplistic and compact ecological research tool for biologists studying bird strikes against plate glass. This is a critical issue when birds are drawn towards glass reflections, which deceptively capture the natural scenery of its background, leading to a high number of in flight mortality.  The problem is an especially endemic concern as San Diego is located in the path of a major flyway for migratory birds.

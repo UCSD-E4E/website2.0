@@ -2,7 +2,7 @@
 layout: project
 permalink: /maya-archaeology
 title: Maya Archaeology
-tag: maya-archaeology
+category: maya-archaeology
 enable_nav: false
 ---
 

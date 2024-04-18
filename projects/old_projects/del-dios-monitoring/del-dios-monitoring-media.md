@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /del-dios-monitoring/media
 title: Del Dios Monitoring
-tag: del-dios-monitoring
+category: del-dios-monitoring
 enable_nav: true
 grid: true
 media: 

@@ -2,7 +2,7 @@
 layout: project
 permalink: /elephant-monitoring
 title: Elephant Monitoring
-tag: elephant-monitoring
+category: elephant-monitoring
 enable_nav: true
 ---
 ![]({{"assets/projects-old_projects-elephant-monitoring-elephant-1024x683.jpg" | absolute_url}})

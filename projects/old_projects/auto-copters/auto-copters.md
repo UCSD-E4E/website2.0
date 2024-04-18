@@ -2,7 +2,7 @@
 layout: project
 permalink: /autonomous-copters
 title: Autonomous Copters
-tag: autonomous-copters
+category: autonomous-copters
 enable_nav: true
 ---
 Engineers for Exploration maintains several copters that are used for aerial surveying. These copters can carry a variety of sensor payloads, including high-resolution cameras, LIDAR sensors, antennas for radio collar tracking, and thermal cameras.

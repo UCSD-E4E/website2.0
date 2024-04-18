@@ -2,7 +2,7 @@
 layout: project
 permalink: /tunnel-bot
 title: Tunnel Bot
-tag: tunnel-bot
+category: tunnel-bot
 enable_nav: True
 ---
 The Tunnel Bot is a portable, low-cost remotely operated terrestrial vehicle, designed for exploring compact spaces. It is designed to aid biologists and explorers in exploring and studying compact subterranean caverns, tunnels, or other caves where human-based exploration is impossible or difficult due to the physical size of the environment. Applications include exploration of habitats such as rabbit warrens, tortoise tunnels, and other small burrows.

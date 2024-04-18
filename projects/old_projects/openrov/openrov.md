@@ -2,7 +2,7 @@
 layout: project
 permalink: /openrov
 title: OpenROV
-tag: openrov
+category: openrov
 enable_nav: True
 ---
 ![]({{"/assets/projects-old_projects-openrov-openrov_big-1024x691.jpg" | absolute_url}})

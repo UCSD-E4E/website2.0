@@ -2,7 +2,7 @@
 layout: project
 permalink: /underwater-cave-imaging
 title: Underwater Cave Imaging
-tag: underwater-cave-imaging
+category: underwater-cave-imaging
 enable_nav: True
 ---
 We are collaborating with Dr. Alfie Rosenberger from Brooklyn College and Fabio Amador from National Geographic to develop technology to create immersive imagery of underwater caves. The video below describes our first deployment site:

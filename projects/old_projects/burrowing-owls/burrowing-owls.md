@@ -2,7 +2,7 @@
 layout: project
 permalink: burrowing-owl-behavior-classification
 title: Burrowing Owl Behavior Classification
-tag: burrowing-owls
+category: burrowing-owls
 enable_nav: false
 ---
 Burrowing owls (<em>Athene cunicularia</em>) are just one of the many animals that we are seeing a decline in their population. This is due to pesticides, habitat destruction, climate change, and many other factors affecting their way of life. We plan to help these owls by getting a better understanding of their ecology. We are assisting the San Diego Zoo Institute for Conservation Research to design technology that would be able to help identify and classify their behavior from images. 

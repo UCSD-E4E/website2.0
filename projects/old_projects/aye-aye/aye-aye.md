@@ -2,7 +2,7 @@
 layout: project
 permalink: aye-aye-sleep-monitoring
 title: Aye Aye Sleep Monitoring
-tag: aye-aye
+category: aye-aye
 enable_nav: false
 ---
 

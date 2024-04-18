@@ -2,7 +2,7 @@
 layout: project
 permalink: /condor-cam
 title: Condor Cam
-tag: condor-cam
+category: condor-cam
 enable_nav: true
 ---
 The Condor Cam is a compact video camera that is mounted on the wing of the endangered California Condor. The camera captures footage from a condor’s-eye view over the period of several weeks, helping researchers understand more about condors’ behavior in the wild. 

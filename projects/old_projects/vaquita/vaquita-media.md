@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /vaquita/media
 title: Vaquita Monitoring
-tag: vaquita
+category: vaquita
 enable_nav: True
 grid: true
 media: 

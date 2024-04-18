@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /stabilized-aerial-camera-platform/media
 title: Stabilized Aerial Camera Platform
-tag: stabilized-aerial-camera-platform
+category: stabilized-aerial-camera-platform
 enable_nav: True
 grid: true
 media: 

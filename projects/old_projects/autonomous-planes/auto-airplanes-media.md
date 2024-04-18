@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /autonomous-planes/media
 title: Autonomous Airplanes
-tag: autonomous-planes
+category: autonomous-planes
 enable_nav: true
 grid: true
 media: 

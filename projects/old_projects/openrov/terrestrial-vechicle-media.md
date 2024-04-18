@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /openrov/media
 title: OpenROV
-tag: openrov
+category: openrov
 enable_nav: true
 grid: true
 media: 

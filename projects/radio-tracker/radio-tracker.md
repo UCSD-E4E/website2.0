@@ -2,7 +2,7 @@
 layout: project
 permalink: /radio-collar-tracker
 title: Radio Telemetry Tracker
-tag: radio-collar-tracker
+category: radio-collar-tracker
 enable_nav: true
 ---
 {% include 

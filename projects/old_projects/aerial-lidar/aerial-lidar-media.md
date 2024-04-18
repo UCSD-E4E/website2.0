@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /aerial-lidar/media
 title: Aerial Lidar
-tag: aerial-lidar
+category: aerial-lidar
 enable_nav: true
 grid: true
 media: 

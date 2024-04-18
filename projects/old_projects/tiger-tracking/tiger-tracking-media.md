@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /tiger-tracking/media
 title: Tiger Tracking
-tag: tiger-tracking
+category: tiger-tracking
 enable_nav: true
 grid: true
 media: 

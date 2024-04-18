@@ -2,7 +2,7 @@
 layout: project
 permalink: /vaquita
 title: Vaquita Monitoring
-tag: vaquita
+category: vaquita
 enable_nav: True
 ---
 [*Vaquita marina*](http://www.nmfs.noaa.gov/pr/species/mammals/cetaceans/vaquita.htm) (*Phocoena sinus*) is the most endangered marine mammal in the world. Vaquita is a small porpoise that lives only in the northern part of the Gulf of California in Mexico, off the coast of a small fishing town called San Felipe. As of November 2015, scientists estimate that fewer than 60 individuals remain, with the population declining rapidly due to incidental mortality in the gillnets used by fishermen. Current estimates say that the species will become extinct by 2018 unless vaquita mortality is completely eliminated.

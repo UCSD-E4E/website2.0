@@ -2,7 +2,7 @@
 layout: project
 permalink: /acoustic-species-identification
 title: Acoustic Species Identification
-tag: acoustic-species-identification
+category: acoustic-species-identification
 enable_nav: true
 ---
 

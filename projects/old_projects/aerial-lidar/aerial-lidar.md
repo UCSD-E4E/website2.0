@@ -2,7 +2,7 @@
 layout: project
 permalink: /aerial-lidar
 title: Aerial Lidar
-tag: aerial-lidar
+category: aerial-lidar
 enable_nav: true
 ---
 The Aerial LIDAR system is used to create 3D maps from the air. It is being developed for jungle surveys of Maya temples in Guatemala. 

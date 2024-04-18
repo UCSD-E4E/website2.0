@@ -2,7 +2,7 @@
 layout: project
 permalink: /autonomous-planes
 title: Autonomous Airplanes
-tag: autonomous-planes
+category: autonomous-planes
 enable_nav: true
 ---
 Engineers for Exploration maintains several remote-controlled and autonomous lightweight planes for aerial surveys. These planes are used for wildlife surveys, creating 3D terrain maps of large-scale areas, and other applications

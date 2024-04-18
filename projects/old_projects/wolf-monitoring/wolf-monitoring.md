@@ -2,7 +2,7 @@
 layout: project
 permalink: /wolf-tracking
 title: Wolf Monitoring
-tag: wolf-monitoring
+category: wolf-monitoring
 enable_nav: true
 ---
 ![]({{"assets/projects-old_projects-wolf-monitoring-wolf2-1024x685.jpg" | absolute_url}})

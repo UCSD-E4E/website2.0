@@ -2,7 +2,7 @@
 layout: project
 permalink: /smartfin
 title: Smartfin
-tag: smartfin
+category: smartfin
 enable_nav: false
 ---
 # Quick Summary

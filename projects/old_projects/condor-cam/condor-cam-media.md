@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /condor-cam/media
 title: Condor Cam
-tag: condor-cam
+category: condor-cam
 enable_nav: true
 grid: true
 media: 

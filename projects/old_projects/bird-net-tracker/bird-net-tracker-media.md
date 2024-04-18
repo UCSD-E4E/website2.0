@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /bird-nest-tracker/media
 title: Bird Net Tracker
-tag: bird-nest-tracker
+category: bird-nest-tracker
 enable_nav: true
 grid: true
 media: 

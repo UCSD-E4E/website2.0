@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /intelligent-camera-trap/media
 title: Intelligent Camera Trap
-tag: intelligent-camera-trap
+category: intelligent-camera-trap
 enable_nav: true
 grid: true
 media: 

@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /elephant-monitoring/media
 title: Elephant Monitoring
-tag: elephant-monitoring
+category: elephant-monitoring
 enable_nav: true
 grid: true
 media: 

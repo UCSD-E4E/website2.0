@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /autonomous-copters/media
 title: autonomous-copters
-tag: autonomous-copters
+category: autonomous-copters
 enable_nav: true
 grid: true
 media: 

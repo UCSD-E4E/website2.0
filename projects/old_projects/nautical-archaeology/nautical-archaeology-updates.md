@@ -3,6 +3,6 @@ layout: post_feed
 
 permalink: /nautical-archaeology/project-updates
 title: Nautical Archaeology
-tag: nautical-archaeology
+category: nautical-archaeology
 enable_nav: true
 ---
