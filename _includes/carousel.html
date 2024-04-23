@@ -36,7 +36,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in carousels[number].images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+            <li class="carousel__slide" style="background-image: url('{{ item.image['url'] }}');"></li>
             {% endfor %}
           </ul>
         </div>
@@ -47,7 +47,18 @@
                 for="{{ number }}{{ letters[forloop.index0] }}"
                 onclick="onClick()"
               ></label>
+              
             {% endfor %}
+           
+        </div>
+        <div class="carousel__track">
+          <ul>
+            {% for item in carousels[number].images %}
+            <li class="carousel__slide" style="bottom: 0px; color: white;">
+              <p class="carousel_title"> {{item.image['title']}} </p>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
     </div>
 </div>
@@ -55,6 +66,7 @@
 <style>
 .carousel__holder {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
 .carousel {
+  caret-color: transparent;
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -122,9 +134,12 @@
 }
 .carousel__indicators {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
+  height: 50px;
   width: 100%;
   text-align: center;
+  background-color: #0000006b;
+  padding-top: 5px;
 }
 .carousel__indicator {
   height: 15px;
@@ -190,6 +205,18 @@
   background-position: center;
 }
 {% endfor %}
+
+.carousel_title { 
+    width: 90%;
+    bottom: -5px;
+    color: white;
+    position: absolute;
+    left: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    text-align: justify;
+}
 </style>
 
 <script>

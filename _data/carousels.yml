@@ -1,18 +1,18 @@
 carousels:
   - images: 
-    - image: /assets/banner_guatemala.jpg
-    - image: /assets/banner_plane_launch.jpg
-    - image: /assets/banner_tiger.jpg
-    - image: /assets/banner_guatemala.jpg
-    - image: /assets/banner_guatemala.jpg
-    - image: /assets/banner_plane_launch.jpg
-    - image: /assets/banner_tiger.jpg
-    - image: /assets/banner_guatemala.jpg
-    - image: /assets/banner_guatemala.jpg
-    - image: /assets/banner_plane_launch.jpg
-    - image: /assets/banner_tiger.jpg
-    - image: /assets/banner_guatemala.jpg
-    - image: /assets/banner_guatemala.jpg
-    - image: /assets/banner_plane_launch.jpg
-    - image: /assets/banner_tiger.jpg
-    - image: /assets/banner_guatemala.jpg
+    - image: {
+      "url": /assets/banner_guatemala.jpg,
+      "title": "TEST TITLE GUATEMALAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+    - image: {
+      "url": /assets/banner_guatemala.jpg,
+      "title": "TEST TITLE GUATEMALAaaaa"
+    }
+    - image: {
+      "url": /assets/banner_plane_launch.jpg,
+      "title": "TEST TITLE PLANE"
+    }
+    - image: {
+      "url": /assets/banner_tiger.jpg,
+      "title": "TEST TITLE TIGER"
+    }
