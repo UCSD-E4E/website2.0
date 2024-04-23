@@ -21,8 +21,16 @@
           {% endif %}
           {% assign prevletter = letters[previndex] %}
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="{{ number }}{{ prevletter }}"></label>
-              <label class="carousel__control carousel__control--forward" for="{{ number }}{{ nextletter }}"></label>
+              <label 
+                class="carousel__control carousel__control--backward" 
+                for="{{ number }}{{ prevletter }}"
+                onclick="onClick()"
+              ></label>
+              <label 
+                class="carousel__control carousel__control--forward" 
+                for="{{ number }}{{ nextletter }}"
+                onclick="onClick()"
+            ></label>
           </div>
         {% endfor %}
         <div class="carousel__track">
@@ -34,7 +42,11 @@
         </div>
         <div class="carousel__indicators">
             {% for item in carousels[number].images %}
-              <label class="carousel__indicator" for="{{ number }}{{ letters[forloop.index0] }}"></label>
+              <label 
+                class="carousel__indicator" 
+                for="{{ number }}{{ letters[forloop.index0] }}"
+                onclick="onClick()"
+              ></label>
             {% endfor %}
         </div>
     </div>
@@ -181,6 +193,9 @@
 </style>
 
 <script>
+  //tracks human clicks
+  var recent_click = false;
+
   function isVisible(el) {
         while (el) {
             if (el === document) {
@@ -207,14 +222,38 @@
             }
         }
   }
+
+  /**
+    When the user clicks the arrows, update recent_click to true. **Only on human click**.
+  */
+  function onClick(el) {
+    recent_click = true;
+    //console.log("ONCLICK", recent_click, el)
+  }
+
+
+
   {% if include.duration %}
   setInterval(function(){
-    var j=0;
-    var elements = document.querySelectorAll('#carousel{{ number}} .carousel__control--forward');
-    for(i=(elements.length - 1);i>-1;i--) {
-      if(isVisible(elements[i])) j=i;
+    //console.log("===========", {{ include.duration }}000)
+    //console.log("TEST", recent_click)
+
+    //if the user has not recently clicked, skip to next image
+    if (!recent_click) {
+        var j=0;
+        var elements = document.querySelectorAll(
+            '#carousel{{ number}} .carousel__control--forward'
+        );
+        for(i=(elements.length - 1);i>-1;i--) {
+        if(isVisible(elements[i])) j=i;
+        }
+        elements[j].click();
     }
-    elements[j].click();
+
+    //must be at end, click triggers onclick. We want recent_click to be human clicks
+    recent_click = false; 
+    //console.log("TEST", recent_click)
+    //console.log("===========")
   },{{ include.duration }}000);
   {% endif %}
 </script>
