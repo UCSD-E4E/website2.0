@@ -24,12 +24,12 @@
               <label 
                 class="carousel__control carousel__control--backward" 
                 for="{{ number }}{{ prevletter }}"
-                onclick="onClick()"
+                onClick="onClick_{{number}}(this)"
               ></label>
               <label 
                 class="carousel__control carousel__control--forward" 
                 for="{{ number }}{{ nextletter }}"
-                onclick="onClick()"
+                onClick="onClick_{{number}}(this)"
             ></label>
           </div>
         {% endfor %}
@@ -45,20 +45,16 @@
               <label 
                 class="carousel__indicator" 
                 for="{{ number }}{{ letters[forloop.index0] }}"
-                onclick="onClick()"
+                onClick="onClick_{{number}}(this)"
               ></label>
               
             {% endfor %}
            
         </div>
-        <div class="carousel__track">
-          <ul>
+        <div class="carousel_titles">
             {% for item in carousels[number].images %}
-            <li class="carousel__slide" style="bottom: 0px; color: white;">
               <p class="carousel_title"> {{item.image['title']}} </p>
-            </li>
             {% endfor %}
-          </ul>
         </div>
     </div>
 </div>
@@ -80,8 +76,9 @@
 }
 {% for item in carousels[number].images %}
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
-  -webkit-transform: translateX(-{{ forloop.index0 }}00%);
-          transform: translateX(-{{ forloop.index0 }}00%);
+  opacity: 1;
+  /* -webkit-transform: translateX(-{{ forloop.index0 }}00%);*/
+  /*        transform: translateX(-{{ forloop.index0 }}00%); */
 }
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__slide:nth-of-type({{ forloop.index }}) {
   transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -138,12 +135,12 @@
   height: 50px;
   width: 100%;
   text-align: center;
-  background-color: #0000006b;
+  background-color: #000000a6;
   padding-top: 5px;
 }
 .carousel__indicator {
-  height: 15px;
-  width: 15px;
+  height: 11px;
+  width: 11px;
   border-radius: 100%;
   display: inline-block;
   z-index: 2;
@@ -162,9 +159,6 @@
   left: 0;
   padding: 0;
   margin: 0;
-  transition: -webkit-transform 0.5s ease 0s;
-  transition: transform 0.5s ease 0s;
-  transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
 }
 .carousel__track .carousel__slide {
   display: block;
@@ -175,10 +169,15 @@
 }
 {% for item in carousels[number].images %}
 .carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
-  -webkit-transform: translateX({{ forloop.index0 }}00%);
-          transform: translateX({{ forloop.index0 }}00%);
+  transition: opacity 2s ease 0s;
+  opacity: 0;
 }
 {% endfor %}
+
+/* this is just for the frist image to get an inital display for the user*/
+.carousel__track .carousel__slide:nth-of-type(1) {
+  opacity: 1;
+}
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -206,6 +205,23 @@
 }
 {% endfor %}
 
+.carousel_titles {
+
+}
+
+{% for item in carousels[number].images %}
+.carousel_titles .carousel_title:nth-of-type({{ forloop.index }}) {
+  transition: opacity 0s ease 0.25s;
+  opacity: 0;
+}
+{% endfor %}
+
+/* this is just for the frist image to get an inital display for the user*/
+.carousel_titles .carousel_title:nth-of-type(1) {
+  opacity: 1;
+}
+
+
 .carousel_title { 
     width: 90%;
     bottom: -5px;
@@ -220,8 +236,21 @@
 </style>
 
 <script>
-  //tracks human clicks
-  var recent_click = false;
+  /**
+  To anyone with javascript experience wondering what kind of javascript I'm writing in
+  Jekyll allows for inserting any string directly into the html, including in javascript scripts
+  So anything of the form var_{{number}} will compile the variable as var_1 (if number=1)
+
+  The reason for this is so we can render mutliple components on the same page without overloading the same value
+  This prevents things like onClick from breaking say the second carousel when it should be changing the frist one
+  */
+
+
+  //tracks human clicks and index of this spefific carousel
+  var recent_click_{{number}} = false;
+  var curr_index_{{number}} = 0;
+  var letters = "a,b,c,d,e,f,g,h,i,j,k,l,m,n".split(",")
+  
 
   function isVisible(el) {
         while (el) {
@@ -251,22 +280,39 @@
   }
 
   /**
-    When the user clicks the arrows, update recent_click to true. **Only on human click**.
-  */
-  function onClick(el) {
-    recent_click = true;
-    //console.log("ONCLICK", recent_click, el)
-  }
+    Handles behavior when user clicks radio dials or arrows on carousel
 
+    When the user clicks the arrows, update recent_click_{{number}}to true. **Only on human click**.
+    Even if the human doesn't click, lets move to the next photo!
+  */
+  function onClick_{{number}}(el) {
+    //handle detecting recent click
+    recent_click_{{number}} = true;
+
+    //handle selecting which photo gets opacity change
+    var carousel = document.getElementById("carousel{{number}}")
+    var photos = carousel.getElementsByClassName("carousel__slide")
+    var titles = carousel.getElementsByClassName("carousel_title")
+    var next_index = letters.indexOf(el.getAttribute("for")[1])
+
+    photos[curr_index_{{number}}].style.opacity = 0
+    photos[next_index].style.opacity = 1
+
+    titles[curr_index_{{number}}].style.opacity = 0
+    titles[next_index].style.opacity = 1
+    
+    //debug
+    // console.log("onClick_{{number}}", recent_click_{{number}}, el, el.getAttribute("for"), el.getAttribute("for")[1])
+    
+    curr_index_{{number}} = next_index
+  }
 
 
   {% if include.duration %}
   setInterval(function(){
-    //console.log("===========", {{ include.duration }}000)
-    //console.log("TEST", recent_click)
-
     //if the user has not recently clicked, skip to next image
-    if (!recent_click) {
+    console.log(recent_click_{{number}}, {{number}})
+    if (!recent_click_{{number}}) {
         var j=0;
         var elements = document.querySelectorAll(
             '#carousel{{ number}} .carousel__control--forward'
@@ -277,10 +323,10 @@
         elements[j].click();
     }
 
-    //must be at end, click triggers onclick. We want recent_click to be human clicks
-    recent_click = false; 
-    //console.log("TEST", recent_click)
-    //console.log("===========")
+    //must be at end, click triggers onClick_{{number}}. We want recent_click_{{number}}to be human clicks
+    //we also want to reset recent_clicks when we block a simulated click to restart the carousel autoplay
+    recent_click_{{number}} = false; 
+    
   },{{ include.duration }}000);
   {% endif %}
 </script>
