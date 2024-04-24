@@ -104,7 +104,7 @@
   display: block;
   opacity: 1;
 }
-.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__meta_controls>.carousel__indicators .carousel__meta_controls>.carousel__indicator:nth-of-type({{ forloop.index }}) {
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__meta_controls>.carousel__indicators>.carousel__indicator:nth-of-type({{ forloop.index }}) {
   opacity: 1;
 }
 {% endfor %}
