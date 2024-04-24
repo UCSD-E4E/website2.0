@@ -6,7 +6,7 @@ category: del-dios-monitoring
 enable_nav: true
 ---
 
-<p>The Del Dios Habitat Monitoring project is a collaboration between Engineers for Exploration and the <a href="http://sdrvc.org/" rel="noopener" target="_blank">San Dieguito River Valley Conservancy</a>. The San Dieguito River Valley Conservancy is an organization that manages the San Dieguito Watershed, a natural area in northeast San Diego County. The Conservancy removed non-native plants from the <a href="http://sdrvc.org/current/invasives-management/151" rel="noopener" target="_blank">Del Dios Gorge</a> in an attempt to restore the population of native riparian trees and the habitat of native birds and insects. We are collaborating with the Conservancy to use aerial imaging and 3D reconstruction to monitor the regrowth of the native plant species in the Del Dios Gorge.</p>
+<p>The Del Dios Habitat Monitoring project is a collaboration between Engineers for Exploration and the <a href="http://sdrvc.org/" rel="noopener" target="_blank">San Dieguito River Valley Conservancy</a>. The San Dieguito River Valley Conservancy is an organization that manages the San Dieguito Watershed, a natural area in northeast San Diego County. The Conservancy removed non-native plants from the Del Dios Gorge in an attempt to restore the population of native riparian trees and the habitat of native birds and insects. We are collaborating with the Conservancy to use aerial imaging and 3D reconstruction to monitor the regrowth of the native plant species in the Del Dios Gorge.</p>
 
 <!-- ![]({{"assets/projects-old_projects-del-dios-monitoring-deldios_13-e1423176387551.jpg" | absolute_url}})
 
