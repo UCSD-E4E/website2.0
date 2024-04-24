@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<!-- Contains data for indivual project webpage -->
+<div class="projects-overview">
+    <h1 class="page-heading">{{ page.title }}</h1>
+
+    {{ content }}
+    
+    <div class="project-gallery">
+        {%- for project_data in page.blurbs -%}
+        <div class="project-container">
+            <a href={{ project_data.redict }}>
+                <img 
+                    src="{{site.url | append: "/" | append: project_data.photo}}" 
+                    class="gallery_img" 
+                    decoding="async" alt="">
+            </a>
+            <div description>
+                <a href={{ project_data.redict }}>
+                    {{ project_data.project_name }}
+                </a>
+
+                <p>
+                    {{ project_data.text }}
+                </p>
+            </div>
+        </div>
+    {%- endfor -%}
+    </div>
+
+    <style>
+        .project-gallery {
+            display: flex;
+            flex: auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 10px;
+        }
+
+        .project-container {
+            width: 250px;
+        }
+
+        img {
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</div>

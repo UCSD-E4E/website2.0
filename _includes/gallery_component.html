@@ -1,0 +1,69 @@
+<div class="gallery">
+    {%- for media_url in include.media -%}
+        <div class="image_container">
+            <img 
+                src="{{site.url | append: "/" | append: media_url}}" 
+                class="gallery_img" 
+                decoding="async" alt="">
+        </div>
+    {%- endfor -%}
+    </div>
+    
+
+    {%- if include.grid -%}
+        <!-- https://www.w3schools.com/css/css_grid.asp -->
+        <style>
+            .gallery {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                /* grid-template-columns: auto auto auto; */
+                gap: 10px;
+            }
+
+            .image_container {
+                height: 200px;
+                width: 200px;
+            }
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        
+            
+        </style>
+    {% else %}
+        <!-- the css to handle nice image resizing from-->
+        <!-- https://blog.logrocket.com/responsive-image-gallery-css-flexbox/ -->
+        <style>
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: 10px;
+            }
+
+            .gallery::after {
+                content: "";
+                flex-grow: 999;
+                
+            }
+
+            .image_container {
+                height: 300px;
+            }
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                flex: 1 1 auto; 
+            }
+        
+            
+        </style>
+    {%- endif -%}
+</div>
