@@ -101,7 +101,7 @@ Han Lin, UC San Diego (2013)
 # PUBLICATIONS
  - Hui, N. T., Lo, E. K., Moss, J. B., Gerber, G. P., Welch, M. E., Kastner, R., & Schurgers, C. (2021). A more precise way to localize animals using drones. Journal of Field Robotics, 1– 12. [https://doi.org/10.1002/rob.22017](https://doi.org/10.1002/rob.22017)
 
- - Nathan Hui, “Efficient Drone-based Radio Tracking of Wildlife“, MS Thesis, Department of Electrical Engineering, University of California San Diego, May 2019 ([pdf](http://roger.ucsd.edu/record=b10785437~S9))
+ - Nathan Hui, “Efficient Drone-based Radio Tracking of Wildlife“, MS Thesis, Department of Electrical Engineering, University of California San Diego, May 2019 ([pdf](https://escholarship.org/uc/item/4574s85j))
 
  - Daniel Webber, Nathan Hui, Ryan Kastner and Curt Schurgers, “Radio receiver design for Unmanned Aerial wildlife tracking,” 2017 International Conference on Computing, Networking and Communications (ICNC), Santa Clara, CA, 2017, pp. 942-946, doi: 10.1109/ICCNC.2017.7876260
 
