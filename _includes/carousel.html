@@ -7,48 +7,57 @@
         {% for item in carousels[number].images %}
           <input class="carousel__activator" type="radio" name="carousel{{ number }}" id="{{ number }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
-        {% for item in carousels[number].images %}
-          {% if forloop.index == forloop.length %}
-            {% assign nextindex = 0 %}
-          {% else %}
-            {% assign nextindex = forloop.index0 | plus: 1 %}
-          {% endif %}
-          {% assign nextletter = letters[nextindex] %}
-          {% if forloop.index0 == 0 %}
-            {% assign previndex = forloop.length | minus: 1 %}
-          {% else %}
-            {% assign previndex = forloop.index0 | minus: 1 %}
-          {% endif %}
-          {% assign prevletter = letters[previndex] %}
-          <div class="carousel__controls">
-              <label 
-                class="carousel__control carousel__control--backward" 
-                for="{{ number }}{{ prevletter }}"
-                onClick="onClick_{{number}}(this)"
-              ></label>
-              <label 
-                class="carousel__control carousel__control--forward" 
-                for="{{ number }}{{ nextletter }}"
-                onClick="onClick_{{number}}(this)"
-            ></label>
-          </div>
-        {% endfor %}
+        
         <ul  class="carousel__track">
           {% for item in carousels[number].images %}
           <li class="carousel__slide" style="background-image: url('{{ item.image['url'] }}');"></li>
           {% endfor %}
         </ul>
-        <div class="carousel__indicators">
+        
+        {%- comment -%} TODO make this take up space at bottom of carousel like original site {%- endcomment -%}
+        <div class="carousel__meta_controls">
+          <div class="carousel__indicators">
+              {% for item in carousels[number].images %}
+                <label 
+                  class="carousel__indicator" 
+                  for="{{ number }}{{ letters[forloop.index0] }}"
+                  onClick="onClick_{{number}}(this)"
+                ></label>
+                
+              {% endfor %}
+            
+          </div>
+
+          <div class="carousel__controls_wrapper">
             {% for item in carousels[number].images %}
-              <label 
-                class="carousel__indicator" 
-                for="{{ number }}{{ letters[forloop.index0] }}"
-                onClick="onClick_{{number}}(this)"
-              ></label>
-              
+              {% if forloop.index == forloop.length %}
+                {% assign nextindex = 0 %}
+              {% else %}
+                {% assign nextindex = forloop.index0 | plus: 1 %}
+              {% endif %}
+              {% assign nextletter = letters[nextindex] %}
+              {% if forloop.index0 == 0 %}
+                {% assign previndex = forloop.length | minus: 1 %}
+              {% else %}
+                {% assign previndex = forloop.index0 | minus: 1 %}
+              {% endif %}
+              {% assign prevletter = letters[previndex] %}
+              <div class="carousel__controls">
+                  <label 
+                    class="carousel__control carousel__control--backward" 
+                    for="{{ number }}{{ prevletter }}"
+                    onClick="onClick_{{number}}(this)"
+                  ></label>
+                  <label 
+                    class="carousel__control carousel__control--forward" 
+                    for="{{ number }}{{ nextletter }}"
+                    onClick="onClick_{{number}}(this)"
+                ></label>
+              </div>
             {% endfor %}
-           
+          </div>
         </div>
+
         <div class="carousel_titles">
             {% for item in carousels[number].images %}
               <p class="carousel_title"> {{item.image['title']}} </p>
@@ -91,11 +100,11 @@
 }
 
 
-.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__controls:nth-of-type({{ forloop.index }}) {
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__meta_controls>.carousel__controls_wrapper>.carousel__controls:nth-of-type({{ forloop.index }}) {
   display: block;
   opacity: 1;
 }
-.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__meta_controls>.carousel__indicators .carousel__meta_controls>.carousel__indicator:nth-of-type({{ forloop.index }}) {
   opacity: 1;
 }
 {% endfor %}
@@ -111,7 +120,7 @@
   border-width: 5px 5px 0 0;
   border-style: solid;
   border-color: #fafafa;
-  opacity: 0.35;
+  opacity: 1;
   opacity: 1;
   outline: 0;
   z-index: 3;
