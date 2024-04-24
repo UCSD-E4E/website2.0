@@ -11,7 +11,7 @@ enable_nav: true
     caption="In the field in summer 2014 imaging Gold Rush-era sunken barges in Lake Tahoe"
 %}
 
-We collaborate with nautical archaeologists from the <a href="http://www.amari-archaeology.org/" target="_blank">Atlantic World Marine Archaeology Research Institute</a> to develop technologies for creating geometrically-accurate 3D models of underwater shipwrecks. 
+We collaborate with nautical archaeologists from the [Atlantic World Marine Archaeology Research Institute](https://www.facebook.com/profile.php?id=100069337774691) to develop technologies for creating geometrically-accurate 3D models of underwater shipwrecks. 
 
 # Stereo Camera Rig Platform
 
