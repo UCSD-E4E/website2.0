@@ -1,0 +1,19 @@
+<div clas="captioned-img-container">
+    {% if include.src3 %}
+        <div class="img-container">
+            <img class="side_img" src="{{ include.src}}">
+            <img class="side_img" src="{{ include.src2}}">
+            <img class="side_img" src="{{ include.src3}}">
+        </div>
+    {% elsif include.src2 %}
+        <div class="img-container">
+            <img class="side_img" src="{{ include.src}}">
+            <img class="side_img" src="{{ include.src2}}">
+        </div>
+    {% else %}
+        <img src="{{ include.src}}">
+    {% endif %}
+    <p class="caption">
+        {{include.caption}}
+    </p>
+</div>
