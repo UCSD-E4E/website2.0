@@ -7,8 +7,9 @@ slug: /measuring-bird-presence-in-the-peruvian-amazon-using-neural-network-predi
 title: Measuring Bird Presence in the Peruvian Amazon Using Neural Network Predictions
 author: Nathan Hui
 categories:
-- acoustic-species-id
 - news-and-updates
+tags:
+- acoustic-species-id
 ---
 On April 13th, 2021, the Acoustic Species Identification project lead Jacob Ayers posted a dataset containing the predictions from a Recurrent Neural Network (RNN) trained to estimate the probability of bird presence (global scores) across close to 100,000 audio clips from the Peruvian Amazon. The dataset also contained information about the Audiomoth audio recording devices such as latitudinal and longitudinal coordinates and when each audio clip was created. The Acoustic Species Identification team and its collaborators took on the task of interpreting the dataset and producing different visualizations of their findings.
 
