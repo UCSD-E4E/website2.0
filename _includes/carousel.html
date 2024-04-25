@@ -110,10 +110,10 @@
 {% endfor %}
 
 .carousel__control {
-  height: 30px;
-  width: 30px;
+  height: 12px;
+  width: 12px;
   margin-top: -15px;
-  top: 50%;
+  top: 60%;
   position: absolute;
   display: block;
   cursor: pointer;
@@ -139,12 +139,12 @@
           transform: rotate(45deg);
 }
 .carousel__indicators {
-  position: absolute;
+  position: relative;
   bottom: 0;
   height: 50px;
   width: 100%;
   text-align: center;
-  background-color: #000000a6;
+  background-color: #000000;
   padding-top: 5px;
 }
 .carousel__indicator {
@@ -161,13 +161,14 @@
   opacity: 0.75;
 }
 .carousel__track {
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 0;
   margin: 0;
+  height: 92%;
 }
 .carousel__track .carousel__slide {
   display: block;
@@ -209,8 +210,19 @@
 }
 {% endfor %}
 
-.carousel_titles {
 
+.carousel__meta_controls {
+  height: 8%;
+  position: relative;
+}
+
+.carousel_titles {
+  height: 5%;
+  top: 87%;
+  width: 100%;
+  background-color: #000000a6;
+  position: absolute;
+  padding: 5px;
 }
 
 {% for item in carousels[number].images %}
@@ -223,14 +235,14 @@
 
 .carousel_title { 
     width: 90%;
-    bottom: -5px;
     color: white;
-    position: absolute;
-    left: 10px;
+    padding-left: 10px;
+    position: fixed;
     overflow: hidden;
     text-overflow: ellipsis;
     text-wrap: nowrap;
     text-align: justify;
+
 }
 </style>
 
