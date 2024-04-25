@@ -8,8 +8,13 @@ layout: default
     <h1 class="page-heading">{{ page.title }} Media</h1>
     {%- endif -%}
 
+    {% include project_navigation.html 
+        title=page.title 
+        enable_nav=page.enable_nav 
+        url=page.dir %}
+
     {%- if page.enable_nav -%}
-    <nav id="project-navigation">
+    <!-- <nav id="project-navigation">
         <ul id="menu-project-nav" class="menu-project">
             <li id="" class="menu-projects">
                 <a href={{ "./" }}>
@@ -29,7 +34,7 @@ layout: default
 
         </ul>
     </nav>
-    {%- endif -%}
+    {%- endif -%} -->
 
 
     {% include gallery_component.html media=page.media grid=page.grid %}
