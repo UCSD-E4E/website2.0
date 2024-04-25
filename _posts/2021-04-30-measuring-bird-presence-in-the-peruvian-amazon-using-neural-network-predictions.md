@@ -5,6 +5,7 @@ featuredImage: /assets/2021-04-30-median-map.png
 layout: blog-post
 slug: /measuring-bird-presence-in-the-peruvian-amazon-using-neural-network-predictions
 title: Measuring Bird Presence in the Peruvian Amazon Using Neural Network Predictions
+author: Nathan Hui
 categories:
 - acoustic-species-id
 - news-and-updates
