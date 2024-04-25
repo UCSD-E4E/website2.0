@@ -44,3 +44,10 @@ Dev deployment target: https://ucsd-e4e.github.io/website2.0/
     10. Where possible, include the non-DOI permalink to the article in the `url` field.
     11. If a copy is available on arXiV, please include the arXiV identifier in the `preprint` field.
 3. Commit the updated `.bib` file and push to `main`
+
+## Images
+Images MUST be placed in the following location: `/assets/{project}/`
+
+Images SHOULD be named `YYYY-MM-DD_description_of_image.ext`.  If a date is not relevant (for example, a logo), then the date may be omitted.
+
+Images SHOULD be placed in the markdown using the following: `{{ relative_path_to_image_from_assets | resize: final_size,webp,80 | absolute_url }}`.  See https://imagemagick.org/script/command-line-processing.php#geometry for a full description of the resize argument.
