@@ -6,13 +6,13 @@ category: acoustic-species-identification
 enable_nav: true
 grid: true
 media: 
- - assets/projects-ASID-gallery-ASID_Becard_fullres.png
- - assets/projects-ASID-gallery-20210804_103939.jpg
- - assets/projects-ASID-gallery-IMG_5557-1074x716.jpg
- - assets/projects-ASID-gallery-IMG_5568-716x1074.jpg
- - assets/projects-ASID-gallery-IMG_5608-1074x716.jpg
- - assets/projects-ASID-gallery-IMG_5645-1074x716.jpg
- - assets/projects-ASID-gallery-PXL_20210804_194815680-1536x1152.jpg
- - assets/projects-ASID-gallery-AudiomothAcousticArray.png
+ - assets/acoustic_species_id/white_winged_becard_vocalization.png
+ - assets/acoustic_species_id/2021-08-04_scripps_coastal_reserve_trail.jpg
+ - assets/acoustic_species_id/2021-08-10_audiomoth.jpg
+ - assets/acoustic_species_id/2021-08-10_mugen_blue_looking_at_audiomoth.jpg
+ - assets/acoustic_species_id/2021-08-10_jacob_placing_audiomoth.jpg
+ - assets/acoustic_species_id/2021-08-10_expedition_team.jpg
+ - assets/acoustic_species_id/2021-08-04_jacob_searching.jpg
+ - assets/acoustic_species_id/audiomoth_acoustic_array.png
 ---
 
