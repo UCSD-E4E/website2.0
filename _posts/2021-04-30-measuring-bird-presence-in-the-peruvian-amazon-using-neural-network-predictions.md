@@ -1,7 +1,7 @@
 ---
 date: 2021-04-30 02:03:39+00:00
 description: null
-featuredImage: /assets/2021-04-30-median-map.png
+featuredImage: /assets/2021-04-30-aid-median-map.png
 layout: blog-post
 slug: /measuring-bird-presence-in-the-peruvian-amazon-using-neural-network-predictions
 title: Measuring Bird Presence in the Peruvian Amazon Using Neural Network Predictions
@@ -15,7 +15,7 @@ On April 13th, 2021, the Acoustic Species Identification project lead Jacob Ayer
 
 {% include
   img_caption.html
-  src="assets/2021-04-30-Matthew_Google_Map.png"
+  src="assets/2021-04-30-aid-Matthew_Google_Map.png"
   src2="assets/2021-04-30-aid-all_audiomoths.png"
 %}
 
