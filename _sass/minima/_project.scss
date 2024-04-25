@@ -50,6 +50,24 @@
     text-align: center;
 }
 
+.project-gallery {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.project-gallery_container {
+    width: 250px;
+}
+
+.project-gallery_img {
+    width: 250px;
+    height: 250px;
+}
+
 iframe {
     display: block;
     margin-left: auto;

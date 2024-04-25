@@ -10,9 +10,9 @@ layout: default
 
     <div class="project-gallery">
         {%- for project_data in page.blurbs -%}
-        <div class="project-container">
+        <div class="project-gallery_container">
             <a href={{ project_data.redict }}>
-                <img src="{{ project_data.photo | absolute_url }}" class="gallery_img" decoding="async"
+                <img src="{{ project_data.photo | absolute_url }}" class="project-gallery_img" decoding="async"
                     alt="">
             </a>
             <div description>
@@ -27,24 +27,4 @@ layout: default
         </div>
         {%- endfor -%}
     </div>
-
-    <style>
-        .project-gallery {
-            display: flex;
-            flex: auto;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            gap: 10px;
-        }
-
-        .project-container {
-            width: 250px;
-        }
-
-        img {
-            width: 250px;
-            height: 250px;
-        }
-    </style>
 </div>
