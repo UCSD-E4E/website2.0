@@ -12,7 +12,7 @@ In the face of climate change, deforestation, and depleting biodiversity, there 
 
 The Acoustic Species Identification project is a collaboration between Engineers for Exploration and the Population Sustainability group from the San Diego Zoo Institute for Conservation Research. Our goal is to assist the conservation researchers as they begin to take advantage of the aforementioned audio recorders. We are working to deploy machine learning pipelines that pull from unsupervised and supervised methods in conjunction with digital signal processing techniques found in our research to extrapolate meaningful data from several terabytes of audio collected in the Peruvian Amazon. The most ideal goal in the end would be to develop a pipeline that can accurately identify a plethora of species vocalizations for an area where audio devices are deployed.
 
-![]({{"/assets/projects-ASID-ASID_Becard_fullres-813x1074.png" | absolute_url}})
+![]({{"/assets/projects-ASID-ASID_Becard_fullres.png" | absolute_url}})
 
 Project Lead: Sean Perry (<a href="mailto:shperry@ucsd.edu">shperry@ucsd.edu</a>), Samantha Prestrelski(<a href="mailto:sprestrelski@ucsd.edu">sprestrelski@ucsd.edu</a>)
 
