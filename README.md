@@ -51,3 +51,142 @@ Images MUST be placed in the following location: `/assets/{project}/`
 Images SHOULD be named `YYYY-MM-DD_description_of_image.ext`.  If a date is not relevant (for example, a logo), then the date may be omitted.
 
 Images SHOULD be placed in the markdown using the following: `{{ relative_path_to_image_from_assets | resize: final_size,webp,80 | absolute_url }}`.  See https://imagemagick.org/script/command-line-processing.php#geometry for a full description of the resize argument.
+
+## Project Pages
+To make a section for a project, one must do the following:
+- In `projects/projects.md` add a new json object to the blurbs array. This looks like:
+```
+ - photo: "assets/projects-new_project-photo.png"
+   text: "Description of project"
+   project_name: "Name of Project"
+   link: "/insert-project-link"
+```
+Where photo is the filepath to the project's blurb photo, text is a short description of the project, the project_name is the name of the project, and link is the path in the url the project will live
+- Create a new markdown file called `insert_name_of_project.md`. At the top add the following head:
+```
+---
+layout: project
+permalink: /insert-project-link
+title: Name of Project
+category: project-categories
+enable_nav: false
+---
+```
+Where permalink is the same value as link in projects.md, title is whatever you want to call the project, category is the tag representing your project (note: this should be the category used in future news posts associated with the project)
+
+Set enable_nav to false for now and you have the mimumum needed to start creating your project
+
+#### OPTIONAL: Add a gallery and project post feed
+Some projects have the added feature of including a news feed containing posts about that project and a gallery to show up some important photos from diffrent events in the project. To add these pages do the following:
+
+- Set enable_nav to true in your project.md file
+- Add two new files: `insert_name_of_project-media.md` and `insert_name_of_project-updates.md`
+- In `insert_name_of_project-media.md` add the following:
+```
+---
+layout: gallery
+permalink: /insert-project-link
+title: Name of Project
+category: project-categories
+enable_nav: true
+grid: true
+media: 
+ - assets/project-photo-1.png
+ - assets/project-photo-2.png
+ - assets/project-photo-3.png
+ - ...
+---
+```
+Here there are two new paramters that diffrent from `insert_name_of_project.md`. ALL OTHER PARAMETERS SHOULD BE IDENTICAL TO `insert_name_of_project.md`
+- layout: set this to gallery
+- grid: true/false this controls the style of the gallery. Please see [Galleries](### Galleries)
+- media: an array of file paths to images you want to include
+
+Your gallery page on the website will be found at `/insert-project-link/media`
+
+- Next go to `insert_name_of_project-updates.md` and add the following text at the top of the file:
+---
+layout: post_feed
+permalink: /insert-project-link
+title: Name of Project
+category: project-categories
+enable_nav: true
+---
+Fill in permalink, title, and category with the same values used in the respective variables for `insert_name_of_project.md` and `insert_name_of_project-media.md`. Keep layout as post_feed. 
+
+Your post feed page on the website will be found at `/insert-project-link/project-updates`
+
+
+## Components (Includes)
+Jeykll allows for components to be embedded in markdown files. See [https://jekyllrb.com/docs/includes/](https://jekyllrb.com/docs/includes/)
+
+### Images with Caption
+Up to 3 images can be place in a row with a caption below the image with text centered. The number of images placed depends on number of src paramters passed. Note if you are using only 2 images, src3 will have no effect and if you are only using 1 image, src2 and src3 will have no effect. 
+
+Params:
+- src: The path of the frist image. Should always be used.
+- src2: The path of the second image. Should only be used if user wants 2 or more images
+- src2: The path of the thrid image. Should only be used if user wants 3 images
+- caption: Text to put under all images 
+
+Format:
+{% include img_caption.html 
+    src="/abs/path/to/source/1"
+    src2="/abs/path/to/source/2"
+    src3="/abs/path/to/source/3"
+    caption="Text to include"
+%}
+
+### Galleries
+Creates a photo gallery in the page. This can be either in a grid format where all images are set to 200 by 200 photos with cropping, or not grid where the images attempt to maintain thier full size and aspect ratios. 
+
+Gallaries require passing in a list of images. Liquid doesn't allow for directly creating the list in the includes statement. To make a list of images you can put the list into the yaml section of the markdown file and access the files through there. For example
+```
+---
+layout: gallery
+permalink: /acoustic-species-identification/media
+title: Acoustic Species Identification
+category: acoustic-species-identification
+enable_nav: true
+grid: true
+media: 
+ - assets/acoustic_species_id/white_winged_becard_vocalization.png
+ - assets/acoustic_species_id/2021-08-04_scripps_coastal_reserve_trail.jpg
+ - assets/acoustic_species_id/2021-08-10_audiomoth.jpg
+ - assets/acoustic_species_id/2021-08-10_mugen_blue_looking_at_audiomoth.jpg
+ - assets/acoustic_species_id/2021-08-10_jacob_placing_audiomoth.jpg
+ - assets/acoustic_species_id/2021-08-10_expedition_team.jpg
+ - assets/acoustic_species_id/2021-08-04_jacob_searching.jpg
+ - assets/acoustic_species_id/audiomoth_acoustic_array.png
+---
+```
+The images will be accessed through `page.media`
+
+Params:
+- media: Array of file paths
+- grid: true for grid, false or none for not grid. 
+
+Format:
+{% include gallery_component.html 
+    media=page.media 
+    grid=true 
+%}
+
+### Project Navigation Bar
+ONLY USED FOR PROJECT LAYOUTS. MUST NOT BE USED IN MARKDOWN FILES.
+
+Creates the nav bar for project pages, namely the main project make, the project's update page, and the project's gallery page.
+
+Params:
+- title: Name of main page
+- url: the url of the project. There are two ways to get this information
+    - {% assign project_url = page.permalink | append: "/" %} if on main project page
+    - url=page.dir this will select everything between the domain name and the file page in url
+- enable_nav: true or false, some projects don't have a navbar
+
+Format:
+{% include project_navigation.html 
+    title="INSERT TITLE"
+    url=project_url 
+    enable_nav=true or false 
+%}
