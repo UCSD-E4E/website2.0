@@ -1,39 +1,42 @@
 carousels:
   - images: 
     - image: {
-      "url": /assets/banner_guatemala.jpg,
-      "title": "TEST TITLE GUATEMALAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "url": /assets/banner_guatemala.webp,
+      "title": "Mapping a Maya Temple in Guatemala"
     }
     - image: {
-      "url": /assets/banner_guatemala.jpg,
-      "title": "TEST TITLE GUATEMALAaaaa"
+      "url": /assets/banner_guatemala.webp,
+      "title": "Launching the Autonomous Airplane at Scripps"
     }
     - image: {
-      "url": /assets/banner_plane_launch.jpg,
-      "title": "TEST TITLE PLANE"
+      "url": /assets/banner_tiger.webp,
+      "title": "Intelligent Camera Trap at San Diego Zoo"
     }
     - image: {
-      "url": /assets/banner_tiger.jpg,
-      "title": "TEST TITLE TIGER"
+      "url": /assets/banner_laketahoe.webp,
+      "title": "In the Field at Lake Tahoe, CA"
     }
     - image: {
-      "url": /assets/banner_guatemala.jpg,
-      "title": "TEST TITLE GUATEMALAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-    }
-  - images: 
-    - image: {
-      "url": /assets/banner_guatemala.jpg,
-      "title": "TEST TITLE GUATEMALAaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      "url": /assets/banner_dustin_tunnel.webp,
+      "title": "Scanning Tunnels in Maya Temples"
     }
     - image: {
-      "url": /assets/banner_guatemala.jpg,
-      "title": "TEST TITLE GUATEMALAaaaa"
+      "url": /assets/banner_spherecam.webp,
+      "title": "Testing the SphereCam in La Jolla Cove"
     }
     - image: {
-      "url": /assets/banner_plane_launch.jpg,
-      "title": "TEST TITLE PLANE"
+      "url": /assets/banner_balloon.webp,
+      "title": "Aerial Camera Platform and Fallen Star at UCSD"
     }
     - image: {
-      "url": /assets/banner_tiger.jpg,
-      "title": "TEST TITLE TIGER"
+      "url": /assets/banner_barges.webp,
+      "title": "Imaging Barges in Emerald Bay, Lake Tahoe"
+    }
+    - image: {
+      "url": /assets/kayak_banner.webp,
+      "title": "Flying Copters Off of Kayaks"
+    }
+    - image: {
+      "url": /assets/banner_mayatemple.webp,
+      "title": "On top of a Maya Temple in Guatemala"
     }
