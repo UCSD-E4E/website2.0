@@ -319,7 +319,6 @@
   {% if include.duration %}
   setInterval(function(){
     //if the user has not recently clicked, skip to next image
-    console.log(recent_click_{{number}}, {{number}})
     if (!recent_click_{{number}}) {
         var j=0;
         var elements = document.querySelectorAll(
