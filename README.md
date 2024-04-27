@@ -45,6 +45,33 @@ Dev deployment target: https://ucsd-e4e.github.io/website2.0/
     11. If a copy is available on arXiV, please include the arXiV identifier in the `preprint` field.
 3. Commit the updated `.bib` file and push to `main`
 
+## Adding Expeditions
+1. Open [_data/expeditions.yml](_data/expeditions.yml) in VS Code.
+2. At the end of the file, add the following:
+```
+- project: {project_name}
+  location: {expedition_location}
+  date: {YYYY-MM}
+  year: {YYYY}
+  month: {MMMM}
+  lead:
+    - {lead1}
+    - {lead2}
+  people:
+    - {member1}
+    - {member2}
+    - {member3}
+# below fields are optional
+  link: {URL to blog post/news about expedition}
+  media:
+    - {public links to published image/video galleries}
+  data:
+    - {links to dataset, can be private}
+  properties:
+  # for internal use only, see developers for more information
+```
+3. Commit the updated `.yml` file and push.
+
 ## Images
 Images MUST be placed in the following location: `/assets/{project}/`
 
