@@ -9,7 +9,7 @@ layout: page
     <strong>Location:</strong>  {{trip.location}}
 </p>
 <ul>
-    {% if trip.lead %}<li>{{trip.lead}}*</li>{% endif %}
+    {% for lead in trip.lead %}<li>{{lead}} (Expedition Leader)</li>{% endfor %}
     {% for people in trip.people %}<li>{{people}}</li>{% endfor %}
 </ul>
 {% endfor %}
