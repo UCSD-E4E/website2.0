@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<!-- TODO what is itemtype + itemscope-->
+<article class="project h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <h1 class="page-heading">{{ page.title }}</h1>
+
+    {% assign project_url = page.permalink | append: "/" %}
+    {% include project_navigation.html 
+        title=page.title 
+        enable_nav=page.enable_nav 
+        url=project_url %}
+
+    <div class="project-content">
+        {{ content }}
+    </div>
+</article>

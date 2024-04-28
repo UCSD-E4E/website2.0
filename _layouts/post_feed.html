@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="feed">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }} Posts</h1>
+    {%- endif -%}
+
+    {% include project_navigation.html 
+        title=page.title 
+        enable_nav=page.enable_nav 
+        url=page.dir %}
+
+    {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+        {%- for post in site.posts -%}
+        {%- if post.categories contains page.category or post.tags contains page.category -%}
+
+        <li>
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h3>
+            {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+            {%- endif -%}
+        </li>
+        {%- endif -%}
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+
+</div>
