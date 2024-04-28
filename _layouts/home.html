@@ -9,9 +9,9 @@ layout: default
 
   {{ content }}
 
-  {% include carousel.html height="40" unit="%" duration="10" number="1" %}
+  {% include carousel.html height="40" unit="%" duration="10" data=site.data.carousels.front_carousel %}
 
-  {% include carousel.html height="50" unit="%" duration="10" number="2" %}
+  {% include carousel.html height="50" unit="%" duration="10" data=site.data.carousels.test_carousel %}
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
