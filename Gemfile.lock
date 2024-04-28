@@ -1,6 +1,6 @@
 GIT
-  remote: https://github.com/MichaelCurrin/jekyll-resize
-  revision: 917a7572d0318e40f4a420d5b2ce9e8dbe16776c
+  remote: https://github.com/jwillmer/jekyll-resize
+  revision: c2a9dfb2a15afc53ca3574dfb71772e54e3c8d17
   specs:
     jekyll-resize (1.3.1)
       jekyll (> 3.3, < 5.0)
