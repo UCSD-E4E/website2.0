@@ -44,7 +44,6 @@ layout: default
 
           {%- if post.featuredImage -%}
           <div class="featured-post-image">
-            {{ post.featuredImage | string |  resize: '300x200' | absolute_url }}
             <img src="{{ post.featuredImage | string |  resize: '300x200^' | absolute_url }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" sizes="(max-width: 816px) 100vw, 816px" >
           </div>
           {%- endif -%}
