@@ -1,7 +1,7 @@
 ---
 date: 2013-10-15 00:44:08+00:00
 description: null
-featuredImage: http://e4e.ucsd.edu/wp-content/uploads/trekking_out-1024x685.jpg
+# featuredImage: http://e4e.ucsd.edu/wp-content/uploads/trekking_out-1024x685.jpg
 layout: blog-post
 slug: /balloon-in-the-field
 title: Balloon in the Field

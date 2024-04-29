@@ -41,6 +41,13 @@ layout: default
         <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
         <ul class="post-list">
           {%- for post in site.posts -%}
+
+          {%- if post.featuredImage -%}
+          <div class="featured-post-image">
+            {{ post.featuredImage | string |  resize: '300x200' | absolute_url }}
+            <img src="{{ post.featuredImage | string |  resize: '300x200^' | absolute_url }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" sizes="(max-width: 816px) 100vw, 816px" >
+          </div>
+          {%- endif -%}
           <li>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
