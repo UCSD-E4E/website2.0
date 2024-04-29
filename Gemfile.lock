@@ -1,5 +1,5 @@
 GIT
-  remote: https://github.com/Sean1572/jekyll-resize
+  remote: https://github.com/UCSD-E4E/jekyll-resize
   revision: d842e783b935dc1641d8eca84a46d2fdfa5c8dad
   specs:
     jekyll-resize (1.3.1)
