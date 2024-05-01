@@ -1,0 +1,50 @@
+toc:
+  - name: Home
+    url: /
+  - name: About
+    url: /about
+    subfolderitems:
+      - name: Open Opportunities - Academic Year
+        url: /open-opportunities
+      - name: Contact
+        url: /contact
+      - name: Current Students
+        url: /people
+      - name: Alumni
+        url: /alumni
+      - name: Publications
+        url: /publications
+      - name: Expeditions
+        url: /expeditions
+  - name: Projects
+    url: /projects
+    subfolderitems:
+      - name: Radio Telemetry Tracker
+        url: /radio-collar-tracker
+      - name: Baboons on the Move
+        url: /baboons-on-the-move
+      - name: Acoustic Species Identification
+        url: /acoustic-species-identification
+      - name: Mangrove Monitoring
+        url: /mangrove-monitoring
+      - name: Smartfin
+        url: /smartfin
+      - name: FishSense
+        url: /fishsense
+      - name: Floods of Lubra
+        url: /floods-of-lubra
+      - name: Research Support Group
+        url: /research-support-group
+      - name: Past Projects
+        url: /past-projects
+  - name: Calendar
+    url: /calendar
+  - name: How to join
+    url: /welcome
+    subfolderitems:
+      - name: Open Opportunities - Academic Year
+        url: /open-opportunities
+      - name: Onboarding Papers
+        url: /onboarding-papers
+      - name: Tips for Effective Applications
+        url: /tips-for-effective-applications
