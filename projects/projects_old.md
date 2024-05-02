@@ -40,7 +40,7 @@ blurbs:
    text: "Aerial bird nest tracking for habitat monitoring"
    link: "bird-nest-tracker"
  - project_name: "Del Dios Monitoring"
-   photo: "assets/projects-old_projects-project_deldios.jpg"
+   photo: "assets/del_dios/about_del_dios.jpg"
    text: "Monitoring the regrowth of native plant life in the San Dieguito River Valley Conservancy via aerial surveys and 3D reconstruction"
    link: "del-dios-monitoring"
  - project_name: "Aerial LIDAR"

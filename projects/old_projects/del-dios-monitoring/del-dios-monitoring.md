@@ -14,8 +14,8 @@ enable_nav: true
 
 {% include 
     img_caption.html
-    src="/assets/projects-old_projects-del-dios-monitoring-deldios_13-e1423176387551.jpg"
-    src2="/assets/projects-old_projects-del-dios-monitoring-deldios_13_2-e1423176368730.jpg"
+    src="/assets/del_dios/2013-08-28_SDRVC_Mapping_walking_into_bushes3.jpg"
+    src2="/assets/del_dios/2013-08-28_SDRVC_Mapping_wide_team.jpg"
     caption="Our team in the field in Summer 2013 deploying the aerial camera platform to monitor native plant regrowth"
 %}
 
