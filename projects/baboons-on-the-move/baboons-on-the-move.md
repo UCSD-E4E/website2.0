@@ -8,7 +8,7 @@ enable_nav: false
 
 The Uaso Ngiro Baboon Project looks to understand the social relations and dynamics of the baboon troops located in the plains of the Laikipia Plateau in Kenya. 
 
-![]({{"/assets/projects-baboons-on-the-move-rocks.png" | absolute_url}})
+![]({{"assets/baboons_on_the_move/laikipia_plateau.png" | resize: '814x458^,webp,80' | absolute_url}})
 
 Our collaborator [Dr. Shirley C. Strum](https://www.baboonsrus.com/) and her team currently use “boots on the ground” methods to record data related to their troop behavior. This largely involves members of her team directly observing individual baboons and recording that data in their notebook. Automating this process would allow give them access to data that they previously did not have before due to the change in perspective.  Engineers for Exploration is attempting to use computer vision on drone footage to track the baboons. We hope that computer vision will scale better than “boots on the ground” currently does.
 
