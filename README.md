@@ -22,7 +22,7 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
     2. FireFox (Current version and previous 3 months)
     3. Safari (Current version and previous 3 months)
 16. The website MUST function on the following form factors:
-    1. Desktop - 1280x720 through 1920x1080
+    1. Desktop - 1280x720 through 4096x2160
     2. Mobile - 360x640 through 414x896
     3. Tablet - 601x962 through 1280x800
 17. The website SHOULD NOT depend on JavaScript for page content.
