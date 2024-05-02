@@ -12,7 +12,7 @@ blurbs:
    text: "The Airborne Radio Collar Tracker is a low cost solution to tracking wildlife radio collars from an aerial vantage point"
    link: "/radio-collar-tracker"
  - project_name: "Baboons on the Move"
-   photo: "assets/projects-baboons-on-the-move-DSCN0254.jpg"
+   photo: "assets/baboons_on_the_move/2013-02-14_baboons.jpg"
    text: "Using drone footage and computer vision to track baboon troop movement in the plains of the Laikipia Plateau in Kenya"
    link: "/baboons-on-the-move"
  - project_name: "FishSense"
