@@ -38,30 +38,46 @@ layout: default
     </div>
     <div class="home_flex_item home_posts">
       {%- if site.posts.size > 0 -%}
-        <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-        <ul class="post-list">
-          {%- for post in site.posts -%}
+        <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+        <ul class="post-list home_post-list">
+          {%- assign post = site.posts[0] -%}
+          <!-- {%- for post in site.posts -%} -->
+          <div class="home_post_container">
+            
+            <div class="home-post-image">
+              {%- if post.featuredImage -%}
+              <img 
+                src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+              >
+              {% else %}
+              <img 
+                src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+              >
+              {% endif %}
+            </div>
+            
+            <li class="home_post_text" id="home_post_text_{{forloop.index}}">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+              <h3 style="margin-bottom: 1px;">
+                <a class="post-link" href="{{ post.url | relative_url }}" rel="bookmark">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <p class="home_post_excerpt">
 
-          {%- if post.featuredImage -%}
-          <div class="featured-post-image">
-            <img 
-              src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-            >
+
+
+                {%- if post.description -%}
+                  {{ post.description }}
+                {% else %}
+                  {{post.content | strip_html | truncate: 200}}
+                {% endif %}
+
+              </p>
+            </li>
           </div>
-          {%- endif -%}
-          <li>
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
-            {%- endif -%}
-          </li>
-          {%- endfor -%}
+          <!-- {%- endfor -%} -->
         </ul>
 
         <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
