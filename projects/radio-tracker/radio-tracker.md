@@ -7,7 +7,7 @@ enable_nav: true
 ---
 {% include 
     img_caption.html
-    src="/assets/projects-radio_collar_tracker-drone.jpg"
+    src="/assets/radio_collar_tracker/projects-radio_collar_tracker-drone.jpg"
     caption="2015 Radio Telemetry Tracker during Desert Flight Testing"
 %}
 
@@ -16,7 +16,7 @@ The Radio Telemetry Tracker project is a collaboration between the San Diego Zoo
 
 {% include 
     img_caption.html
-    src="/assets/projects-radio_collar_tracker-diagram.png"
+    src="/assets/radio_collar_tracker/projects-radio_collar_tracker-diagram.png"
     caption="Radio Telemetry Tracker System Diagram"
 %}
 
