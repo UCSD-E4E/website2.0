@@ -7,7 +7,7 @@ enable_nav: true
 ---
 {% include 
     img_caption.html
-    src="/assets/radio_collar_tracker/projects-radio_collar_tracker-drone.jpg"
+    src="/assets/radio_collar_tracker/2015-08-25_stesha_copter_desert.jpg"
     caption="2015 Radio Telemetry Tracker during Desert Flight Testing"
 %}
 
