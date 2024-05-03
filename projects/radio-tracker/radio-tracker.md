@@ -16,7 +16,7 @@ The Radio Telemetry Tracker project is a collaboration between the San Diego Zoo
 
 {% include 
     img_caption.html
-    src="/assets/radio_collar_tracker/projects-radio_collar_tracker-diagram.png"
+    src="/assets/radio_collar_tracker/system_diagram.png"
     caption="Radio Telemetry Tracker System Diagram"
 %}
 
