@@ -105,7 +105,7 @@ Han Lin, UC San Diego (2013)
 
  - Daniel Webber, Nathan Hui, Ryan Kastner and Curt Schurgers, “Radio receiver design for Unmanned Aerial wildlife tracking,” 2017 International Conference on Computing, Networking and Communications (ICNC), Santa Clara, CA, 2017, pp. 942-946, doi: 10.1109/ICCNC.2017.7876260
 
- - Gilberto Antonio Marcon dos Santos, Zachary Barnes, Eric Lo, Bryan Ritoper, Lauren Nishizaki, Xavier Tejeda, Alex Ke, Han Lin, Curt Schurgers, Albert Lin, Ryan Kastner, “Small Unmanned Aerial Vehicle System for Wildlife Radio Collar Tracking”, MASS, 2014, 2014 IEEE 11th International Conference on Mobile Ad Hoc and Sensor Systems (MASS), 2014 IEEE 11th International Conference on Mobile Ad Hoc and Sensor Systems (MASS) 2014, pp. 761-766, doi:10.1109/MASS.2014.48 ([pdf](http://kastner.ucsd.edu/wp-content/uploads/2013/08/admin/mass14-radio_collar.pdf))
+ - Gilberto Antonio Marcon dos Santos, Zachary Barnes, Eric Lo, Bryan Ritoper, Lauren Nishizaki, Xavier Tejeda, Alex Ke, Han Lin, Curt Schurgers, Albert Lin, Ryan Kastner, “Small Unmanned Aerial Vehicle System for Wildlife Radio Collar Tracking”, MASS, 2014, 2014 IEEE 11th International Conference on Mobile Ad Hoc and Sensor Systems (MASS), 2014 IEEE 11th International Conference on Mobile Ad Hoc and Sensor Systems (MASS) 2014, pp. 761-766, doi:10.1109/MASS.2014.48 ([pdf](https://kastner.ucsd.edu/wp-content/uploads/2013/08/admin/mass14-radio_collar.pdf))
 
 # PRESS RELEASES
 Tracking Iguanas from the Sky: Drone Research in the Cayman Islands
