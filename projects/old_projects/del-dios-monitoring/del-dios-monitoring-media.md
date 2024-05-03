@@ -55,6 +55,6 @@ media:
  - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_walking_balloon.jpg
  - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_payload.jpg
  - assets/del_dios/2013-08-28_SDRVC_Mappping_team_in_field.jpg
- - assets/del_dios/2013-08-28_SDRVC_Mapping_david_eric_riley_fix.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_james_eric_riley_fix.jpg
 ---
 
