@@ -9,7 +9,7 @@ layout: default
 
   {{ content }}
 
-  {% include carousel.html height="40" unit="%" duration="10" number="1" %}
+  {% include carousel.html height="40" unit="%" duration="10" data=site.data.carousels.front_carousel %}
 
   <div class="home_flex_container">
     <div class="home_flex_item home_about">
@@ -44,7 +44,9 @@ layout: default
 
           {%- if post.featuredImage -%}
           <div class="featured-post-image">
-            <img src="{{ post.featuredImage | string |  resize: '300x200^' | absolute_url }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" sizes="(max-width: 816px) 100vw, 816px" >
+            <img 
+              src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+            >
           </div>
           {%- endif -%}
           <li>
