@@ -32,7 +32,7 @@ blurbs:
    text: "Collaboration with the San Diego Zoo to create computer vision algorithms for autonomous tiger tracking"
    link: "tiger-tracking"
  - project_name: "Wolf Monitoring"
-   photo: "assets/projects-old_projects-wolf_tracking_thumb.jpg"
+   photo: "assets/wolf_tracker/wolf_tracking_thumb.jpg"
    text: "Collaboration with the California Wolf Center to develop a mobile terrestrial wolf monitoring vehicle"
    link: "wolf-tracking"
  - project_name: "Bird Nest Tracker"

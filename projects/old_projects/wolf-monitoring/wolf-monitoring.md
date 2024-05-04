@@ -5,12 +5,12 @@ title: Wolf Monitoring
 category: wolf-monitoring
 enable_nav: true
 ---
-![]({{"assets/projects-old_projects-wolf-monitoring-wolf2-1024x685.jpg" | absolute_url}})
+![]({{"assets/wolf_tracker/2013-07-26_wolf.jpg" | resize: '1024x685>' | absolute_url}})
 
 
 In collaboration with the California Wolf Center, we developed technologies for remotely monitoring wolves. The wolves need limited human interaction so that they can eventually be reintroduced into the wild, so we have worked with the ecologists at the Wolf Center to develop tools to facilitate behavioral monitoring. We have deployed both the <a href="/intelligent-camera-trap">Intelligent Camera Trap</a> and the <a href="/terrestrial-vehicle">Terrestrial Vehicle</a> at the Wolf Center.
 
-![]({{"assets/projects-old_projects-wolf-monitoring-camera_trap_wolf_center-1024x686.jpg" | absolute_url}})
+![]({{"assets/wolf_tracker/2013-07-26_camera-trap-team-at-california-wolf-center.jpg" | resize: '1024x686>' | absolute_url}})
 
 
 
