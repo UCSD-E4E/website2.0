@@ -18,7 +18,7 @@ media:
  - assets/radio_collar_tracker/2015-09-26_nathan_stesha_tracking.jpg
  - assets/radio_collar_tracker/2015-09-21_nathan_stesha_flying_copter.jpg
  - assets/radio_collar_tracker/2015-09-27_stesha_copter_on_approach_dominican_republic.jpg
- - assets/radio_collar_tracker/2014-08-21_s800_lake_hodges.png
+ - assets/radio_collar_tracker/2014-08-21_s800_lake_hodges.jpg
  - assets/radio_collar_tracker/2014-05-23_looking_for_desert_tortoises_in_las_vegas.jpg
  - assets/radio_collar_tracker/2014-05-23_eric_launching_skywalker_las_vegas.jpg
  - assets/radio_collar_tracker/2014-05-23_bryan_eric_setting_up_skywalker.jpg
