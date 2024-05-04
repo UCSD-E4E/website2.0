@@ -7,7 +7,7 @@ enable_nav: true
 ---
 {% include 
     img_caption.html
-    src="/assets/15451427822_4af33f13a2_o.png"
+    src="/assets/nautical_archaeology/2014-06-13_emerald_bay_perry.png"
     caption="In the field in summer 2014 imaging Gold Rush-era sunken barges in Lake Tahoe"
 %}
 
@@ -15,7 +15,7 @@ We collaborate with nautical archaeologists from the [Atlantic World Marine Arch
 
 # Stereo Camera Rig Platform
 
-![]({{"assets/projects-old_projects-nautical-archaeology-IMG_0849-1024x368.jpg" | absolute_url}})
+![]({{"assets/nautical_archaeology/2014-06-26_stereo_rig.jpg" | absolute_url}})
 
 Our Stereo Camera Rig platform fuses measurements from a variety of sensors to gain more accurate underwater pose estimates and create high-accuracy underwater models using Structure from Motion and other 3D reconstruction algorithms. 
 
