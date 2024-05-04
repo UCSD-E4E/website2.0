@@ -17,7 +17,7 @@ We aim to take the first ever underwater photos and videos of the vaquita porpoi
 
 # Collaborators
 
-We are collaborating with scientists from the [Instituto Nacional de Ecología y Cambio Climático](https://www.inecc.gob.mx/)(INECC) in Mexico, the [Southwest Fisheries Science Center at NOAA](https://swfsc.noaa.gov/) and the [San Diego Zoo Institute for Conservation Research](https://science.sandiegozoo.org/), who have stressed the need for better imagery of vaquita in order to gain local and international support for the conservation initiative.
+We are collaborating with scientists from the [Instituto Nacional de Ecología y Cambio Climático](https://www.inecc.gob.mx/) (INECC) in Mexico, the [Southwest Fisheries Science Center at NOAA](https://swfsc.noaa.gov/) and the [San Diego Zoo Institute for Conservation Research](https://science.sandiegozoo.org/), who have stressed the need for better imagery of vaquita in order to gain local and international support for the conservation initiative.
 
 # Underwater Monitoring
 
