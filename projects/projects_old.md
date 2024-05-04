@@ -80,7 +80,7 @@ blurbs:
    text: "Enhanced OpenROV platform for underwater exploration"
    link: "openrov"
  - project_name: "Underwater Cave Imaging"
-   photo: "assets/projects-old_projects-underwater_cave_mapping_thumb.jpg"
+   photo: "assets/uw_cave/underwater_cave_mapping_thumb.jpg"
    text: "Engineering systems to create immersive visualizations of underwater caves"
    link: "underwater-cave-imaging"
  - project_name: "Vaquita Monitoring"
