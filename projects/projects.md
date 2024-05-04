@@ -28,7 +28,7 @@ blurbs:
    text: "Smartfin brings citizen science to surfing, turning surfboards into coastal monitoring stations to seamlessly gather data on the near-shore environment"
    link: "/smartfin"
  - project_name: "Research Support Group"
-   photo: "assets/projects-reserach_support-e4esquarelogo-v2-1.png"
+   photo: "assets/e4esquarelogo-v2-1.png"
    text: "The Research Support Group supports all research operations at E4E"
    link: "/research-support-group"
 ---
