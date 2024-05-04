@@ -76,7 +76,7 @@ blurbs:
    text: "Mobile rover for capturing footage inside underground tunnels"
    link: "tunnel-bot"
  - project_name: "OpenROV"
-   photo: "assets/projects-old_projects-openrov.jpg"
+   photo: "assets/openrov/openrov.jpg"
    text: "Enhanced OpenROV platform for underwater exploration"
    link: "openrov"
  - project_name: "Underwater Cave Imaging"
