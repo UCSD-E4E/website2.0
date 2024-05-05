@@ -47,6 +47,7 @@ function livereload(cb) {
         server: {
             baseDir: "./_site/"
         },
+        port: 4000,
         // WARNING: IF YOU FIND YOURSELF EDITING THIS FILE
         // then you may need to aslo check if the prod redict rules in .htaccess
         // work for the case your are trying to fix (use `jekyll serve`)
