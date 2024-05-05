@@ -34,7 +34,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ## Developer Get Started
 1. Follow the instructions at https://jekyllrb.com/docs/installation/ to install the Jekyll generator on your machine.
 2. Follow the instructions at http://www.graphicsmagick.org/README.html#installation to install GraphicsMagick on your machine.
-3. Run `bundle exec jekyll serve --livereload` in this repository root to deploy a live server to http://localhost:4000
+3. Follow the instructions at https://docs.npmjs.com/downloading-and-installing-node-js-and-npm to install Node.js and npm on your machine
+4. Run `npm install` in this repository root
+5. Run `gulp watch` in this repository root to deploy a live server to http://localhost:4000
 
 Dev deployment target: https://ucsd-e4e.github.io/website2.0/
 
