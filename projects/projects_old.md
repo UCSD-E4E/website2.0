@@ -16,7 +16,7 @@ blurbs:
    text: "Remote sensing technologies for documenting ancient Maya ruins in the jungles of Guatemala"
    link: "maya-archaeology"
  - project_name: "Nautical Archaeology"
-   photo: "assets/projects-old_projects-tahoe_underwater.jpg"
+   photo: "assets/nautical_archaeology/projects-old_projects-tahoe_underwater.jpg"
    text: "Documenting ancient shipwrecks using 3D reconstruction, stereo imaging, and Structure from Motion"
    link: "nautical-archaeology"
  - project_name: "Angry Birds"
