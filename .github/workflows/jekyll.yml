@@ -43,9 +43,9 @@ jobs:
           sudo apt-get install graphicsmagick
       - name: Checks Ruby Gems
         run: bundle list
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
+      # - name: Setup Pages
+      #   id: pages
+      #   uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --config _config.yml,_dev_config.yml
