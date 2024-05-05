@@ -1,0 +1,60 @@
+---
+layout: gallery
+permalink: /del-dios-monitoring/media
+title: Del Dios Monitoring
+category: del-dios-monitoring
+enable_nav: true
+grid: true
+media: 
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_launch.jpg
+ - assets/del_dios/2013-08-28_balloon_over_del_dios_soaring_high.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_walking_hill.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_inflating_balloon2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_david_looking_at_balloon.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_inflating_balloon.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_in_parking_lot6.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_david_opening_helium.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_inflating_balloon3.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_seting_up_in_parking_lot4.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_in_parking_lot3.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_in_parking_lot2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_michael_david_setting_up.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_payload.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_tying_knots.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_in_parking_lot.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_in_parking_lot5.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_walking_into_bushes3.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_walking_into_bushes2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_walking_into_bushes.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_moving4.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_moving3.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_in_field3.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_moving2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_baloon_power_lines3.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_moving.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_michael.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_david_on_tablet.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_in_field4.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_baloon_power_lines2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_balloon_in_air.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_photoshoot.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_below_houses.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_balloon_power_lines.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_background.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_anchor.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_payload2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_team_in_field2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_wide_team.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_balloon_in_air2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_david_pointing.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_adjusting_line3.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_riley_teaching_lauren.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_adjusting_line2.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_riley_lauren_david.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_adjusting_line.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_eric_walking_balloon.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_setting_up_payload.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mappping_team_in_field.jpg
+ - assets/del_dios/2013-08-28_SDRVC_Mapping_james_eric_riley_fix.jpg
+---
+
