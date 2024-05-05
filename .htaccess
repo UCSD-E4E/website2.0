@@ -5,3 +5,8 @@ RewriteRule ^(.*?)/$ /$1.html [L]
 
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*?)/?$ /$1.html [L]
+
+
+# WARNING: IF YOU FIND YOURSELF EDITING THIS FILE
+# then you may need to aslo check if the dev redict rules in middleware.js
+# work for the case your are trying to fix (use `gulp watch`)
