@@ -1,10 +1,9 @@
 ---
 layout: gallery
-#disable for now
-#permalink: /mangrove-monitoring/media
+permalink: /mangrove-monitoring/media
 title: Mangrove Monitoring
 category: mangrove-monitoring
-enable_nav: false
+enable_nav: true
 grid: true
 media: 
 ---
