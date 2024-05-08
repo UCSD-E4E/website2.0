@@ -19,6 +19,10 @@ blurbs:
    photo: "assets/fishsense/about_fishsense.jpg"
    text: "Using handheld 3D imaging platforms to monitor and measure fish populations in collaboration with the Scripps Institute of Oceanography"
    link: "/fishsense"
+ - project_name: "Floods of Lubra"
+   photo: assets/floods_of_lubra/floods-of-lubra_thumb.jpg
+   text: Floods of Lubra focuses on using remote sensing techniques to monitor and predict the impact of climate change in the Himalayas
+   link: "/floods-of-lubra"
  - project_name: "Mangrove Monitoring"
    photo: "assets/mangrove/mangrove_monitoring_thumb.jpg"
    text: "Monitoring the mangrove swamps in Baja California with the Scripps Institute of Oceanography via aerial surveys and 3D reconstruction"
