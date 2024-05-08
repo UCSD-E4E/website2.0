@@ -16,7 +16,7 @@ blurbs:
    text: "Using drone footage and computer vision to track baboon troop movement in the plains of the Laikipia Plateau in Kenya"
    link: "/baboons-on-the-move"
  - project_name: "FishSense"
-   photo: "assets/projects-fishsense-200213_7228_250x250.jpg"
+   photo: "assets/fishsense/about_fishsense.jpg"
    text: "Using handheld 3D imaging platforms to monitor and measure fish populations in collaboration with the Scripps Institute of Oceanography"
    link: "/fishsense"
  - project_name: "Mangrove Monitoring"
