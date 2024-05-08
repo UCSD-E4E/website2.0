@@ -33,16 +33,15 @@ async function dev_build(cb) {
     cb();
 }
 
-function reload(cb) {
-    browserSync.reload()
-    cb();
-}
+//ASSUMES THAT SERVER CANNOT GO DOWN AS LONG AS GULP IS WATCHING
+let has_started = false;
+function start_server(cb) {
+    if (has_started) {
+        cb();
+        return;
+    }
 
-function livereload(cb) {
-    // All events will be watched
-
-    fileGlops = ["**.html", "**.md", "_layouts/**", "_includes/**", "_posts/**", "_sass/**", "assets/**"]
-    watch(fileGlops, { events: 'all', ignoreInitial: false }, series(copy_foundation_files, dev_build, reload));
+    has_started = true;
     browserSync.init({
         server: {
             baseDir: "./_site/"
@@ -53,6 +52,20 @@ function livereload(cb) {
         // work for the case your are trying to fix (use `jekyll serve`)
         middleware: [middleware.rewriteMiddleware, middleware.error404Middleware]
     });
+}
+
+function reload(cb) {
+    start_server(() => {})
+    browserSync.reload()
+    cb();
+}
+
+function livereload(cb) {
+    // All events will be watched
+
+    fileGlops = ["**.html", "**.md", "_layouts/**", "_includes/**", "_posts/**", "_sass/**", "assets/**"]
+    watch(fileGlops, { events: 'all', ignoreInitial: false }, series(copy_foundation_files, dev_build, reload));
+    
     cb();
     console.log("watcher created, stop watcher with ctrl+c")
 }
