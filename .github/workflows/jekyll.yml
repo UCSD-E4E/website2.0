@@ -40,7 +40,9 @@ jobs:
       - name: Setup build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install graphicsmagick
+          sudo apt-get install graphicsmagick node.js npm
+          npm ci
+          npx gulp build
       - name: Checks Ruby Gems
         run: bundle list
       # - name: Setup Pages
@@ -48,6 +50,6 @@ jobs:
       #   uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --config _config.yml,_dev_config.yml
+        run: npx gulp build #bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --config _config.yml,_dev_config.yml
         env:
           JEKYLL_ENV: production

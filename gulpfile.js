@@ -23,8 +23,13 @@ async function create_command(command) {
     console.error(`stderr: ${stderr}`);
 }
 
-async function prod_build(cb) {
+async function build(cb) {
     await create_command("bundle exec jekyll build --config _config.yml")
+    cb();
+}
+
+async function prod_build(cb) {
+    await create_command("bundle exec jekyll build --config `_config.yml,_e4e_dev_config.yml`")
     cb();
 }
 
@@ -77,4 +82,5 @@ function defaultTask(cb) {
 
 exports.default = defaultTask
 exports.build = series(copy_foundation_files, prod_build)
+exports.Local_build = series(copy_foundation_files, build)
 exports.watch = series(copy_foundation_files, livereload)
