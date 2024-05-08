@@ -29,7 +29,7 @@ async function build(cb) {
 }
 
 async function prod_build(cb) {
-    await create_command("bundle exec jekyll build --config `_config.yml,_e4e_dev_config.yml`")
+    await create_command("bundle exec jekyll build --config '_config.yml,_e4e_dev_config.yml'")
     cb();
 }
 
