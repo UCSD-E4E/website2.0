@@ -1,16 +1,12 @@
 ---
 layout: default
 ---
-
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-
   {{ content }}
-
   {% include carousel.html height="40" unit="%" duration="10" data=site.data.carousels.front_carousel %}
-
   <div class="home_flex_container">
     <div class="home_flex_item home_about">
       <h2 class="home_header">EXPLORATION THROUGH TECHNOLOGY</h2>
@@ -34,54 +30,91 @@ layout: default
           Donate To UCSD E4E.
         </a>
       </p>
-      
     </div>
     <div class="home_flex_item home_posts">
-      {%- if site.posts.size > 0 -%}
-        <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
-        <ul class="post-list home_post-list">
-          {%- assign post = site.posts[0] -%}
-          <!-- {%- for post in site.posts -%} -->
-          <div class="home_post_container">
-            
-            <div class="home-post-image">
-              {%- if post.featuredImage -%}
-              <img 
-                src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-              >
-              {% else %}
-              <img 
-                src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-              >
-              {% endif %}
-            </div>
-            
-            <li class="home_post_text" id="home_post_text_{{forloop.index}}">
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3 style="margin-bottom: 1px;">
-                <a class="post-link" href="{{ post.url | relative_url }}" rel="bookmark">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              <p class="home_post_excerpt">
-
-
-
-                {%- if post.description -%}
-                  {{ post.description }}
+      <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+      <ul class="post-list home_post-list">
+        {%- assign post_per_page = 10 -%}
+        {%- assign num_sections = site.posts.size | divided_by: post_per_page -%}
+        {% for i in (0..num_sections) -%}
+          {%- assign posts_start = i | times: post_per_page -%}
+          {%- assign posts = site.posts | slice: posts_start, post_per_page -%}
+            {%- for post in posts -%}
+            <div class="home_post_container  home_post_page home_post_page_{{i}}">
+              <div class="home-post-image">
+                {%- if post.featuredImage -%}
+                <img 
+                  src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                >
                 {% else %}
-                  {{post.content | strip_html | truncate: 200}}
+                <img 
+                  src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                >
                 {% endif %}
+              </div>
+              
+              <li class="home_post_text" id="home_post_text_{{forloop.index}}">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <h3 style="margin-bottom: 1px;">
+                  <a class="post-link" href="{{ post.url | relative_url }}" rel="bookmark">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+                <p class="home_post_excerpt">
 
-              </p>
-            </li>
-          </div>
-          <!-- {%- endfor -%} -->
-        </ul>
 
-        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-      {%- endif -%}
-      </div>
+
+                  {%- if post.description -%}
+                    {{ post.description }}
+                  {% else %}
+                    {{post.content | strip_html | truncate: 200}}
+                  {% endif %}
+
+                </p>
+              </li>
+            </div>
+            {%- endfor -%}
+        {% endfor %}
+      </ul>
+      <nav class="home_post_nav">
+        <button  class="home_posts_nav_left" onclick="click_left()">
+          <p>left<p>
+        </button >
+        <button  class="home_posts_nav_right"  onclick="click_right()">
+          <p>right<p>
+        </button >
+      </nav>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    </div>
   </div>
+
+  <script>
+    let index = 0;
+    console.log("test")
+    function swap_display(index, display_type) {
+      var list = document.querySelectorAll(".home_post_page.home_post_page_"+index);
+      console.log(list, list.array)
+      list.forEach(element => {
+        element.style.display = display_type;
+      });
+    }
+
+    function click_left() {
+      console.log(index)
+      if (index < {{num_sections}}) {
+        swap_display(index, "none")
+        swap_display(index+1, "block")
+        index = index+1
+      }
+    }
+    function click_right() {
+      console.log(index)
+      if (index > 0) {
+        swap_display(index, "none")
+        swap_display(index-1, "block")
+        index = index-1
+      }
+    }
+  </script>
 </div>

@@ -23,7 +23,9 @@
     background-color: #f4f4f4;
     padding: 10px;
     margin-right: 20px;
+    max-width: 300px;
 }
+
 
 .home_posts {
     margin-right: 0px;
@@ -68,4 +70,17 @@
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+}
+
+.home_post_page {
+    display: none;
+}
+
+.home_post_page.home_post_page_0 {
+    display: block;
+}
+
+.home_post_nav{
+    display: flex;
+    justify-content: space-around;
 }
