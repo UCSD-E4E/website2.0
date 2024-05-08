@@ -1,0 +1,42 @@
+title: front_carousel
+images: 
+    - image: {
+      "url": /assets/banner_guatemala.jpg,
+      "title": "Mapping a Maya Temple in Guatemala"
+    }
+    - image: {
+      "url": /assets/banner_guatemala.jpg,
+      "title": "Launching the Autonomous Airplane at Scripps"
+    }
+    - image: {
+      "url": /assets/banner_tiger.jpg,
+      "title": "Intelligent Camera Trap at San Diego Zoo"
+    }
+    - image: {
+      "url": /assets/banner_laketahoe.jpg,
+      "title": "In the Field at Lake Tahoe, CA"
+    }
+    - image: {
+      "url": /assets/banner_dustin_tunnel.jpg,
+      "title": "Scanning Tunnels in Maya Temples"
+    }
+    - image: {
+      "url": /assets/banner_spherecam.jpg,
+      "title": "Testing the SphereCam in La Jolla Cove"
+    }
+    - image: {
+      "url": /assets/banner_balloon.jpg,
+      "title": "Aerial Camera Platform and Fallen Star at UCSD"
+    }
+    - image: {
+      "url": /assets/banner_barges.png,
+      "title": "Imaging Barges in Emerald Bay, Lake Tahoe"
+    }
+    - image: {
+      "url": /assets/kayak_banner.jpg,
+      "title": "Flying Copters Off of Kayaks"
+    }
+    - image: {
+      "url": /assets/banner_mayatemple.jpg,
+      "title": "On top of a Maya Temple in Guatemala"
+    }

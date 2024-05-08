@@ -3,57 +3,35 @@ layout: default
 ---
 
 <div class="feed">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }} Posts</h1>
-{%- endif -%}
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }} Posts</h1>
+    {%- endif -%}
 
-  {%- if page.enable_nav -%}
-    <nav id="project-navigation">
-      <ul id="menu-project-nav" class="menu-project">
-        <li id="" class="menu-projects">
-          <a href={{ "./" }}>
-            {{ page.title }}
-          </a>
-        </li>
-        <li id="" class="menu-projects">
-          <a aria-current="page">
-            Project Updates
-          </a>
-        </li>
-        <li id="" class="menu-projects">
-          <a href={{ "./media"  }}>
-            Media
-          </a>
-        </li>
-        
-      </ul>
-    </nav>
-  {%- endif -%}
+    {% include project_navigation.html 
+        title=page.title 
+        enable_nav=page.enable_nav 
+        url=page.dir %}
 
-
-
-  {%- if site.posts.size > 0 -%}
+    {%- if site.posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.posts -%}
-        {%- if post.categories contains page.category -%}
-          
-          <li>
+        {%- for post in site.posts -%}
+        {%- if post.categories contains page.category or post.tags contains page.category -%}
+
+        <li>
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }}</span>
             <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
             </h3>
             {%- if site.show_excerpts -%}
-              {{ post.excerpt }}
+            {{ post.excerpt }}
             {%- endif -%}
-          </li>
+        </li>
         {%- endif -%}
-      {%- endfor -%}
+        {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+    {%- endif -%}
 
 </div>
