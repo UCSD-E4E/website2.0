@@ -8,7 +8,7 @@ blurbs:
    project_name: "Acoustic Species ID"
    link: "/acoustic-species-identification"
  - project_name: "Radio Collar Tracker"
-   photo: "assets/projects-radio_collar_tracker-project_radiocollar.jpg"
+   photo: "assets/radio_collar_tracker/projects-radio_collar_tracker-project_radiocollar.jpg"
    text: "The Airborne Radio Collar Tracker is a low cost solution to tracking wildlife radio collars from an aerial vantage point"
    link: "/radio-collar-tracker"
  - project_name: "Baboons on the Move"
