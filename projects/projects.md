@@ -8,7 +8,7 @@ blurbs:
    project_name: "Acoustic Species ID"
    link: "/acoustic-species-identification"
  - project_name: "Radio Collar Tracker"
-   photo: "assets/projects-radio_collar_tracker-project_radiocollar.jpg"
+   photo: "assets/radio_collar_tracker/projects-radio_collar_tracker-project_radiocollar.jpg"
    text: "The Airborne Radio Collar Tracker is a low cost solution to tracking wildlife radio collars from an aerial vantage point"
    link: "/radio-collar-tracker"
  - project_name: "Baboons on the Move"
@@ -28,7 +28,7 @@ blurbs:
    text: "Smartfin brings citizen science to surfing, turning surfboards into coastal monitoring stations to seamlessly gather data on the near-shore environment"
    link: "/smartfin"
  - project_name: "Research Support Group"
-   photo: "assets/projects-reserach_support-e4esquarelogo-v2-1.png"
+   photo: "e4esquarelogo-v2.png"
    text: "The Research Support Group supports all research operations at E4E"
    link: "/research-support-group"
 ---
