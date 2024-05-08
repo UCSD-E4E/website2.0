@@ -24,7 +24,7 @@ blurbs:
    text: "Monitoring the mangrove swamps in Baja California with the Scripps Institute of Oceanography via aerial surveys and 3D reconstruction"
    link: "/mangrove-monitoring"
  - project_name: "Smartfin"
-   photo: "assets/projects-smartfin-SF_seeThrough_square_250x250.jpg"
+   photo: "assets/smartfin/about_smartfin.jpg"
    text: "Smartfin brings citizen science to surfing, turning surfboards into coastal monitoring stations to seamlessly gather data on the near-shore environment"
    link: "/smartfin"
  - project_name: "Research Support Group"
