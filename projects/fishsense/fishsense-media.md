@@ -1,6 +1,5 @@
 ---
 layout: gallery
-#disable for now
 #permalink: /fishsense/media
 title: Fishsense
 category: fishsense
