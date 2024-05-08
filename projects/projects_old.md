@@ -84,7 +84,7 @@ blurbs:
    text: "Engineering systems to create immersive visualizations of underwater caves"
    link: "underwater-cave-imaging"
  - project_name: "Vaquita Monitoring"
-   photo: "assets/projects-old_projects-vaquita_monitoring.jpg"
+   photo: "assets/vaquita/vaquita_monitoring.jpg"
    text: "Technology to enable visual monitoring of the vaquita porpoise, the most endangered marine mammal in the world"
    link: "vaquita"
  - project_name: "Searching for Harpy Eagles"
