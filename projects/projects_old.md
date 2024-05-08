@@ -4,7 +4,7 @@ permalink: /past-projects
 title: Past Projects
 blurbs: 
  - project_name: "Aye Aye"
-   photo: "assets/projects-old_projects-aye-aye-baby_250x250.jpg"
+   photo: "assets/aye_aye/aye-aye-thumb.jpg"
    text: "Intelligent camera systems to remotely monitor wildlife"
    link: "aye-aye-sleep-monitoring"
  - project_name: "Burrowing Owl Behavior Classification"
@@ -20,7 +20,7 @@ blurbs:
    text: "Documenting ancient shipwrecks using 3D reconstruction, stereo imaging, and Structure from Motion"
    link: "nautical-archaeology"
  - project_name: "Angry Birds"
-   photo: "assets/projects-old_projects-project_angrybirds4.jpg"
+   photo: "assets/angry_birds/about_angrybirds.jpg"
    text: "The autonomous bird collision monitor (Angry Birds) is a compact ecological research tool for biologists studying bird strikes against plate glass"
    link: "angry-birds"
  - project_name: "Elephant Monitoring"

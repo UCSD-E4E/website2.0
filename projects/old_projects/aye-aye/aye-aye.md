@@ -8,7 +8,7 @@ enable_nav: false
 
 {% include 
     img_caption.html
-    src="assets/projects-old_projects-aye-aye-aye-aye-baby.jpg"
+    src="assets/aye_aye/aye-aye-baby.jpg"
     caption="Baby aye-aye courtesy of SD Zoo Wildlife Alliance"
 %}
 
@@ -19,7 +19,7 @@ We want to develop a system for intelligently monitoring animals 24/7 so that sc
 
 {% include 
     img_caption.html
-    src="assets/projects-old_projects-aye-aye-2023.01.09.on-box-render-1074x604.png"
+    src="assets/aye_aye/2023-01-09_on-box-render.png"
     caption="On-Box Sensor Unit"
 %}
 
