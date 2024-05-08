@@ -43,7 +43,7 @@ Beta release:
 
 [https://davidjasperforman.github.io/MLPaintWeb/](https://davidjasperforman.github.io/MLPaintWeb/)
 
-If you are interested in learning more about labeling events or becoming involved in this project contact us. [e4e@eng.ucsd.edu](e4e@eng.ucsd.edu)
+If you are interested in learning more about labeling events or becoming involved in this project contact us. [e4e@ucsd.edu](mailto:e4e@ucsd.edu)
 
 SIO collaborators:
 Octavio Aburto, Astrid Hsu, Mathew Costa, Joy Kumagai, Alex Makic
