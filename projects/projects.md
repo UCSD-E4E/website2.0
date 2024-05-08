@@ -20,7 +20,7 @@ blurbs:
    text: "Using handheld 3D imaging platforms to monitor and measure fish populations in collaboration with the Scripps Institute of Oceanography"
    link: "/fishsense"
  - project_name: "Mangrove Monitoring"
-   photo: "assets/mangrove/projects-mangrove-mangrove_monitoring_thumb.jpg"
+   photo: "assets/mangrove/mangrove_monitoring_thumb.jpg"
    text: "Monitoring the mangrove swamps in Baja California with the Scripps Institute of Oceanography via aerial surveys and 3D reconstruction"
    link: "/mangrove-monitoring"
  - project_name: "Smartfin"
