@@ -44,7 +44,7 @@ blurbs:
    text: "Monitoring the regrowth of native plant life in the San Dieguito River Valley Conservancy via aerial surveys and 3D reconstruction"
    link: "del-dios-monitoring"
  - project_name: "Aerial LIDAR"
-   photo: "assets/projects-old_projects-aerial_lidar_thumb.jpg"
+   photo: "assets/aerial_lidar/aerial_lidar_thumb.jpg"
    text: "Aerial LIDAR system for jungle canopy surveys"
    link: "aerial-lidar"
  - project_name: "Autonomous Airplanes"
