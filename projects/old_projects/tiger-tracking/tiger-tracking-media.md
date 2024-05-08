@@ -6,13 +6,19 @@ category: tiger-tracking
 enable_nav: true
 grid: true
 media: 
- - assets/projects-old_projects-tiger-tracking-29191592181_d2c3947eb7.jpg
- - assets/projects-old_projects-tiger-tracking-29191589781_c0ba84f96b.jpg
- - assets/projects-old_projects-tiger-tracking-29191587401_b1fa0c6d43.jpg
- - assets/projects-old_projects-tiger-tracking-28647123864_811a47fab3.jpg
- - assets/projects-old_projects-tiger-tracking-28647121824_318ede6d56.jpg
- - assets/projects-old_projects-tiger-tracking-29270338205_aa689d555a.jpg
- - assets/projects-old_projects-tiger-tracking-28647024394_f7f55a8299.jpg
- - assets/projects-old_projects-tiger-tracking-28647041954_51fa430f74.jpg
+ - assets/tiger_tracking/2013-07-03_tiger.jpg
+ - assets/tiger_tracking/2013-08-13_perry_installing_camera_trap.jpg
+ - assets/tiger_tracking/2013-08-13_tiger1.jpg
+ - assets/tiger_tracking/2013-08-13_tiger2.jpg
+ - assets/tiger_tracking/2014-12-15_ip_camera.jpg
+ - assets/tiger_tracking/2013-08-13_tiger3.jpg
+ - assets/tiger_tracking/2013-07-03_installing_camera.jpg
+ - assets/tiger_tracking/2013-08-13_tiger4.jpg
+ - assets/tiger_tracking/2013-08-13_tiger5.jpg
+ - assets/tiger_tracking/2013-08-13_tiger6.jpg
+ - assets/tiger_tracking/2013-12-15_ubiquiti_airCAM.jpg
+ - assets/tiger_tracking/2013-12-15_tiger_art.jpg
+ - assets/tiger_tracking/2013-08-13_tiger7.jpg
+ - assets/tiger_tracking/2013-08-13_tiger8.jpg
 ---
 

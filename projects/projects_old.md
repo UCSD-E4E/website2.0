@@ -28,7 +28,7 @@ blurbs:
    text: "Developing low-frequency microphones for monitoring elephant activity in collaboration with the San Diego Zoo"
    link: "elephant-monitoring"
  - project_name: "Tiger Tracking"
-   photo: "assets/projects-old_projects-tiger_tracker_thumb.jpg"
+   photo: "assets/tiger_tracking/tiger_tracker_thumb.jpg"
    text: "Collaboration with the San Diego Zoo to create computer vision algorithms for autonomous tiger tracking"
    link: "tiger-tracking"
  - project_name: "Wolf Monitoring"
