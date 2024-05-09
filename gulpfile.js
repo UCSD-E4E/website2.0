@@ -52,6 +52,9 @@ function start_server(cb) {
             baseDir: "./_site/"
         },
         port: 4000,
+        online: false,
+        host: "localhost",
+        ui: false,
         // WARNING: IF YOU FIND YOURSELF EDITING THIS FILE
         // then you may need to aslo check if the prod redict rules in .htaccess
         // work for the case your are trying to fix (use `jekyll serve`)
