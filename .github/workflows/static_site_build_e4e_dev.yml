@@ -42,7 +42,7 @@ jobs:
         run: bundle list
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: npx gulp build #bundle exec jekyll build --baseurl "" --config _config.yml,_e4e_dev_config.yml
+        run: npx gulp build -j '--baseurl "${{ steps.pages.outputs.base_path }}" --config _config.yml,_dev_config.yml'
         env:
           JEKYLL_ENV: production
 
