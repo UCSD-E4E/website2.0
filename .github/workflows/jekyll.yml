@@ -42,7 +42,6 @@ jobs:
           sudo apt-get update
           sudo apt-get install graphicsmagick node.js npm
           npm ci
-          npx gulp build
       - name: Checks Ruby Gems
         run: bundle list
       # - name: Setup Pages
