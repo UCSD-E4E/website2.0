@@ -40,6 +40,11 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 Dev deployment target: https://ucsd-e4e.github.io/website2.0/
 
+## Other gulp commands
+- `npx gulp build` performs a single static build of the site
+- `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arugments
+
+
 ## Adding Publications
 1. Open [_bibliography/publications.bib](_bibliography/publications.bib) in [JabRef](https://www.jabref.org/).
 2. Add the new publication using the correct classification

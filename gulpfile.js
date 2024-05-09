@@ -6,6 +6,38 @@ const exec = util.promisify(require('node:child_process').exec);
 const { watch, src, dest , series} = require('gulp');
 var browserSync = require('browser-sync').create();
 
+function process_CLI(cb) {
+    // fetch command line arguments
+    //https://www.sitepoint.com/pass-parameters-gulp-tasks/
+    const arg = (argList => {
+        let arg = {}, a, opt, thisOpt, curOpt;
+        for (a = 0; a < argList.length; a++) {
+            thisOpt = argList[a].trim();
+            opt = thisOpt.replace(/^\-+/, '');
+            if (opt === thisOpt) {
+                // argument value
+                if (curOpt) arg[curOpt] = opt;
+                curOpt = null;
+            }
+            else {
+                // argument name
+                curOpt = opt;
+                arg[curOpt] = true;
+            }
+        }
+    
+        return arg;
+    
+    })(process.argv);
+
+    //testing command line
+    if (cb != null) {
+        console.log(arg)
+        cb()
+    } else {
+        return arg
+    }
+}
 
 function copy_foundation_files(cb) {
     //move foundation css to build 
@@ -24,19 +56,35 @@ async function create_command(command) {
 }
 
 async function build(cb) {
-    await create_command("bundle exec jekyll build --config _config.yml")
+    var arg = process_CLI()
+    if ("j" in arg) {
+        await create_command("bundle exec jekyll build " + arg["j"])
+    } else {
+        await create_command("bundle exec jekyll build --config _config.yml")
+    }
     cb();
 }
 
 async function prod_build(cb) {
-    await create_command("bundle exec jekyll build --config '_config.yml,_e4e_dev_config.yml'")
+    var arg = process_CLI()
+    if ("j" in arg) {
+        await create_command("bundle exec jekyll build " + arg["j"])
+    } else {
+        await create_command("bundle exec jekyll build --config '_config.yml,_e4e_dev_config.yml'")
+    }
     cb();
 }
 
 async function dev_build(cb) {
-    await create_command("bundle exec jekyll build --config _local_config.yml")
+    var arg = process_CLI()
+    if ("j" in arg) {
+        await create_command("bundle exec jekyll build " + arg["j"])
+    } else {
+        await create_command("bundle exec jekyll build --config '_config.yml,_local_config.yml'")
+    }
     cb();
 }
+
 
 //ASSUMES THAT SERVER CANNOT GO DOWN AS LONG AS GULP IS WATCHING
 let has_started = false;
@@ -54,7 +102,7 @@ function start_server(cb) {
         port: 4000,
         online: false,
         host: "localhost",
-        ui: false,
+
         // WARNING: IF YOU FIND YOURSELF EDITING THIS FILE
         // then you may need to aslo check if the prod redict rules in .htaccess
         // work for the case your are trying to fix (use `jekyll serve`)
@@ -87,3 +135,4 @@ exports.default = defaultTask
 exports.build = series(copy_foundation_files, prod_build)
 exports.Local_build = series(copy_foundation_files, build)
 exports.watch = series(copy_foundation_files, livereload)
+exports.test = process_CLI
