@@ -52,7 +52,7 @@ blurbs:
    text: "Unmanned airplanes for long-range aerial surveys, wildlife monitoring, and Structure from Motion"
    link: "autonomous-planes"
  - project_name: "Autonomous Copters"
-   photo: "assets/projects-old_projects-copter_thumb.jpg"
+   photo: "assets/copters/copter_thumb.jpg"
    text: "Unmanned copters for short-range aerial surveys, Structure from Motion, and radio collar tracking"
    link: "autonomous-copters"
  - project_name: "Condor Cam"
