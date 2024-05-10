@@ -36,7 +36,7 @@ blurbs:
    text: "Collaboration with the California Wolf Center to develop a mobile terrestrial wolf monitoring vehicle"
    link: "wolf-tracking"
  - project_name: "Bird Nest Tracker"
-   photo: "assets/projects-old_projects-bird_nest_thumb.jpg"
+   photo: "assets/bird_nest/bird_nest_thumb.jpg"
    text: "Aerial bird nest tracking for habitat monitoring"
    link: "bird-nest-tracker"
  - project_name: "Del Dios Monitoring"

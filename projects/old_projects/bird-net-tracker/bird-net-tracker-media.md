@@ -6,9 +6,9 @@ category: bird-nest-tracker
 enable_nav: true
 grid: true
 media: 
- - assets/projects-old_projects-bird-nest-tracker-29297461905_71aa1dd6d8.jpg
- - assets/projects-old_projects-bird-nest-tracker-29009402960_6cd7ff4c3c.jpg
- - assets/projects-old_projects-bird-nest-tracker-29010895400_369b8136d7.jpg
- - assets/projects-old_projects-bird-nest-tracker-29298757605_0324fe77fd.jpg
+ - assets/bird_nest/bird-nest-tracker_29297461905_o.png
+ - assets/bird_nest/bird-nest-tracker-deployment_29009402960_o.png
+ - assets/bird_nest/bird-nest-tracker_29010895400_o.jpg
+ - assets/bird_nest/bird-nest-tracker_29298757605_o.jpg
 ---
 
