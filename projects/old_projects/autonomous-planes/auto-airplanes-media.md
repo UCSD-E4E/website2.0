@@ -6,18 +6,18 @@ category: autonomous-planes
 enable_nav: true
 grid: true
 media: 
- - assets/projects-old_projects-autonomous-planes-11390274535_9f59a1a177.jpg
- - assets/projects-old_projects-autonomous-planes-15451915725_450e78e0b2.jpg
- - assets/projects-old_projects-autonomous-planes-15448754291_ba6e5a494d.jpg
- - assets/projects-old_projects-autonomous-planes-15265211690_9d26dc39b5.jpg
- - assets/projects-old_projects-autonomous-planes-15265305168_f01068134c.jpg
- - assets/projects-old_projects-autonomous-planes-15428841966_2b91c9def7.jpg
- - assets/projects-old_projects-autonomous-planes-15265304598_de8c5efa52.jpg
- - assets/projects-old_projects-autonomous-planes-15451913455_1fcb21fd1b.jpg
- - assets/projects-old_projects-autonomous-planes-15265209610_699957b4e1.jpg
- - assets/projects-old_projects-autonomous-planes-15451912895_cc45fb41ac.jpg
- - assets/projects-old_projects-autonomous-planes-19932567388_a95f2a8257.jpg
- - assets/projects-old_projects-autonomous-planes-16250313265_ae952edf4a.jpg
- - assets/projects-old_projects-autonomous-planes-16147813780_62dacf221a.jpg
+ - assets/planes/plane_11390274535_o.jpg
+ - assets/planes/img_0022_15451915725_o.jpg
+ - assets/planes/img_0078_15448754291_o.jpg
+ - assets/planes/img_2630_15265211690_o.jpg
+ - assets/planes/sky-surfer-pass_15265305168_o.jpg
+ - assets/planes/sky-surfer-under_15428841966_o.jpg
+ - assets/planes/skywalker-flying_15265304598_o.jpg
+ - assets/planes/skywalker-poster_15451913455_o.jpg
+ - assets/planes/skywalker-sitting_15265209610_o.jpg
+ - assets/planes/skywalker_clouds_15451912895_o.jpg
+ - assets/planes/aero_19932567388_o.jpg
+ - assets/planes/img_3770_16250313265_o.jpg
+ - assets/planes/flying-autonomous-airplanes-in-the-desert_16147813780_o.jpg
 ---
 
