@@ -12,7 +12,7 @@ blurbs:
    text: "Observing camera trap imagery using machine learning to protect the Burrowing Owls in Southern California"
    link: "burrowing-owl-behavior-classification"
  - project_name: "Maya Archaeology"
-   photo: "assets/projects-old_projects-project_mayaarchaeology.jpg"
+   photo: "assets/maya/maya_thumb.jpg"
    text: "Remote sensing technologies for documenting ancient Maya ruins in the jungles of Guatemala"
    link: "maya-archaeology"
  - project_name: "Nautical Archaeology"
