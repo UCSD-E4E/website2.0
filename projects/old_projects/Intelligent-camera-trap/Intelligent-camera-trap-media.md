@@ -6,17 +6,17 @@ category: intelligent-camera-trap
 enable_nav: true
 grid: true
 media: 
- - assets/projects-old_projects-intelligent-camera-trap-11377727726_c8f43dee9f.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377714345_e13b92b860.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377714005_37585474f0.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377726326_fb7860eae8.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377712685_5dfe495b30.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377712165_2ecc15a995.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377818756_c2f3283056.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377817986_49995957bd.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377940313_b55a649b3c.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377940123_9e9640fb0f.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377804635_7d6870dcb7.jpg
- - assets/projects-old_projects-intelligent-camera-trap-11377804025_73aef57f70.jpg
+ - assets/camera_trap/installing-camera-trap-at-california-wolf-center_11377727726_o.jpg
+ - assets/camera_trap/wolf-enclosures-at-california-wolf-center_11377714345_o.jpg
+ - assets/camera_trap/mexican-gray-wolf-at-california-wolf-center_11377714005_o.jpg
+ - assets/camera_trap/setting-up-the-camera-trap_11377726326_o.jpg
+ - assets/camera_trap/camera-trap_11377712685_o.jpg
+ - assets/camera_trap/camera-trap-team-at-california-wolf-center_11377712165_o.jpg
+ - assets/camera_trap/tiger-exhibit-san-diego-zoo.jpg
+ - assets/camera_trap/testing-camera-trap-at-san-diego-zoo_11377817986_o.jpg
+ - assets/camera_trap/tiger-at-san-diego-zoo_11377940313_o.jpg
+ - assets/camera_trap/testing-camera-trap-at-san-diego-zoo_11377940123_o.jpg
+ - assets/camera_trap/tiger-at-san-diego-zoo_11377804635_o.jpg
+ - assets/camera_trap/camera-trap-team-at-san-diego-zoo_11377804025_o.jpg
 ---
 

@@ -64,7 +64,7 @@ blurbs:
    text: "Stabilized camera platform for recording gigapan aerial imagery and Structure from Motion"
    link: "stabilized-aerial-camera-platform"
  - project_name: "Intelligent Camera Trap"
-   photo: "assets/projects-old_projects-project_cameratrap.jpg"
+   photo: "assets/camera_trap/camera_trap_thumb.jpg"
    text: "Camera system for autonomously monitoring and logging animal behavior"
    link: "intelligent-camera-trap"
  - project_name: "Terrestrial Vehicle"
