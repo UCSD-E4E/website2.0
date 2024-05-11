@@ -60,7 +60,7 @@ blurbs:
    text: "Video camera for capturing flight and behavior footage for the California Condor"
    link: "condor-cam"
  - project_name: "Stabilized Aerial Camera Platform"
-   photo: "assets/projects-old_projects-project_balloon.jpg"
+   photo: "assets/balloon/balloon_thumb.jpg"
    text: "Stabilized camera platform for recording gigapan aerial imagery and Structure from Motion"
    link: "stabilized-aerial-camera-platform"
  - project_name: "Intelligent Camera Trap"
