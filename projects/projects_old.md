@@ -24,7 +24,7 @@ blurbs:
    text: "The autonomous bird collision monitor (Angry Birds) is a compact ecological research tool for biologists studying bird strikes against plate glass"
    link: "angry-birds"
  - project_name: "Elephant Monitoring"
-   photo: "assets/projects-old_projects-elephant_monitoring_thumb.jpg"
+   photo: "assets/elephant_infrasound/elephant_thumb.jpg"
    text: "Developing low-frequency microphones for monitoring elephant activity in collaboration with the San Diego Zoo"
    link: "elephant-monitoring"
  - project_name: "Tiger Tracking"

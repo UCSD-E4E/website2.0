@@ -6,7 +6,6 @@ category: elephant-monitoring
 enable_nav: true
 grid: true
 media: 
- - assets/projects-old_projects-elephant-monitoring-28648799313_6a910bcda9.jpg
- - assets/projects-old_projects-elephant-monitoring-28648796553_7e70d0a869.jpg
----
+ - assets/elephant_infrasound/camera-trap-at-san-diego-zoo_28648799313_o.jpg
+ - assets/elephant_infrasound/camera-trap-at-san-diego-zoo_28648796553_o.jpg
 
