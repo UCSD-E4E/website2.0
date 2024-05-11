@@ -8,7 +8,7 @@ blurbs:
    text: "Intelligent camera systems to remotely monitor wildlife"
    link: "aye-aye-sleep-monitoring"
  - project_name: "Burrowing Owl Behavior Classification"
-   photo: "assets/projects-old_projects-burronw_owl_thumbnail.png"
+   photo: "assets/burrowing_owl/owl_thumb.png"
    text: "Observing camera trap imagery using machine learning to protect the Burrowing Owls in Southern California"
    link: "burrowing-owl-behavior-classification"
  - project_name: "Maya Archaeology"
