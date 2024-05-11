@@ -9,7 +9,7 @@ The Tunnel Bot is a portable, low-cost remotely operated terrestrial vehicle, de
 
 {% include 
     img_caption.html
-    src="/assets/projects-old_projects-tunnel-bot-IMG_18091.jpg"
+    src="assets/tunnel_bot/tunnelbot-and-user-station_15639395528_o.jpg"
     caption="Tunnel Bot setup showing vehicle, joystick, and viewing screen."
 %}
 

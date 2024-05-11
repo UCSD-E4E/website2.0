@@ -72,7 +72,7 @@ blurbs:
    text: "Terrestrial vehicle for remote mobile wildlife photography"
    link: "terrestrial-vehicle"
  - project_name: "Tunnel Bot"
-   photo: "assets/projects-old_projects-project_tunnelbot.jpg"
+   photo: "assets/tunnel_bot/tunnel_bot_thumb.jpg"
    text: "Mobile rover for capturing footage inside underground tunnels"
    link: "tunnel-bot"
  - project_name: "OpenROV"
