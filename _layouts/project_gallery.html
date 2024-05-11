@@ -7,18 +7,16 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
 
     {{ content }}
-    
+
     <div class="project-gallery">
         {%- for project_data in page.blurbs -%}
-        <div class="project-container">
+        <div class="project-gallery_container">
             <a href={{ project_data.redict }}>
-                <img 
-                    src="{{site.url | append: "/" | append: project_data.photo}}" 
-                    class="gallery_img" 
-                    decoding="async" alt="">
+                <img src="{{ project_data.photo | absolute_url }}" class="project-gallery_img" decoding="async"
+                    alt="">
             </a>
             <div description>
-                <a href={{ project_data.redict }}>
+                <a href={{ project_data.link }}>
                     {{ project_data.project_name }}
                 </a>
 
@@ -27,26 +25,6 @@ layout: default
                 </p>
             </div>
         </div>
-    {%- endfor -%}
+        {%- endfor -%}
     </div>
-
-    <style>
-        .project-gallery {
-            display: flex;
-            flex: auto;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            gap: 10px;
-        }
-
-        .project-container {
-            width: 250px;
-        }
-
-        img {
-            width: 250px;
-            height: 250px;
-        }
-    </style>
 </div>
