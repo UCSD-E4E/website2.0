@@ -56,7 +56,7 @@ blurbs:
    text: "Unmanned copters for short-range aerial surveys, Structure from Motion, and radio collar tracking"
    link: "autonomous-copters"
  - project_name: "Condor Cam"
-   photo: "assets/projects-old_projects-project_condorcam.png"
+   photo: "assets/condor_cam/condorcam_thumb.png"
    text: "Video camera for capturing flight and behavior footage for the California Condor"
    link: "condor-cam"
  - project_name: "Stabilized Aerial Camera Platform"
