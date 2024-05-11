@@ -10,10 +10,10 @@ Harpy Eagles are the largest and most powerful raptors in the Americas with ecol
 
 {% include 
     img_caption.html
-    src="/assets/projects-old_projects-harpy_find-KasiaBiernacka_MG_8411-1024x683.jpg"
+    src="/assets/harpy_eagle/KasiaBiernacka_MG_8411.jpg"
     caption="E4E Team deploying survey drone, photo courtesy of Kasia Biernacka"
 %}
 
 
 
-In 2016 we flew several UAV flights over the Bladen National Reserve in Belize taking aerial photographsÂ of the canopy. The resulting orthomosaic, a large image stitched together from hundreds of smaller photographs, encompasses roughly 7 km^2 with a spatial resolution of approximately 10 cm/pixel. This huge amount of data needed to be processed in a way that helped ecologists discover nesting pairs of eagles. Finding nests directly quickly proved to be an impossible task in such a massive amount of data. A method to narrow the search was needed. We do know that Harpy Eagles prefer trees that reach above the canopy. Cohune Palm trees proved to be the ideal target as though they are not particularly tall themselves they are important indicators of soil type which is a strong determinant for tree height.    
+In 2016 we flew several UAV flights over the Bladen National Reserve in Belize taking aerial photographs of the canopy. The resulting orthomosaic, a large image stitched together from hundreds of smaller photographs, encompasses roughly 7 km^2 with a spatial resolution of approximately 10 cm/pixel. This huge amount of data needed to be processed in a way that helped ecologists discover nesting pairs of eagles. Finding nests directly quickly proved to be an impossible task in such a massive amount of data. A method to narrow the search was needed. We do know that Harpy Eagles prefer trees that reach above the canopy. Cohune Palm trees proved to be the ideal target as though they are not particularly tall themselves they are important indicators of soil type which is a strong determinant for tree height.    
