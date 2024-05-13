@@ -63,20 +63,15 @@ function rewriteMiddleware(req, res, next) {
     }
     if (url == "/.html") {
         serveContent(path.join(dirname, "/index.html"), res)
-        // res.writeHead(301, { 'Location': '/index.html' });
-        // res.end();
-        
     }
     
     const extension = path.extname(url);
     if (!extension) {
         // If the request does not have an extension add .html on it
         fs.stat(path.join(dirname, url + '.html'), (err, stats) => {
-            console.log(path.join(dirname, url + '.html'), stats, err)
+            //console.log(path.join(dirname, url + '.html'), stats, err)
             if (!err) {
                 serveContent(path.join(dirname, url + '.html'), res)
-                // res.writeHead(301, { 'Location': url + '.html' });
-                // res.end();
             } else {
                 next();
             }
