@@ -5,7 +5,7 @@ title: Ronan Wallace Awarded Fulbright for Floods of Lubra
 categories:
  - news-and-updates
 author: Nathan Hui
-featuredImage: assets/floods_of_lubra/fieldwork-nepal.jpg
+featuredImage: assets/floods_of_lubra/2022-06-02_fieldwork-nepal.jpg
 tags:
 - floods-of-lubra
 ---
