@@ -80,7 +80,7 @@ async function dev_build(cb) {
     if ("j" in arg) {
         await create_command("bundle exec jekyll build " + arg["j"])
     } else {
-        await create_command("bundle exec jekyll build --config '_config.yml,_local_config.yml'")
+        await create_command("bundle exec jekyll build --incremental --config '_config.yml,_local_config.yml'")
     }
     cb();
 }
