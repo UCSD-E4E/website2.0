@@ -90,8 +90,8 @@ async function dev_build(cb) {
 let has_started = false;
 function start_server(cb) {
     if (has_started) {
-        cb();
         return;
+        cb();
     }
 
     has_started = true;
@@ -108,6 +108,7 @@ function start_server(cb) {
         // work for the case your are trying to fix (use `jekyll serve`)
         middleware: [middleware.rewriteMiddleware, middleware.error404Middleware]
     });
+    cb();
 }
 
 function reload(cb) {
@@ -119,7 +120,11 @@ function reload(cb) {
 function livereload(cb) {
     // All events will be watched
 
-    fileGlops = ["**.html", "**.md", "_layouts/**", "_includes/**", "_posts/**", "_sass/**", "assets/**"]
+    fileGlops = [
+        "_bibliography/**", "_data/**", "_includes/**",
+        "_layouts/**", "_posts/**", "_sass/**", "assets/**",
+        "projects/**", "**.html", "**.md", "**.markdown",   
+    ]
     watch(fileGlops, { events: 'all', ignoreInitial: false }, series(copy_foundation_files, dev_build, reload));
     
     cb();

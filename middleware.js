@@ -58,8 +58,8 @@ function serveContent(filePath, res) {
 // Custom middleware to handle trailing slashes and append .html extension
 function rewriteMiddleware(req, res, next) {
     let  url = req.url
-    if (url[-1] == "/") {
-        url = url.splice(0, -1)
+    if (url.slice(-1) == "/") {
+        url = url.slice(0, -1)
     }
     if (url == "/.html") {
         serveContent(path.join(dirname, "/index.html"), res)
@@ -72,6 +72,7 @@ function rewriteMiddleware(req, res, next) {
     if (!extension) {
         // If the request does not have an extension add .html on it
         fs.stat(path.join(dirname, url + '.html'), (err, stats) => {
+            console.log(path.join(dirname, url + '.html'), stats, err)
             if (!err) {
                 serveContent(path.join(dirname, url + '.html'), res)
                 // res.writeHead(301, { 'Location': url + '.html' });
