@@ -23,7 +23,7 @@ We want to develop a system for intelligently monitoring animals 24/7 so that sc
     caption="On-Box Sensor Unit"
 %}
 
-If you have any of the following skillsets and are interested in this project, please reach out to our staff engineer Nathan Hui (<a href="javascript:DeCryptX('2p0t1i3x3l0@3x2e1t3g0.1f0d1v')">nthui@ucsd.edu</a>)
+If you have any of the following skillsets and are interested in this project, please reach out to our staff engineer Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
  - Linux systemd
  - Networking
  - Python and multithreading
