@@ -88,7 +88,7 @@ blurbs:
    text: "Technology to enable visual monitoring of the vaquita porpoise, the most endangered marine mammal in the world"
    link: "vaquita"
  - project_name: "Searching for Harpy Eagles"
-   photo: "assets/projects-old_projects-harpy-eagle.jpg"
+   photo: "assets/harpy_eagle/harpy-eagle_thumb.jpg"
    text: "Searching for New Harpy eagles in the Belize Jungle"
    link: "harpy_find"
 ---
