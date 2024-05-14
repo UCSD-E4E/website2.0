@@ -39,6 +39,12 @@ function process_CLI(cb) {
     }
 }
 
+async function update_packages(cb) {
+    await create_command("npm ci")
+    await create_command("bundle install")
+    cb()
+}
+
 function copy_foundation_files(cb) {
     //move foundation css to build 
     foundation = [
@@ -61,16 +67,6 @@ async function build(cb) {
         await create_command("bundle exec jekyll build " + arg["j"])
     } else {
         await create_command("bundle exec jekyll build --config _config.yml")
-    }
-    cb();
-}
-
-async function prod_build(cb) {
-    var arg = process_CLI()
-    if ("j" in arg) {
-        await create_command("bundle exec jekyll build " + arg["j"])
-    } else {
-        await create_command("bundle exec jekyll build --config '_config.yml,_e4e_dev_config.yml'")
     }
     cb();
 }
@@ -132,12 +128,10 @@ function livereload(cb) {
 }
 
 function defaultTask(cb) {
-    console.log("test")
+    console.log("Testing Gulp is Working!")
     cb();
 }
 
 exports.default = defaultTask
-exports.build = series(copy_foundation_files, prod_build)
-exports.Local_build = series(copy_foundation_files, build)
-exports.watch = series(copy_foundation_files, livereload)
-exports.test = process_CLI
+exports.build = series(update_packages, copy_foundation_files, build)
+exports.watch = series(update_packages, copy_foundation_files, livereload)
