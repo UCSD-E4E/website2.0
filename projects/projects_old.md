@@ -68,7 +68,7 @@ blurbs:
    text: "Camera system for autonomously monitoring and logging animal behavior"
    link: "intelligent-camera-trap"
  - project_name: "Terrestrial Vehicle"
-   photo: "assets/projects-old_projects-project_vehicle.jpg"
+   photo: "assets/terrestrial_vehicle/vehicle_thumb.jpg"
    text: "Terrestrial vehicle for remote mobile wildlife photography"
    link: "terrestrial-vehicle"
  - project_name: "Tunnel Bot"
