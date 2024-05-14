@@ -51,6 +51,6 @@ jobs:
       #   uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: npx gulp build -j '--baseurl "${{ steps.pages.outputs.base_path }}" --config _config.yml,_dev_config.yml'
+        run: npx gulp build -j '--config _config.yml,_dev_config.yml'
         env:
           JEKYLL_ENV: production
