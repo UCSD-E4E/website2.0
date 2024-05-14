@@ -48,7 +48,7 @@ blurbs:
    text: "Aerial LIDAR system for jungle canopy surveys"
    link: "aerial-lidar"
  - project_name: "Autonomous Airplanes"
-   photo: "assets/projects-old_projects-autonomous_plane_thumb.jpg"
+   photo: "assets/planes/plane_thumb.jpg"
    text: "Unmanned airplanes for long-range aerial surveys, wildlife monitoring, and Structure from Motion"
    link: "autonomous-planes"
  - project_name: "Autonomous Copters"
