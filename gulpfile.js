@@ -2,9 +2,26 @@ const util = require('node:util');
 const fs = require('fs');
 const middleware = require('./middleware');
 
-const exec = util.promisify(require('node:child_process').exec);
+// const exec = util.promisify(require('node:child_process').exec);
+var spawn = require('cross-spawn'); //= require('child_process').spawn= require('cross-spawn'); ;
+
 const { watch, src, dest , series} = require('gulp');
 var browserSync = require('browser-sync').create();
+
+async function create_command(command) {
+    const child = spawn(command);
+
+    //Handle stdout stream
+    child.stdout.setEncoding('utf8');
+    child.stdout.on('data', function(data) {
+        console.log(data.toString());
+    });
+
+    //wait until child closes to continue
+    await new Promise( (resolve) => {
+        child.on('close', resolve)
+    })
+}
 
 function process_CLI(cb) {
     // fetch command line arguments
@@ -46,7 +63,8 @@ async function update_packages(cb) {
 }
 
 function copy_foundation_files(cb) {
-    //move foundation css to build 
+    //move foundation css to build
+    //note you may need to exclude these files in config.yml 
     foundation = [
         "./node_modules/foundation-sites/dist/css/foundation.min.css",
         "./node_modules/foundation-sites/dist/js/foundation.min.js"
@@ -55,11 +73,7 @@ function copy_foundation_files(cb) {
     return src(foundation).pipe(dest('_site/assets/')) 
 }
 
-async function create_command(command) {
-    const { stdout, stderr } = await exec(command);
-    console.log(`stdout: ${stdout}`);
-    console.error(`stderr: ${stderr}`);
-}
+
 
 async function build(cb) {
     var arg = process_CLI()
@@ -115,23 +129,23 @@ function reload(cb) {
 
 function livereload(cb) {
     // All events will be watched
-
     fileGlops = [
         "_bibliography/**", "_data/**", "_includes/**",
         "_layouts/**", "_posts/**", "_sass/**", "assets/**",
         "projects/**", "**.html", "**.md", "**.markdown",   
     ]
-    watch(fileGlops, { events: 'all', ignoreInitial: false }, series(copy_foundation_files, dev_build, reload));
+    watch(fileGlops, { events: 'all', ignoreInitial: false }, series(dev_build, copy_foundation_files, reload));
     
     cb();
     console.log("watcher created, stop watcher with ctrl+c")
 }
 
-function defaultTask(cb) {
+async function defaultTask(cb) {
     console.log("Testing Gulp is Working!")
+    await create_command("bundle exec jekyll build")
     cb();
 }
 
 exports.default = defaultTask
-exports.build = series(update_packages, copy_foundation_files, build)
-exports.watch = series(update_packages, copy_foundation_files, livereload)
+exports.build = series(update_packages, build, copy_foundation_files)
+exports.watch = series(update_packages, livereload)
