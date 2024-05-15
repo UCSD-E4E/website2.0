@@ -147,5 +147,5 @@ async function defaultTask(cb) {
 }
 
 exports.default = defaultTask
-exports.build = series(update_packages, build, copy_foundation_files)
+exports.build = series(build, copy_foundation_files)
 exports.watch = series(update_packages, livereload)
