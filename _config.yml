@@ -52,6 +52,7 @@ whitelist:
 #
 exclude:
   - README.md
+  - node_modules
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
