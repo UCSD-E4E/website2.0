@@ -9,7 +9,8 @@ const { watch, src, dest , series} = require('gulp');
 var browserSync = require('browser-sync').create();
 
 async function create_command(command) {
-    const child = spawn(command);
+    command = command.split(" ")
+    const child = spawn(command[0], command.splice(1, -1));
 
     //Handle stdout stream
     child.stdout.setEncoding('utf8');
