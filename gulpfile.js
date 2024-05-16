@@ -10,8 +10,8 @@ var browserSync = require('browser-sync').create();
 
 async function create_command(command) {
     command = command.split(" ")
-    console.log(command[0], command.slice(1, -1))
-    const child = spawn(command[0], command.slice(1, -1));
+    console.log(command[0], command.slice(1))
+    const child = spawn(command[0], command.slice(1));
 
     //Handle stdout stream
     child.stdout.setEncoding('utf8');
