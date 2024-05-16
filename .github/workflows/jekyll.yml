@@ -46,6 +46,8 @@ jobs:
           npm ci
       - name: Checks Ruby Gems
         run: bundle list
+      - name: Checks npm packages
+        run: npm list -g
       # - name: Setup Pages
       #   id: pages
       #   uses: actions/configure-pages@v4

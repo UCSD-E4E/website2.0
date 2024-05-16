@@ -40,6 +40,8 @@ jobs:
           npm ci
       - name: Checks Ruby Gems
         run: bundle list
+      - name: Checks npm packages
+        run: npm list -g
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: npx gulp build -j '--config _config.yml,_dev_config.yml'
