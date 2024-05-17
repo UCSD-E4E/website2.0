@@ -1,12 +1,15 @@
-const util = require('node:util');
-const fs = require('fs');
-const middleware = require('./middleware');
 
-// const exec = util.promisify(require('node:child_process').exec);
-var spawn = require('cross-spawn'); //= require('child_process').spawn= require('cross-spawn'); ;
 
-const { watch, src, dest , series} = require('gulp');
-var browserSync = require('browser-sync').create();
+
+var spawn = require('cross-spawn'); 
+const { src, dest , series} = require('gulp');
+
+// Uncomment if we ever stop using jekyll serve for dev builds
+// const { watch, src, dest , series} = require('gulp');
+// var browserSync = require('browser-sync').create();
+// const util = require('node:util');
+// const fs = require('fs');
+// const middleware = require('./middleware');
 
 async function create_command(command) {
     command = command.split(" ")
@@ -103,50 +106,51 @@ async function dev_build(cb) {
     cb();
 }
 
+// If we ever need to load something in between builds, here is how to do it
+// Commented out so we only use jekyll serve
+// //ASSUMES THAT SERVER CANNOT GO DOWN AS LONG AS GULP IS WATCHING
+// let has_started = false;
+// function start_server(cb) {
+//     if (has_started) {
+//         return;
+//         cb();
+//     }
 
-//ASSUMES THAT SERVER CANNOT GO DOWN AS LONG AS GULP IS WATCHING
-let has_started = false;
-function start_server(cb) {
-    if (has_started) {
-        return;
-        cb();
-    }
+//     has_started = true;
+//     browserSync.init({
+//         server: {
+//             baseDir: "./_site/"
+//         },
+//         port: 4000,
+//         online: false,
+//         host: "localhost",
 
-    has_started = true;
-    browserSync.init({
-        server: {
-            baseDir: "./_site/"
-        },
-        port: 4000,
-        online: false,
-        host: "localhost",
+//         // WARNING: IF YOU FIND YOURSELF EDITING THIS FILE
+//         // then you may need to aslo check if the prod redict rules in .htaccess
+//         // work for the case your are trying to fix (use `jekyll serve`)
+//         middleware: [middleware.rewriteMiddleware, middleware.error404Middleware]
+//     });
+//     cb();
+// }
 
-        // WARNING: IF YOU FIND YOURSELF EDITING THIS FILE
-        // then you may need to aslo check if the prod redict rules in .htaccess
-        // work for the case your are trying to fix (use `jekyll serve`)
-        middleware: [middleware.rewriteMiddleware, middleware.error404Middleware]
-    });
-    cb();
-}
+// function reload(cb) {
+//     start_server(() => {})
+//     browserSync.reload()
+//     cb();
+// }
 
-function reload(cb) {
-    start_server(() => {})
-    browserSync.reload()
-    cb();
-}
-
-function livereload(cb) {
-    // All events will be watched
-    fileGlops = [
-        "_bibliography/**", "_data/**", "_includes/**",
-        "_layouts/**", "_posts/**", "_sass/**", "assets/**",
-        "projects/**", "**.html", "**.md", "**.markdown",   
-    ]
-    watch(fileGlops, { events: 'all', ignoreInitial: false }, series(copy_foundation_files, dev_build, reload));
+// function livereload(cb) {
+//     // All events will be watched
+//     fileGlops = [
+//         "_bibliography/**", "_data/**", "_includes/**",
+//         "_layouts/**", "_posts/**", "_sass/**", "assets/**",
+//         "projects/**", "**.html", "**.md", "**.markdown",   
+//     ]
+//     watch(fileGlops, { events: 'all', ignoreInitial: false }, series(copy_foundation_files, dev_build, reload));
     
-    cb();
-    console.log("watcher created, stop watcher with ctrl+c")
-}
+//     cb();
+//     console.log("watcher created, stop watcher with ctrl+c")
+// }
 
 async function defaultTask(cb) {
     console.log("Testing Gulp is Working!")
