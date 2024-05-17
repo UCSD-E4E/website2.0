@@ -53,6 +53,8 @@ whitelist:
 exclude:
   - README.md
   - node_modules
+  - package-lock.json
+  - package.json
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
