@@ -96,9 +96,9 @@ async function build(cb) {
 async function dev_build(cb) {
     var arg = process_CLI()
     if ("j" in arg) {
-        await create_command("bundle exec jekyll build " + arg["j"])
+        await create_command("bundle exec jekyll serve " + arg["j"])
     } else {
-        await create_command("bundle exec jekyll build --config _config.yml,_local_config.yml")
+        await create_command("bundle exec jekyll serve --livereload")
     }
     cb();
 }
@@ -155,5 +155,5 @@ async function defaultTask(cb) {
 }
 
 exports.default = defaultTask
-exports.build = series(build, copy_foundation_files)
-exports.watch = series(update_packages, livereload)
+exports.build = series(update_packages, copy_foundation_files, build)
+exports.watch = series(update_packages, copy_foundation_files, dev_build)
