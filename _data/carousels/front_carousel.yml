@@ -25,8 +25,9 @@ images:
       "title": "Testing the SphereCam in La Jolla Cove"
     }
     - image: {
-      "url": /assets/banner_balloon.jpg,
-      "title": "Aerial Camera Platform and Fallen Star at UCSD"
+      "url": assets/balloon/falling-star-and-balloon_11376448196_o.jpg,
+      "title": "Aerial Camera Platform and Fallen Star at UCSD",
+      "crop": "3872x1698+0+0"
     }
     - image: {
       "url": /assets/banner_barges.png,
