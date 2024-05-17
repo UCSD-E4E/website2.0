@@ -1,0 +1,19 @@
+---
+layout: page
+title: Onboarding Papers
+permalink: /onboarding-papers
+---
+
+<div>
+<p>
+    Below are some good papers for each project that will help you get a feel for what the project is about.
+</p>
+
+{% for project in site.data.onboarding_papers %}
+
+    <a href = {{ project.url | absolute_url }}> <h4> {{ project.name }} </h4></a>
+    
+    {% assign file_name = project.bib_file | replace: ".bib","" %}
+    {% bibliography --file {{file_name}} %}
+{% endfor %}
+</div>

@@ -1,0 +1,24 @@
+- name: "Acoustic Species Identification"
+  bib_file: "Acoustic_Species_ID"
+  url: /acoustic-species-identification
+- bib_file: Baboons_on_the_Move
+  name: Baboons on the Move
+  url: /baboons-on-the-move
+- bib_file: FishSense
+  name: FishSense
+  url: /fishsense
+- bib_file: Mangrove_Monitoring
+  name: Mangrove Monitoring
+  url: /mangrove-monitoring
+- bib_file: Radio_Telemetry_Tracking
+  name: Radio Telemetry Tracking
+  url: /radio-collar-tracker
+- bib_file: Smartfin
+  name: Smartfin
+  url: /smartfin
+# - bib_file: aye-aye
+#   name: Aye-Aye Sleep Monitoring
+#   url: /aye-aye-sleep-monitoring
+- bib_file: esg
+  name: Research Support Group
+  url: /research-support-group
