@@ -19,6 +19,12 @@ async function create_command(command) {
         console.log(data.toString());
     });
 
+    //errors
+    child.stderr.setEncoding('utf8');
+    child.stderr.on('data', (data) => {
+        console.error(`${data}`);
+    });
+
     //wait until child closes to continue
     await new Promise( (resolve) => {
         child.on('close', resolve)
@@ -92,7 +98,7 @@ async function dev_build(cb) {
     if ("j" in arg) {
         await create_command("bundle exec jekyll build " + arg["j"])
     } else {
-        await create_command("bundle exec jekyll build  --config '_config.yml,_local_config.yml'")
+        await create_command("bundle exec jekyll build --config _config.yml,_local_config.yml")
     }
     cb();
 }
