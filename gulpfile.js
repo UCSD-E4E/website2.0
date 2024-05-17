@@ -78,7 +78,7 @@ function copy_foundation_files(cb) {
         "./node_modules/foundation-sites/dist/js/foundation.min.js"
     ]
    
-    return src(foundation).pipe(dest('_site/assets/')) 
+    return src(foundation).pipe(dest('cache')) 
 }
 
 
@@ -142,7 +142,7 @@ function livereload(cb) {
         "_layouts/**", "_posts/**", "_sass/**", "assets/**",
         "projects/**", "**.html", "**.md", "**.markdown",   
     ]
-    watch(fileGlops, { events: 'all', ignoreInitial: false }, series(dev_build, copy_foundation_files, reload));
+    watch(fileGlops, { events: 'all', ignoreInitial: false }, series(copy_foundation_files, dev_build, reload));
     
     cb();
     console.log("watcher created, stop watcher with ctrl+c")
