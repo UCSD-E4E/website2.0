@@ -17,7 +17,8 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.6"
   gem 'jekyll-redirect-from'
   gem 'jekyll-scholar'
-  gem "jekyll-resize", git: "https://github.com/UCSD-E4E/jekyll-resize", branch: "create_mutliple_modules"
+  gem 'jekyll-archives'
+  gem "jekyll-resize", git: "https://github.com/UCSD-E4E/jekyll-resize"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
