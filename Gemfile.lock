@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/UCSD-E4E/jekyll-resize
-  revision: d842e783b935dc1641d8eca84a46d2fdfa5c8dad
+  revision: 94608bc31238abb979097d5695053921772ac940
   specs:
     jekyll-resize (1.3.1)
       jekyll (> 3.3, < 5.0)
@@ -42,7 +42,7 @@ GEM
     google-protobuf (4.26.1-x86_64-linux)
       rake (>= 13)
     http_parser.rb (0.8.0)
-    i18n (1.14.4)
+    i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     jekyll (4.3.3)
       addressable (~> 2.4)
@@ -100,20 +100,20 @@ GEM
       strscan (>= 3.0.9)
     rouge (4.2.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.75.0-arm64-darwin)
+    sass-embedded (1.77.2-arm64-darwin)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.75.0-x64-mingw-ucrt)
+    sass-embedded (1.77.2-x64-mingw-ucrt)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.75.0-x86_64-darwin)
+    sass-embedded (1.77.2-x86_64-darwin)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.75.0-x86_64-linux-gnu)
+    sass-embedded (1.77.2-x86_64-linux-gnu)
       google-protobuf (>= 3.25, < 5.0)
     strscan (3.1.0)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2023.4)
+    tzinfo-data (1.2024.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (2.5.0)
     wdm (0.1.1)

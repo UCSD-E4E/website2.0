@@ -15,26 +15,23 @@
 
 
 
-<p>[{{urls | split: "|" | join: " | "}}]</p>
-<ul class="accordion" data-accordion>
-    <li class="accordion-item is-active" data-accordion-item>
-      <a href="#" class="accordion-title">Accordion 1</a>
+<p>[{{urls | split: "|" | join: " | "}}]</p> 
+{% if entry.abstract or  entry.keywords %}
+<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+    <li class="accordion-item" data-accordion-item>
+      <a href="#" class="accordion-title">Abstract</a>
       <div class="accordion-content" data-tab-content >
         {% if entry.abstract %}
         <p></p>
         <blockquote><p>{{ entry.abstract }}</p></blockquote>
         {% endif %}
-      </div>
-    </li>
-    <li class="accordion-item" data-accordion-item>
-      <a href="#" class="accordion-title">Accordion 2</a>
-      <div class="accordion-content" data-tab-content>
         {% if entry.keywords %}
         <blockquote><p>Keywords: {{ entry.keywords }}</p></blockquote>
         {% endif %}
       </div>
     </li>
   </ul>
+  {% endif %}
 
 
 

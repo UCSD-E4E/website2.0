@@ -62,7 +62,7 @@ function process_CLI(cb) {
 
 async function update_packages(cb) {
     await create_command("npm ci")
-    await create_command("bundle install")
+    await create_command("bundle update")
     cb()
 }
 
