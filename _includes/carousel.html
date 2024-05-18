@@ -12,10 +12,10 @@
         <ul  class="carousel__track">
           {% for item in carousels.images %}
           <div class="carousel__slide_title">
-            {% capture resize_cmd %}1140x500!,webp,80{% if item.image['crop'] %},{{ item.image['crop'] }}{% endif %}{% endcapture %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image['url'] | resize: resize_cmd }}');"></li>
+            {% capture resize_cmd %}1140x500!,jpg,{% if item['crop'] %},{{ item['crop'] }}{% endif %}{% endcapture %}
+            <li class="carousel__slide" style="background-image: url('{{ item['url'] | resize: resize_cmd }}');"></li>
             <div class="carousel_titles">
-              <p class="carousel_title"> {{item.image['title']}} </p>
+              <p class="carousel_title"> {{item['title']}} </p>
             </div>
           </div>
           {% endfor %}
