@@ -1,7 +1,7 @@
 ---
 date: 2013-05-11 20:15:26+00:00
 description: null
-featuredImage: '/assets/2013-05-11-condorcam2.png'
+featuredImage: assets/condor_cam/condor_cam_cad.png
 layout: blog-post
 author: Antonella Wilby
 slug: /condorcam-cad-model
