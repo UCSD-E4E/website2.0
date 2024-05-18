@@ -71,7 +71,9 @@ function copy_foundation_files(cb) {
     //note you may need to exclude these files in config.yml 
     foundation = [
         "./node_modules/foundation-sites/dist/css/foundation.min.css",
-        "./node_modules/foundation-sites/dist/js/foundation.min.js"
+        "./node_modules/foundation-sites/dist/css/foundation.min.css.map",
+        "./node_modules/foundation-sites/dist/js/foundation.min.js",
+        "./node_modules/foundation-sites/dist/js/foundation.min.js.map"
     ]
    
     return src(foundation).pipe(dest('cache')) 
