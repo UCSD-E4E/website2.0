@@ -8,7 +8,7 @@
             "name": "Jekyll Live Server",
             "type": "PowerShell",
             "request": "launch",
-            "script": "bundle exec jekyll serve --livereload",
+            "script": "npx gulp watch",
             "cwd": "${workspaceFolder}"
         }
         
