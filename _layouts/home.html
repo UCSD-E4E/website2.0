@@ -80,47 +80,10 @@ layout: default
       <nav class="home_post_nav">
         {% assign year = site.posts[0].date | date: '%Y' %}
         <a class="post-link" href="{{ "/archive/" | append: year | relative_url }}">
-          <button class="home_posts_nav_left">
             <p>To Archive</p>
-          </button>
         </a>
-        <!-- <button  class="home_posts_nav_left" onclick="click_left()">
-          <p>left<p>
-        </button >
-        <button  class="home_posts_nav_right"  onclick="click_right()">
-          <p>right<p>
-        </button > -->
       </nav>
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
     </div>
   </div>
-
-  <script>
-    let index = 0;
-    console.log("test")
-    function swap_display(index, display_type) {
-      var list = document.querySelectorAll(".home_post_page.home_post_page_"+index);
-      console.log(list, list.array)
-      list.forEach(element => {
-        element.style.display = display_type;
-      });
-    }
-
-    function click_left() {
-      console.log(index)
-      if (index < {{num_sections}}) {
-        swap_display(index, "none")
-        swap_display(index+1, "block")
-        index = index+1
-      }
-    }
-    function click_right() {
-      console.log(index)
-      if (index > 0) {
-        swap_display(index, "none")
-        swap_display(index-1, "block")
-        index = index-1
-      }
-    }
-  </script>
 </div>
