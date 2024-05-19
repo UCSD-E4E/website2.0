@@ -246,3 +246,40 @@ Format:
     enable_nav=true or false 
 %}
 
+## Adding blog posts
+Create a new file in `/_posts` with the following name: `{year}-{month}-{day}-{hyphenated-title}.md`.  For example: `2024-05-10-e4e-releases-new-jekyll-website.md`.
+
+At the top of the file, add the following:
+```
+---
+date: {year}-{month}-{day} {hour}:{minute}-{timezone offset}:00
+layout: blog-post
+title: {title}
+categories:
+ - news-and-updates
+author: {your name}
+featuredImage: {relative path to featured image}
+tags:
+- {additional tags}
+---
+```
+
+For example:
+```
+---
+date: 2024-05-07 21:45-07:00
+layout: blog-post
+title: Ronan Wallace Awarded Fulbright for Floods of Lubra
+categories:
+ - news-and-updates
+author: Nathan Hui
+featuredImage: assets/floods_of_lubra/fieldwork-nepal.jpg
+tags:
+- floods-of-lubra
+- fulbright
+---
+```
+
+Add the contents of your blog post after this preable, using the appropriate components.
+
+Commit this and any included images to a new branch (we recommend using the same format as the blob post file name).  Request a review from one of the website admins and enable auto merge.
