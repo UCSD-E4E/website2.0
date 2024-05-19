@@ -27,6 +27,8 @@ papers:
   name: Research Support Group
   url: /research-support-group
 ---
+Below are some good papers for each project that will help you get a feel for what the project is about.
+
 {% for project in page.papers %}
 # [{{ project.name }}]({{ project.url | absolute_url }})
 {% capture bib_file %}onboarding_papers/{{project.bib_file}}{% endcapture %}
