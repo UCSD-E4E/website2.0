@@ -152,6 +152,17 @@ Fill in permalink, title, and category with the same values used in the respecti
 
 Your post feed page on the website will be found at `/insert-project-link/project-updates`
 
+#### OPTIONAL: Add onboarding papers
+- Add your bib file for your project to `_bibliography/onboarding_papers`
+- In `onboarding_papers.md`, add the following to the front matter's paper list:
+
+---
+- bib_file: name_of_bib_file
+  name: Project Name
+  url: /insert-project-link
+---
+
+url MUST be the same as permalink on your project
 
 ## Components (Includes)
 Jeykll allows for components to be embedded in markdown files. See [https://jekyllrb.com/docs/includes/](https://jekyllrb.com/docs/includes/)
