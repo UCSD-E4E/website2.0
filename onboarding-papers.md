@@ -5,9 +5,6 @@ papers:
 - bib_file: acoustic_species_id
   name: Acoustic Species ID
   url: /acoustic-species-identification
-# - bib_file: Baboons_on_the_Move
-#   name: Baboons on the Move
-#   url: /baboons-on-the-move
 - bib_file: fishsense
   name: FishSense
   url: /fishsense
@@ -20,9 +17,6 @@ papers:
 - bib_file: smartfin
   name: Smartfin
   url: /smartfin
-# - bib_file: aye-aye
-#   name: Aye-Aye Sleep Monitoring
-#   url: /aye-aye-sleep-monitoring
 - bib_file: support_group
   name: Research Support Group
   url: /research-support-group
