@@ -1,7 +1,7 @@
 ---
 date: 2013-08-22 20:57:12+00:00
 description: null
-# featuredImage: http://e4e.ucsd.edu/wp-content/uploads/img02-1024x768.jpg
+featuredImage: assets/2013-08-22-img02.jpg
 layout: blog-post
 slug: /balloon-test-at-sea
 title: Balloon Test at Sea
