@@ -13,7 +13,7 @@
 .post-link{
     color:  #a4a4a4;
     font-weight: 700;
-    font-size: 80%;
+    font-size: 50%;
     letter-spacing: 0px;
 }
 
@@ -82,4 +82,31 @@
 .archive-years {
     position: sticky;
     top: 30px;
+}
+
+.inline_image {
+    float: left; margin-right: 10px;
+}
+
+.no-list {
+    list-style: none;
+}
+
+.archive-post-link {
+    margin-bottom: 5px;
+}
+
+.post-link.archive-years {
+    color: #2a7ae2;
+    //text-decoration: aqua;
+    font-size: 100%;
+}
+
+.post-link.archive-years:visited {
+    color: #2a7ae2;
+}
+
+.home_post_nav {
+    display: flex;
+    justify-content: center
 }

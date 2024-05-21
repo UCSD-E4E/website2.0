@@ -2,14 +2,41 @@
 layout: default
 ---
 <div class="grid-x">
-    <div class="medium-4 large-8 cell">
+    <div class="medium-4 large-8 cell" style="padding: 10px;">
         <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
         <ul class="posts">
         {% for post in page.posts %}
-        <li>
-            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <li class="no-list" style="margin-bottom: 20px;">
+            <a class="post-link archive-post-link" href="{{ post.url | relative_url }}">
+                <h3 class="archive-post-link">{{ post.title }}</h3>    
+            </a>
+            <p>Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
+            {%- if post.featuredImage -%}
+            <span>
+                <div>
+                    <img 
+                        src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                        class="inline_image"
+                    >
+                    {% else %}
+                    <img 
+                        src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                        class="inline_image"
+                    >
+                    {% endif %}
+                    
+                
+                </siv>
+                <span>
+                    {%- if post.description -%}
+                    {{ post.description }}
+                  {% else %}
+                    {{post.content | strip_html | truncate: 500}}
+                  {% endif %}
+                </span>
+            </span>
+            </span>
         </li>
         {% endfor %}
         </ul>
@@ -22,7 +49,7 @@ layout: default
         <ul class="archive-years">
         {% for year in years %}
         <li>
-            <a class="post-link" href="{{ "/archive/" | append: year["name"] | relative_url }}">{{ year["name"] }}</a>
+            <a class="post-link archive-years" href="{{ "/archive/" | append: year["name"] | relative_url }}">{{ year["name"] }}</a>
         </li>
         {% endfor %}
         </ul>
