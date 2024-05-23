@@ -271,3 +271,8 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+* {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
