@@ -31,21 +31,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: create place to put cache
-        run: |
-          mkdir _site
-          ls
       - name: Cache Images
         uses: actions/cache@v3
         with:
-          path: |
-            _site/cache
-            cache
+          path: cache
           key: cache
-      - name: check cache
+      - name: create place to put cache
         run: |
-          ls _site/cache
-          ls cache
+          mkdir _site
+          cp -r cache  _site/cache
       - name: Setup node
         uses: actions/setup-node@v4
       - name: Setup Ruby
