@@ -40,9 +40,8 @@ jobs:
         with:
           path: cache
           key: cache
-      - name: create place to put cache
+      - name: move cache also into site
         run: |
-          mkdir _site
           cp -r cache  _site/cache
       - name: Setup node
         uses: actions/setup-node@v4
