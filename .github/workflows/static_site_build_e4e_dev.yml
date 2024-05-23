@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 # v1.161.0
         with:
@@ -35,11 +37,14 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install graphicsmagick
+          npm ci
       - name: Checks Ruby Gems
         run: bundle list
+      - name: Checks npm packages
+        run: npm list
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        run: bundle exec jekyll build --baseurl "" --config _config.yml,_e4e_dev_config.yml
+        run: npx gulp build -j '--config _config.yml,_dev_config.yml'
         env:
           JEKYLL_ENV: production
 

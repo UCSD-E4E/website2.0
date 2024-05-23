@@ -1,3 +1,4 @@
 url: "http://e4e-dev.ucsd.edu" # the base hostname & protocol for your site, e.g. http://example.com
 include:
   - .htaccess
+baseurl: "" # the subpath of your site, e.g. /blog
