@@ -43,6 +43,7 @@ jobs:
       - name: move cache also into site
         run: |
           cp -r cache  _site/cache
+          ls _site/cache
       - name: Setup node
         uses: actions/setup-node@v4
       - name: Setup Ruby
