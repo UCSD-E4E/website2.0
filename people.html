@@ -1,0 +1,50 @@
+---
+title: People
+layout: page
+---
+<p>* Denotes people that have participated in one of our <a href="{{ '/expeditions' | absolute_url }}">expeditions/deployments</a>.</p>
+{% assign people = site.data.people %}
+
+<h2>E4E Directors</h2>
+{% for person in people %}
+    {% if person.level == 'E4E Director' %}
+    <div class="personnel_block">
+        <p>
+            <img
+                class="profileimg"
+                title="{{ person.name }}"
+                src="{% if person.image %}{{ person.image | resize: '250x250^' | absolute_url }}{% else %}blank-profile-drawing.png{% endif %}">
+        </p>
+        <p class="projecttitle">
+            {% if person.link %}<a href="{{ person.link }}">{% endif %}
+                {{ person.name }}
+            {% if person.link %}</a>{% endif %}
+        </p>
+        <p class="projectdescription">
+            {{ person.description }}
+        </p>
+    </div>
+    {% endif %}
+{% endfor %}
+
+<h2>Staff Engineers</h2>
+{% for person in people %}
+    {% if person.level == 'Staff Engineer' %}
+    <div class="personnel_block">
+        <p>
+            <img
+                class="profileimg"
+                title="{{ person.name }}"
+                src="{% if person.image %}{{ person.image | resize: '250x250^' | absolute_url }}{% else %}blank-profile-drawing.png{% endif %}">
+        </p>
+        <p class="projecttitle">
+            {% if person.link %}<a href="{{ person.link }}">{% endif %}
+                {{ person.name }}
+            {% if person.link %}</a>{% endif %}
+        </p>
+        <p class="projectdescription">
+            {{ person.description }}
+        </p>
+    </div>
+    {% endif %}
+{% endfor %}
