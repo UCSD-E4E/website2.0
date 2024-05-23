@@ -38,7 +38,7 @@ jobs:
           key: cache
       - name: find cache
         run: |
-          ls _site/cache
+          mkdir _site
           ls
       - name: Setup node
         uses: actions/setup-node@v4
