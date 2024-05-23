@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/UCSD-E4E/jekyll-resize
-  revision: 5a943e7a1bf9ee058458c6ff98e56b3bde4eab97
+  revision: 1fce975f65887bb03ba27f15b69e299af190be68
   branch: test-caching
   specs:
     jekyll-resize (1.3.1)
