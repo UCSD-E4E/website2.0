@@ -1,7 +1,7 @@
 ---
 date: 2017-12-20 17:02:16+00:00
 description: null
-featuredImage: ''
+featuredImage: '/assets/2017-12-20-winter-2018-weekly-meetings_banner_quad_jacobs.jpg'
 layout: blog-post
 slug: /winter-2018-weekly-meetings
 title: Winter 2018 Weekly Meetings
