@@ -86,6 +86,10 @@
   month: March
   media: 
     - https://www.flickr.com/photos/ucsd-e4e/albums/72157648904305783
+  people:
+    - Daniel Knapp
+    - Alireza Khodamoradi
+    - Angela To
 - project: Maya Archaeology
   location: El Zotz - Guatemala
   date: 2015-06
