@@ -1,42 +1,32 @@
 title: front_carousel
 images: 
-    - image: {
-      "url": /assets/banner_guatemala.jpg,
-      "title": "Mapping a Maya Temple in Guatemala"
-    }
-    - image: {
-      "url": /assets/banner_guatemala.jpg,
-      "title": "Launching the Autonomous Airplane at Scripps"
-    }
-    - image: {
-      "url": /assets/banner_tiger.jpg,
-      "title": "Intelligent Camera Trap at San Diego Zoo"
-    }
-    - image: {
-      "url": /assets/banner_laketahoe.jpg,
-      "title": "In the Field at Lake Tahoe, CA"
-    }
-    - image: {
-      "url": /assets/banner_dustin_tunnel.jpg,
-      "title": "Scanning Tunnels in Maya Temples"
-    }
-    - image: {
-      "url": /assets/banner_spherecam.jpg,
-      "title": "Testing the SphereCam in La Jolla Cove"
-    }
-    - image: {
-      "url": /assets/banner_balloon.jpg,
-      "title": "Aerial Camera Platform and Fallen Star at UCSD"
-    }
-    - image: {
-      "url": /assets/banner_barges.png,
-      "title": "Imaging Barges in Emerald Bay, Lake Tahoe"
-    }
-    - image: {
-      "url": /assets/kayak_banner.jpg,
-      "title": "Flying Copters Off of Kayaks"
-    }
-    - image: {
-      "url": /assets/banner_mayatemple.jpg,
-      "title": "On top of a Maya Temple in Guatemala"
-    }
+- url: assets/fishsense/2023-07-17_nathan_fishsense_lite.jpg
+  title: "Staff Engineer Nathan Hui diving the FishSense Lite Camera"
+  crop: "4000x1754+0+550"
+- url: assets/smartfin/2022-07-13_Robert_OBrien_heads_out_to_ocean_to_test_smartfin.jpg
+  title: "Robert O'Brien heads out to the ocean to test the device"
+  crop: "2800x1228+0+0"
+- url: assets/acoustic_species_id/2021-08-10_expedition_team.jpg
+  title: "Sean Perry, Jacob Ayers, and Mugen Blue at the Scripps Reserve placing Audiomoths"
+  crop: "2736x1200+0+0"
+- url: assets/2024-01-26_e4e_cse_open_house.jpg
+  title: E4E at the 2024 CSE Open House
+  crop: 4080x1789+0+1000
+- url: assets/2023-08-10_sealab_reu_group_photo.jpg
+  title: 2023 REU Students in Sealab
+  crop: 6048x2652+0+650
+- url: assets/fishsense/2023-08-07_anna_jordan_hamish_testing_fishsense_in_pool.jpg
+  title: Anna Perez, Jordan Reichhardt, and Hamish Grant testing the FishSense Lite camera in a pool
+  crop: 6048x2652+0+100
+- url: assets/fishsense/2023-08-07_jordan_holding_fishsense_camera.jpg
+  title: Jordan Reichhardt calibrating a FishSense Lite camera
+  crop: 6048x2652+0+100
+- url: assets/mangrove/2022-03-21_crocodile.jpg
+  title: Crocodiles encountered in Jamaica while flying drones
+  crop: 4080x1789+0+1000
+- url: assets/mangrove/2022-03-17_jamaica_expedition_team.jpg
+  title: Jamaica Mangrove Expedition Team
+  crop: 2866x1257+303+1200
+- url: assets/fishsense/2022-08-18_emily_testing_realsense.jpg
+  title: Emily Wong demonstrating the Intel RealSense camera
+  crop: 6000x2631+0+00

@@ -2,4 +2,4 @@
 title: Publications
 layout: page
 ---
-{% bibliography %}
+{% bibliography --file publications %}
