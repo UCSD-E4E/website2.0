@@ -17,12 +17,12 @@ layout: default
                 <div>
                     <img 
                         src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-                        class="inline_image"
+                        class="inline_image archive-image"
                     >
                     {% else %}
                     <img 
                         src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-                        class="inline_image"
+                        class="inline_image archive-image"
                     >
                     {% endif %}
                     
