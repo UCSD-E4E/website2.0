@@ -43,7 +43,8 @@ jobs:
       - name: move cache also into site
         run: |
           cp -r cache  _site/cache
-          ls _site/cache
+          ls _site/cache/resize
+          ls -l ./
       - name: Setup node
         uses: actions/setup-node@v4
       - name: Setup Ruby
@@ -75,7 +76,9 @@ jobs:
       #     directory: "./_site"
       #     arguments: --swap-urls '^https\://e4e.ucsd.edu/:/'
       - name: Checks files
-        run: ls cache
+        run: ls -l cache
+      - name: Checks files
+        run: ls -l assets
       - name: Cache Images
         uses: actions/cache/save@v3
         with:
