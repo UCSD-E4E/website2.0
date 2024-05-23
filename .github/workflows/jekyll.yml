@@ -74,6 +74,8 @@ jobs:
       #   with:
       #     directory: "./_site"
       #     arguments: --swap-urls '^https\://e4e.ucsd.edu/:/'
+      - name: Checks files
+        run: ls cache
       - name: Cache Images
         uses: actions/cache/save@v3
         with:
