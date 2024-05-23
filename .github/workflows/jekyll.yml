@@ -34,7 +34,7 @@ jobs:
       - name: Cache Images
         uses: actions/cache@v3
         with:
-          path: ~/cache
+          path: cache
           key: cache
       - name: Setup node
         uses: actions/setup-node@v4
@@ -65,3 +65,5 @@ jobs:
       #   uses: chabad360/htmlproofer@master
       #   with:
       #     directory: "./_site"
+      - name: find cache
+        run: ls
