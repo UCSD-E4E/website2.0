@@ -38,8 +38,14 @@ jobs:
       - name: Cache Images
         uses: actions/cache@v3
         with:
-          path: _site/cache
+          path: |
+            _site/cache
+            cache
           key: cache
+      - name: check cache
+        run: |
+          ls _site/cache
+          ls cache
       - name: Setup node
         uses: actions/setup-node@v4
       - name: Setup Ruby
