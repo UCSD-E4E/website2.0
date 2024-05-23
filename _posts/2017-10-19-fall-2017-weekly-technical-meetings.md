@@ -1,7 +1,7 @@
 ---
 date: 2017-10-19 23:42:53+00:00
 description: null
-featuredImage: ''
+featuredImage: '/assets/2017-10-19-fall-2017-weekly-technical-meetings_weekly_meeting.jpg'
 layout: blog-post
 slug: /fall-2017-weekly-technical-meetings
 title: Fall 2017 Weekly Technical Meetings
