@@ -6,6 +6,7 @@ categories:
  - news-and-updates
 author: Nathan Hui
 featuredImage: assets/floods_of_lubra/2022-06-02_fieldwork-nepal.jpg
+slug: /ronan-wallace-awarded-fulbright-for-floods-of-lubra
 tags:
 - floods-of-lubra
 ---
