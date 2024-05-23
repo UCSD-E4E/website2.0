@@ -416,4 +416,3 @@ $RECYCLE.BIN/
 *.bib.sav
 *.sql
 cache/
-/node_modules
