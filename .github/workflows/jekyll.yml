@@ -43,7 +43,7 @@ jobs:
       - name: move cache also into site
         run: |
           cp -r cache  _site/cache
-          touch -r -c cache
+          touch -r cache
           ls -l cache
           ls -l ./
       - name: Setup node
