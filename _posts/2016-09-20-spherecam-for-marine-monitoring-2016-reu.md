@@ -50,7 +50,7 @@ While this is not the most exciting part of the project, it is an import part of
 
 
 
-Triggering was the biggest technical challenge this summer. The Vaquita uses echolocation clicks that are at around 139kHz (For reference Humans can hear from 20Hz â€“ 20kHz). The Nyquist theorem also stipulates that to record an analog signal accurately, like a sound, digitally we need to sample at least twice the rate of the sound we want to record. Because of this, we need to sample the audio signal at about 300kHz to be able to detect the 139kHz tone, or in other words, the computer has to read the microphone signal and record a value 300,000 times per second. 
+Triggering was the biggest technical challenge this summer. The Vaquita uses echolocation clicks that are at around 139kHz (For reference Humans can hear from 20Hz €“ 20kHz). The Nyquist theorem also stipulates that to record an analog signal accurately, like a sound, digitally we need to sample at least twice the rate of the sound we want to record. Because of this, we need to sample the audio signal at about 300kHz to be able to detect the 139kHz tone, or in other words, the computer has to read the microphone signal and record a value 300,000 times per second. 
 
 ![triggering](/assets/2016-09-20-spherecam-for-marine-monitoring-2016-reu_triggering-300x229.png)
 
@@ -65,7 +65,7 @@ How long does it the computer take to read each value? How much time does that l
 
 ![edison_adc](/assets/2016-09-20-spherecam-for-marine-monitoring-2016-reu_edison_adc-300x300.jpg)
 
-**Edison ADC breakout:** Made by Sparkfun this board provides a â€œbuilt-inâ€ ability for the Edison to take readings from a microphone using an Analog to Digital Converter (ADC). Because Linux is not a real-time system and there is an inherent latency with accessing the ports on the Edison this was able to sample at a maximum rate of about 9,000 Hz. Not good enough!
+**Edison ADC breakout:** Made by Sparkfun this board provides a €œbuilt-in€ ability for the Edison to take readings from a microphone using an Analog to Digital Converter (ADC). Because Linux is not a real-time system and there is an inherent latency with accessing the ports on the Edison this was able to sample at a maximum rate of about 9,000 Hz. Not good enough!
    
    
 ![spherecam-edisons](/assets/2016-09-20-spherecam-for-marine-monitoring-2016-reu_spherecam-edisons-286x300.jpg)
@@ -111,4 +111,4 @@ Ethan makes some repairs in the field
 
 In early September, we deployed the SphereCam in the Vaquita Refuge. It will remain in the refuge until late September, at which point we will return to swap the batteries, grab the data, and clean the domes of biofouling. Check back later for more updates on what the SphereCam sees!
 
-_â€” by Ethan Slattery, Andrew Hostler and Antonella Wilby_
+_€” by Ethan Slattery, Andrew Hostler and Antonella Wilby_

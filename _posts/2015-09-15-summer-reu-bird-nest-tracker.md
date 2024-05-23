@@ -31,7 +31,7 @@ The system is composed of two cameras used to record video data gathered by a SB
 
 [![]({{'/assets/2015-09-15-birdnest-images.png' | resize: '573x231'}})]({{'/assets/2015-09-15-birdnest-images.png' | absolute_url}})
 
-The two cameras have very different resolutions and fields of view, and their positions on the aerial platform will be offset slightly. This means that at the same instance in time, each camera will capture a similar but different recording of what is happening.Â  Sensor fusion and image processing can be used to skew, crop and rotate one of the videos so that we obtain the same image from both cameras, giving us useful data to analyze.
+The two cameras have very different resolutions and fields of view, and their positions on the aerial platform will be offset slightly. This means that at the same instance in time, each camera will capture a similar but different recording of what is happening.  Sensor fusion and image processing can be used to skew, crop and rotate one of the videos so that we obtain the same image from both cameras, giving us useful data to analyze.
 
 **Goals:**
 

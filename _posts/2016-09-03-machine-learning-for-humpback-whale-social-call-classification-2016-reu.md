@@ -26,7 +26,7 @@ Our research this summer involved experimenting with various methods of data pro
 [![whale_spectrogram_original](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original-1024x280.png)](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original.png)
 
 
-Above are ten spectrograms â€“ a visual representation of acoustic data that shows the intensity of sound across different frequencies through time. The whale calls are boxed and labeled.
+Above are ten spectrograms €“ a visual representation of acoustic data that shows the intensity of sound across different frequencies through time. The whale calls are boxed and labeled.
 
 
 
@@ -61,4 +61,4 @@ Additionally, the noise across different data sets varied causing individual dat
 
 
 
-_â€” by Lisa Bauer, Irina Tolkova, Hongyi Zhao, and Antonella Wilby_
+_€” by Lisa Bauer, Irina Tolkova, Hongyi Zhao, and Antonella Wilby_
