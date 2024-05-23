@@ -1,0 +1,39 @@
+.people_level_block {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.person_block {
+    width: 200px;
+    height: 300px;
+    background-color: #131313;
+    margin-bottom: 35px;
+    margin-right: 20px;
+}
+
+.person_block > img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.person_block > h3 {
+    color: #ffe87c;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.person_block > h3 > a {
+    color: #ffe87c;
+}
+
+.person_block > p {
+    color: #838383;
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 7px;
+    text-wrap: wrap;
+}
