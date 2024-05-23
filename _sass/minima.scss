@@ -1,4 +1,6 @@
 @charset "utf-8";
+@use "sass:math";
+
 
 // Define defaults for each variable.
 
@@ -21,7 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:    1240px !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -29,8 +31,8 @@ $on-laptop:        800px !default;
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
+//     padding-right: math.div($spacing-unit, 2);
+//     padding-left: math.div($spacing-unit, 2);
 //   }
 // }
 @mixin media-query($device) {
@@ -45,7 +47,10 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
+  "minima/syntax-highlighting",
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/carousel",
+  "minima/about",
+  "minima/project.scss"
 ;

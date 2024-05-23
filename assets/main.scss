@@ -1,5 +1,37 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-
+@use "sass:math";
 @import "minima";
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+
+.floatclearfix::after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.featured-post-image {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.featured-post-image img {
+    display: inline-block;
+    outline: solid 8px #ddd;
+}
+
+

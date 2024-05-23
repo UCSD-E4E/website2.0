@@ -3,7 +3,7 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="main_logo" title="{{site.title | escape }}" src="{{"e4e_website-no-e4e.png" | absolute_url}}"></a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -16,13 +16,20 @@
           </span>
         </label>
 
-        <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
+        <div class="menu-navigation-container">
+          <ul class="menu">
+            {% for item in site.data.main_nav.toc %}
+              <li class="menu-item"><a href="{{ item.url | absolute_url }}">{{item.name}}</a>
+                {% if item.subfolderitems %}
+                <ul class="sub-menu">
+                  {% for subitem in item.subfolderitems %}
+                  <li><a href="{{ subitem.url | absolute_url }}">{{subitem.name}}</a></li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
         </div>
       </nav>
     {%- endif -%}

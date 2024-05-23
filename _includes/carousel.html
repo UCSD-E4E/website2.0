@@ -1,0 +1,194 @@
+{% assign letterstring = "a,b,c,d,e,f,g,h,i,j,k,l,m,n" %}
+{% assign letters = letterstring | split: ',' %}
+{% assign unique_name = include.data.title %}
+{% assign carousels = include.data %}
+<div class="carousel__holder_{{unique_name}}">
+
+    <div id="carousel{{ unique_name }}" class="carousel">
+        {% for item in carousels.images %}
+          <input class="carousel__activator" type="radio" name="carousel{{ unique_name }}" id="{{ unique_name }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+        {% endfor %}
+        
+        <ul  class="carousel__track">
+          {% for item in carousels.images %}
+          <div class="carousel__slide_title">
+            {% capture resize_cmd %}1140x500!,jpg,{% if item['crop'] %},{{ item['crop'] }}{% endif %}{% endcapture %}
+            <li class="carousel__slide" style="background-image: url('{{ item['url'] | resize: resize_cmd }}');"></li>
+            <div class="carousel_titles">
+              <p class="carousel_title"> {{item['title']}} </p>
+            </div>
+          </div>
+          {% endfor %}
+        </ul>
+        
+        {%- comment -%} TODO make this take up space at bottom of carousel like original site {%- endcomment -%}
+        <div class="carousel__meta_controls">
+          <div class="carousel__indicators">
+              {% for item in carousels.images %}
+                <label 
+                  class="carousel__indicator" 
+                  for="{{ unique_name }}{{ letters[forloop.index0] }}"
+                  onClick="onClick_{{unique_name}}(this)"
+                ></label>
+                
+              {% endfor %}
+            
+          </div>
+
+          <div class="carousel__controls_wrapper">
+            {% for item in carousels.images %}
+              {% if forloop.index == forloop.length %}
+                {% assign nextindex = 0 %}
+              {% else %}
+                {% assign nextindex = forloop.index0 | plus: 1 %}
+              {% endif %}
+              {% assign nextletter = letters[nextindex] %}
+              {% if forloop.index0 == 0 %}
+                {% assign previndex = forloop.length | minus: 1 %}
+              {% else %}
+                {% assign previndex = forloop.index0 | minus: 1 %}
+              {% endif %}
+              {% assign prevletter = letters[previndex] %}
+              <div class="carousel__controls">
+                  <label 
+                    class="carousel__control carousel__control--backward" 
+                    for="{{ unique_name }}{{ prevletter }}"
+                    onClick="onClick_{{unique_name}}(this)"
+                  ></label>
+                  <label 
+                    class="carousel__control carousel__control--forward" 
+                    for="{{ unique_name }}{{ nextletter }}"
+                    onClick="onClick_{{unique_name}}(this)"
+                ></label>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/*See _sass\minima\_carousel.scss for general styles, below is for component spefific stuff */
+.carousel__holder_{{unique_name}} {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
+
+{% for item in carousels.images %}
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
+}
+
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track>.carousel__slide_title:nth-of-type({{ forloop.index }}) {
+  opacity:1;
+}
+
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track>.carousel__slide_title:nth-of-type({{ forloop.index }})>.carousel__slide {
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track>.carousel__slide_title:nth-of-type({{ forloop.index }})>.carousel_titles>.carousel_title {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__meta_controls>.carousel__controls_wrapper>.carousel__controls:nth-of-type({{ forloop.index }}) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__meta_controls>.carousel__indicators>.carousel__indicator:nth-of-type({{ forloop.index }}) {
+  opacity: 1;
+}
+{% endfor %}
+
+
+{% for item in carousels.images %}
+.carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
+  opacity: 0;
+  transition: opacity 2s ease 0s;
+}
+{% endfor %}
+
+{% for item in carousels.images %}
+.carousel__slide:nth-of-type({{ forloop.index }}),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
+  background-size: cover;
+  background-position: center;
+}
+{% endfor %}
+</style>
+
+<script>
+  /**
+  To anyone with javascript experience wondering what kind of javascript I'm writing in
+  Jekyll allows for inserting any string directly into the html, including in javascript scripts
+  So anything of the form var_{{unique_name}} will compile the variable as var_1 (if unique_name=1)
+
+  The reason for this is so we can render mutliple components on the same page without overloading the same value
+  This prevents things like onClick from breaking say the second carousel when it should be changing the frist one
+  */
+
+
+  //tracks human clicks and index of this spefific carousel
+  var recent_click_{{unique_name}} = false;
+  
+
+  function isVisible(el) {
+        while (el) {
+            if (el === document) {
+                return true;
+            }
+
+            var $style = window.getComputedStyle(el, null);
+
+            if (!el) {
+                return false;
+            } else if (!$style) {
+                return false;
+            } else if ($style.display === 'none') {
+                return false;
+            } else if ($style.visibility === 'hidden') {
+                return false;
+            } else if (+$style.opacity === 0) {
+                return false;
+            } else if (($style.display === 'block' || $style.display === 'inline-block') &&
+                $style.height === '0px' && $style.overflow === 'hidden') {
+                return false;
+            } else {
+                return $style.position === 'fixed' || isVisible(el.parentNode);
+            }
+        }
+  }
+
+  /**
+    When the user clicks the arrows, update recent_click_{{unique_name}}to true. **Only on human click**.
+  */
+  function onClick_{{unique_name}}(el) {
+    recent_click_{{unique_name}} = true;
+  }
+
+
+  {% if include.duration %}
+  setInterval(function(){
+    //if the user has not recently clicked, skip to next image
+    if (!recent_click_{{unique_name}}) {
+        var j=0;
+        var elements = document.querySelectorAll(
+            '#carousel{{ unique_name}} .carousel__control--forward'
+        );
+        for(i=(elements.length - 1);i>-1;i--) {
+        if(isVisible(elements[i])) j=i;
+        }
+        elements[j].click();
+    }
+
+    //must be at end, click triggers onClick_{{unique_name}}. We want recent_click_{{unique_name}}to be human clicks
+    //we also want to reset recent_clicks when we block a simulated click to restart the carousel autoplay
+    recent_click_{{unique_name}} = false; 
+    
+  },{{ include.duration }}000);
+  {% endif %}
+</script>
