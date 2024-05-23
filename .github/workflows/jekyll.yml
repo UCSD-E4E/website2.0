@@ -65,6 +65,7 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: "./_site"
-          swap_urls: {"^https://e4e.ucsd.edu/" => "/"}
+          swap_urls: |
+          ^https://e4e.ucsd.edu/:
       - name: find cache
         run: ls
