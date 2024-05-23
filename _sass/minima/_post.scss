@@ -1,0 +1,32 @@
+thead > tr > th.sorting{
+    background-color: #d9edf7;
+}
+
+thead > tr > th.sorting.sorting_desc{
+    background-color: #049cdb;
+}
+
+thead > tr > th.sorting.sorting_asc{
+    background-color: #049cdb;
+}
+
+table.dataTable > tbody > tr.odd{
+    background-color: #f9f9f9;  
+}
+
+table.dataTable > tbody > tr.even{
+    background-color: #fff;
+}
+
+table, table td, table th, table tr, table tbody, table thead {
+    border: none;
+}
+table.dataTable.no-footer {
+    border: none;
+}
+
+table.dataTable > tbody > * > * {
+    border-top: 1px solid #ddd;
+}
+
+
