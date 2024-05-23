@@ -39,7 +39,7 @@ jobs:
         uses: actions/cache/restore@v3
         with:
           path: cache
-          key: cache
+          key: cache_test
       - name: move cache also into site
         run: |
           cp -r cache  _site/cache
@@ -78,4 +78,4 @@ jobs:
         uses: actions/cache/save@v3
         with:
           path: cache
-          key: cache
+          key: cache_test
