@@ -34,9 +34,17 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 ## Developer Get Started
 1. Follow the instructions at https://jekyllrb.com/docs/installation/ to install the Jekyll generator on your machine.
 2. Follow the instructions at http://www.graphicsmagick.org/README.html#installation to install GraphicsMagick on your machine.
-3. Run `bundle exec jekyll serve --livereload` in this repository root to deploy a live server to http://localhost:4000
+3. Follow the instructions at https://docs.npmjs.com/downloading-and-installing-node-js-and-npm to install Node.js and npm on your machine
+4. Run `npm ci` in this repository root
+5. Run `bundle install` in this repository root
+6. Run `npx gulp watch` in this repository root to deploy a live server to http://localhost:4000
 
 Dev deployment target: https://ucsd-e4e.github.io/website2.0/
+
+## Other gulp commands
+- `npx gulp build` performs a single static build of the site
+- `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arugments
+
 
 ## Adding Publications
 1. Open [_bibliography/publications.bib](_bibliography/publications.bib) in [JabRef](https://www.jabref.org/).
@@ -152,6 +160,17 @@ Fill in permalink, title, and category with the same values used in the respecti
 
 Your post feed page on the website will be found at `/insert-project-link/project-updates`
 
+#### OPTIONAL: Add onboarding papers
+- Add your bib file for your project to `_bibliography/onboarding_papers`
+- In `onboarding_papers.md`, add the following to the front matter's paper list:
+
+---
+- bib_file: name_of_bib_file
+  name: Project Name
+  url: /insert-project-link
+---
+
+url MUST be the same as permalink on your project
 
 ## Components (Includes)
 Jeykll allows for components to be embedded in markdown files. See [https://jekyllrb.com/docs/includes/](https://jekyllrb.com/docs/includes/)
@@ -227,3 +246,40 @@ Format:
     enable_nav=true or false 
 %}
 
+## Adding blog posts
+Create a new file in `/_posts` with the following name: `{year}-{month}-{day}-{hyphenated-title}.md`.  For example: `2024-05-10-e4e-releases-new-jekyll-website.md`.
+
+At the top of the file, add the following:
+```
+---
+date: {year}-{month}-{day} {hour}:{minute}-{timezone offset}:00
+layout: blog-post
+title: {title}
+categories:
+ - news-and-updates
+author: {your name}
+featuredImage: {relative path to featured image}
+tags:
+- {additional tags}
+---
+```
+
+For example:
+```
+---
+date: 2024-05-07 21:45-07:00
+layout: blog-post
+title: Ronan Wallace Awarded Fulbright for Floods of Lubra
+categories:
+ - news-and-updates
+author: Nathan Hui
+featuredImage: assets/floods_of_lubra/fieldwork-nepal.jpg
+tags:
+- floods-of-lubra
+- fulbright
+---
+```
+
+Add the contents of your blog post after this preable, using the appropriate components.
+
+Commit this and any included images to a new branch (we recommend using the same format as the blob post file name).  Request a review from one of the website admins and enable auto merge.
