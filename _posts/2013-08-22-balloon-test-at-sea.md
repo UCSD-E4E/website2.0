@@ -12,17 +12,17 @@ categories:
 One of the main intended uses of the Stabilized Aerial Camera Platform is to perform surveys of marine mammals. After a successful deployment in Warren Mall, we were ready to test the new setup at sea. Our goals for this deployment were to test the effectiveness of a polarizing filter in getting clear photos of underwater animals, and to validate gimbal stabilization while subjected to jerkiness from the bobbing boat.
 
 <figure>
-<a href="{{'/assets/2013-08-22-img02.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img02.jpg' | resize: '640x480'}}"></a>
+<a href="{{'/assets/2013-08-22-img02.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img02.jpg' | resize: '640x480'}}" alt="Inflating the balloon"></a>
 <figcaption>Inflating the balloon</figcaption>
 </figure>
 
 <figure>
-<a href="{{'/assets/2013-08-22-img03.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img03.jpg' | resize: '640x480'}}"></a>
+<a href="{{'/assets/2013-08-22-img03.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img03.jpg' | resize: '640x480'}}" alt="Walking the balloon to the boat"></a>
 <figcaption>Walking the balloon to the boat</figcaption>
 </figure>
 
 <figure>
-<a href="{{'/assets/2013-08-22-img04.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img04.jpg' | resize: '640x480'}}"></a>
+<a href="{{'/assets/2013-08-22-img04.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img04.jpg' | resize: '640x480'}}" alt="Heading out to sea"></a>
 <figcaption>Heading out to sea</figcaption>
 </figure>
 
@@ -30,13 +30,13 @@ For this deployment, we were joined by Dr. Brent Stewart of Hubbs SeaWorld Resea
 
 The kelp forest provided us with the opportunity to photograph objects below the surface of the water. We used this to test the effectiveness of the polarizing filter, which reduces reflections and glare from the ocean's surface. The filter is most effective when the polarization of the incident light is perpendicular with the polarization of the filter, and decreases in effectiveness as the polarizations align. The following two pictures were taken of the same patch of kelp from different angles; there is a noticeable improvement in visibility when the filter is working effectively.
 
-[![]({{'/assets/2013-08-22-img06.jpg' | resize: '200x300'}})]({{'/assets/2013-08-22-img06.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img07.jpg' | resize: '200x300'}})]({{'/assets/2013-08-22-img07.jpg' | absolute_url}})
+[![ocean1]({{'/assets/2013-08-22-img06.jpg' | resize: '200x300'}})]({{'/assets/2013-08-22-img06.jpg' | absolute_url}})
+[![ocean2]({{'/assets/2013-08-22-img07.jpg' | resize: '200x300'}})]({{'/assets/2013-08-22-img07.jpg' | absolute_url}})
 
 Since we didn't get to see marine mammals while out at sea, we went by the bait barge and photographed the sea lions there.
 
 <figure>
-<a href="{{'/assets/2013-08-22-img09.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img09.jpg' | resize: '640x480'}}"></a>
+<a href="{{'/assets/2013-08-22-img09.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-22-img09.jpg' | resize: '640x480'}}" alt="Sea lions on the bait barge"></a>
 <figcaption>Sea lions on the bait barge</figcaption>
 </figure>
 
