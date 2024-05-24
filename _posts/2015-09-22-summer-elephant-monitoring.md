@@ -19,7 +19,7 @@ tags:
 Though there is already a range of commercially available deployable autonomous recording units, many are expensive, or consume too much power to be deployed for desirable periods of time. Their cost and need for heavy battery units make deploying them in remote locations difficult. We're working with the San Diego Zoo Institute for Conservation Research to develop a more cost-effective unit that can be sent on similarly long deployments.
 
 <figure>
-<a href="{{'/assets/2015-09-22-elephant-mic.png' | absolute_url}}"><img src="{{'/assets/2015-09-22-elephant-mic.png' | resize: '300x113'}}"></a>
+<a href="{{'/assets/2015-09-22-elephant-mic.png' | absolute_url}}"><img src="{{'/assets/2015-09-22-elephant-mic.png' | resize: '300x113'}}" allt="A similar unit developed by the Cornell Lab of Ornithology"></a>
 <figcaption>A similar unit developed by the Cornell Lab of Ornithology</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ The system, known as an autonomous recording unit, must be able to endure hostil
 As the system will be unattended for months at a time, it must also be capable of storing large amounts of data. Due to the low frequencies measured, relatively low sample rates can be used, allowing for somewhat smaller disk storage.
 
 <figure>
-<a href="{{'/assets/2015-09-22-elephant-circuitry.png' | absolute_url}}"><img src="{{'/assets/2015-09-22-elephant-circuitry.png' | resize: '300x225'}}"></a>
+<a href="{{'/assets/2015-09-22-elephant-circuitry.png' | absolute_url}}"><img src="{{'/assets/2015-09-22-elephant-circuitry.png' | resize: '300x225'}}" alt="elephant-circuitry"></a>
 </figure>
 
 After early testing with different types of microphones, the electret condenser microphone was selected for its low cost, wide availability, and flat frequency response. Some electrets have flat responses down to just a few Hz, making them ideal for our purposes.
