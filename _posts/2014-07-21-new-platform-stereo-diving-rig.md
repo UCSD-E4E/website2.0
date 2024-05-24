@@ -25,14 +25,14 @@ Introducing E4E's newest platform for underwater remote imaging...the stereo div
 The stereo diving rig is designed to make high-accuracy models of underwater environments by fusing Structure from Motion models from stereo cameras with measurements from a variety of other on-board sensors. The rig contains four on-board cameras - two low-resolution machine vision cameras in stereo, and two DSLR-quality Sony QX100 cameras in stereo - which are used to create photorealistic models of underwater scenes using Structure from Motion algorithms. The rig also contains a compass and pressure sensor, an inertial measurement unit (IMU), and a Doppler Velocity Logger (DVL). These sensors help the rig gain more accurate pose estimates, which can be integrated into our Structure from Motion models to generate more accurate 3D imagery.
 
 <figure>
-<a href="{{'assets/nautical_archaeology/2014-06-17_rig_back.jpg' | absolute_url}}"><img src="{{'assets/nautical_archaeology/2014-06-17_rig_back.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'assets/nautical_archaeology/2014-06-17_rig_back.jpg' | absolute_url}}"><img src="{{'assets/nautical_archaeology/2014-06-17_rig_back.jpg' | resize: '1024x768'}}" alt="The rig on its first deployment at Emerald Bay, Lake Tahoe, CA"></a>
 <figcaption>The rig on its first deployment at Emerald Bay, Lake Tahoe, CA</figcaption>
 </figure>
 
 The rig is operated by a SCUBA diver, who swims to propel the rig around a dive site, such as a shipwreck or underwater cave. The data the rig collects is post-processed after a dive to generate a realistic 3D model of the underwater environment. The rig is designed to go to depths of at least 100 meters.
 
 <figure>
-<a href="{{'assets/nautical_archaeology/2014-06-17_perry-and-antonella-installing-the-camera-housing.jpg' | absolute_url}}"><img src="{{'assets/nautical_archaeology/2014-06-17_perry-and-antonella-installing-the-camera-housing.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'assets/nautical_archaeology/2014-06-17_perry-and-antonella-installing-the-camera-housing.jpg' | absolute_url}}"><img src="{{'assets/nautical_archaeology/2014-06-17_perry-and-antonella-installing-the-camera-housing.jpg' | resize: '1024x768'}}" alt="Assembling the rig for deployment at Lake Tahoe, CA"></a>
 <figcaption>Assembling the rig for deployment at Lake Tahoe, CA</figcaption>
 </figure>
 

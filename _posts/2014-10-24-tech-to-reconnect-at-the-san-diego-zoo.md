@@ -21,15 +21,15 @@ E4E demonstrated some of our remote imaging platforms at the first event in the 
 We brought our stereo diving rig, our new TunnelBot platform, and one of our copters to the event to show people how technology can be used to enhance conservation efforts in a variety of different ways.
 
 <figure>
-<a href="{{'/assets/2014-10-24-riley-1.jpg' | absolute_url}}"><img src="{{'/assets/2014-10-24-riley-1.jpg' | resize: '400x300'}}"></a>
-<a href="{{'/assets/2014-10-24-riley-2.jpg' | absolute_url}}"><img src="{{'/assets/2014-10-24-riley-2.jpg' | resize: '400x300'}}"></a>
+<a href="{{'/assets/2014-10-24-riley-1.jpg' | absolute_url}}"><img src="{{'/assets/2014-10-24-riley-1.jpg' | resize: '400x300'}}" alt="Riley and Eric explaining our imaging platforms"></a>
+<a href="{{'/assets/2014-10-24-riley-2.jpg' | absolute_url}}"><img src="{{'/assets/2014-10-24-riley-2.jpg' | resize: '400x300'}}" alt="Riley and Eric explaining our imaging platforms"></a>
 <figcaption>Riley and Eric explaining our imaging platforms</figcaption>
 </figure>
 
 The event also featured Katie Rast, the director of FabLab San Diego, and Mileece, a sonic artist who works to connect people with nature through art. We were excited to be able to connect with so many people from diverse backgrounds working to promote conservation!
 
 <figure>
-<a href="{{'/assets/2014-10-24-inspiring.jpg' | absolute_url}}"><img src="{{'/assets/2014-10-24-inspiring.jpg' | resize: '400x300'}}"></a>
+<a href="{{'/assets/2014-10-24-inspiring.jpg' | absolute_url}}"><img src="{{'/assets/2014-10-24-inspiring.jpg' | resize: '400x300'}}" alt="Inspiring youth"></a>
 <figcaption>Inspiring youth</figcaption>
 </figure>
 

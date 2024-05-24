@@ -53,7 +53,7 @@ We are releasing the interfacing script open source so others can experiment wit
 
 [https://github.com/UCSD-E4E/qx100-interfacing](https://github.com/UCSD-E4E/qx100-interfacing)
 
-[![]({{'/assets/2014-01-09-IMG_1408.jpg' | resize: '1024x682'}})]({{'/assets/2014-01-09-IMG_1408.jpg' | absolute_url}})
+[![IMG_1408]({{'/assets/2014-01-09-IMG_1408.jpg' | resize: '1024x682'}})]({{'/assets/2014-01-09-IMG_1408.jpg' | absolute_url}})
 
 We had much more success with the second approach we tried, mechanically triggering the shutter button with a servo driven from the Ardupilot. Using this method, we were able to quickly and reliably capture images, but without a liveview, framing the picture was difficult. This is relevant for aerial photography, but not for survey missions where the camera should be triggered regularly. Unfortunately, the QX100 has a habit of turning itself off when inactive, which seems to mean not being connected via Wi-Fi, so it cut out the last half of the attempted mapping mission.
 
@@ -62,7 +62,7 @@ The optimal approach we are now aiming for is to have a Wi-Fi liveview with a re
 In terms of achieved image quality, the QX100 is currently not well suited for aerial mapping missions. Due to lack of a shutter priority mode, program auto often chooses slower shutter speeds, which causes significant motion blur from the moving copter. The good news is that it works well while pointed forwards, as shown in the image gallery below. Sony is releasing a new firmware update for the camera at the end of January 2014 that provides a shutter priority mode, so we will try again then.
 
 <figure>
-<a href="{{'/assets/2014-01-09-ebu1-back-night.jpg' | absolute_url}}"><img src="{{'/assets/2014-01-09-ebu1-back-night.jpg' | resize: '640x480'}}"></a>
+<a href="{{'/assets/2014-01-09-ebu1-back-night.jpg' | absolute_url}}"><img src="{{'/assets/2014-01-09-ebu1-back-night.jpg' | resize: '640x480'}}" alt="The back of EBU1 at night"></a>
 <figcaption>The back of EBU1 at night</figcaption>
 </figure>
 
@@ -72,5 +72,5 @@ Hope you enjoy the pictures!
 
 {% for image in page.gallery %}
 <a href="{{ image | absolute_url }}">
-<img src="{{ image | resize: '150x150' }}" width="150px" height="150px">
+<img alt="sony-gallery" src="{{ image | resize: '150x150' }}" width="150px" height="150px">
 </a>{% endfor %}

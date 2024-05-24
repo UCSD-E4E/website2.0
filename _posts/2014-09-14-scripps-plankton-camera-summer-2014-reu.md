@@ -21,7 +21,7 @@ With that knowledge, it is extremely important that we closely study plankton, a
 This is where E4E comes in. We worked closely with SIO in developing algorithms to process the data from their newly developed underwater plankton microscope. Such a system was developed to fully utilize the potential of a permanent microscope in collecting massive amounts of data. We developed machine learning algorithms to interface with a meteor web app. This system allows for the crowd sourcing of information about the plankton, which in turn retrains the algorithm, which then in turn assists the user in classification. 
 
 <figure>
-<a href="{{'/assets/2014-09-14-planktoncam-graphs.png' | absolute_url}}"><img src="{{'/assets/2014-09-14-planktoncam-graphs.png' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2014-09-14-planktoncam-graphs.png' | absolute_url}}"><img src="{{'/assets/2014-09-14-planktoncam-graphs.png' | resize: '1024x768'}}" alt="Classification Graphs"></a>
 <figcaption>Classification Graphs</figcaption>
 </figure>
 
@@ -40,6 +40,6 @@ Overall, this system allows for rapid classification of plankton, thus allowing 
 Check out the current web app at [http://jaffeweb.ucsd.edu:5001](http://jaffeweb.ucsd.edu:5001) and keep an eye out for an iOS app coming soon.
 
 <figure>
-<a href="{{'/assets/2014-09-14-spc-pres-scripps.png' | absolute_url}}"><img src="{{'/assets/2014-09-14-spc-pres-scripps.png' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2014-09-14-spc-pres-scripps.png' | absolute_url}}"><img src="{{'/assets/2014-09-14-spc-pres-scripps.png' | resize: '1024x768'}}" alt="Diagram of Plankton Camera workflow"></a>
 <figcaption>Diagram of Plankton Camera workflow</figcaption>
 </figure>
