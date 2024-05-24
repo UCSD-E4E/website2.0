@@ -92,7 +92,7 @@ The project started in 2014 with two expeditions to Guatemala. Albert, Ryan, Cur
 
 ![]({{"assets/maya/guatemala_15266303808_o.jpg" | absolute_url}})
 
- - Nathan Hui ([nthui@ucsd.edu](nthui@ucsd.edu))
+ - Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
 
 # In the Press
 

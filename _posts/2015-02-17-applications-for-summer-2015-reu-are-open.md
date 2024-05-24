@@ -10,7 +10,7 @@ categories:
 - news-and-updates
 ---
 
-We are now taking applications for our 2015 summer REU! If you are interested in spending the summer in San Diego and working on cool engineering projects and exciting fieldwork, please apply to be considered for our summer REU program. Submit your application (before March 15) [at http://reumanager.com/efore](http://reumanager.com/efore)!
+We are now taking applications for our 2015 summer REU! If you are interested in spending the summer in San Diego and working on cool engineering projects and exciting fieldwork, please apply to be considered for our summer REU program. Submit your application (before March 15) at https://reumanager.com/efore!
 
 <span style="color: red">IMPORTANT: Make sure to apply to the REU application on REUManager.com. The Google Forms application on this site is only for UCSD students to register their interest during the school year. If you fill out that form, that application will not be considered for our summer REU program.</span>
 
@@ -24,6 +24,7 @@ Eligibility: Full-time undergraduate students
 
 $500/week stipend
 
-For more information about the program and requirements, please visit the [REU Application site](http://reumanager.com/efore).
+For more information about the program and requirements, please visit the REU Application site
+ (https://reumanager.com/efore).
 
 _(Photo: 2014 REU students testing the airborne radio collar tracker on a hexacopter.)_

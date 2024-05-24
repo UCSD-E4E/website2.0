@@ -37,7 +37,7 @@ Overall, this system allows for rapid classification of plankton, thus allowing 
 <figcaption>Video feed from Plankton Cam</figcaption>
 </figure>
 
-Check out the current web app at [http://jaffeweb.ucsd.edu:5001](http://jaffeweb.ucsd.edu:5001) and keep an eye out for an iOS app coming soon.
+<!-- Check out the current web app at [http://jaffeweb.ucsd.edu:5001](http://jaffeweb.ucsd.edu:5001) and keep an eye out for an iOS app coming soon. -->
 
 <figure>
 <a href="{{'/assets/2014-09-14-spc-pres-scripps.png' | absolute_url}}"><img src="{{'/assets/2014-09-14-spc-pres-scripps.png' | resize: '1024x768'}}" alt="Diagram of Plankton Camera workflow"></a>

@@ -19,7 +19,7 @@ tags:
 Though there is already a range of commercially available deployable autonomous recording units, many are expensive, or consume too much power to be deployed for desirable periods of time. Their cost and need for heavy battery units make deploying them in remote locations difficult. We're working with the San Diego Zoo Institute for Conservation Research to develop a more cost-effective unit that can be sent on similarly long deployments.
 
 <figure>
-<a href="{{'/assets/2015-09-22-elephant-mic.png' | absolute_url}}"><img src="{{'/assets/2015-09-22-elephant-mic.png' | resize: '300x113'}}" allt="A similar unit developed by the Cornell Lab of Ornithology"></a>
+<a href="{{'/assets/2015-09-22-elephant-mic.png' | absolute_url}}"><img src="{{'/assets/2015-09-22-elephant-mic.png' | resize: '300x113'}}" alt="A similar unit developed by the Cornell Lab of Ornithology"></a>
 <figcaption>A similar unit developed by the Cornell Lab of Ornithology</figcaption>
 </figure>
 
