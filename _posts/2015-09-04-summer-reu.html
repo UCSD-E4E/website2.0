@@ -108,7 +108,7 @@ mentors:
 {% for student in page.students %}
 <div class="floatclearfix">
     {% if student.photo %}
-    <p><a href="{{ student.photo }}"><img class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
+    <p><a href="{{ student.photo }}"><img alt="{{student.name}}" class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
     <p><strong>{{student.name}}, {{student.school}}</strong></p>
     <p>{{student.bio}}</p>
 </div>
@@ -118,7 +118,7 @@ mentors:
 {% for student in page.mentors %}
 <div class="floatclearfix">
     {% if student.photo %}
-    <p><a href="{{ student.photo }}"><img class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
+    <p><a href="{{ student.photo }}"><img alt="{{student.name}}" class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
     <p><strong>{{student.name}}, {{student.school}}</strong></p>
     <p>{{student.bio}}</p>
 </div>

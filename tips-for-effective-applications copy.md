@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: open-opportunities
 layout: page
 ---
-{% bibliography --file publications %}
+TODO
