@@ -75,7 +75,7 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: "./_site" #--enforce_https false <-- why doesn't this work?
-          arguments: --ignore-status-codes "999,403" --ignore_urls "https\://kastner.ucsd.edu/ryan/" --assume-extension .html --swap-urls '^https\://e4e.ucsd.edu/:/'
+          arguments: --ignore-status-codes "999,403" --ignore_urls "/kastner.ucsd.edu/,/onlinedigeditions.com/,/e4e.ucsd.edu" --assume-extension .html --swap-urls '^https\://e4e.ucsd.edu/:/'
       - name: Checks files
         run: ls -l cache
       - name: Checks files

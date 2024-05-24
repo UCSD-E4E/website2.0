@@ -30,7 +30,10 @@ This project aims to provide digital tools for documentation of underwater archa
 
 A digital imaging technique that has gained momentum in terrestrial archaeology is called Structure from Motion, which is an algorithm for turning multiple 2D images of a scene into a 3D model. However, Structure from Motion is not yet a fully-viable technique for recording underwater archaeological sites because the complexities of the underwater environment tend to make the software perform poorly, resulting in sparse, inaccurate, or poorly-reconstructed 3D models.
 
-Among the technologies we deployed at Lake Tahoe was our [Stereo Diving Rig]({{'/stereo-diving-rig' | absolute_url}}). In addition to optical sensors, this rig incorporates a variety of position sensors which help the rig align the cameras more accurately during the process of Structure from Motion. 
+<!-- Among the technologies we deployed at Lake Tahoe was our [Stereo Diving Rig]({{'/stereo-diving-rig' | absolute_url}}). In addition to optical sensors, this rig incorporates a variety of position sensors which help the rig align the cameras more accurately during the process of Structure from Motion.  -->
+
+Among the technologies we deployed at Lake Tahoe was our [Stereo Diving Rig]({{'/underwater-projects/new-platform-stereo-diving-rig' | absolute_url}}). In addition to optical sensors, this rig incorporates a variety of position sensors which help the rig align the cameras more accurately during the process of Structure from Motion.
+
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4tQb9h5dbE8?si=Rqfs8zNSNNfh1I1N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

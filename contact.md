@@ -37,7 +37,7 @@ Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 
 **Acoustic Species Identification:** Sean Perry and Samantha Prestrelski ([shperry@ucsd.edu](mailto:shperry@ucsd.edu), [sprestrelski@ucsd.edu](mailto:sprestrelski@ucsd.edu))
 
-**FishSense:**  Christopher Crutchfield, Kyle Hu, and Avik Ghosh ([ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu), [kshu@ucsd.edu](mailto:kshu@ucsd.edu), [a8ghosh@ucsd.edu](a8ghosh@ucsd.edu)) 
+**FishSense:**  Christopher Crutchfield, Kyle Hu, and Avik Ghosh ([ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu), [kshu@ucsd.edu](mailto:kshu@ucsd.edu), [a8ghosh@ucsd.edu](mailto:a8ghosh@ucsd.edu)) 
 
 ### Aerial Mapping
 

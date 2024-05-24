@@ -45,7 +45,7 @@ gallery:
 ---
 We've been hard at work bringing up a quadcopter platform for aerial imagery surveys, as well as preparation for the radio collar tracking effort. For our aerial imagery, we want the highest quality picture from the lightest package, and Sony's QX100 fits the bill, utilizing a 20.2MP 1" sensor and weighing only 182g. Here's our experience interfacing with the QX100, and a sample of the images we took from the copter.
 
-[![]({{'/assets/2014-01-09-qx100-copter.jpg' | resize: '1024x682'}})]({{'/assets-2014-01-09-qx100-copter.jpg' | absolute_url}})
+[![]({{'/assets/2014-01-09-qx100-copter.jpg' | resize: '1024x682'}})]({{'/assets/2014-01-09-qx100-copter.jpg' | absolute_url}})
 
 The QX100 features a Wi-Fi interface for control via a smartphone, so we thought we'd slap it on the copter and see how far it could go. Testing with a number of Android devices on hand, we quickly determined that that was not viable, with the liveview lagging and failing soon after the copter took off. In an attempt to scrounge up more signal strength without adding weight to the copter, we decided to experiment with a USB Wi-Fi dongle and a directional antenna connected to a laptop. To interface the camera to the laptop, we turned to Sony's Remote Camera API, and wrote a python script that would allow us to command image captures, as well as display a liveview so we can frame our shots. This was moderately successful, with some dropped frames but an otherwise stable link at 200ft, though it was not a very smooth experience. Both the software and hardware setups have room for improvement, so this is an encouraging first result.
 
