@@ -9,7 +9,7 @@ author: Riley Yeakle, Eric Lo, David Muller
 categories:
 - intelligent-camera-trap
 ---
-(Photography by [Jennifer Batryn](http://www.flickr.com/photos/kokosnu55/))
+(Photography by [Jennifer Batryn](https://www.flickr.com/photos/kokosnu55/))
 
 A while back, a few researchers had set up a camera rig in the lion enclosure at the zoo, Dr. Lance Miller had told us. He had cautioned them the cameras were too close to the ground, and like most cats, lions tend to be very curious about new things in their environments. It turns out, Lance was right. The next morning all but a few scraps of the cameras were left. As we set up our own camera system in the tiger's enclosure, we hoped our system would not befall the same fate.
 
@@ -49,4 +49,4 @@ The low resolution IR sensor was largely experimental because we weren't sure th
 
 Once we use this data to demonstrate our ability to localize the tiger, we'll move on to the next test: recording and classifying tiger behavior as active or inactive. This simple characterization in itself will streamline behavioral data collection and analysis for researchers at the zoo. With the feedback this system provides, caretakers and researchers will be able to improve the quality of care and better study species in captivity.
 
-[More and Full-Size Images](http://www.flickr.com/photos/kokosnu55/sets/72157634476869034/with/9204190781/)
+[More and Full-Size Images](https://www.flickr.com/photos/kokosnu55/sets/72157634476869034/with/9204190781/)

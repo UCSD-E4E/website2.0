@@ -44,5 +44,5 @@ After weeks of processing, we are excited to present high resolution orthophotos
 
 I'd like to thank David O'Connor for providing us with this opportunity, as well as all of the summer REU students for making this deployment a success.
 
-For more photos of our trip, see [Jennifer's flickr gallery](http://www.flickr.com/photos/kokosnu55/sets/72157635440616518/)
+For more photos of our trip, see [Jennifer's flickr gallery](https://www.flickr.com/photos/kokosnu55/sets/72157635440616518/)
 
