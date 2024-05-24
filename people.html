@@ -1,0 +1,46 @@
+---
+title: People
+layout: page
+---
+<p>* Denotes people that have participated in one of our <a href="{{ '/expeditions' | absolute_url }}">expeditions/deployments</a>.</p>
+{% assign people = site.data.people %}
+
+<h2>E4E Directors</h2>
+<div class="people_level_block">
+    {% for person in people %}
+        {% if person.level == 'E4E Director' %}
+            {% include person_profile.html
+                person=person %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<h2>Staff Engineers</h2>
+<div class="people_level_block">
+    {% for person in people %}
+        {% if person.level == 'Staff Engineer' %}
+            {% include person_profile.html
+                person=person %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<h2>Project Leads</h2>
+<div class="people_level_block">
+    {% for person in people %}
+        {% if person.level == 'Project Lead' %}
+            {% include person_profile.html
+                person=person %}
+        {% endif %}
+    {% endfor %}
+</div>
+
+<h2>Project Members</h2>
+<div class="people_level_block">
+    {% for person in people %}
+        {% if person.level == 'Project Member' %}
+            {% include person_profile.html
+                person=person %}
+        {% endif %}
+    {% endfor %}
+</div>
