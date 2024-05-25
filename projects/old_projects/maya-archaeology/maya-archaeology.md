@@ -96,7 +96,7 @@ The project started in 2014 with two expeditions to Guatemala. Albert, Ryan, Cur
 
 # In the Press
 
-Calit2 Newsroom: <a href="https://www.calit2.net/newsroom/article.php?id=2420">Capturing Ancient Maya Sites from Both a Rat’s and a ‘Bat’s Eye View’</a> (Credit Tiffany Fox)
+Calit2 Newsroom: <a href="https://today.ucsd.edu/story/capturing_ancient_maya_sites_from_both_a_rats_and_a_bats_eye_view">Capturing Ancient Maya Sites from Both a Rat’s and a ‘Bat’s Eye View’</a> (Credit Tiffany Fox)
 
 International Business Times: <a href="https://www.ibtimes.com/drones-lasers-help-archaeologists-study-ancient-mayan-ruins-hidden-guatemala-jungle-video-1690757">Drones, Lasers Help Archaeologists Study Ancient Mayan Ruins Hidden In Guatemala Jungle</a>
 

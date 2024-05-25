@@ -34,18 +34,18 @@ jobs:
       - name: make caches
         run: |
           mkdir _site
-          mkdir cache 
+          mkdir cache
       - name: Cache Images
         uses: actions/cache/restore@v3
         with:
           path: cache
           key: cache_test
-      - name: move cache also into site
-        run: |
-          cp -r cache  _site/cache
-          find cache -exec touch {} \;
-          ls -l cache
-          ls -l ./
+      # - name: move cache also into site
+      #   run: |
+      #     cp -r cache  _site/cache
+      #     find cache -exec touch {} \;
+      #     ls -l cache
+      #     ls -l ./
       - name: Setup node
         uses: actions/setup-node@v4
       - name: Setup Ruby
@@ -75,11 +75,13 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: "./_site" #--enforce_https false <-- why doesn't this work?
-          arguments: --ignore-status-codes "999,403" --ignore_urls "/kastner.ucsd.edu/,/onlinedigeditions.com/,/e4e.ucsd.edu/" --assume-extension .html --swap-urls '^https\://e4e.ucsd.edu/:/'
+          arguments: --ignore-status-codes "999,403" --ignore_urls "/kastner.ucsd.edu/,/onlinedigeditions.com/,/e4e.ucsd.edu/,/jaffeweb.ucsd.edu/" --assume-extension .html --swap-urls '^https\://e4e.ucsd.edu/:/'
       - name: Checks files
         run: ls -l cache
       - name: Checks files
         run: ls -l assets
+      - name: remove extra cache
+        run: rm -rf cache/resize_temp
       - name: Cache Images
         uses: actions/cache/save@v3
         with:
