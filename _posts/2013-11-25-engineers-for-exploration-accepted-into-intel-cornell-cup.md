@@ -18,6 +18,6 @@ This week, our Terrestrial Vehicle project was accepted into the Intel Cornell C
 [![wolf2]({{'/assets/2013-11-25-wolf2.jpg' | resize: '200x300'}})]({{'/assets/2013-11-25-wolf2.jpg' | absolute_url}})
 [![wolf]({{'/assets/2013-11-25-wolf.jpg' | resize: '200x300'}})]({{'/assets/2013-11-25-wolf.jpg' | absolute_url}})
 
-For more information on the Cornell Cup visit [https://www.systemseng.cornell.edu/intel/](https://www.systemseng.cornell.edu/intel/)
+For more information on the Cornell Cup visit [https://www.engineering.cornell.edu/about/branding-microsite/independent-thinkers/student-stories/intel-cornell-cup](https://www.engineering.cornell.edu/about/branding-microsite/independent-thinkers/student-stories/intel-cornell-cup)
 
 For more information on the California Wolf Center visit [https://www.californiawolfcenter.org/](https://www.californiawolfcenter.org/)

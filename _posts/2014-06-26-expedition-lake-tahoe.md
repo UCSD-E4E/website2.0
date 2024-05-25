@@ -19,7 +19,7 @@ tags:
 - structure-from-motion
 - underwater
 ---
-Engineers for Exploration members have just returned from an expedition to Emerald Bay, Lake Tahoe, California, where they were imaging a pair of sunken Gold Rush-era barges in collaboration with archaeologists from the [Atlantic World Marine Archaeology Research Institute](https://www.amari-archaeology.org/).
+Engineers for Exploration members have just returned from an expedition to Emerald Bay, Lake Tahoe, California, where they were imaging a pair of sunken Gold Rush-era barges in collaboration with archaeologists from the Atlantic World Marine Archaeology Research Institute.
 
 This project aims to provide digital tools for documentation of underwater archaeological sites. Conventional nautical archaeology techniques rely on recording the geometric structure of a shipwreck or other site with a tape measure, which is laborious and time-consuming. We aim to augment this process by providing digital tools for accurately capturing the 3D structure of a site, in addition to providing information-rich 3D visual data which archaeologists can use to analyze a site remotely. The video below shows an example of a wreck being recorded using conventional methods.
 
