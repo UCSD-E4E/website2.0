@@ -40,6 +40,8 @@ jobs:
         with:
           path: cache
           key: cache_test
+          restore-keys: |
+            cache_test
       # - name: move cache also into site
       #   run: |
       #     cp -r cache  _site/cache
@@ -87,4 +89,6 @@ jobs:
         if: always()
         with:
           path: cache
-          key: cache_test
+          key: cache_test-${{ hashFiles('assets/**') }}
+        restore-keys: |
+          cache_test  
