@@ -39,7 +39,7 @@ jobs:
         uses: actions/cache/restore@v3
         with:
           path: cache
-          key: cache_test
+          key: cache_test-${{ hashFiles('assets/**') }}
           restore-keys: |
             cache_test
       # - name: move cache also into site
@@ -90,5 +90,5 @@ jobs:
         with:
           path: cache
           key: cache_test-${{ hashFiles('assets/**') }}
-        restore-keys: |
-          cache_test  
+          restore-keys: |
+            cache_test  
