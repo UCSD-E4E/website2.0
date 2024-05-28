@@ -70,6 +70,7 @@ jobs:
       #   uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
+        id: build
         run: npx gulp build -j '--config _config.yml,_dev_config.yml'
         env:
           JEKYLL_ENV: production
@@ -83,6 +84,7 @@ jobs:
       - name: Checks files
         run: ls -l assets
       - name: remove extra cache
+        if: steps.build.outcome == 'success'
         run: rm -rf cache/resize_temp
       - name: Cache Images
         uses: actions/cache/save@v3
