@@ -1,0 +1,122 @@
+- project: Acoustic Species ID
+  title: ML
+  description: On the Acoustic Species Identification team we aim to aid our San Diego Zoo collaborators in breaking into the passive acoustic monitoring field. As a preliminary deployment, our collaborators collected over four terabytes of audio recordings from the Madre de Dios region of the Peruvian Amazon. We are working to combine the powers of fields such as machine learning, digital signal processing, computer science, biology, and ecology to parse through and extract statistically significant indicators of ecological health from the world's natural soundscapes that are begging to be heard.
+  required:
+  - Python (Matplotlib, Scipy, Numpy)
+  desired:
+  - Pytorch, Tensorflow
+  - Linux
+  - DSP
+  - Git
+  - Research Skills
+  link: /acoustic-species-identification
+- project: FishSense
+  title: Computer Vision/Machine Learning Engineer
+  link: /fishsense
+  description: FishSense is aiming to build fish detection and volume estimation algorithms using RGBD data. A CV/ML engineer would work with training detection models, testing said models, and connecting the data science work with the Scripps scientific divers who will be primarily operating the devices.
+  required:
+  - Python programming
+  - Github
+  - SSH
+  - Basic Machine Learning Concepts
+  desired:
+  - PyTorch
+  - TensorFlow
+  - Object Detection Project experience
+  - Familiarity with advanced models, especially FasterRCNN/YOLO
+- project: FishSense
+  title: Rust Developer
+  link: /fishsense
+  description: FishSense is creating an application in Rust to support fast and efficient data processing from the FishSense Lite field deployment. Much of this work will be porting existing Python code into extensible modules, creating unit tests, and finding ways to use Rust to interface with GPU libraries (CUDA) and computer vision/machine learning frameworks.
+  required:
+  - Rust programming
+  - Python programming
+  - Github
+  desired:
+  - Strong linear algebra background
+- project: Hardware Team
+  title: Electrical Designer
+  link: /research-support-group
+  description: Engineers for Exploration develops a number of systems to support scientists in conducting scientific studies. These systems often contain experimental technologies, but need to survive in harsh austere environments such as in jungles, ocean depths, or the desert, as well as for long periods of time. We are looking for a team of students to help with developing and building the electrical components for several of these systems. This team will be supporting every project that involves hardware, which enables students to get a broad range of experience with various types of design spaces. We would be looking for students to commit at least 4 hours a week.
+  required:
+  - Altium Designer
+  - Electrical design, analysis, and prototyping
+  - Technical documentation
+  desired:
+  - Rapid prototyping and design
+  - Experience with soldering
+- project: Hardware Team
+  title: Mechanical Designer
+  link: /research-support-group
+  description: Engineers for Exploration develops a number of systems to support scientists in conducting scientific studies. These systems often contain experimental technologies, but need to survive in harsh austere environments such as in jungles, ocean depths, or the desert. We are looking for a team of students to help with developing and building the mechanical components for several of these systems. This team will be supporting every project that involves hardware, which enables students to get a broad range of experience with various types of design spaces. We would be looking for students to commit at least 4 hours a week.
+  required:
+  - SolidWorks
+  - Mechanical design, analysis, and prototyping
+  - Technical documentation
+  desired:
+  - Rapid prototyping and design
+  - Experience with building hardened systems
+- project: Mangrove Monitoring
+  title: ML
+  link: /mangrove-monitoring
+  description: The Mangrove Monitoring ML team develops state of the art algorithms for classifying mangrove imagery using high-resolution drone and satellite imagery. We are looking for experienced students to help in the further improvement of our current algorithms and for the development of new algorithms with a focus on publications.
+  required:
+  - Computer Vision/Deep Learning Knowledge
+  - Data Science Fundamentals
+  - Experience with CNN/Unet Architectures
+  - Experience with Data Analysis Libraries (pandas, numpy, etc).
+  desired:
+  - Experience with Tensorflow/Pytorch
+  - Experience with GIS/Remote Sensing workflows
+- project: Mangrove Monitoring
+  title: Software Development
+  link: /mangrove-monitoring
+  description: The Mangrove Monitoring Image Classification Tool team develops a tool that lets conservation scientists access and use our ML algorithms without prior knowledge to classify mangrove imagery using a web-based tool. We are looking for a student to help contribute to the testing, development, and design of our current Image Classification Tool with additional features and performance updates.
+  required:
+  - General coding experience & knowledge of good software development practices
+  - Basic knowledge of frontend or backend or cloud
+  - Git/GitHub
+  desired:
+  - Experience with React/TypeScript
+  - Experience with RESTful APIs (Express, Node)
+  - Experience with Docker
+  - UI/UX design experience
+  - Experience with AWS
+  - Experience with Python or Flask
+  - Have worked with NoSQL databases (MongoDB)
+  - Experience with any testing frameworks
+- project: Radio Telemetry Tracker
+  title: Mechanical Engineer
+  link: /radio-collar-tracker
+  description: The Radio Telemetry Tracking project seeks to aid scientists in the monitoring and conservation of wildlife by offering an efficient and reliable method of tracking animals. We are currently working on creating a long-term monitoring system that requires hardware mounts to be designed and built, and are seeking students with background in mechanical engineering to help us. We would be looking for students to commit at least 4 hours a week.
+  required:
+  - SolidWorks CAD + Drawings
+  - 3D Printing and/or Laser Cutting
+  - Familiarity with using hand tools (screwdriveres, wrenches, etc)
+- project: Radio Telemetry Tracker
+  title: Electrical Engineer
+  link: /radio-collar-tracker
+  description: The Radio Telemetry Tracking project seeks to aid scientists in the monitoring and conservation of wildlife by offering an efficient and reliable method of tracking animals. We are looking for students to help maintain, develop, and test next generation monitoring systems ranging from drone payload trackers to mobile tracking stations. We would be looking for students to commit at least 4 hours a week.
+  required:
+  - Circuit design
+  - Experience in electrical debugging
+  - Technical documentation
+  desired:
+  - Experience soldering
+- project: Radio Telemetry Tracker
+  title: Student Co-Lead
+  link: /radio-collar-tracker
+  description: |
+    Engineers for Exploration (E4E) is looking for motivated students to take on a leadership role for our Radio Telemetry Tracker (RTT) team. This role could tie into an undergraduate or master's thesis project, and we encourage students to explore this option. RTT is a multidisciplinary systems project in collaboration with the San Diego Zoo Wildlife Alliance which aims to improve methods of tracking animals using radio telemetry. This type of animal tracking picks up signals from radio transmitters which have been attached to or embedded in subject animals. Traditional on-foot methods of radio telemetry require researchers to trek through difficult terrain with unwieldy antennae, so we're developing two systems to make the process easier: a drone-based system to fly over the terrain, and a tower-based system to be set up and left to collect data with little supervision.
+
+    We have deployed our system to the field previously, and the project's current goals include designing a new PCB for our payload, redesigning our payload's physical housing, and developing software to communicate with the system's peripheral devices, all to prepare for upcoming deployments. Examples of skills which would be helpful for this role include systems engineering, PCB design, electrical debugging, embedded programming, and digital signal processing.
+
+    We assemble our system with custom sensors to gather the data we need and record it for later analysis. Due to such customization and the multidisciplinary nature of RTT, this project has many moving parts, and the ideal candidate would have some experience navigating such problems of complexity. This role includes the expectation and opportunity to deploy the system you develop into the field in order to track animals and report on results.
+  desired:
+  - Leadership/Project Management
+  - PCB Design/Layout/Assembly/Testing
+  - Mechanical Design/Fabrication/Assembly/Testing
+  - Digital Interfacing (I2C/Serial)
+  - Embedded Linux (I2C/Serial/GPIO/sysfs/networking)
+  - Python (pybind11/threading)
+  - Digital Signal Processing (STFT/spectral analysis/mixing)
