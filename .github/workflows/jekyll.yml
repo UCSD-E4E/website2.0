@@ -84,6 +84,7 @@ jobs:
         run: rm -rf cache/resize_temp
       - name: Cache Images
         uses: actions/cache/save@v3
+        if: always()
         with:
           path: cache
           key: cache_test
