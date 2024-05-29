@@ -181,23 +181,22 @@
   people: 
     - Eric Lo
     - Brynn Hall
-# - project: Mangrove Monitoring
-#   location: Baja California
-#   date: 2018-07
-#   year: 2018
-#   month: July
-#   link: https://e4e.ucsd.edu/coastal-conservation/mangrove-monitoring-reu-trip-july-2018
-#   media:
-#     - https://photos.google.com/share/AF1QipM72bAFmnwGvqAeldrY0eHB-k11FwkyDwGBI3-FDuNLfW85YtNsIsi9u4j4EnpKLQ?key=WUppS1pJRlZicldLU0NsNlQwZDhHaU1pOVlWX0VR
-#     - https://photos.google.com/share/AF1QipNVcTGhAscffMhnVg6HC05OuMDgafx90yVVsHJJRbC1aeBJ58DGJEGw38M4kbCAdQ?key=cS1uV0U2UW82U3RUa29CWXR1UHAzNDYxN0pyQVdR
-#   lead:
-#     - Dillon Hicks
-#     - Kathy Qi
-#     - Eric Lo
-#   people:
-#     - Catherine Lee
-#     - Savannah Longoria
-#     - Brian Rush
+- project: Mangrove Monitoring
+  location: Baja California
+  date: 2018-07
+  year: 2018
+  month: July
+  media:
+    - https://photos.google.com/share/AF1QipM72bAFmnwGvqAeldrY0eHB-k11FwkyDwGBI3-FDuNLfW85YtNsIsi9u4j4EnpKLQ?key=WUppS1pJRlZicldLU0NsNlQwZDhHaU1pOVlWX0VR
+    - https://photos.google.com/share/AF1QipNVcTGhAscffMhnVg6HC05OuMDgafx90yVVsHJJRbC1aeBJ58DGJEGw38M4kbCAdQ?key=cS1uV0U2UW82U3RUa29CWXR1UHAzNDYxN0pyQVdR
+  lead:
+    - Dillon Hicks
+    - Kathy Qi
+    - Eric Lo
+  people:
+    - Catherine Lee
+    - Savannah Longoria
+    - Brian Rush
 - project: Mangrove Monitoring
   location: Baja California
   date: 2018-05
