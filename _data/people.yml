@@ -1331,6 +1331,7 @@
   description: FishSense since 2022
   level: Project Candidate
   start: 2022
+  image: assets/people/a.kan.jpg
 - name: Varun Singh
   description: Mangrove Monitoring 2021-2023
   level: Project Member - Alumni
@@ -1613,4 +1614,14 @@
 - name: Claire Wang
   description: Hardware Support for FishSense and Radio Telemetry Tracking since 2023
   level: Project Candidate
+  start: 2023
+- name: Tianqi Zhang
+  description: Acoustic Species ID since 2023
+  level: Project Lead
+  image: assets/people/t.zhang.jpg
+  start: 2023
+- name: Ludwig von Schoenfeldt
+  description: Acoustic Species ID since 2023
+  level: Project Lead
+  image: assets/people/l.vonschoenfeldt.jpeg
   start: 2023
