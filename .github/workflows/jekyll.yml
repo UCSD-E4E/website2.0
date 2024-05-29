@@ -42,12 +42,10 @@ jobs:
           key: cache_test-${{ hashFiles('assets/**') }}
           restore-keys: |
             cache_test
-      # - name: move cache also into site
-      #   run: |
-      #     cp -r cache  _site/cache
-      #     find cache -exec touch {} \;
-      #     ls -l cache
-      #     ls -l ./
+      - name: check cache
+        run: |
+          ls -l cache
+          ls -l cache/resize
       - name: Setup node
         uses: actions/setup-node@v4
       - name: Setup Ruby
@@ -91,6 +89,7 @@ jobs:
         if: always()
         with:
           path: cache
+          # this should not hash every file.... how do we connect this to a new cache?
           key: cache_test-${{ hashFiles('assets/**') }}
           restore-keys: |
             cache_test  
