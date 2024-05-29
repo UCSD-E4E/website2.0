@@ -1,5 +1,4 @@
 ---
-
 layout: page
 title: Welcome
 slug: /welcome
@@ -49,4 +48,3 @@ Applications are open year round, however, focused review will occur at the begi
 As a member of a project team, you can expect to make material contributions to a project that has a concrete impact on the way we understand and explore the world.  To recognize the various levels that individuals put into each project, we've established a sequence of accomplishments that you can earn throughout your time in E4E.
 
 You can find out more about these levels [in this document](https://docs.google.com/document/d/e/2PACX-1vTCzomIDOnUE9covla21J5vT5_QB8u_2Avo_6trpUJwlFQmaL-0q8SsMEoCXce9LM0zfHIJlO3-QPsM/pub).
-
