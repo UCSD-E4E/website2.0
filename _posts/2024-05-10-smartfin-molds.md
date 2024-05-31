@@ -2,7 +2,7 @@
 date: 2024-05-10 18:33-07:00
 featuredImage: assets/smartfin/2024-05-10_molds3.jpg
 layout: blog-post
-title: Latest Smartfin Molds LONG LONG Molds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONGMolds LONG LONG
+title: Latest Smartfin Molds
 author: Nathan Hui
 categories: [news-and-updates]
 tags:
