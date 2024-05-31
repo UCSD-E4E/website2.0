@@ -20,9 +20,9 @@ permissions:
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-# concurrency:
-  # group: "pages"
-  # cancel-in-progress: false
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   # Build job
@@ -90,5 +90,3 @@ jobs:
           path: cache
           # this should not hash every file.... how do we connect this to a new cache?
           key: cache_test-${{ hashFiles('assets/**') }}
-          restore-keys: |
-            cache_test  

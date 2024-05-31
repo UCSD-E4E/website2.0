@@ -23,6 +23,5 @@ The Del Dios Habitat Monitoring project is a collaboration between Engineers for
 <!-- <p class="caption">Our team in the field in Summer 2013 deploying the aerial camera platform to monitor native plant regrowth</p> -->
 
 ## Summer 2013 Monitoring Results
-<!-- <p>In Summer 2013, we deployed the <a href="https://e4e.ucsd.edu/wordpress/?page_id=30" rel="noopener" target="_blank">Aerial Camera Platform</a> in the field to take aerial imagery of the area where all invasive plant species have been removed. Below is a 3D reconstruction of the target area. This data will help ecologists assess the recovery of the area’s native plant species.</p>    -->
 
 In Summer 2013, we deployed the [Aerial Camera Platform]({{'/stabilized-aerial-camera-platform' | absolute_url}}) in the field to take aerial imagery of the area where all invasive plant species have been removed. Below is a 3D reconstruction of the target area. This data will help ecologists assess the recovery of the area’s native plant species.
