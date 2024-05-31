@@ -283,3 +283,32 @@ tags:
 Add the contents of your blog post after this preable, using the appropriate components.
 
 Commit this and any included images to a new branch (we recommend using the same format as the blob post file name).  Request a review from one of the website admins and enable auto merge.
+
+## Updating Open Opportunities
+1. Open [_data/opportunities.yml](_data/opportunities.yml)
+2. Entries must have the following structure:
+```
+- project: {project_name}
+  title: {position title}
+  description: {multiline string describing project and position}
+  required: {optional list of required skills}
+  desired: {optional list of desired skills}
+  link: {optional link to project webpage}
+```
+
+For example:
+```
+- project: Radio Telemetry Tracker
+  title: Lead
+  description: |
+    This is a multiline project description.
+
+    This is still part of the position description, and includes a blank line between the previous line.
+  desired:
+  - Desired skill 1
+  - Desired skill 2
+  required:
+  - required skill 1
+  - required skill 2
+  link: /radio-collar-tracker
+```
