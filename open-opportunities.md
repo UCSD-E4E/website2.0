@@ -1,4 +1,5 @@
 ---
+
 title: Open Opportunities - Academic Year
 layout: page
 ---
@@ -24,3 +25,4 @@ For these academic year opportunities, please apply at [{{'/join' | absolute_url
 {% endif %}
 
 {% endfor %}
+

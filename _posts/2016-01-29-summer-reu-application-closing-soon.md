@@ -10,8 +10,6 @@ categories:
 - news-and-updates
 ---
 
-If you're interested in joining us for our REU program this summer, the application is due February 15. The link to the application is below:
-
-[http://reumanager.com/efore](http://reumanager.com/efore)
+If you're interested in joining us for our REU program this summer, the application is due February 15.
 
 We've posted about the projects from our past REUs, so feel free to look around our website for more on what we do.

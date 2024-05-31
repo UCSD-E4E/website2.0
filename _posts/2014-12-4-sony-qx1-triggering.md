@@ -12,14 +12,14 @@ categories:
 We've grown quite fond of Sony's QX100 on our platforms for its superb image quality in a small form factor.  However, it has been difficult to remotely control the camera, and we're still using a [servo pushing a button to take pictures]({{'/quadcopter/sony-qx100-quadcopter-testing' | absolute_url}}).
 
 <figure>
-<a href="{{'/assets/2014-12-04-sony-qx.jpg' | absolute_url}}"><img src="{{'/assets/2014-12-04-sony-qx.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2014-12-04-sony-qx.jpg' | absolute_url}}"><img src="{{'/assets/2014-12-04-sony-qx.jpg' | resize: '1024x768'}}" alt="QX1 (left), QX100 (right)"></a>
 <figcaption>QX1 (left), QX100 (right)</figcaption>
 </figure>
 
 We recently acquired the Sony's newest lens cameras: the QX1. The larger APS-C sensor and interchangeable lens provide for higher image quality, though at the expense of increased weight. We've paired the QX1 with Sony's 20mm f/2.8 lens for a total weight of 269g, up from 180g with the QX100.
 
 <figure>
-<a href="{{'/assets/2014-12-04-qx1-trigger.jpg' | absolute_url}}"><img src="{{'/assets/2014-12-04-qx1-trigger.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2014-12-04-qx1-trigger.jpg' | absolute_url}}"><img src="{{'/assets/2014-12-04-qx1-trigger.jpg' | resize: '1024x768'}}" alt="QX1 with trigger cable and battery dummy"></a>
 <figcaption>QX1 with trigger cable and battery dummy</figcaption>
 </figure>
 
@@ -30,7 +30,7 @@ The AC-PW20 provides an easy way to externally power the QX1, and we've hooked i
 The QX1 supports the RM-VPR1 remote, which uses a proprietary plug to enable not only focus and shutter release, but also turning the camera on and off remotely. The wired shutter release is nice to have for our aerial platforms, but the ability to turn the camera on and off remotely is ideal for our underwater platforms which need to be sealed before submersion. However, we didn't want to take up space and weight with the remote, so we disassembled the remote and cut up the cable to get it hooked directly to our microcontrollers. As it turns out, the connector on both sides of the cable is the same, so after cutting off the plastic bits shrouding the connector, we get 2 connectors from the 1 cable.
 
 <figure>
-<a href="{{'/assets/2014-12-04-trigger-cable.jpg' | absolute_url}}"><img src="{{'/assets/2014-12-04-trigger-cable.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2014-12-04-trigger-cable.jpg' | absolute_url}}"><img src="{{'/assets/2014-12-04-trigger-cable.jpg' | resize: '1024x768'}}" alt="The innards of Sony's Multi-Terminal cable"></a>
 <figcaption>The innards of Sony's Multi-Terminal cable</figcaption>
 </figure>
 

@@ -17,13 +17,13 @@ We have been working on some structure from motion algorithms to try to recreate
 
 ## Cannon
 
-![]({{"/assets/2013-04-22-GOPR6293.jpg" | resize: "300x225>"}})
+![GOPR6293]({{"/assets/2013-04-22-GOPR6293.jpg" | resize: "300x225>"}})
 
 ## Onion Jar
-![]({{"/assets/2013-04-22-onionjar_0007.jpg" | resize: "300x225>"}})
+![onionjar_0007]({{"/assets/2013-04-22-onionjar_0007.jpg" | resize: "300x225>"}})
 
 ## Bellarmine Jar
-![]({{"/assets/2013-04-22-image-0014.jpg" | resize: "300x225>"}})
+![bellarmine jar]({{"/assets/2013-04-22-image-0014.jpg" | resize: "300x225>"}})
 
 <!-- ** The links require browser support for WebGL. To see if you have WebGL, please navigate [here](http://get.webgl.org/) -->
 
