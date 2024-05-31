@@ -28,14 +28,14 @@ A camera trap is a recording device that captures images or video of wildlife. C
 Since camera traps are deployed for several months at a time, they must be able to conserve power. As a result, the intelligent trap must be based on an optimized tracking algorithm that can run on a small, efficient embedded board. This is an interesting problem because highly sophisticated tracking algorithms consume much more power, but are also more likely to minimize false positives; thus conserving power that would otherwise be used to record pointless data. The algorithm that our team developed this summer makes clever use of background subtraction and Kalman filters to effectively ignore background noise like moving branches and to track only the movement of relevant animals.
 
 <figure>
-<a href="{{'/assets/2015-10-06-cameratrap-tracking.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-cameratrap-tracking.png' | resize: '300x278'}}"></a>
+<a href="{{'/assets/2015-10-06-cameratrap-tracking.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-cameratrap-tracking.png' | resize: '300x278'}}" alt="Tracking objects as they move through a dynamic environment"></a>
 <figcaption>Tracking objects as they move through a dynamic environment</figcaption>
 </figure>
 
 This summer REU team chose to explore the feasibility of a virtual turret design for the intelligent camera trap. The design incorporates up to eight high-resolution webcams that capture a 360 degree field of view. Our research involved choosing appropriate hardware and determining theoretical and empirical limits of a system that has to handle several live video feeds at once. This largely consisted of bandwidth and power testing.
 
 <figure>
-<a href="{{'/assets/2015-10-06-cameratrap-prototype.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-cameratrap-prototype.png' | resize: '300x278'}}"></a>
+<a href="{{'/assets/2015-10-06-cameratrap-prototype.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-cameratrap-prototype.png' | resize: '300x278'}}" alt="A CAD rendering of a potential mounting design"></a>
 <figcaption>A CAD rendering of a potential mounting design</figcaption>
 </figure>
 

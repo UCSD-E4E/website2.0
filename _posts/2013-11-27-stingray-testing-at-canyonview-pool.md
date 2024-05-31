@@ -25,10 +25,10 @@ In the video above, color segmentation is performed to extract the green target 
 
 **Pictures from Stingray Test**
 
-[![]({{'/assets/2013-11-27-stingray-underwater.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-stingray-underwater.jpg' | absolute_url}})
-[![]({{'/assets/2013-11-27-IMG_0002.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_0002.jpg' | absolute_url}})
-[![]({{'/assets/2013-11-27-IMG_0006.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_0006.jpg' | absolute_url}})
+[![stingray-underwater]({{'/assets/2013-11-27-stingray-underwater.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-stingray-underwater.jpg' | absolute_url}})
+[![IMG_0002]({{'/assets/2013-11-27-IMG_0002.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_0002.jpg' | absolute_url}})
+[![IMG_0006]({{'/assets/2013-11-27-IMG_0006.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_0006.jpg' | absolute_url}})
 
-[![]({{'/assets/2013-11-27-IMG_0014.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_0014.jpg' | absolute_url}})
-[![]({{'/assets/2013-11-27-IMG_3981.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_3981.jpg' | absolute_url}})
-[![]({{'/assets/2013-11-27-underwater.png' | resize: '150x150'}})]({{'/assets/2013-11-27-underwater.png' | absolute_url}})
+[![IMG_0014]({{'/assets/2013-11-27-IMG_0014.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_0014.jpg' | absolute_url}})
+[![IMG_3981]({{'/assets/2013-11-27-IMG_3981.jpg' | resize: '150x150'}})]({{'/assets/2013-11-27-IMG_3981.jpg' | absolute_url}})
+[![underwater]({{'/assets/2013-11-27-underwater.png' | resize: '150x150'}})]({{'/assets/2013-11-27-underwater.png' | absolute_url}})

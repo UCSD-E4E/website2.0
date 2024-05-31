@@ -16,7 +16,7 @@ Most tablets use a capacitive touch-screen interface, which doesn't work underwa
 Water attenuates electromagnetic waves outside of the range of visible light very quickly. We tested the tablet (in a waterproof bag) and the stylus underwater to see if the electromagnetic field from the screen was able to transmit far enough underwater to register a touch from the stylus. Our test was successful, indicating that a pen-based interface is a viable alternative to using a capacitive touchscreen to control our camera rig.  
 
 <figure>
-<a href="{{'/assets/2015-03-15-stylus-enclosure-11.jpg' | absolute_url}}"><img src="{{'/assets/2015-03-15-stylus-enclosure-11.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2015-03-15-stylus-enclosure-11.jpg' | absolute_url}}"><img src="{{'/assets/2015-03-15-stylus-enclosure-11.jpg' | resize: '1024x768'}}" alt="Design of waterproof stylus enclosure in CAD software"></a>
 <figcaption>Design of waterproof stylus enclosure in CAD software</figcaption>
 </figure>
 

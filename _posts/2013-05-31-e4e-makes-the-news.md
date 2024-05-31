@@ -11,7 +11,7 @@ post_format:
 - post-format-image
 ---
 
-The Engineers for Exploration program has been featured in the UCSD Guardian! Below is an excerpt of the article published. For the entire article, please follow the link [here](http://ucsdguardian.org/2013/05/28/a-new-age-of-exploration/).
+The Engineers for Exploration program has been featured in the UCSD Guardian! Below is an excerpt of the article published. For the entire article, please follow the link [here](https://ucsdguardian.org/2013/05/28/a-new-age-of-exploration/).
 
 <blockquote>
 <p>The UCSD National Geographic Society Engineers for Exploration program, founded by research scientist Albert Yu-Min Lin, is promoting scientific discovery through real-world engineering.</p>
@@ -27,6 +27,6 @@ The Engineers for Exploration program has been featured in the UCSD Guardian! Be
 <p>"The interesting thing is that the students don't get paid for this," Lin said. "Some of them get credit for it, but it isn't like they're doing this as a requirement. It's entirely our out of passion. It's entirely out of the ambition to try to do something bigger - to change the expectations of what you can do with a degree in engineering."</p>
 </blockquote>
 
-[Article continued](http://ucsdguardian.org/2013/05/28/a-new-age-of-exploration/)
+[Article continued](https://ucsdguardian.org/2013/05/28/a-new-age-of-exploration/)
 
 
