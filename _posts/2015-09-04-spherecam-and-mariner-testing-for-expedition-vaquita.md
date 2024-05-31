@@ -27,7 +27,7 @@ On the first day of field testing, we completed initial flight tests and tuning 
 After a [hammerhead shark spotted off La Jolla Shores](https://www.nbcsandiego.com/news/local/Lifeguards-Close-La-Jolla-Beaches-After-Hammerhead-Sighting-323325231.html) delayed our ocean field testing, we went to Mission Bay with kayaks in tow to complete the first over-water flight tests of the Mariner.
 
 <figure>
-<a href="{{'/assets/2015-09-04-kayaks-mission-bay.jpg' | absolute_url}}"><img src="{{'/assets/2015-09-04-kayaks-mission-bay.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2015-09-04-kayaks-mission-bay.jpg' | absolute_url}}"><img src="{{'/assets/2015-09-04-kayaks-mission-bay.jpg' | resize: '1024x768'}}" alt="Sunset flight testing of Mariner copter at Mission Bay, San Diego"></a>
 <figcaption>Sunset flight testing of Mariner copter at Mission Bay, San Diego</figcaption>
 </figure>
 
@@ -41,7 +41,7 @@ The video below shows one of our successful flights of the Mariner over water. T
 On day two of field testing we tested the SphereCam, an acoustically-triggered spherical underwater camera trap that we have been developing over the past several months. The SphereCam contains 6 cameras which yield a 360x360 degree view of the surrounding area, and is triggered by the vocalizations of cetaceans via an ultrasonic hydrophone. 
 
 <figure>
-<a href="{{'/assets/2015-09-04-spherecam-perry-eric-2.jpg' | absolute_url}}"><img src="{{'/assets/2015-09-04-spherecam-perry-eric-2.jpg' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2015-09-04-spherecam-perry-eric-2.jpg' | absolute_url}}"><img src="{{'/assets/2015-09-04-spherecam-perry-eric-2.jpg' | resize: '1024x768'}}" alt="Perry and Eric preparing the SphereCam for deployment in La Jolla Cove"></a>
 <figcaption>Perry and Eric preparing the SphereCam for deployment in La Jolla Cove</figcaption>
 </figure>
 

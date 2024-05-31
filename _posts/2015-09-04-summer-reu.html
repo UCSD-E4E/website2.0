@@ -37,7 +37,7 @@ students:
 - name: Nathan Hui
   school: University of California, San Diego
   align: alignleft
-  photo: assets/people/n.hui.png
+  photo: /assets/people/n.hui.png
   bio: Nathan Hui is a 4th year Electrical Engineering Student at UC San Diego. He is currently Project Lead for the Radio Collar Tracker, a collaboration between UC San Diego and the San Diego Zoo. Hui has been a member of Engineers for Exploration since 2014, working on projects including the Aerial Balloon Platform. In addition to being a student and undergraduate researcher, Hui is an Outings Guide with UC San Diego's Outback Adventures, guiding students on trips throughout the Southwestern United States and Western Mexico.
 - name: Jacob Junker
   school: North Carolina State University
@@ -108,7 +108,7 @@ mentors:
 {% for student in page.students %}
 <div class="floatclearfix">
     {% if student.photo %}
-    <p><a href="{{ student.photo }}"><img class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
+    <p><a href="{{ student.photo }}"><img alt="{{student.name}}" class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
     <p><strong>{{student.name}}, {{student.school}}</strong></p>
     <p>{{student.bio}}</p>
 </div>
@@ -118,7 +118,7 @@ mentors:
 {% for student in page.mentors %}
 <div class="floatclearfix">
     {% if student.photo %}
-    <p><a href="{{ student.photo }}"><img class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
+    <p><a href="{{ student.photo }}"><img alt="{{student.name}}" class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
     <p><strong>{{student.name}}, {{student.school}}</strong></p>
     <p>{{student.bio}}</p>
 </div>

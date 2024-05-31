@@ -11,7 +11,7 @@ layout: default
     <div class="project-gallery">
         {%- for project_data in page.blurbs -%}
         <div class="project-gallery_container">
-            <a href={{ project_data.redict }}>
+            <a href={{ project_data.link }}>
                 <img src="{{ project_data.photo | absolute_url }}" class="project-gallery_img" decoding="async"
                     alt="">
             </a>

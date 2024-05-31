@@ -31,12 +31,12 @@ At the second site, the Secchi depth recorded was 12 feet. The following video s
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uHdUX8mOZ7c?si=wdeu6oRC2OKfgQuH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <figure>
-<a href="{{'/assets/2014-09-11-site-a.png' | absolute_url}}"><img src="{{'/assets/2014-09-11-site-a.png' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2014-09-11-site-a.png' | absolute_url}}"><img src="{{'/assets/2014-09-11-site-a.png' | resize: '1024x768'}}" alt="Photo: Water at the first survey site, Secchi depth >15 feet."></a>
 <figcaption>Photo: Water at the first survey site, Secchi depth >15 feet.</figcaption>
 </figure>
 
 <figure>
-<a href="{{'/assets/2014-09-11-site-b.png' | absolute_url}}"><img src="{{'/assets/2014-09-11-site-b.png' | resize: '1024x768'}}"></a>
+<a href="{{'/assets/2014-09-11-site-b.png' | absolute_url}}"><img src="{{'/assets/2014-09-11-site-b.png' | resize: '1024x768'}}" alt="Photo: Water at the second survey site, Secchi depth 12 feet."></a>
 <figcaption>Photo: Water at the second survey site, Secchi depth 12 feet.</figcaption>
 </figure>
 
