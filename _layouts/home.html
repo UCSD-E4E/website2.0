@@ -44,7 +44,7 @@ layout: default
               <div class="home-post-image">
                 {%- if post.featuredImage -%}
                 <img 
-                  src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                  src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200!' | format: 'webp' | absolute_url }}"
                 >
                 {% else %}
                 <img 
