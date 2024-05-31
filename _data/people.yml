@@ -1611,6 +1611,7 @@
   description: Mangrove Monitoring since 2023
   level: Project Lead
   start: 2023
+  image: assets/people/z.lawrence.png
 - name: Claire Wang
   description: Hardware Support for FishSense and Radio Telemetry Tracking since 2023
   level: Project Candidate
