@@ -68,10 +68,18 @@
     text-overflow: ellipsis;
 }
 
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 200;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
 .home_post_excerpt {
     color:  #a4a4a4;
     font-size: 75%;
-    height: calc(100% - 183px - 10px - 50px);
+    // height: calc(100% - 183px - 10px - 50px);
 }
 
 .home_post_text {
@@ -103,6 +111,10 @@
 
 .archive-post-link {
     margin-bottom: 5px;
+}
+
+.archive-post-title {
+    color: #111111;
 }
 
 .post-link.archive-years {

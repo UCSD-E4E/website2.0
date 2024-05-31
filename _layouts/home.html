@@ -57,18 +57,18 @@ layout: default
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
                 <h3 style="margin-bottom: 1px;">
-                  <a class="post-link" href="{{ post.url | relative_url }}" rel="bookmark">
+                  <a class="post-link truncate" href="{{ post.url | relative_url }}" rel="bookmark">
                     {{ post.title | escape }}
                   </a>
                 </h3>
-                <p class="home_post_excerpt">
+                <p class="home_post_excerpt truncate">
 
 
 
                   {%- if post.description -%}
                     {{ post.description }}
                   {% else %}
-                    {{post.content | strip_html | truncate: 200}}
+                    {{post.content | strip_html}}
                   {% endif %}
 
                 </p>
@@ -86,4 +86,34 @@ layout: default
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
     </div>
   </div>
+  <script>
+    let posts_containers = document.getElementsByClassName("home_post_text")
+    for (var i = 0; i < posts_containers.length; i++) {
+      let max_height = posts_containers[i].offsetHeight
+
+      let children = posts_containers[i].children
+
+      //ASSUME: the date will always be 1 line and child 0
+      //ASSUME: Title is roughly twice - 3 times date height and child 1
+      //ASSUME: description line height roughly the same as date and child 2
+      let line_width = children[0].offsetHeight 
+
+      let title_height = line_width + children[1].offsetHeight
+      let max_title_lines = Math.floor((max_height - line_width * 2) / line_width)
+      
+      if (title_height > max_height) {
+        children[1].children[0].style['-webkit-line-clamp'] = max_title_lines
+      }
+
+      title_height = line_width + children[1].offsetHeight
+      let excerpt_height = title_height + children[2].offsetHeight
+      let max_excerpt_lines = Math.floor((max_height - title_height) / line_width)
+
+      if (excerpt_height > max_height ) {
+        //edit title to only have set number of lines
+        children[2].style['-webkit-line-clamp'] = max_excerpt_lines
+        
+      }
+    }
+  </script>
 </div>

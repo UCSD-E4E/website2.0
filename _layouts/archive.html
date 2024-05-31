@@ -9,7 +9,7 @@ layout: default
         {% for post in page.posts %}
         <li class="no-list archive-posts">
             <a class="post-link archive-post-link" href="{{ post.url | relative_url }}">
-                <h3 class="archive-post-link">{{ post.title }}</h3>    
+                <h3 class="archive-post-title archive-post-link">{{ post.title }}</h3>    
             </a>
             <p>Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
             {%- if post.featuredImage -%}
@@ -54,4 +54,7 @@ layout: default
         {% endfor %}
         </ul>
     </div>
+    <script>
+        console.log()
+    </script>
 </div>
