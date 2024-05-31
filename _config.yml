@@ -77,3 +77,11 @@ scholar:
     - smallcaps
     - superscript
   bibliography_template: bib
+
+jekyll-archives:
+  enabled:
+  - year
+  layout: archive
+  permalinks:
+    year: 'archive/:year/'
+    

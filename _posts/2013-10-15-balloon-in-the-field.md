@@ -2,6 +2,7 @@
 date: 2013-10-15 00:44:08+00:00
 description: null
 featuredImage: /assets/del_dios/2013-08-28_SDRVC_Mapping_team_moving4.jpg
+
 layout: blog-post
 slug: /balloon-in-the-field
 title: Balloon in the Field
