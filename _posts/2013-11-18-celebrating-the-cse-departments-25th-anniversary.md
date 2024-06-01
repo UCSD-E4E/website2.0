@@ -14,14 +14,14 @@ tags:
 Engineers for Exploration was present to celebrate UC San Diego's CSE Department 25th Anniversary. We had a booth to show off our projects, as well as setting up the balloon for a live demo.
 
 <figure>
-<a href="{{'/assets/2013-11-18-IMG_3845.jpg' | absolute_url}}"><img src="{{'/assets/2013-11-18-IMG_3845.jpg' | resize: '640x480'}}"></a>
+<a href="{{'/assets/2013-11-18-IMG_3845.jpg' | absolute_url}}"><img src="{{'/assets/2013-11-18-IMG_3845.jpg' | resize: '640x480'}}" alt="2013-11-18-IMG_3845.jpg"></a>
 <figcaption>Walking out with the balloon</figcaption>
 </figure>
 
 We set up the balloon to float over the Warren Bear, and streamed the balloon's view over a Google Hangout to our booth inside.
 
 <figure>
-<a href="{{'/assets/2013-11-18-hangout-snapshot.jpg' | absolute_url}}"><img src="{{'/assets/2013-11-18-hangout-snapshot.jpg' | resize: '640x480'}}"></a>
+<a href="{{'/assets/2013-11-18-hangout-snapshot.jpg' | absolute_url}}"><img src="{{'/assets/2013-11-18-hangout-snapshot.jpg' | resize: '640x480'}}" alt="hangout-snapshot.jpg"></a>
 <figcaption>Snapshot from the Google Hangout</figcaption>
 </figure>
 
@@ -33,4 +33,4 @@ We attempted a structure from motion reconstruction of the Warren bear, but did 
 
 Here’s our poster from the session:
 
-![]({{'/assets/2013-10-e4e-poster.svg' | absolute_url}})
+![e4e-poster]({{'/assets/2013-10-e4e-poster.svg' | absolute_url}})

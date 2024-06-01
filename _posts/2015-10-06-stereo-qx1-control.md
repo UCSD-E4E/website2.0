@@ -14,10 +14,10 @@ In the past, we've interfaced with the Sony QX series of cameras with [custom so
 As it turns out, there is very little documentation on this. The suggested option from the PlayMemories Mobile application is to enter in the SSID and passkey on the camera, but the QX1 has no screen, nor any entry method. Digging a bit deeper, we found that Sony's Live View Remote claims to pair using WPS. Naturally, we grabbed a WPS pushbutton enabled router, and tried it out. Turns out it works! Here's what we did to pair 2 QX1s to 1 router:
 
 <figure>
-<a href="{{'/assets/2015-10-06-qx1-button.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-qx1-button.png' | resize: '300x278'}}"></a>
+<a href="{{'/assets/2015-10-06-qx1-button.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-qx1-button.png' | resize: '300x278'}}" alt="The Wi-Fi Button"></a>
 <figcaption>The Wi-Fi Button</figcaption>
 </figure><figure>
-<a href="{{'/assets/2015-10-06-qx1-multi.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-qx1-multi.png' | resize: '300x278'}}"></a>
+<a href="{{'/assets/2015-10-06-qx1-multi.png' | absolute_url}}"><img src="{{'/assets/2015-10-06-qx1-multi.png' | resize: '300x278'}}" alt="The Multi Camera Indicator"></a>
 <figcaption>The Multi Camera Indicator</figcaption>
 </figure>
 

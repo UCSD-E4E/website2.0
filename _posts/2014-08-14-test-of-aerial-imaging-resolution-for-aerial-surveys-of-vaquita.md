@@ -24,22 +24,22 @@ We plan to fly aerial surveys at an altitude of 150ft. Vaquita can be identified
 
 **Results at 50ft altitude (click for full resolution):**
 
-[![]({{'/assets/2014-08-14-qx-resolution-50ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-50ft.jpg' | absolute_url}})
-[![]({{'/assets/2014-08-14-qx-resolution-50ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-50ft-crop.jpg' | absolute_url}})
+[![qx-resolution-50ft]({{'/assets/2014-08-14-qx-resolution-50ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-50ft.jpg' | absolute_url}})
+[![qx-resolution-50ft-crop]({{'/assets/2014-08-14-qx-resolution-50ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-50ft-crop.jpg' | absolute_url}})
 
 **Results at 100ft altitude:**
 
-[![]({{'/assets/2014-08-14-qx-resolution-100ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-100ft.jpg' | absolute_url}})
-[![]({{'/assets/2014-08-14-qx-resolution-100ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-100ft-crop.jpg' | absolute_url}})
+[![qx-resolution-100ft]({{'/assets/2014-08-14-qx-resolution-100ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-100ft.jpg' | absolute_url}})
+[![qx-resolution-100ft-crop]({{'/assets/2014-08-14-qx-resolution-100ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-100ft-crop.jpg' | absolute_url}})
 
 **Results at 150ft altitude:**
 
-[![]({{'/assets/2014-08-14-qx-resolution-150ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-150ft.jpg' | absolute_url}})
-[![]({{'/assets/2014-08-14-qx-resolution-150ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-150ft-crop.jpg' | absolute_url}})
+[![qx-resolution-150ft]({{'/assets/2014-08-14-qx-resolution-150ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-150ft.jpg' | absolute_url}})
+[![qx-resolution-150ft]({{'/assets/2014-08-14-qx-resolution-150ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-150ft-crop.jpg' | absolute_url}})
 
 **Results at 200ft altitude:**
 
-[![]({{'/assets/2014-08-14-qx-resolution-200ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-200ft.jpg' | absolute_url}})
-[![]({{'/assets/2014-08-14-qx-resolution-200ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-200ft-crop.jpg' | absolute_url}})
+[![qx-resolution-200ft]({{'/assets/2014-08-14-qx-resolution-200ft.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-200ft.jpg' | absolute_url}})
+[![qx-resolution-200ft-crop]({{'/assets/2014-08-14-qx-resolution-200ft-crop.jpg' | resize: '200x300'}})]({{'/assets/2014-08-14-qx-resolution-200ft-crop.jpg' | absolute_url}})
 
 [1] J. Torre _et al_, "Sexual dimorphism and developmental patterns in the external morphology of the vaquita, _Phocoena sinus_," in _Marine Mammal Sci._, 2014.
