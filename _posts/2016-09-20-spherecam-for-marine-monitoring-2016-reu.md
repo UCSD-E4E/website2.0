@@ -111,4 +111,4 @@ Ethan makes some repairs in the field
 
 In early September, we deployed the SphereCam in the Vaquita Refuge. It will remain in the refuge until late September, at which point we will return to swap the batteries, grab the data, and clean the domes of biofouling. Check back later for more updates on what the SphereCam sees!
 
-- _ by Ethan Slattery, Andrew Hostler and Antonella Wilby_
+- _by Ethan Slattery, Andrew Hostler and Antonella Wilby_

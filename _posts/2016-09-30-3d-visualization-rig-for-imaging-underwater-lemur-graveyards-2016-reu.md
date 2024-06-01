@@ -24,4 +24,4 @@ A mysterious graveyard of giant lemur fossils has been found in the underwater A
 Our solution is a small, easily maneuverable diving rig with cameras controlled by the diver via an iPad. The cameras will be mounted inside clear acrylic domed housings, and a minnowboard will connect them to the iPad. Our project goal is to produce reliable and good quality images from the site, so the place and all the other elements can be studied and understood by scientists and explorers. 
 
 
-- _ by Rachel Herrera, Daniel Knapp, Kaue Zoia, Miguel de Villa and Antonella Wilby_
+- _by Rachel Herrera, Daniel Knapp, Kaue Zoia, Miguel de Villa and Antonella Wilby_

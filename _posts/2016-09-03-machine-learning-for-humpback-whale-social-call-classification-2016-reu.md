@@ -23,14 +23,14 @@ Our project during the 2016 summer REU program focused on humpback whale social 
 
 Our research this summer involved experimenting with various methods of data processing and machine learning techniques. We started by calculating spectrograms -- a visual representation of audio signals -- and applied several methods to segment the foreground calls and noises. Then, we experimented with different types of feature extraction. Once we had viable features, we fed the data into a supervised classification algorithm that uses Hidden Markov Models to obtain final classification. Further work will improve these methods for segmentation and classification.
 
-[![whale_spectrogram_original](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original-1024x280.png)](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original.png)
+[![whale_spectrogram_original](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original-1024x280.png)]({{ /assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original.png | absolute_url}})
 
 
 Above are ten spectrograms - a visual representation of acoustic data that shows the intensity of sound across different frequencies through time. The whale calls are boxed and labeled.
 
 
 
-[![whale_spectrogram_segmented](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_segmented-1024x280.png)](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_segmented.png)
+[![whale_spectrogram_segmented](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_segmented-1024x280.png)]({{ /assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_segmented.png | absolute_url}})
 
 
 These are the same ten spectrograms after processing. Much of the background noise has been removed, and the calls are clearer.
@@ -75,4 +75,4 @@ Additionally, the noise across different data sets varied causing individual dat
 
 
 
-- _ by Lisa Bauer, Irina Tolkova, Hongyi Zhao, and Antonella Wilby_
+- _by Lisa Bauer, Irina Tolkova, Hongyi Zhao, and Antonella Wilby_
