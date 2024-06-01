@@ -47,7 +47,13 @@ Random Forest with local features          |	60.6%
 Pointclouds using ANN	                   |    67.8%   
 {: .datatable}
 
-[caption id="attachment_4467" align="aligncenter" width="1343"]![Figure 3: Segnet with augmentation confusion matrix](/assets/2016-10-17-coral-reef-classification-2016-reu_corals1.png) Figure 3: Segnet with augmentation confusion matrix[/caption]
+
+{% include 
+    img_caption.html
+    src="assets/2016-10-17-coral-reef-classification-2016-reu_corals1.png"
+    alt="Figure 3: Segnet with augmentation confusion matrix"
+    caption="Figure 3: Segnet with augmentation confusion matrixs"
+%}
 
 Segnet with augmentation confusion matrix, ratio:
 
@@ -63,4 +69,4 @@ This has been a very interesting project, unfortunately it has not yet fully aut
 
 Future approaches are applying deeper and selectively trained models with varying levels of supervision (grouping several classes into larger morphologies, before getting to fine taxonomical representation or an initial segmentation into background and foreground classes, before finer segmentation). The low class problem worked extremely well, however jumping straight to full taxonomical resolution performed very poorly. In between steps may fix this. Point Cloud classification experiments performed surprisingly well given the lack of structural labeling, using methods structural methods like fixed-point or MRF and CRF would produce far better results.
 
-*-- by Dimitri Schreiber*
+ - _by Dimitri Schreiber_

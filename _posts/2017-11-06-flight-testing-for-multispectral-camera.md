@@ -1,7 +1,7 @@
 ---
 date: 2017-11-06 18:57:38+00:00
 description: null
-featuredImage: http://e4e.ucsd.edu/wp-content/uploads/MVIMG_20171105_065504.jpg
+featuredImage: /assets/MVIMG_20171105_065504.jpg
 layout: blog-post
 slug: /flight-testing-for-multispectral-camera
 title: Flight Testing for Multispectral Camera

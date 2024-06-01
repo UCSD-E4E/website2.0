@@ -1,7 +1,7 @@
 ---
 date: 2016-09-03 22:24:59+00:00
 description: null
-featuredImage: /assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original-1024x280.png
+featuredImage: /assets/humpback.jpg
 layout: blog-post
 slug: /machine-learning-for-humpback-whale-social-call-classification-2016-reu
 title: 'Machine Learning for Humpback Whale Social Call Classification: 2016 REU'
@@ -26,7 +26,7 @@ Our research this summer involved experimenting with various methods of data pro
 [![whale_spectrogram_original](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original-1024x280.png)](/assets/2016-09-03-machine-learning-for-humpback-whale-social-call-classification-2016-reu_whale_spectrogram_original.png)
 
 
-Above are ten spectrograms €“ a visual representation of acoustic data that shows the intensity of sound across different frequencies through time. The whale calls are boxed and labeled.
+Above are ten spectrograms - a visual representation of acoustic data that shows the intensity of sound across different frequencies through time. The whale calls are boxed and labeled.
 
 
 
@@ -45,7 +45,14 @@ These are the same ten spectrograms after processing. Much of the background noi
 
 The results from the HMM show that it is possible to separate calls like this using HMMs and that less features showed better performance. However, to get better results a more balanced training set is needed. Non whale calls made up about 99.1% of this data.
 
-[table id=1 /]
+|9 Features|||30 Features|||
+|--- |--- |--- |--- |--- |--- |
+|Overall Accuracy|0.68||Overall Accuracy|0.84||
+||Precision|Recall||Precision|Recall|
+|No Call|0.9|0.73|No Call|0.89|0.91|
+|Squeak|0.29|0.17|Squeak|0.2|0.19|
+|Low Yap|0.14|0.07|Low Yap|0|0|    
+{: .datatable}
 
 
 **Table 1: **This table compares the overall accuracy of each data set given the number of features in a feature vector. It gives average precision and recall values for each class, derived from k-fold cross-validation where k=10. The HMMs involved used 2 states. The overall data distribution was 21049 no whale calls, 119 squeaks, and 62 low yaps.
@@ -54,11 +61,18 @@ The results from the HMM show that it is possible to separate calls like this us
 
 Additionally, the noise across different data sets varied causing individual data sets to perform much better than the full combination. Non whale calls of this data set made up about 98.7% of this data.
 
-[table id=2 /]
+|9 Features|||30 Features|||
+|--- |--- |--- |--- |--- |--- |
+|Overall Accuracy|0.72||Overall Accuracy|0.51||
+||Precision|Recall||Precision|Recall|
+|No Call|0.6|0.77|No Call|0.49|0.48|
+|Squeak|0.46|0.5|Squeak|0.41|0.48|
+|Low Yap|0.5|0.3|Low Yap|0.2|0.1|
+{: .datatable}
 
 
 **Table 2: **This table compares the overall accuracy of a particular data set a given the number of features in a feature vector. It gives average precision and recall values for each class, derived from k-fold cross-validation where k=10. The HMMs involved used 2 states. The data distribution for this data set was 3692 non whale calls, 29 squeaks, and 19 low yaps.
 
 
 
-_€” by Lisa Bauer, Irina Tolkova, Hongyi Zhao, and Antonella Wilby_
+- _ by Lisa Bauer, Irina Tolkova, Hongyi Zhao, and Antonella Wilby_
