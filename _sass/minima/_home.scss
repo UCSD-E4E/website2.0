@@ -1,0 +1,146 @@
+.home_flex_container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+// .home {
+//     max-width: 1240px;
+//     width: 1240px;
+// }
+
+.post-link{
+    color:  #a4a4a4;
+    font-weight: 700;
+    font-size: 50%;
+    letter-spacing: 0px;
+}
+
+.post-link:visited{
+    color:  #a4a4a4;
+}
+
+.post-link:hover{
+    color:  #a4a4a4;
+}
+
+
+.home_about{
+    min-width: 300px;
+    height: fit-content;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-right: 15px;
+    max-width: 300px;
+}
+
+
+.home_posts {
+    margin-right: 0px;
+}
+
+.home_post-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.home_header{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.home_post_text{
+    height: calc(100% - 183px - 10px);
+}
+
+.home_post_container {
+    background-color: #111111;
+    min-width: 275px;
+    max-width: 290px;
+    width: min-content;
+    height: 340px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    max-height: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 200;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.home_post_excerpt {
+    color:  #a4a4a4;
+    font-size: 75%;
+    // height: calc(100% - 183px - 10px - 50px);
+}
+
+.home_post_text {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.home_post_page {
+    display: none;
+}
+
+.home_post_page.home_post_page_0 {
+    display: block;
+}
+
+.archive-years {
+    position: sticky;
+    top: 30px;
+}
+
+.inline_image {
+    float: left; margin-right: 10px;
+}
+
+.no-list {
+    list-style: none;
+}
+
+.archive-post-link {
+    margin-bottom: 5px;
+}
+
+.archive-post-title {
+    color: #111111;
+}
+
+.post-link.archive-years {
+    color: #2a7ae2;
+    //text-decoration: aqua;
+    font-size: 100%;
+}
+
+.post-link.archive-years:visited {
+    color: #2a7ae2;
+}
+
+.home_post_nav {
+    display: flex;
+    justify-content: center
+}
+
+.archive-posts {
+    padding: 10px;
+}
+
+.no-list.archive-posts {
+    margin-bottom: 20px;
+    min-height: 310px;
+}
+
+.archive-image{
+    margin-bottom: 20px
+}

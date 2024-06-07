@@ -1,36 +1,119 @@
 ---
 layout: default
 ---
-
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-
   {{ content }}
-
   {% include carousel.html height="40" unit="%" duration="10" data=site.data.carousels.front_carousel %}
-  
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  <div class="home_flex_container">
+    <div class="home_flex_item home_about">
+      <h2 class="home_header">EXPLORATION THROUGH TECHNOLOGY</h2>
+      <p>
+        Engineers for Exploration (E4E) is a one of a kind program centered around multidisciplinary 
+        and collaborative student research projects with the broad goals of protecting the environment, 
+        uncovering mysteries related to cultural heritage, and providing experiential learning experiences 
+        for undergraduate and graduate students. We team student engineers with scientists from a wide range 
+        of disciplines, such as ecology, oceanography and archaeology. Students create new technologies to aid 
+        these scientists in their work and then accompany them on field deployments around the world. Projects 
+        train students in embedded systems and software, machine learning, electronic integration, mechanical 
+        design, system building, as well as project management and team leadership.
+      </p>
+      <a class="interesting_link" href="/welcome" style="font-weight: bold;">Interested in joining?</a>
+      <br/>
+      <br/>
+      <h2 class="home_header">SPONSER OUR RESERACH</h2>
+      <p>
+        Your support allows us to involve more students, which allows us to continue our research on existing and future projects. It is easy and even a small amount can make a big impact.
+        <a class="interesting_link" href="https://giveto.ucsd.edu/giving/home/gift-referral/a4b5012d-f622-42bd-947c-b977bf9466a7">
+          Donate To UCSD E4E.
+        </a>
+      </p>
+    </div>
+    <div class="home_flex_item home_posts">
+      <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
+      <ul class="post-list home_post-list">
+        {%- assign post_per_page = 12 -%}
+        {%- assign num_sections = site.posts.size | divided_by: post_per_page -%}
+        {% assign i = 0 -%}
+          {%- assign posts_start = i | times: post_per_page -%}
+          {%- assign posts = site.posts | slice: posts_start, post_per_page -%}
+            {%- for post in posts -%}
+            <div class="home_post_container  home_post_page home_post_page_{{i}}">
+              <div class="home-post-image">
+                {%- if post.featuredImage -%}
+                <img 
+                  src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200!' | format: 'webp' | absolute_url }}"
+                >
+                {% else %}
+                <img 
+                  src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                >
+                {% endif %}
+              </div>
+              
+              <li class="home_post_text" id="home_post_text_{{forloop.index}}">
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <h3 style="margin-bottom: 1px;">
+                  <a class="post-link truncate" href="{{ post.url | relative_url }}" rel="bookmark">
+                    {{ post.title | escape }}
+                  </a>
+                </h3>
+                <p class="home_post_excerpt truncate">
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
 
+
+                  {%- if post.description -%}
+                    {{ post.description }}
+                  {% else %}
+                    {{post.content | strip_html}}
+                  {% endif %}
+
+                </p>
+              </li>
+            </div>
+            {%- endfor -%}
+
+      </ul>
+      <nav class="home_post_nav">
+        {% assign year = site.posts[0].date | date: '%Y' %}
+        <a class="post-link" href="{{ "/archive/" | append: year | relative_url }}">
+            <h6>To Archive</h6>
+        </a>
+      </nav>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    </div>
+  </div>
+  <script>
+    let posts_containers = document.getElementsByClassName("home_post_text")
+    for (var i = 0; i < posts_containers.length; i++) {
+      let max_height = posts_containers[i].offsetHeight
+
+      let children = posts_containers[i].children
+
+      //ASSUME: the date will always be 1 line and child 0
+      //ASSUME: Title is roughly twice - 3 times date height and child 1
+      //ASSUME: description line height roughly the same as date and child 2
+      let line_width = children[0].offsetHeight 
+
+      let title_height = line_width + children[1].offsetHeight
+      let max_title_lines = Math.floor((max_height - line_width * 2) / line_width)
+      
+      if (title_height > max_height) {
+        children[1].children[0].style['-webkit-line-clamp'] = max_title_lines
+      }
+
+      title_height = line_width + children[1].offsetHeight
+      let excerpt_height = title_height + children[2].offsetHeight
+      let max_excerpt_lines = Math.floor((max_height - title_height) / line_width)
+
+      if (excerpt_height > max_height ) {
+        //edit title to only have set number of lines
+        children[2].style['-webkit-line-clamp'] = max_excerpt_lines
+        
+      }
+    }
+  </script>
 </div>
