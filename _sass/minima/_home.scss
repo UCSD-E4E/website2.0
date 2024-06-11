@@ -24,6 +24,12 @@
     letter-spacing: 0px;
 }
 
+@include media-query($on-palm) {
+    .post-link{
+        font-size: 100%;
+    }
+}
+
 .post-link:visited{
     color:  #a4a4a4;
 }

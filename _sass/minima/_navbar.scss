@@ -99,8 +99,9 @@ $mobile-nav-pad: 8px 5px;
       label[for="nav-trigger"] {
           display: block;
           float: right;
-          width: 36px;
-          height: 36px;
+          width: auto;
+          height: auto;
+          margin: 0px;
           z-index: 2;
           cursor: pointer;
         }
