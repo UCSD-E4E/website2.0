@@ -5,6 +5,13 @@
     justify-content: flex-start;
 }
 
+@include media-query($on-palm) {
+    .home_flex_container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
 // .home {
 //     max-width: 1240px;
 //     width: 1240px;
@@ -45,6 +52,13 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
+@include media-query($on-palm) {
+    .home_post-list{
+        justify-content: center
+    }
+}
+
 
 .home_header{
     font-size: medium;
