@@ -13,6 +13,10 @@ $mobile-nav-pad: 8px 5px;
     }
 }
 
+.nav-sub-menu-drop {
+  display: none;
+}
+
 // For extra Mobile Support
 @include media-query($on-palm) {
   .menu {
