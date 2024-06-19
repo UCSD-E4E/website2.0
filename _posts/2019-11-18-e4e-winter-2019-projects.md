@@ -96,7 +96,7 @@ Biologist use a wide range of live traps to capture animals. These can range fro
 
 {% include 
     img_caption.html
-    src="/assets/E4E-Maya-VR-200x200.jpg"
+    src="/assets/E4E-Maya-VR-200x200.png"
     caption="Structure M7-1 in El Zotz, Guatemala visualized using Unreal Engine"
 %}
 

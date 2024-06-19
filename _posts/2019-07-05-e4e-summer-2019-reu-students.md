@@ -15,7 +15,7 @@ This summer, we are hosting 13 students from around the US in our 2019 summer RE
 
 {% include 
     img_caption.html
-    src="/assets/ChristiannaBambini.png"
+    src="/assets/ChristiannaBambini.jpg"
 %}
 
 Christianna Bambini is a rising senior at Johns Hopkins University studying mechanical engineering. She is excited to apply her background in mechanical design for the mangrove mapping project this summer, where she will be prototyping, testing, and modifying equipment for more efficient and accurate on-ground data collection during expeditions. In her free time, she enjoys hiking, mountain biking, painting, and reading.
@@ -71,7 +71,7 @@ Charles Kinzel is an undergraduate senior with a major in computer engineering a
 
 {% include 
     img_caption.html
-    src="/assets/ArdenMa.jpg"
+    src="/assets/ArdenMa.png"
 %}
 
 Arden Ma is a rising junior at UC San Diego, majoring in Electrical Engineering with a focus on Machine Learning and Controls. This summer, he is focusing on utilizing and evaluating machine learning techniques such as convolutional neural networks to improve upon current methods for mangrove species classification. Outside of the lab, Arden is actively involved in the engineering community as an officer at the IEEE Student Branch at UC San Diego, and in his free time, he enjoys surfing, programming, and searching for the best eats in San Diego.
