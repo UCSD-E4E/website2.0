@@ -1,7 +1,7 @@
 ---
 date: 2019-09-24 23:24:07+00:00
 description: null
-featuredImage: /asssets/prototypes.jpg
+featuredImage: /assets/prototypes.jpg
 layout: blog-post
 slug: /d-sea-prototype-testing
 title: D-SEA Prototype Testing
