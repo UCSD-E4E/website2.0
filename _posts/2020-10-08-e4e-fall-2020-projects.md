@@ -2,6 +2,7 @@
 date: 2020-10-08 04:26:23+00:00
 description: null
 featuredImage: /assets/mangrove_thumb_250x250.jpg
+author: Nathan
 layout: blog-post
 slug: /e4e-fall-2020-projects
 title: E4E Fall 2020 Projects
@@ -41,7 +42,7 @@ Facebook Event: [https://www.facebook.com/events/387996932221808/](https://www.f
 
 
 
-
+<iframe width="800" height="475" src="https://www.youtube.com/embed/SL9vEpzvxeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 
 

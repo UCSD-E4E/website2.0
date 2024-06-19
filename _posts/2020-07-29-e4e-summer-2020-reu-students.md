@@ -5,6 +5,7 @@ featuredImage: /assets/2020_collage-1074x1056.png
 layout: blog-post
 slug: /e4e-summer-2020-reu-students
 title: E4E Summer 2020 REU Students
+author: Nathan
 categories:
 - news-and-updates
 tags:

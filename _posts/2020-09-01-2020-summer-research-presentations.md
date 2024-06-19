@@ -5,6 +5,7 @@ featuredImage: /assets/reu2020-1074x604.png
 layout: blog-post
 slug: /2020-summer-research-presentations
 title: 2020 Summer Research Presentations
+author: Nathan
 categories:
 - news-and-updates
 tags:
