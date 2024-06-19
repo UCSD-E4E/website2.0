@@ -46,8 +46,11 @@
     //this only should work on mobile because on laptop the hover styling will auto do this
     //without a user touching it
     document.addEventListener('DOMContentLoaded', function() {
+      // select submenus
       const nestedUlElements = document.querySelectorAll('.site-nav ul ul');
       console.log(nestedUlElements)
+
+      //for a submenu, if click is not on a link, display the submenu items
       nestedUlElements.forEach(function(ul) {
         ul.parentElement.addEventListener('click', function() {
           if (event.target.tagName.toLowerCase() !== 'a') {
