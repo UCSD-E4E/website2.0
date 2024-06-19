@@ -21,13 +21,13 @@ The overall goal for expedition was to test data collection methodologies that c
 <!-- [previous approach](http://gulfprogram.ucsd.edu/general/mangroves-from-above-and-below/) http://gulfprogram.ucsd.edu/general/mangroves-from-above-and-below/ -->
 The first day on site, in Mexico, Nikko developed a new methodology for ground truthing aerial surveys that will greatly improve the teams confidence in machine learning classification and crowdsourced labeling.  The methodology is called a perimeter survey which implements a low altitude drone flight that provides imagery so sharp that mangrove species can be classified by leaf shape. At the edge of the mangrove forest, the pilot drops a large species marker on the ground to reference the starting point for drawing polygons around the individual plant species, and then flies at roughly 15 meters above. This new approach is preferred over our previous approach because the perimeter survey enables a drone pilot to validate the identity of each plant species while in the field.  The addition of this dataset can dramatically improve the ability to train machine learning algorithms, and provides an excellent reference for analyzing the accuracy of the team’s machine learning efforts.
 
-![Labeled Perimeter Survey Sample](http://e4e-dev.ucsd.edu/wp-content/uploads/labeled_survey-1074x663.jpg)
+![Labeled Perimeter Survey Sample](/assets/labeled_survey-768x474.jpg)
 
 
 Throughout the remainder of the trip, Eric trained Beni Martinez and Astrid to collect aerial drone imagery for biomass and species analysis at altitudes of 120m and 15m. The long-term vision is that members of the GCMP such as Beni Martinez will train local park rangers in Baja California Sur and scale up these efforts, resulting in a greatly improved workflow that will enable the three organizations involved to identify changes in the environment within a year.  The rangers will be able send the data collected to the GCMP, the Aburto Lab, and Engineers for Exploration where each team will then utilize the machine learning platform to automatically identify changes in mangrove species distribution and provide insight into illegal dumping activities. This Machine Learning platform is currently being developed by John Dorian, Tammy Mok, and Nikko Dutra Bouck and will continue this summer during our NSF REU program.
 
 
-![Photo by: Nikko Dutra Bouck](http://e4e-dev.ucsd.edu/wp-content/uploads/IMG_9989-1074x716.jpg)
+![Photo by: Nikko Dutra Bouck](/assets/IMG_9989-768x512.jpg)
 
 
 Check back soon for results and our updated crowdsourced tool with high resolution imagery.

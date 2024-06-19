@@ -15,7 +15,7 @@ Mangroves are a coastal ecosystem that provides extremely valuable services: the
 Engineers for Exploration has been working with Aburto Lab at the Scripps Institution of Oceanography to monitor mangroves by using drones, advanced imaging sensors, and machine learning. The goal is to provide a large-scale classification of the mangroves ecological characteristics and ultimately use that data to drive conservation efforts in Baja California, Mexico. On our most recent trip to collect more data, we learned how complex and interesting these ecosystems are while analyzing our current field techniques. 
 
 
-_ ![](http://e4e-dev.ucsd.edu/wp-content/uploads/image6-350x233.jpg)_
+_ ![](/assets/image6-350x233.jpg)_
 
 
 
@@ -32,10 +32,10 @@ Our [Engineers for Exploration](http://e4e.ucsd.edu/) team (Eric Lo, Savannah Lo
 <tbody >
 <tr >
 
-<td >![](http://e4e-dev.ucsd.edu/wp-content/uploads/image2-350x233.jpg)
+<td >![](/assets/image2-350x233.jpg)
 </td>
 
-<td >![](http://e4e-dev.ucsd.edu/wp-content/uploads/image4-e1533848784814-350x350.jpg)
+<td >![](/assets/image4-e1533848784814-350x350.jpg)
 </td>
 </tr>
 <tr >
@@ -67,7 +67,7 @@ _Bahia Magdalena_
 
 For the next part of our trip, we traveled to Puerto San Carlos in Bahia Magdalena with a much smaller team than we started out with. The main purpose for this segment was to meet and train with CONANP, an organization dedicated to conservation in the Gulf of California. In addition, our team would also be surveying past sites through on the ground measurements and drone work with improved methodologies developed on the last trip. I learned that mangrove sites could vary significantly by location even in La Paz, so I was interested in seeing how the forests grew in a different region.
 
-![](http://e4e-dev.ucsd.edu/wp-content/uploads/image3-350x194.png)
+![](/assets/image3-350x194.png)
 
 After a long drive and a night’s rest at the hotel, our team went to work at one of the larger sites that we had previously flown at. Almost immediately, we noticed that the geography of this region was distinct from La Paz as the terrain was considerably more flat. The difference showed its effect in the many of the black mangrove leaves, _Avicennia germinans, _as they exhibited none or little salt crystals compared to the trees from our previous sites. Since there was almost no change in elevation throughout the forest expanse, the smoother transition of salinity seemed to cause more mixing of the three species. This interesting observation can be seen with our aerial data and is an example of the essential role fieldwork has in distinguishing the fascinating patterns and anomalies of wetland ecosystems. We continued to conduct aerial and ground surveys for a couple more regions, collecting more data to analyze and measure in the lab. 
 
@@ -78,10 +78,10 @@ After a long drive and a night’s rest at the hotel, our team went to work at o
 <tbody >
 <tr >
 
-<td >![](http://e4e-dev.ucsd.edu/wp-content/uploads/image1-350x263.jpg)
+<td >![](/assets/image1-350x263.jpg)
 </td>
 
-<td >![](http://e4e-dev.ucsd.edu/wp-content/uploads/image5-350x233.jpg)
+<td >![](/assets/image5-350x233.jpg)
 </td>
 </tr>
 <tr >

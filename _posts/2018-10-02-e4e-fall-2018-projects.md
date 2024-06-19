@@ -1,6 +1,7 @@
 ---
 date: 2018-10-02 14:25:38+00:00
 description: null
+featuredImage: /assets/MVIMG_20180805_144055.jpg
 layout: blog-post
 slug: /e4e-fall-2018-projects
 title: E4E Fall 2018 Projects
