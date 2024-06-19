@@ -15,7 +15,7 @@ Mangroves are a coastal ecosystem that provides extremely valuable services: the
 Engineers for Exploration has been working with Aburto Lab at the Scripps Institution of Oceanography to monitor mangroves by using drones, advanced imaging sensors, and machine learning. The goal is to provide a large-scale classification of the mangroves ecological characteristics and ultimately use that data to drive conservation efforts in Baja California, Mexico. On our most recent trip to collect more data, we learned how complex and interesting these ecosystems are while analyzing our current field techniques. 
 
 
-_ ![](/assets/image6-350x233.jpg)_
+_ ![](/assets/image6.jpg)_
 
 
 
@@ -27,7 +27,7 @@ _Drone Work_
 
 Our [Engineers for Exploration]({{ / | absolute_url}}) team (Eric Lo, Savannah Longoria, Kathy Qi, Dillon Hicks, Brian Rush and Catherine Lee) went to Baja Sur California with the Aburto Lab at Scripps Institution of Oceanography (SIO) from July 11-18 to collect aerial and on-the-ground data to document several mangrove sites. The primary purpose of this expedition was to improve and implement new data acquisition techniques from previous expeditions in [May 2018]({{ /uncategorized/mangrove-monitoring-in-puerto-san-carlos-may-2018  | absolute_url}}) and July 2017, in order to calculate mangrove biomass and classify species effectively and train new people to gather data. This will allow us to support and improve the other stages of our project such as machine learning techniques and data analysis.
 
-<!--  [July 2017](http://gulfprogram.ucsd.edu/general/mangroves-from-above-and-below/) -->
+<!--  [July 2017](http://gulfprogram.ucsd.edu/general/mangroves-from-above-and-below/)
 <table >
 <tbody >
 <tr >
@@ -50,7 +50,7 @@ Our [Engineers for Exploration]({{ / | absolute_url}}) team (Eric Lo, Savannah L
 </td>
 </tr>
 </tbody>
-</table>
+</table> -->
  
 
 On this trip, we made specific improvements to our data collection process.  In the past we flew the drone at 50m and 120m. This time added some additional perimeter surveys at 10m. This data allows us to look at the mangrove species in high resolution, which we believe is necessary to perform mangrove species identification. The higher resolution data allows us to improve training data for our algorithms and better understand the resolution required to perform classification. 
@@ -74,7 +74,7 @@ After a long drive and a night’s rest at the hotel, our team went to work at o
  
 
  
-<table >
+<!-- <table >
 <tbody >
 <tr >
 
@@ -93,7 +93,7 @@ After a long drive and a night’s rest at the hotel, our team went to work at o
 </td>
 </tr>
 </tbody>
-</table>
+</table> -->
  
 
 A main goal for this project is to have local people to fly drones over mangrove forests and provide us the aerial imagery to be constructed into models that will provide us important information for research. During the trip, we met with CONANP at a site to teach them the basics of aerial surveys with the drone and began establishing a better relationship between our groups. This collaboration could provide future connections to increase our potential for collecting data efficiently and promote better management efforts of mangroves together. From this experience, I learned an important cultural lesson that sometimes research not only requires the knowledge and tools for acquiring the data we need, but also establishing connections with people to expand our outreach. 
