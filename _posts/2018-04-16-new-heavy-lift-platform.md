@@ -11,5 +11,5 @@ categories:
 
 This week we built and maidened our new heavy lift platform based on the DJI S1000 airframe.  We'll be using this platform for short range lidar testing, as well as other experimental sensors as the need arises.  We are using the Pixhawk 2 autopilot to have full control over the flight stack from inspecting low level control responses to integrating an onboard computer for high level path planning.  On Friday we maidened the copter, and after some initial tuning, it flies nicely.
 
-[![working-people](/assets/working-people-768x512.jpg)](/assets/working-people-768x512.jpg)
+[![working-people]({{ /assets/working-people-768x512.jpg  | absolute_url}})]({{ /assets/working-people-768x512.jpg  | absolute_url}})
 

@@ -25,9 +25,9 @@ _Left to right: Brian Rush, Savannah Longoria, Eric Lo, Dillon Hicks, Kathy Qi, 
 
 _Drone Work_
 
-Our [Engineers for Exploration](http://e4e.ucsd.edu/) team (Eric Lo, Savannah Longoria, Kathy Qi, Dillon Hicks, Brian Rush and Catherine Lee) went to Baja Sur California with the Aburto Lab at Scripps Institution of Oceanography (SIO) from July 11-18 to collect aerial and on-the-ground data to document several mangrove sites. The primary purpose of this expedition was to improve and implement new data acquisition techniques from previous expeditions in [May 2018](http://e4e-dev.ucsd.edu/uncategorized/mangrove-monitoring-in-puerto-san-carlos-may-2018) and [July 2017](http://gulfprogram.ucsd.edu/general/mangroves-from-above-and-below/), in order to calculate mangrove biomass and classify species effectively and train new people to gather data. This will allow us to support and improve the other stages of our project such as machine learning techniques and data analysis.
+Our [Engineers for Exploration]({{ / | absolute_url}}) team (Eric Lo, Savannah Longoria, Kathy Qi, Dillon Hicks, Brian Rush and Catherine Lee) went to Baja Sur California with the Aburto Lab at Scripps Institution of Oceanography (SIO) from July 11-18 to collect aerial and on-the-ground data to document several mangrove sites. The primary purpose of this expedition was to improve and implement new data acquisition techniques from previous expeditions in [May 2018]({{ /uncategorized/mangrove-monitoring-in-puerto-san-carlos-may-2018  | absolute_url}}) and July 2017, in order to calculate mangrove biomass and classify species effectively and train new people to gather data. This will allow us to support and improve the other stages of our project such as machine learning techniques and data analysis.
 
- 
+<!--  [July 2017](http://gulfprogram.ucsd.edu/general/mangroves-from-above-and-below/) -->
 <table >
 <tbody >
 <tr >
@@ -67,7 +67,7 @@ _Bahia Magdalena_
 
 For the next part of our trip, we traveled to Puerto San Carlos in Bahia Magdalena with a much smaller team than we started out with. The main purpose for this segment was to meet and train with CONANP, an organization dedicated to conservation in the Gulf of California. In addition, our team would also be surveying past sites through on the ground measurements and drone work with improved methodologies developed on the last trip. I learned that mangrove sites could vary significantly by location even in La Paz, so I was interested in seeing how the forests grew in a different region.
 
-![](/assets/image3-350x194.png)
+![](/assets/image3-768x427.png)
 
 After a long drive and a night’s rest at the hotel, our team went to work at one of the larger sites that we had previously flown at. Almost immediately, we noticed that the geography of this region was distinct from La Paz as the terrain was considerably more flat. The difference showed its effect in the many of the black mangrove leaves, _Avicennia germinans, _as they exhibited none or little salt crystals compared to the trees from our previous sites. Since there was almost no change in elevation throughout the forest expanse, the smoother transition of salinity seemed to cause more mixing of the three species. This interesting observation can be seen with our aerial data and is an example of the essential role fieldwork has in distinguishing the fascinating patterns and anomalies of wetland ecosystems. We continued to conduct aerial and ground surveys for a couple more regions, collecting more data to analyze and measure in the lab. 
 
@@ -81,7 +81,7 @@ After a long drive and a night’s rest at the hotel, our team went to work at o
 <td >![](/assets/image1-350x263.jpg)
 </td>
 
-<td >![](/assets/image5-350x233.jpg)
+<td >![](/assets/image5-768x512.jpg)
 </td>
 </tr>
 <tr >

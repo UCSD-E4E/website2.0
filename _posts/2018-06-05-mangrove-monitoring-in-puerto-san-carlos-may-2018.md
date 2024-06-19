@@ -34,8 +34,8 @@ Check back soon for results and our updated crowdsourced tool with high resoluti
 
  
 
-Beta release:
+<!-- Beta release:
 
 [Http://www.thirdplanetpark.org/mangroves](http://www.thirdplanetpark.org/mangroves)
 
-[Http://science.TrashRoute.org](http://science.trashroute.org)
+[Http://science.TrashRoute.org](http://science.trashroute.org) -->
