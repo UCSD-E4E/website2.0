@@ -3,7 +3,7 @@ date: 2018-08-31 14:32:49+00:00
 description: null
 layout: blog-post
 slug: /e4e-summer-reu-2018-wrapup
-featuredImage: /assets/acoustic_species_id/IMG_0050.jpg
+featuredImage: /assets/IMG_0050.jpg
 title: E4E Summer REU 2018 Wrapup
 categories:
 - uncategorized
