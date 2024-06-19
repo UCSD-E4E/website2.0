@@ -5,6 +5,7 @@ featuredImage: /assets/image1.png
 layout: blog-post
 slug: /baboon-labelthon
 title: Baboon Labelthon
+author: Eric
 categories:
 - baboon-tracking
 ---

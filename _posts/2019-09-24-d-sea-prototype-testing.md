@@ -5,6 +5,7 @@ featuredImage: /assets/prototypes.jpg
 layout: blog-post
 slug: /d-sea-prototype-testing
 title: D-SEA Prototype Testing
+author: Eric
 categories:
 - coral-reef-mapping
 ---

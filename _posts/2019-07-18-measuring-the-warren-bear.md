@@ -5,8 +5,8 @@ featuredImage: /assets/IMG_0043.jpg
 layout: blog-post
 slug: /measuring-the-warren-bear
 title: Measuring the Warren Bear
+author: Nathan
 categories:
-- mangrove-monitoring
 - news-and-updates
 tags:
 - mangrove
@@ -32,4 +32,4 @@ How do current mangrove measuring methods “stack” up? Today, summer REU stud
     caption="Alli Busa (left) and Christianna Bambini (right) measuring the Warren Bear using techniques for measuring mangrove canopy height."
 %}
 
-For more information about this project, see [http://e4e.ucsd.edu/mangrove-monitoring]({{ "/mangrove-monitoring" | absolute_url }})
+For more information about this project, see [https://e4e.ucsd.edu/mangrove-monitoring]({{ "/mangrove-monitoring" | absolute_url }})

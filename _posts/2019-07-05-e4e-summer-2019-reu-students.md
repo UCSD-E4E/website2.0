@@ -5,6 +5,7 @@ featuredImage: /assets/IMG_20190630_200256.jpg
 layout: blog-post
 slug: /e4e-summer-2019-reu-students
 title: E4E Summer 2019 REU Students
+author: Eric
 categories:
 - news-and-updates
 tags:

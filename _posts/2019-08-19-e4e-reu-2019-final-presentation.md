@@ -5,6 +5,7 @@ featuredImage: /assets/IMG_20190731_173742.jpg
 layout: blog-post
 slug: /e4e-reu-2019-final-presentation
 title: E4E Summer 2019 REU Final Presentation
+author: Eric
 categories:
 - news-and-updates
 ---
@@ -40,6 +41,6 @@ Our summer program had nearly 20 participants working on different projects. Thi
 
 12:00 - 12:30: Demos
 
-**Location: **CSE 1242 ([https://goo.gl/maps/vUCvb6NuLZ3QkHev9](https://goo.gl/maps/vUCvb6NuLZ3QkHev9))
+**Location:** CSE 1242 ([https://goo.gl/maps/vUCvb6NuLZ3QkHev9](https://goo.gl/maps/vUCvb6NuLZ3QkHev9))
 
 **Presentation:** [Slides](https://docs.google.com/presentation/d/16IRXAvVATnhi6VliVaiazFm-Qb-JAyPtN_WVCFj1rOY/edit?usp=sharing)

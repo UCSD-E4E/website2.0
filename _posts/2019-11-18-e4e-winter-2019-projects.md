@@ -5,6 +5,7 @@ featuredImage: /assets/tmp1.png
 layout: blog-post
 slug: /e4e-winter-2019-projects
 title: E4E Winter 2020 Projects
+author: Nathan
 categories:
 - news-and-updates
 tags:

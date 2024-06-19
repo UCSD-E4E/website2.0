@@ -5,6 +5,7 @@ featuredImage: /assets/IMG_20190810_184539.jpg
 layout: blog-post
 slug: /e4e-fall-2019-projects
 title: E4E Fall 2019 Projects
+author: Eric
 categories:
 - news-and-updates
 ---
