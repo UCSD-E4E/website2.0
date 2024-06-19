@@ -36,13 +36,6 @@ Facebook Event: [https://www.facebook.com/events/387996932221808/](https://www.f
 
 
 
-[Google Slides](https://docs.google.com/presentation/d/1RfpKl5z6l6uoq45Z_GXivSja4L_hMoIFCqvvsIFtWhM/edit?usp=sharing)
-
-
-
-
-
-
 
 [Intake Form](https://docs.google.com/forms/d/e/1FAIpQLSfqAvDL4ahafiGpdVfNiw7wzkKMgzxvDz2aWstpCptOlpTUbg/viewform?usp=sf_link)
 
