@@ -16,8 +16,6 @@ Engineers for Exploration is a one of a kind program that develops intelligent s
 
 Come hear about some of the projects that we run, and learn more about how you can get involved!
 
-Register online [here](https://ucsd.zoom.us/meeting/register/tJUrcu-urjspE913ba76HSgwpkFrkU4NYCt7?fbclid=IwAR2Qvzd-A61xc6eZquA0u95VEghX94DeCyB7naS9nNo1xmmgVSDRLVGo9Dk).
-
 Apply to E4E here: [https://e4e.ucsd.edu/join]({{"/join" | absolute_url}})
 
 <iframe width="940" height="529" src="https://www.youtube.com/embed/8K8p2EtoKHY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
