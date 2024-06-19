@@ -3,6 +3,7 @@ date: 2018-04-16 15:23:28+00:00
 description: null
 featuredImage: /assets/copter-pilot.jpg
 layout: blog-post
+author: Eric
 slug: /new-heavy-lift-platform
 title: New Heavy Lift Platform
 categories:

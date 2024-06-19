@@ -5,6 +5,7 @@ layout: blog-post
 slug: /e4e-summer-reu-2018-wrapup
 featuredImage: /assets/IMG_0050.jpg
 title: E4E Summer REU 2018 Wrapup
+author: Eric
 categories:
 - uncategorized
 ---

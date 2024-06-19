@@ -5,6 +5,7 @@ featuredImage: /assets/IMG_20180726_112524.jpg
 layout: blog-post
 slug: /maya-archaeology-summer-work
 title: Maya Archaeology Summer Work
+author: Ferrill Rushton
 categories:
 - tunnel-mapping
 ---

@@ -5,6 +5,7 @@ featuredImage: /assets/deldios_13-e1423176387551.jpg
 layout: blog-post
 slug: /spring-2018-weekly-meetings
 title: Spring 2018 Weekly Meetings
+author: Eric
 categories:
 - news-and-updates
 ---

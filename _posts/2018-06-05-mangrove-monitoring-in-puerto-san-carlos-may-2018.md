@@ -3,18 +3,18 @@ date: 2018-06-05 16:13:46+00:00
 description: null
 featuredImage: /assets/Day1_full-Team.jpg
 layout: blog-post
+author: Nicholas Buock
 slug: /mangrove-monitoring-in-puerto-san-carlos-may-2018
 title: Mangrove Monitoring in Puerto San Carlos - May 2018
 categories:
 - mangrove-monitoring
-- uncategorized
 tags:
 - coastal-conservation
 - mangrove
 - mangrove-monitoring
 ---
 
-Engineers for Exploration leaders Nikko Dutra Bouck and Eric Lo went to Baja Sur California with [Scripps Institution of Oceanography ](https://scripps.ucsd.edu/)(SIO) researchers Astrid Hsu and Joy Kumagai and Beni Martinez from the Gulf of California Marine Program from May 9th to May 15th, where the team collected new data to help support the conservation of coastal mangrove ecosystems in Puerto San Carlos, Baja Sur California, México.  
+Engineers for Exploration leaders Nikko Dutra Bouck and Eric Lo went to Baja Sur California with [Scripps Institution of Oceanography](https://scripps.ucsd.edu/) (SIO) researchers Astrid Hsu and Joy Kumagai and Beni Martinez from the Gulf of California Marine Program from May 9th to May 15th, where the team collected new data to help support the conservation of coastal mangrove ecosystems in Puerto San Carlos, Baja Sur California, México.  
 
 The overall goal for expedition was to test data collection methodologies that can provide accurate information about the distribution and extent of Baja’s mangroves. By utilizing remote sensing techniques and on-the-ground methods, this project aims to calculate mangrove biomass by species and region in a quick and efficient manner.  In particular, we developed new methodologies to support and improve our machine learning techniques. Parallel to this, the Aburto Lab spent a substantial amount of time collecting biomass data within the mangroves, information that the Engineers for Exploration team will use to compose a statistical model on species density. 
 

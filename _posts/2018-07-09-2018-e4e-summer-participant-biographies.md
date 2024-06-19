@@ -5,6 +5,7 @@ featuredImage: /assets/IMG_7292.jpeg
 layout: blog-post
 slug: /2018-e4e-summer-participant-biographies
 title: 2018 E4E Summer Participant Biographies
+author: Eric
 categories:
 - uncategorized
 ---
@@ -115,8 +116,3 @@ Zain is a rising senior at The University of Texas at Dallas studying Computer S
 %}
 
 Rich is a rising sophomore at the University of California, San Diego majoring in Electrical Engineering. This summer, he would be working on the Mayan archaeology project, which would assist archaeologists in mapping out and documenting Mayan tunnel through the use of Simultaneous Localization and Mapping (SLAM) algorithms and a hand-held 3D mapping tool. In his free time, Rich likes to build electric skateboards, skate, and play frisbee.
-
-{% include 
-    img_caption.html
-    src="/assets/image6.jpg"
-%}
