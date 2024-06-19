@@ -5,6 +5,7 @@ featuredImage: '/assets/2017-10-19-fall-2017-weekly-technical-meetings_e4e-fall.
 layout: blog-post
 slug: /e4e-fall-2017-projects
 title: E4E Fall 2017 Projects
+author: Eric
 categories:
 - news-and-updates
 ---

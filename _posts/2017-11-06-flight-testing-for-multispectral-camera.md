@@ -5,6 +5,7 @@ featuredImage: /assets/MVIMG_20171105_065504.jpg
 layout: blog-post
 slug: /flight-testing-for-multispectral-camera
 title: Flight Testing for Multispectral Camera
+Author: Eric
 categories:
 - autonomous-copters
 ---

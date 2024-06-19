@@ -5,9 +5,8 @@ featuredImage: /assets/vaquita.jpg
 layout: blog-post
 slug: /spherecam-for-marine-monitoring-2016-reu
 title: 'SphereCam for Marine Monitoring: 2016 REU'
+author: Ethan Slattery, Andrew Hostler and Antonella Wilby
 categories:
-- spherecam
-- underwater-projects
 - vaquita
 ---
 
@@ -102,13 +101,13 @@ Now that the signal is in in the Edison, the software design was the next proble
 
 Early in the summer, we attempted to deploy the SphereCam in the Vaquita Refuge to get a baseline on the level of ambient noise in the same frequency range as the vaquita's echolocation clicks. However, bad weather waylaid our fieldwork plans.
 
-![spherecam-ethan](/assets/2016-09-20-spherecam-for-marine-monitoring-2016-reu_spherecam-ethan.jpg)
 
-
-Ethan makes some repairs in the field
-
-
+{% include 
+    img_caption.html
+    src="/assets/2016-09-20-spherecam-for-marine-monitoring-2016-reu_spherecam-ethan.jpg"
+    alt="spherecam-ethan"
+    caption="Ethan makes some repairs in the field"
+%}
 
 In early September, we deployed the SphereCam in the Vaquita Refuge. It will remain in the refuge until late September, at which point we will return to swap the batteries, grab the data, and clean the domes of biofouling. Check back later for more updates on what the SphereCam sees!
 
-- _by Ethan Slattery, Andrew Hostler and Antonella Wilby_

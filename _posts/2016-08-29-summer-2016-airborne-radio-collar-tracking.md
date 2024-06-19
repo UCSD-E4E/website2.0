@@ -6,8 +6,8 @@ layout: blog-post
 slug: /summer-2016-airborne-radio-collar-tracking
 title: 'Airborne Radio Collar Tracking: 2016 REU'
 categories:
-- autonomous-copters
 - radio-collar-tracker
+author: Daniel Webber and Nathan Hui
 tags:
 - conservation
 - exploration
@@ -45,5 +45,3 @@ The new design consisted of the same components: antenna and a software defined 
 Although we didn't test the system on a field deployment like last summer, we still tried to not always test in the lab. Unfortunately due increasing restriction on flying UAS (Unmanned Aerial Systems) for research we were unable to test the system locally. To get the best idea of the improvement we tested our system on the ground. Although this test would not give us an absolute gauge of improvement, it can show it in a relative manner. From the initial results we have been able to demonstrate that we have almost doubled the detection range compared to the system that was on previous deployments.
 
 Ultimately this summer we have designed the receiver to become more sensitive and we are excited to see the results on the next field deployment.
-
- - _by Daniel Webber and Nathan Hui_

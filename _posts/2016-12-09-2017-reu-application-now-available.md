@@ -5,6 +5,7 @@ featuredImage: '/assets/2016-12-09-2017-reu-application-now-available_2017_flyer
 layout: blog-post
 slug: /2017-reu-application-now-available
 title: 2017 REU Application Now Available!
+author: Antonella 
 categories:
 - news-and-updates
 ---
@@ -15,9 +16,9 @@ Last year, ten students from universities across the US and Brazil worked on pro
 
 **Program Information**
 
-Application Deadline: February 17, 2017
-2017 Dates: June 25 - September 1 (10 weeks)
-Eligibility: Full-time undergraduate students
-$500/week stipend
+- Application Deadline: February 17, 2017
+- 2017 Dates: June 25 - September 1 (10 weeks)
+- Eligibility: Full-time undergraduate students
+- $500/week stipend
 
 For more information about the program and requirements, please visit [e4e.ucsd.edu/apply]({{"/apply" | absolute_url}}).

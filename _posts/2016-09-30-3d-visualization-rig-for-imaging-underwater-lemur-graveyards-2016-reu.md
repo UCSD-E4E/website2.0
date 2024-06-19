@@ -2,12 +2,11 @@
 date: 2016-09-30 08:28:47+00:00
 description: null
 featuredImage: /assets/LemurImage1.jpg
+author: Rachel Herrera, Daniel Knapp, Kaue Zoia, Miguel de Villa and Antonella Wilby
 layout: blog-post
 slug: /3d-visualization-rig-for-imaging-underwater-lemur-graveyards-2016-reu
 title: '3D Visualization Rig for Imaging Underwater Lemur Graveyards: 2016 REU'
 categories:
-- 3d-visualization-system
-- underwater-cave-imaging
 - underwater-projects
 ---
 
@@ -22,6 +21,3 @@ A mysterious graveyard of giant lemur fossils has been found in the underwater A
 ![3dvizrig](/assets/2016-09-30-3d-visualization-rig-for-imaging-underwater-lemur-graveyards-2016-reu_3dvizrig-1024x677.jpg)
 
 Our solution is a small, easily maneuverable diving rig with cameras controlled by the diver via an iPad. The cameras will be mounted inside clear acrylic domed housings, and a minnowboard will connect them to the iPad. Our project goal is to produce reliable and good quality images from the site, so the place and all the other elements can be studied and understood by scientists and explorers. 
-
-
-- _by Rachel Herrera, Daniel Knapp, Kaue Zoia, Miguel de Villa and Antonella Wilby_

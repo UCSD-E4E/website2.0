@@ -5,6 +5,7 @@ featuredImage: /assets/2017-05-04-deep-learning-for-exploring-harpy-eagle-habita
 layout: blog-post
 slug: /deep-learning-for-exploring-harpy-eagle-habitats
 title: Deep Learning for Exploring Harpy Eagle Habitats
+author: Matt Epperson
 categories:
 - harpy-vision
 ---
