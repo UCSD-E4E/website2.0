@@ -5,7 +5,7 @@ featuredImage: assets/acoustic_species_id/2021-08-04_scripps_coastal_reserve_tra
 layout: blog-post
 slug: /scripps-coastal-reserve-deployment
 title: Scripps Coastal Reserve Deployment
-author: Nathan
+author: Sean Perry (UC San Diego) and Mugen Blue (CalPoly SLO)
 categories:
 - news-and-updates
 tags:
@@ -61,3 +61,5 @@ On August 24th, the team returned to the site. In the mists of the dry season, t
 Now, comes the hard part. The team is currently working to use and refine our automated techniques in the python package PyHa to identify species, calls, and filter out human noise. When that work is finished, we may have a system capable of detecting those critical species and judging their presence on the reserve. With that system, we can launch other deployments in reserves across the city where we can see if Gnatcatchers are reclaiming habitat in restored lagoons or if other bird species are loudly making their home. With time and future deployments, the team will have a system to help monitor the ecological soundscape of San Diego and help members of the animal kingdom be heard.
 
 If you are interested in learning more about the project, check out our project page at [{{ "/acoustic-species-identification" | absolute_url }}]({{ "/acoustic-species-identification" | absolute_url }}) and our video documenting the deployment and the life of our project lead ([https://youtu.be/buHjodMuxvw](https://youtu.be/buHjodMuxvw)).
+
+Special thanks to Katherine Connor, Marketing and Communications Specialist at UC San Diego’s Jacobs School of Engineering, for taking the time to photograph the team during the Audiomoth deployment.
