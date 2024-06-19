@@ -5,7 +5,7 @@ featuredImage: '/assets/2017-10-19-fall-2017-weekly-technical-meetings_weekly_me
 layout: blog-post
 slug: /fall-2017-weekly-technical-meetings
 title: Fall 2017 Weekly Technical Meetings
-Author: Eric
+author: Eric
 categories:
 - uncategorized
 ---
