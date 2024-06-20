@@ -7,7 +7,7 @@ author: Nicholas Buock
 slug: /mangrove-monitoring-in-puerto-san-carlos-may-2018
 title: Mangrove Monitoring in Puerto San Carlos - May 2018
 categories:
-- mangrove-monitoring
+- uncategorized
 tags:
 - coastal-conservation
 - mangrove
