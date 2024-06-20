@@ -57,7 +57,7 @@ This summer, we are hosting 19 students from around the US in our 2023 summer re
 {% for student in page.students %}
 <div class="floatclearfix">
     {% if student.photo %}
-    <p><a href="{{ student.photo | absolute_url }}"><img alt="{{student.name}}" class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
+    <p style="display: float; justify-content: center;"><a href="{{ student.photo | absolute_url }}"><img alt="{{student.name}}" class="{{student.align}}" src="{{student.photo | resize: '180x240'}}"></a></p>{% endif %}
     <p>{{student.bio}}</p>
 </div>
 {% endfor %}
