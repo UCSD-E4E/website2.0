@@ -52,6 +52,8 @@ This project is always looking for new team members who have experience with Pyt
 More Info:
 [https://smartfin.org/](https://smartfin.org/)
 
-[https://www.surfrider.org/programs/smartfin](https://www.surfrider.org/programs/smartfin)
+<!-- [https://www.surfrider.org/programs/smartfin](https://www.surfrider.org/programs/smartfin) -->
+[https://www.surfrider.org/media/press-releases/surfers-become-citizen-scientists-as-surfboard-fin-collects-critical-ocean](https://www.surfrider.org/media/press-releases/surfers-become-citizen-scientists-as-surfboard-fin-collects-critical-ocean) 
+
 
 [https://youtu.be/CU-IX8tqP_4](https://youtu.be/CU-IX8tqP_4)

@@ -56,6 +56,7 @@ exclude:
   - node_modules
   - package-lock.json
   - package.json
+  - cache/resize_temp
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -77,3 +78,11 @@ scholar:
     - smallcaps
     - superscript
   bibliography_template: bib
+
+jekyll-archives:
+  enabled:
+  - year
+  layout: archive
+  permalinks:
+    year: 'archive/:year/'
+    

@@ -23,7 +23,7 @@ $grey-color-dark:  darken($grey-color, 25%) !default;
 $table-text-align: left !default;
 
 // Width of the content area
-$content-width:    1240px !default;
+$content-width:    $spacing-unit * 2 + 1240 !default;
 
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
@@ -50,7 +50,10 @@ $on-laptop:        800px !default;
   "minima/syntax-highlighting",
   "minima/base",
   "minima/layout",
+  "minima/home",
   "minima/carousel",
   "minima/about",
-  "minima/project.scss"
+  "minima/project.scss",
+  "minima/post.scss", 
+  "minima/people"
 ;

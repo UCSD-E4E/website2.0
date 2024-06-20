@@ -1,0 +1,1628 @@
+- description: E4E Founding Director since 2010
+  expedition: true
+  image: assets/people/about_ryan_t730.jpg
+  level: E4E Director
+  link: https://kastner.ucsd.edu/
+  name: Dr. Ryan Kastner
+  start: 2010
+- description: E4E Founding Director since 2010
+  expedition: true
+  image: assets/people/about_curt.gif
+  level: E4E Director
+  name: Dr. Curt Schurgers
+  start: 2010
+- description: E4E Founding Director since 2010
+  expedition: true
+  image: assets/people/about_albert.png
+  level: Former E4E Director
+  name: Dr. Albert Lin
+  start: 2010
+- description: E4E Staff Engineer since 2020
+  expedition: true
+  image: assets/people/n.hui.png
+  level: Staff Engineer
+  name: Nathan Hui
+  start: 2015
+- description: Mangrove Monitoring, 2018-2023
+  expedition: true
+  image: assets/people/d.hicks.jpg
+  level: Project Lead - Alumni
+  name: Dillon Hicks
+  start: 2018
+  end: 2023
+- description: E4E Staff Engineer, 2014-2019
+  end: 2019
+  expedition: true
+  image: assets/people/e.lo.jpg
+  level: Former Staff Engineer
+  name: Eric Lo
+  start: 2012
+- description: 'Underwater Robotics, 2012-2016,
+    Vaquita Monitoring, 2015-2017'
+  end: 2016
+  expedition: true
+  image: assets/people/a.wilby.jpg
+  level: Project Lead - Alumni
+  name: Antonella Wilby
+  start: 2012
+- description: Intelligent Camera Trap, 2010-2014
+  end: 2014
+  expedition: true
+  image: assets/people/r.yeakle.jpg
+  level: Project Lead - Alumni
+  name: Riley Yeakle
+  start: 2010
+- description: 'Grouper Monitoring, 2015-2017
+    Maya Archaeology, 2014'
+  end: 2017
+  expedition: true
+  level: Project Lead - Alumni
+  name: Sabrina Trinh
+  start: 2015
+- description: Intelligent Camera Trap, 2013 Summer REU
+  end: 2013
+  expedition: false
+  level: Project Member - Alumni
+  name: David Muller
+  start: 2013
+- description: Radio Telemetry Tracking, 2019-2020
+  end: 2020
+  expedition: false
+  level: Project Lead - Alumni
+  name: Aditi Gaur
+  start: 2019
+- description: Mangrove Monitoring, 2019 Summer REU
+  end: 2019
+  expedition: true
+  image: assets/people/a.busa.jpg
+  level: Project Member - Alumni
+  name: Allison Busa
+  start: 2019
+- description: 'Angry Birds, 2014 Summer REU
+    Intelligent Camera Trap, 2013-2014'
+  end: 2014
+  expedition: true
+  level: Project Lead - Alumni
+  name: Angela To
+  start: 2013
+- description: Radio Telemetry Tracking, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/a.koutroulis.jpg
+  level: Project Member - Alumni
+  name: Anthony Koutroulis
+  start: 2017
+- description: ''
+  expedition: true
+  level: Project Candidate
+  name: Alireza Khodamoradi
+  start: 0
+- description: 'CRATER, 2017
+    Mangrove Monitoring, 2016-2018'
+  end: 2018
+  expedition: false
+  level: Project Member - Alumni
+  name: Connie Du
+  start: 2016
+- description: Mangrove Monitoring, 2018 Summer REU
+  end: 2018
+  expedition: true
+  image: assets/people/c.lee.jpg
+  level: Project Member - Alumni
+  name: Catherine Lee
+  start: 2018
+- description: Baboons on the Move, 2019 Summer REU
+  end: 2019
+  expedition: false
+  image: assets/people/c.beluso.jpg
+  level: Project Member - Alumni
+  name: Charmaine Beluso
+  start: 2019
+- description: ''
+  expedition: false
+  level: Project Candidate
+  name: Christie Wolters
+  start: 0
+- description: Radio Telemetry Tracking, 2019 Summer REU
+  end: 2019
+  expedition: false
+  image: assets/people/c.kinzel.jpg
+  level: Project Member - Alumni
+  name: Charles Kinzel
+  start: 2019
+- description: Radio Telemetry Tracking, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/k.dahn.jpg
+  level: Project Member - Alumni
+  name: Kati Dahn
+  start: 2017
+- description: 'Angry Birds, 2013-2017
+    Radio Telemetry Tracking, 2017'
+  end: 2017
+  expedition: true
+  image: assets/people/d.knapp.jpg
+  level: Project Lead - Alumni
+  name: Daniel Knapp
+  start: 2013
+- description: Maya Archaeology, 2013-2015
+  end: 2015
+  expedition: true
+  image: assets/people/d.richmond.jpg
+  level: Project Lead - Alumni
+  name: Dustin Richmond
+  start: 2013
+- description: Radio Telemetry Tracking, 2018-2019
+  end: 2019
+  expedition: true
+  image: assets/people/e.tran.jpg
+  level: Project Member - Alumni
+  name: Eric Yu
+  start: 2018
+- description: Aerial LIDAR, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/e.ubik.png
+  level: Project Member - Alumni
+  name: Emily Ubik
+  start: 2015
+- description: ''
+  expedition: false
+  level: Project Candidate
+  name: Frank Bogart
+  start: 0
+- description: Radio Telemetry Tracking, 2016-2017
+  end: 2017
+  expedition: false
+  level: Project Member - Alumni
+  name: Jacob Domine
+  start: 2016
+
+- description: Mangrove Monitoring, 2018-2020
+  end: 2020
+  expedition: true
+  image: assets/people/k.qi.jpg
+  level: Project Lead - Alumni
+  name: Kathy Qi
+  start: 2018
+- description: Radio Telemetry Tracking, 2013 Summer REU
+  end: 2013
+  expedition: false
+  image: assets/people/l.nishizaki.jpg
+  level: Project Member - Alumni
+  name: Lauren Nishizaki
+  start: 2013
+- description: PYNQ Copter, 2018 Summer REU
+  end: 2018
+  expedition: false
+  image: assets/people/z.merchant.jpg
+  level: Project Member - Alumni
+  name: Zain Merchant
+  start: 2018
+- description: Mangrove Monitoring, 2020 Summer REU
+  end: 2020
+  expedition: false
+  image: assets/people/n.meister.jpg
+  level: Project Member - Alumni
+  name: Nicole Meister
+  start: 2020
+- description: Smartfin, 2017-2018
+  end: 2018
+  expedition: false
+  image: assets/people/j.simmons.png
+  level: Project Lead - Alumni
+  name: Jasmine Simmons
+  start: 2017
+- description: Radio Telemetry Tracking, 2020 Summer REU
+  end: 2020
+  expedition: false
+  image: assets/people/e.lee.jpg
+  level: Project Member - Alumni
+  name: Eugene Lee
+  start: 2020
+- description: Stingray AUV, 2012-2014
+  end: 2014
+  expedition: true
+  image: assets/people/p.naughton.jpeg
+  level: Project Lead - Alumni
+  name: Perry Naughton
+  start: 2012
+- description: Mangrove Monitoring, 2019 Summer REU
+  end: 2019
+  expedition: true
+  image: assets/people/s.ehrenstein.jpg
+  level: Project Member - Alumni
+  name: Sam Ehrenstein
+  start: 2019
+- description: Maya Archaeology, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/r.zheng.png
+  level: Project Member - Alumni
+  name: Raymond Zheng
+  start: 2015
+- description: Radio Telemetry Tracking, 2019-2020
+  end: 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Rujvi Mehendre
+  start: 2019
+- description: Stereo Rig, 2012-2014
+  end: 2014
+  expedition: false
+  level: Project Member - Alumni
+  name: Sally Law
+  start: 2012
+- description: 'Elephant Monitoring, 2015 Summer REU
+    Radio Telemetry Tracker, 2016'
+  end: 2016
+  expedition: false
+  image: assets/people/s.bauza.png
+  level: Project Lead - Alumni
+  name: Samuel Bauza
+  start: 2015
+- description: ''
+  expedition: false
+  level: Project Candidate
+  name: Dan Strum
+  start: 0
+- description: Mangrove Monitoring, 2020 Summer REU, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/t.do.png
+  level: Project Member - Alumni
+  name: Thuan Do
+  start: 2020
+- description: Mangrove Monitoring, 2020 Summer REU
+  end: 2020
+  expedition: false
+  image: assets/people/d.forman.png
+  level: Project Member - Alumni
+  name: David Forman
+  start: 2020
+- description: Acoustic Species ID, 2020 Summer REU
+  end: 2020
+  expedition: false
+  image: assets/people/a.yao.jpg
+  level: Project Member - Alumni
+  name: Anthony Yao
+  start: 2020
+- description: Mangrove Monitoring, 2019 Summer REU
+  end: 2019
+  expedition: true
+  image: assets/people/c.bambini.jpg
+  level: Project Member - Alumni
+  name: Christina Bambini
+  start: 2019
+- description: Maya Archaeology, 2019 Summer REU
+  end: 2019
+  expedition: false
+  image: assets/people/h.eid.jpg
+  level: Project Member - Alumni
+  name: Hassan Eid
+  start: 2019
+- description: Radio Telemetry Tracking, 2019
+  end: 2019
+  expedition: true
+  image: assets/people/e.gharehbekloo.jpg
+  level: Project Member - Alumni
+  name: Emmanuel Gharehbekloo
+  start: 2019
+- description: Mangrove Monitoring, 2019 Summer REU
+  end: 2019
+  expedition: true
+  image: assets/people/n.hellebrandt.jpg
+  level: Project Member - Alumni
+  name: Natasha Hellebrandt
+  start: 2019
+- description: ReefPin, 2018-2019
+  end: 2019
+  expedition: false
+  image: assets/people/e.patamasing.jpg
+  level: Project Lead - Alumni
+  name: Eamon Patamasing
+  start: 2018
+- description: 'Underwater Soft Robotics, 2019 Summer REU
+    Mangrove Monitoring, 2019 Summer REU'
+  end: 2019
+  expedition: true
+  image: assets/people/e.reeder.jpg
+  level: Project Member - Alumni
+  name: Enosh Reeder
+  start: 2019
+- description: ReefPin, 2018-2019
+  end: 2019
+  expedition: false
+  image: assets/people/a.xu.jpg
+  level: Project Lead - Alumni
+  name: Alex Xu
+  start: 2018
+- description: Mangrove Monitoring, 2018 Summer REU
+  end: 2018
+  expedition: true
+  image: assets/people/s.longoria.jpg
+  level: Project Member - Alumni
+  name: Savannah Longoria
+  start: 2018
+- description: PYNQ Copter, 2018 Summer REU
+  end: 2018
+  expedition: false
+  image: assets/people/i.avendano.jpg
+  level: Project Member - Alumni
+  name: Indira Avendano
+  start: 2018
+- description: ReefPin, 2018 Summer REU
+  end: 2018
+  expedition: false
+  image: assets/people/r.barlow.jpg
+  level: Project Member - Alumni
+  name: Robert Barlow
+  start: 2018
+- description: Aerial LIDAR, 2017-2019
+  end: 2019
+  expedition: false
+  image: assets/people/f.rushton.jpg
+  level: Project Lead - Alumni
+  name: Ferril Rushton
+  start: 2017
+- description: Radio Telemetry Tracking, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/l.grosswiler.png
+  level: Project Member - Alumni
+  name: Leif Grosswiler
+  start: 2017
+- description: Maya Archaeology, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/w.khan.png
+  level: Project Member - Alumni
+  name: Waseem Khan
+  start: 2017
+- description: Mangrove Monitoring, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/j.bloc.png
+  level: Project Member - Alumni
+  name: Julien Bloch
+  start: 2017
+- description: Acoustic Species ID, 2020 Summer REU
+  end: 2020
+  expedition: false
+  image: assets/people/j.wang.png
+  level: Project Member - Alumni
+  name: Justin Wang
+  start: 2020
+- description: Acoustic Species ID, 2020 Summer REU
+  end: 2020
+  expedition: false
+  image: assets/people/g.steinberg.jpg
+  level: Project Member - Alumni
+  name: Gabriel Steinberg
+  start: 2020
+- description: Mangrove Monitoring, 2020 Summer REU
+  end: 2020
+  expedition: false
+  image: assets/people/s.cole.png
+  level: Project Member - Alumni
+  name: Sam Cole
+  start: 2020
+- description: Mangrove Monitoring/ReefPin, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/s.combs.jpg
+  level: Project Member - Alumni
+  name: Samanta Combs
+  start: 2017
+- description: Mangrove Monitoring, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/l.woodahl.jpg
+  level: Project Member - Alumni
+  name: Lysny Woodahl
+  start: 2017
+- description: Mangrove Monitoring/ReefPin, 2016-2018
+  end: 2018
+  expedition: true
+  image: assets/people/n.bouc.png
+  level: Project Lead - Alumni
+  name: Nikko Bouck
+  start: 2016
+- description: ReefPin, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/f.parker.jpg
+  level: Project Member - Alumni
+  name: Felix Parker
+  start: 2017
+- description: Mangrove Monitoring/ReefPin, 2017 Summer REU
+  end: 2017
+  expedition: true
+  image: assets/people/b.hall.jpg
+  level: Project Member - Alumni
+  name: Brynn Hall
+  start: 2017
+- description: Maya Archaeology, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/p.heng.jpg
+  level: Project Member - Alumni
+  name: Proud Heng
+  start: 2017
+- description: Underwater Soft Robotics, 2017 Summer REU
+  end: 2017
+  expedition: false
+  image: assets/people/z.acosta.jpg
+  level: Project Member - Alumni
+  name: Zandria Acosta
+  start: 2017
+- description: Whale Call Classification, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/l.bauer.png
+  level: Project Member - Alumni
+  name: Lisa Bauer
+  start: 2016
+- description: Aerial Mapping, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/n.gonzalez.jpg
+  level: Project Member - Alumni
+  name: Nick Gonzalez
+  start: 2016
+- description: Stereo Rig, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/r.herrera.jpg
+  level: Project Member - Alumni
+  name: Rachel Herrera
+  start: 2016
+- description: SphereCam, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/a.hostler.jpg
+  level: Project Member - Alumni
+  name: Andrew Hostler
+  start: 2016
+- description: Coral Mapping, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/d.schreiber.png
+  level: Project Lead - Alumni
+  name: Dmitri Schreiber
+  start: 0
+- description: Maya Archaeology, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/s.sim.jpg
+  level: Project Member - Alumni
+  name: Seoyeon Sim
+  start: 2016
+- description: SphereCam, 2016 Summer REU
+  end: 2016
+  expedition: true
+  image: assets/people/e.slattery.jpg
+  level: Project Member - Alumni
+  name: Ethan Slattery
+  start: 2016
+- description: Whale Call Classification, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/i.tolkova.jpg
+  level: Project Member - Alumni
+  name: Irina Tolkova
+  start: 2016
+- description: Aerial Mapping, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/t.tripp.jpg
+  level: Project Member - Alumni
+  name: Tara Tripp
+  start: 2016
+- description: Radio Telemetry Tracking, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/d.webber.jpg
+  level: Project Member - Alumni
+  name: Daniel Webber
+  start: 2016
+- description: Whale Call Classification, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/h.zhao.jpg
+  level: Project Member - Alumni
+  name: Hongyi Zhao
+  start: 2016
+- description: Coral Mapping, 2016 Summer REU
+  end: 2016
+  expedition: false
+  image: assets/people/k.zoia.png
+  level: Project Member - Alumni
+  name: Kaue Zoia
+  start: 2016
+- description: Aerial Vehicles, 2015 Summer REU
+  end: 2015
+  expedition: true
+  image: assets/people/s.afshari.png
+  level: Project Lead - Alumni
+  name: Sebastian Afshari
+  start: 2014
+- description: Aerial Vehicles, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/b.apatow.png
+  level: Project Member - Alumni
+  name: Blake Apatow
+  start: 2015
+- description: Intelligent Camera Trap, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/a.christy.png
+  level: Project Member - Alumni
+  name: Annie Christy
+  start: 2015
+- description: Aerial Vehicles, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/j.junker.png
+  level: Project Member - Alumni
+  name: Jacob Junker
+  start: 2015
+- description: Intelligent Camera Trap, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/j.pacheco.png
+  level: Project Lead - Alumni
+  name: Jorge Pacheco
+  start: 2015
+- description: Bird Nest Tracker, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/o.soarespapardis.png
+  level: Project Member - Alumni
+  name: Otavio Soares Papardis
+  start: 2015
+- description: Aerial Vehicles, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/i.salameh.jpg
+  level: Project Member - Alumni
+  name: Ihab Salameh
+  start: 2015
+- description: Aerial Vehicles, 2014-2017
+  end: 2017
+  expedition: false
+  image: assets/people/m.devilla.png
+  level: Project Member - Alumni
+  name: Miguel de Villa
+  start: 2014
+- description: Aerial Vehicles, 2015 Summer REU
+  end: 2015
+  expedition: false
+  image: assets/people/t.walker.png
+  level: Project Member - Alumni
+  name: Tevon Walker
+  start: 2015
+- description: Aerial Vehicles, 2014-2016
+  end: 2016
+  expedition: false
+  image: assets/people/e.fraijo.jpg
+  level: Project Lead - Alumni
+  name: Elioth Fraijo
+  start: 2014
+- description: Radio Telemetry Tracking, 2014 Summer REU
+  end: 2014
+  expedition: false
+  image: assets/people/z.barnes.jpg
+  level: Project Member - Alumni
+  name: Zach Barnes
+  start: 2014
+- description: Angry Birds, 2014 Summer REU
+  end: 2014
+  expedition: false
+  image: assets/people/l.deluccia.jpg
+  level: Project Member - Alumni
+  name: Luke DeLuccia
+  start: 2014
+- description: Wolf Tracker, 2014 Summer REU
+  end: 2014
+  expedition: false
+  image: assets/people/d.hemachandra.jpg
+  level: Project Member - Alumni
+  name: Dasun Hemachandra
+  start: 2014
+- description: Wolf Tracker, 2014 Summer REU
+  end: 2014
+  expedition: false
+  image: assets/people/t.hodge.jpg
+  level: Project Member - Alumni
+  name: Tevon Hodge
+  start: 2014
+- description: SphereCam, 2014 Summer REU
+  end: 2014
+  expedition: false
+  level: Project Member - Alumni
+  name: Jordann McCarty
+  start: 2014
+- description: Angry Birds, 2014 Summer REU
+  end: 2014
+  expedition: false
+  level: Project Member - Alumni
+  name: Dustin Mendoza
+  start: 2014
+- description: Plankton Camera, 2014 Summer REU
+  end: 2014
+  expedition: false
+  level: Project Member - Alumni
+  name: Paul Owens
+  start: 2014
+- description: Radio Telemetry Tracking, 2014 Summer REU
+  end: 2014
+  expedition: false
+  image: assets/people/g.dossantos.jpg
+  level: Project Member - Alumni
+  name: Gilberto Antonio Marcon dos Santos
+  start: 2014
+- description: Angry Birds, 2014 Summer REU
+  end: 2014
+  expedition: false
+  level: Project Member - Alumni
+  name: Traci Takasugi
+  start: 2014
+- description: 'Wolf Tracker, 2013-2014
+    Radio Telemetry Tracking, 2014'
+  end: 2014
+  expedition: false
+  image: assets/people/x.tejeda.jpg
+  level: Project Lead - Alumni
+  name: Xavier Tejeda
+  start: 2013
+- description: Stingray AUV, 2013 Summer REU
+  end: 2013
+  expedition: false
+  image: assets/people/j.batryn.jpg
+  level: Project Member - Alumni
+  name: Jennifer Batryn
+  start: 2013
+- description: Intelligent Camera Trap, 2013 Summer REU
+  end: 2013
+  expedition: false
+  image: assets/people/g.trotter.jpg
+  level: Project Member - Alumni
+  name: Gabrielle Trotter
+  start: 2013
+- description: Intelligent Camera Trap, 2013 Summer REU
+  end: 2013
+  expedition: false
+  image: assets/people/d.fish.png
+  level: Project Member - Alumni
+  name: David Fish
+  start: 2013
+- description: 2013 Summer REU
+  end: 2013
+  expedition: false
+  image: assets/people/m.carlson.jpg
+  level: Project Member - Alumni
+  name: Michael Carlson
+  start: 2013
+- description: Intelligent Camera Trap, 2013 Summer REU
+  end: 2013
+  expedition: false
+  image: assets/people/j.blackstone.png
+  level: Project Member - Alumni
+  name: Jeremy Blackstone
+  start: 2013
+- description: Radio Telemetry Tracking, 2012-2013
+  end: 2013
+  expedition: false
+  level: Project Lead - Alumni
+  name: Bryan Ritoper
+  start: 2012
+- description: Radio Telemetry Tracking, 2014
+  end: 2014
+  expedition: false
+  level: Project Member - Alumni
+  name: Alex Ke
+  start: 2014
+- description: Radio Telemetry Tracking, 2016
+  end: 2016
+  expedition: false
+  level: Project Member - Alumni
+  name: Nan Shu
+  start: 2016
+- description: Radio Telemetry Tracking, 2016-2017
+  end: 2017
+  expedition: false
+  level: Project Member - Alumni
+  name: Jacob Torres
+  start: 2016
+
+- description: Radio Telemetry Tracking, 2017
+  end: 2017
+  expedition: false
+  level: Project Member - Alumni
+  name: Samuel Vineyard
+  start: 2017
+
+- description: Radio Telemetry Tracking, 2017
+  end: 2017
+  expedition: false
+  level: Project Member - Alumni
+  name: Naveen Ketagoda
+  start: 2017
+
+- description: Radio Telemetry Tracking, 2017
+  end: 2017
+  expedition: false
+  level: Project Member - Alumni
+  name: Thomas An
+  start: 2017
+
+- description: Radio Telemetry Tracking, 2017-2018
+  end: 2018
+  expedition: true
+  level: Project Member - Alumni
+  name: Matt Epperson
+  start: 2017
+- description: Acoustic Species ID since 2020, 2020 Summer REU, 2021 Summer REU
+  expedition: true
+  image: assets/people/j.ayers.jpg
+  level: Project Member
+  name: Jacob Ayers
+  start: 2020
+- description: Acoustic Species ID since 2020, 2021 Summer REU, 2022 Summer REU
+  expedition: true
+  image: assets/people/s.perry.jpg
+  level: Project Lead
+  name: Sean Perry
+  start: 2020
+- description: Aye-Aye Sleep Monitoring, 2020-2021
+  end: 2021
+  expedition: false
+  image: assets/people/k.miyamoto.jpg
+  level: Project Member - Alumni
+  name: Katie Miyamoto
+  start: 2020
+- description: Aye-Aye Sleep Monitoring, 2020-2021
+  end: 2021
+  expedition: false
+  image: assets/people/a.singh.jpg
+  level: Project Member - Alumni
+  name: Ameya Singh
+  start: 2020
+- description: Radio Telemetry Tracking, 2020-2021
+  end: 2021
+  expedition: false
+  level: Project Member - Alumni
+  name: Younus Ahmad
+  start: 2020
+
+- description: Radio Telemetry Tracking, 2020-2022, 2021 Summer REU
+  end: 2022
+  expedition: false
+  image: assets/people/m.lucio.jpg
+  level: Project Lead - Alumni
+  name: Mia Lucio
+  start: 2020
+- description: Maya Archaeology, 2018-2022
+  end: 2022
+  expedition: true
+  image: assets/people/g.vindiola.jpg
+  level: Project Lead - Alumni
+  name: Giovanni Vindiola
+  start: 2018
+- description: Aerial LIDAR, 2017-2019
+  end: 2019
+  expedition: true
+  image: assets/people/b.rush.jpg
+  level: Project Lead - Alumni
+  name: Brian Rush
+  start: 2017
+- description: Mangrove Monitoring, 2019-2020
+  end: 2020
+  expedition: true
+  image: assets/people/a.ma.jpg
+  level: Project Member - Alumni
+  name: Arden Ma
+  start: 2019
+- description: Smartfin, 2020-2021
+  end: 2021
+  expedition: false
+  image: assets/people/b.werb.jpg
+  level: Project Lead - Alumni
+  name: Benjamin Werb
+  start: 2020
+- description: Smartfin, 2020-2021
+  end: 2021
+  expedition: false
+  level: Project Member - Alumni
+  name: Dhanvi Desu
+  start: 2020
+
+- description: Smartfin, 2020-2021
+  end: 2021
+  expedition: false
+  level: Project Member - Alumni
+  name: Evan Suong
+  start: 2020
+- description: Smartfin, 2020-2021
+  end: 2021
+  expedition: false
+  image: assets/people/b.dybicz.jpg
+  level: Project Lead - Alumni
+  name: Brooke Dybicz
+  start: 2020
+- description: Smartfin, 2020-2022, 2021 Summer REU
+  end: 2022
+  expedition: false
+  image: assets/people/n.rowlett.jpg
+  level: Project Lead - Alumni
+  name: Nicholas Rowlett
+  start: 2020
+- description: Burrowing Owl, 2020
+  end: 2020
+  expedition: false
+  image: assets/people/n.munoz.jpg
+  level: Project Lead - Alumni
+  name: Nicholas Munoz
+  start: 2020
+- description: Burrowing Owl, 2020-2021
+  end: 2022
+  expedition: false
+  image: assets/people/j.andal.png
+  level: Project Lead - Alumni
+  name: Justin Andal
+  start: 2020
+- description: Burrowing Owl, 2020-2022
+  end: 2022
+  expedition: false
+  level: Project Member - Alumni
+  name: Beilei He
+  start: 2020
+
+- description: Burrowing Owl, 2020-2022
+  end: 2022
+  expedition: false
+  level: Project Member - Alumni
+  name: Dennis Luc
+  start: 2020
+
+- description: Burrowing Owl 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Kewen Zhao
+  start: 2020
+  end: 2020
+
+- description: Burrowing Owl, 2020-2022
+  end: 2022
+  expedition: false
+  level: Project Member - Alumni
+  name: Parth Patel
+  start: 2020
+
+- description: FishSense, 2020-2022
+  end: 2022
+  expedition: true
+  image: assets/people/p.tueller.jpg
+  level: Project Lead - Alumni
+  name: Peter Tueller
+  start: 2020
+- description: FishSense, 2020-2022
+  end: 2022
+  expedition: true
+  level: Project Lead - Alumni
+  name: Patrick Paxson
+  start: 2020
+
+- description: FishSense 2020-2021
+  expedition: false
+  level: Project Lead - Alumni
+  name: Dan Truong
+  start: 2020
+  end: 2021
+
+- description: FishSense 2020-2023
+  expedition: false
+  level: Project Member - Alumni
+  name: Donovan Drews
+  start: 2020
+  end: 2023
+- description: FishSense 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Natalia Berrios Rivera
+  start: 2020
+  end: 2020
+
+- description: FishSense 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Alistair Vizuet
+  start: 2020
+  end: 2020
+
+- description: FishSense 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Fredo Avalos
+  start: 2020
+  end: 2020
+
+- description: FishSense 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Julia Guerrero
+  start: 2020
+  end: 2020
+
+- description: FishSense 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Troy Cosino
+  start: 2020
+  end: 2020
+
+- description: FishSense 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Zack Sun
+  start: 2020
+  end: 2020
+
+- description: Baboons on the Move since 2018, FishSense since 2022
+  expedition: true
+  image: assets/people/c.crutchfield.jpg
+  level: Project Lead
+  name: Christopher Crutchfield
+  start: 2018
+- description: Baboons on the Move 2018-2023
+  expedition: false
+  image: assets/people/a.ngo.jpg
+  level: Project Member - Alumni
+  name: Anh Ngo
+  start: 2018
+  end: 2023
+- description: Baboons on the Move 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Alvin Wang
+  start: 2020
+  end: 2020
+
+- description: Baboons on the Move 2020-2023
+  expedition: false
+  level: Project Member - Alumni
+  name: Danny Nguyen
+  start: 2020
+  end: 2023
+- description: Baboons on the Move 2020
+  expedition: false
+  level: Project Member - Alumni
+  name: Jake Sutton
+  start: 2020
+  end: 2020
+
+- description: Baboons on the Move 2020-2023
+  expedition: false
+  level: Project Member - Alumni
+  name: Ryan Nishimoto
+  start: 2020
+  end: 2023
+- description: Aerial Platforms, 2013-2017
+  end: 2017
+  expedition: true
+  level: Project Lead - Alumni
+  name: Dominique Meyer
+  start: 2013
+
+- description: Baboons on the Move 2021-2023
+  expedition: false
+  level: Project Member - Alumni
+  name: Akshit Agarwal
+  start: 2021
+  end: 2023
+- description: Baboons on the Move 2021-2023
+  expedition: false
+  level: Project Member - Alumni
+  name: Jason Pham
+  start: 2021
+  end: 2023
+- description: Burrowing Owl 2021
+  expedition: false
+  level: Project Member - Alumni
+  name: Bruce Yang
+  start: 2021
+  end: 2021
+
+- description: Smartfin, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/c.maldonado.jpg
+  level: Project Member - Alumni
+  name: Christopher Maldonado-Salido
+  start: 2021
+- description: Aye-Aye Sleep Monitoring 2021-2022
+  expedition: false
+  level: Project Member - Alumni
+  name: Clair Ma
+  start: 2021
+  end: 2022
+
+- description: 'Radio Telemetry Tracking, 2021
+    Maya Archaeology, 2021 Summer REU'
+  end: 2021
+  expedition: false
+  image: assets/people/d.salzmann.jpg
+  level: Project Member - Alumni
+  name: David Salzmann
+  start: 2021
+- description: Baboons on the Move, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/d.freeman-gleason.jpg
+  level: Project Member - Alumni
+  name: Declan Freeman-Gleason
+  start: 2021
+- description: Aye-Aye Sleep Monitoring, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/t.nguyen.jpg
+  level: Project Member - Alumni
+  name: "Tuyetthuc \"Diu\" Nguyen"
+  start: 2021
+- description: Aye-Aye Sleep Monitoring, 2021-2022
+  end: 2022
+  expedition: false
+  level: Project Member - Alumni
+  name: Jameel Jamous
+  start: 2021
+
+- description: FishSense, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/m.bland.jpg
+  level: Project Member - Alumni
+  name: Madison Bland
+  start: 2021
+- description: Acoustic Species ID, 2021 Summer REU
+  end: 2021
+  expedition: true
+  image: assets/people/m.blue.jpeg
+  level: Project Member - Alumni
+  name: Mugen Blue
+  start: 2021
+- description: Burrowing Owl, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/n.islas.png
+  level: Project Member - Alumni
+  name: Nathaniel Islas
+  start: 2021
+- description: Acoustic Species ID 2021, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/n.balaji.jpg
+  level: Project Member - Alumni
+  name: Nishant Balaji
+  start: 2021
+- description: FishSense 2021-2023, 2021 Summer REU
+  expedition: false
+  image: assets/people/r.maddukuri.jpg
+  level: Project Member - Alumni
+  name: Raghav Maddukuri
+  start: 2021
+  end: 2023
+- description: Baboons on the Move 2021-2023, 2021 Summer REU
+  expedition: false
+  image: assets/people/r.vergniault.jpg
+  level: Project Member - Alumni
+  name: Romain Vergniault
+  start: 2021
+  end: 2023
+- description: 'FishSense 2021 Summer REU
+    Floods of Lubra since 2022'
+  expedition: true
+  image: assets/people/r.wallace.jpg
+  level: Project Lead
+  name: Ronan Wallace
+  start: 2021
+- description: Baboons on the Move, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/s.sewell.jpeg
+  level: Project Member - Alumni
+  name: Syndie Sewell
+  start: 2021
+- description: Smartfin, 2021-2023, 2021 Summer REU
+  expedition: false
+  image: assets/people/v.nachiappan.jpg
+  level: Project Member - Alumni
+  name: Valli Nachiappan
+  start: 2021
+  end: 2023
+- description: Maya Archaeology, 2021 Summer REU
+  end: 2021
+  expedition: false
+  image: assets/people/y.senior.jpg
+  level: Project Member - Alumni
+  name: Yasmin Senior
+  start: 2021
+- description: Coral Tile, 2020-2022
+  end: 2022
+  expedition: false
+  level: Project Lead - Alumni
+  name: Narek Boghozian
+  start: 2020
+
+- description: Acoustic Species ID 2020-2023
+  expedition: true
+  level: Project Member - Alumni
+  name: Jen Switzer
+  start: 2020
+  end: 2023
+- description: Acoustic Species ID 2021
+  expedition: false
+  level: Project Member - Alumni
+  name: Nathalie Franklin
+  start: 2021
+  end: 2021
+
+- description: Smartfin 2021-2022
+  expedition: false
+  image: assets/people/n.yazdani.jpg
+  level: Project Member - Alumni
+  name: Nima Yazdani
+  start: 2021
+  end: 2022
+- description: FishSense since 2021
+  expedition: false
+  image: assets/people/v.suresh.jpg
+  level: Project Member - Alumni
+  name: Viva Suresh
+  start: 2021
+- description: FishSense, 2022 Summer REU
+  end: 2022
+  expedition: true
+  image: assets/people/e.wong.jpg
+  level: Project Member - Alumni
+  name: Emily Wong
+  start: 2022
+- description: FishSense, 2022 Summer REU
+  end: 2022
+  expedition: true
+  image: assets/people/s.switzer.jpg
+  level: Project Member - Alumni
+  name: Scott Switzer
+  start: 2022
+- description: FishSense, 2022 Summer REU
+  end: 2022
+  expedition: true
+  image: assets/people/i.humphrey.jpeg
+  level: Project Member - Alumni
+  name: Bella Humphrey
+  start: 2022
+- description: Acoustic Species ID 2022-2023, 2022 Summer REU
+  expedition: false
+  image: assets/people/p.chatterjee.jpeg
+  level: Project Member - Alumni
+  name: Pranjal Chatterjee
+  start: 2022
+  end: 2023
+- description: Smartfin 2022-2023, 2022 Summer REU
+  expedition: false
+  image: assets/people/a.garde.jpg
+  level: Project Lead - Alumni
+  name: Anshul Garde
+  start: 2021
+  end: 2023
+- description: Radio Telemetry Tracking 2022, 2022 Summer REU
+  expedition: false
+  image: assets/people/f.chaqueco.jpg
+  level: Project Member - Alumni
+  name: Frank Chaqueco
+  start: 2022
+  end: 2022
+- description: Acoustic Species ID, 2022 Summer REU
+  expedition: false
+  image: assets/people/v.salgado.jpg
+  level: Project Member - Alumni
+  name: Vanessa Salgado
+  start: 2022
+  end: 2022
+- description: Radio Telemetry Tracking, 2022 Summer REU
+  expedition: false
+  image: assets/people/p.rout.jpg
+  level: Project Member - Alumni
+  name: Prateek Rout
+  start: 2022
+  end: 2022
+- description: Radio Telemetry Tracking 2021-2022, 2022 Summer REU
+  expedition: false
+  image: assets/people/m.dimitropoulou.jpg
+  level: Project Lead - Alumni
+  name: Melina Dimitropoulou Kapsogeorgou
+  start: 2021
+  end: 2022
+- description: Acoustic Species ID since 2021, 2022 Summer REU
+  expedition: false
+  image: assets/people/s.prestrelski.jpg
+  level: Project Lead
+  name: Samantha Prestrelski
+  start: 2021
+- description: Smartfin, 2022 Summer REU
+  expedition: false
+  level: Project Member - Alumni
+  name: Allen Yang
+  start: 2022
+  end: 2022
+
+- description: Smartfin, 2022 Summer REU
+  expedition: false
+  level: Project Member - Alumni
+  name: Rob O'Brien
+  start: 2022
+  end: 2022
+  image: assets/people/r.obrien.jpg
+- description: Radio Telemetry Tracking 2022-2023
+  expedition: false
+  image: assets/people/a.keni.png
+  level: Project Member - Alumni
+  name: Arya Keni
+  start: 2022
+  end: 2023
+- name: Mohit Sridhar
+  description: Acoustic Species ID since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/m.sridhar.jpg
+- name: Jose Salazar
+  description: Acoustic Species ID since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/j.salazar.jpg
+- name: Joe Yan
+  description: Acoustic Species ID 2022-2023
+  level: Project Member - Alumni
+  start: 2022
+  end: 2023
+- name: Zoe Ludena
+  description: Acoustic Species ID since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/z.ludena.jpg
+- name: Jeannie Kim
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Shaurya Raswan
+  description: Baboons on the Move since 2022, FishSense since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/s.raswan.png
+- name: Ashwin Muralidharan
+  description: Baboons on the Move, 2022-2023
+  level: Project Member - Alumni
+  start: 2022
+  end: 2023
+- name: Matt Dulansky
+  description: Aye-Aye Sleep Monitoring 2022-2023
+  level: Project Member - Alumni
+  start: 2022
+  end: 2023
+
+- name: Leo Li
+  description: Aye-Aye Sleep Monitoring 2022-2023
+  level: Project Member - Alumni
+  start: 2022
+  end: 2023
+  image: assets/people/l.li.jpg
+- name: Kyle Hu
+  description: FishSense since 2021
+  level: Project Lead
+  start: 2021
+  image: assets/people/k.shu.jpg
+- name: Harish Vasanth
+  description: FishSense since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/h.vasanth.png
+- name: Allen Kan
+  description: FishSense since 2022
+  level: Project Candidate
+  start: 2022
+  image: assets/people/a.kan.jpg
+- name: Varun Singh
+  description: Mangrove Monitoring 2021-2023
+  level: Project Member - Alumni
+  start: 2021
+  end: 2023
+- name: Jieqi Liu
+  description: Mangrove Monitoring since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/j.liu.jpg
+- name: Chen Yang
+  description: Mangrove Monitoring 2022-2023
+  level: Project Member - Alumni
+  start: 2022
+  end: 2023
+  image: assets/people/c.yang.jpg
+- name: Niklas Chang
+  description: Mangrove Monitoring since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/n.chang.png
+- name: Hannah Grehm
+  description: Radio Telemetry Tracking 2022-2023
+  level: Project Lead - Alumni
+  start: 2022
+  end: 2023
+  image: assets/people/h.grehm.jpg
+- name: Wesley Lewis
+  description: Radio Telemetry Tracking since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/w.lewis.png
+- name: Aryaman Jadhav
+  description: Smartfin, 2021-2023
+  level: Project Member - Alumni
+  start: 2021
+  end: 2023
+  image: assets/people/a.jadhav.png
+- name: Alexander Tang
+  description: Smartfin, 2022-2023
+  level: Project Member - Alumni
+  start: 2022
+  end: 2023
+  image: assets/people/a.tang.png
+- name: Adrian Zugehar
+  description: Hardware Team supporting FishSense, Aye-Aye Sleep Monitoring, and Smartfin in 2023
+  level: Project Member - Alumni
+  start: 2023
+  image: assets/people/a.zugehar.jpg
+- name: Aatash Pestonjamasp
+  description: Hardware Team supporting FishSense and Radio Telemetry Tracker in 2023
+  level: Project Member - Alumni
+  start: 2023
+  image: assets/people/a.pestonjamasp.jpg
+- name: Nina Abraham
+  description: Hardware Team supporting FishSense in 2023
+  level: Project Member - Alumni
+  start: 2023
+  image: assets/people/n.abraham.jpg
+- name: Zhaoyi Ye
+  description: Hardware Team supporting FishSense in 2023
+  level: Project Member - Alumni
+  start: 2023
+  image: assets/people/z.ye.jpg
+- name: Kayren Zheng
+  description: Hardware Team supporting Radio Telemetry Tracking in 2023
+  level: Project Member - Alumni
+  start: 2023
+  image: assets/people/k.zheng.jpg
+- name: Aniket Bhosale
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Member - Alumni
+  start: 2023
+  image: assets/people/a.bhosale.jpg
+- name: Nicholas Chua
+  description: FishSense since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/n.chua.jpg
+- name: Avik Ghosh
+  description: FishSense since 2023
+  level: Project Lead
+  start: 2023
+  image: assets/people/a.ghosh.png
+- name: Abhi Sachdeva
+  description: FishSense since 2022
+  level: Project Member
+  start: 2022
+  image: assets/people/a.sachdeva.jpg
+- name: Vancheeswaran Vaidyanathan
+  description: FishSense since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/v.vaidyanathan.jpg
+- name: Kyle Tran
+  description: FishSense since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/k.tran.jpg
+- name: Tyler Flar
+  description: Baboons on the Move since 2023, Radio Telemetry Tracking since 2024 
+  level: Project Lead
+  start: 2023
+  image: assets/people/t.flar.png
+- name: Uday Kumar Reddy Varikuti
+  description: Baboon Tracking since 2023
+  level: Project Member
+  start: 2023
+- name: Jason Yang
+  description: Mangrove Monitoring since 2023
+  level: Project Lead
+  start: 2023
+  image: assets/people/j.yang.jpg
+- name: Edward Jin
+  description: Mangrove Monitoring since 2023
+  level: Project Lead - Alumni
+  start: 2023
+  image: assets/people/e.jin.jpg
+- name: Runyu Tian
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/r.tian.jpg
+- name: Yutian Shi
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/y.shi.jpg
+- name: Devin Muzzy
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/d.muzzy.jpeg
+- name: Leon Lin
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Jacob Lin
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/j.lin.jpg
+- name: Matthew Peng
+  description: Radio Telemetry Tracking since 2023
+  level: Project Member
+  start: 2023
+  image: assets/people/m.peng.jpeg
+- name: Dylan Palmer
+  description: Radio Telemetry Tracking, CSE 145, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Saud Alsulaiman
+  description: FishSense since 2023
+  level: Project Member
+  start: 2023
+- name: Dylan Stockard
+  description: Baboons on the Move, Acoustic Species ID since 2023
+  start: 2023
+  level: Project Candidate
+- name: Daniel George
+  description: Baboons on the Move since 2023
+  start: 2023
+  level: Project Candidate
+- name: Zachary Novack
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Arthi Haripriyan
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Lorenzo Mendes
+  description: Acoustic Species ID, CSE 145, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Abhishek Harish
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Ranjan Gauravarapu
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Sai Nikhila Bandaru
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Shivani Hariprasad
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Brandon Lopez
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Hans Chen
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Vasil Bogdev
+  description: Hardware Team supporting Smartfin and Radio Telemetry Tracking since 2023
+  level: Project Member
+  start: 2023
+- name: Rana Singh
+  description: Hardware Team supporting Smartfin since 2023
+  level: Project Member - Alumni
+  start: 2023
+  image: assets/people/r.singh.jpg
+- name: Ela Lucas
+  description: Mechanical Engineer supporting Radio Telemetry Tracking, 2023 Summer REU
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Nicholas Reyes
+  description: Radio Telemetry Tracking, 2023 Summer REU
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Derick Mathews
+  description: Software for Wireless Underwater Communication System on Volt, 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Hamish Grant
+  description: Fishsense, 2023 Summer REU
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Emily Thorpe
+  description: Smartfin, 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Josephine Dominguez
+  description: Smartfin, Radio Telemetry Tracking, and FishSense, 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Michael Pham
+  description: Mangrove Monitoring, 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Jordan Reichhardt
+  description: Smartfin, Radio Telemetry Tracking, Fishsense, 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Ana Perez
+  description: FishSense, 2023
+  start: 2023
+  end: 2023
+  level: Project Member - Alumni
+- name: Chima Nwughala
+  description: AKER, Summer 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Diana Ekechukwu
+  description: Junkyard Computing, Summer 2023
+  level: Project Member - Alumni
+  start: 2023
+  end: 2023
+- name: Marco Bazzani
+  description: Acoustic Species ID since 2023
+  level: Project Member
+  start: 2023
+- name: Zach Lawrence
+  description: Mangrove Monitoring since 2023
+  level: Project Lead
+  start: 2023
+  image: assets/people/z.lawrence.png
+- name: Claire Wang
+  description: Hardware Support for FishSense and Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Tianqi Zhang
+  description: Acoustic Species ID since 2023
+  level: Project Lead
+  image: assets/people/t.zhang.jpg
+  start: 2023
+- name: Ludwig von Schoenfeldt
+  description: Acoustic Species ID since 2023
+  level: Project Lead
+  image: assets/people/l.vonschoenfeldt.jpeg
+  start: 2023

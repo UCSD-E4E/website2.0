@@ -3,6 +3,8 @@
 
 var spawn = require('cross-spawn'); 
 const { src, dest , series} = require('gulp');
+const fs   = require('fs');
+const { rimraf, rimrafSync, native, nativeSync } = require('rimraf')
 
 async function create_command(command) {
     command = command.split(" ")
@@ -71,10 +73,36 @@ function copy_foundation_files(cb) {
     //note you may need to exclude these files in config.yml 
     foundation = [
         "./node_modules/foundation-sites/dist/css/foundation.min.css",
-        "./node_modules/foundation-sites/dist/js/foundation.min.js"
+        "./node_modules/foundation-sites/dist/css/foundation.min.css.map",
+        "./node_modules/foundation-sites/dist/js/foundation.min.js",
+        "./node_modules/foundation-sites/dist/js/foundation.min.js.map"
     ]
    
     return src(foundation).pipe(dest('cache')) 
+}
+
+async function handle_cache_updates(cb) {
+    // delete temp cache if it exists, otherwise add a new temp cache
+    // The idea is we delete the temp cache each build, temp cache contains unused images
+    const temp_dir = "./cache/resize_temp"
+    const dir = "./cache/resize"
+
+    // Remove the temp directory, files here before build should have been taken
+    // out by the user 
+    if(fs.existsSync(temp_dir)) {
+        rimraf.sync(temp_dir)
+    }
+
+    // Make sure resize exists if it doesn't already
+    if(!fs.existsSync(dir)) {
+        fs.mkdirSync(dir)
+    }
+    
+    // Move all files in resize (the stuff we ideally want to keep)
+    // into resize_temp to actually check during jekyll build if files should be kept
+    fs.renameSync(dir, temp_dir);
+    fs.mkdirSync(dir)
+    return cb
 }
 
 
@@ -105,6 +133,6 @@ async function defaultTask(cb) {
     cb();
 }
 
-exports.default = defaultTask
-exports.build = series(update_packages, copy_foundation_files, build)
-exports.watch = series(update_packages, copy_foundation_files, dev_build)
+exports.default = handle_cache_updates
+exports.build = series(update_packages, handle_cache_updates, copy_foundation_files, build)
+exports.watch = series(update_packages, handle_cache_updates, copy_foundation_files, dev_build)

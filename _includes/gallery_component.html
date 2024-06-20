@@ -1,7 +1,7 @@
 <div class="gallery">
     {%- for media_url in include.media -%}
     <div class="image_container">
-        <img src="{{ media_url | resize: '200x200^,webp,80' | absolute_url }}" class="gallery_img" decoding="async" alt="">
+        <img alt="gallery" src="{{ media_url | resize: '200x200^,webp,80' | absolute_url }}" class="gallery_img" decoding="async" alt="">
     </div>
     {%- endfor -%}
 </div>

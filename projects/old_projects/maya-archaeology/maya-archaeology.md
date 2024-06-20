@@ -86,18 +86,17 @@ The Foundation for Maya Cultural and Natural Heritage (PACUNAM) funded a LiDAR i
 
 The Guatemala project is a collaboration between several organizations, Jason Paterniti (GEOS), Tom Garrison (USC), Edwin Roman-Ramirez (UT Austin), Ryan Kastner, Albert Lin and Curt Schurgers (UCSD, E4E, QI, NatGeo).
 
-The project started in 2014 with two expeditions to Guatemala. Albert, Ryan, Curt, Perry Naughton, Eric Lo, and Dominique Meyer, traveled to Guatemala in February to evaluate Quadcopters as a method of surveying jungle-bound archaeological sites. The second expedition, in May, focused on data gathering and survey techniques in several archeological sites, some of which contained Maya tombs. Curt and Ryan returned to Guatemala, and brought Dustin Richmond, David Dantas, and Sabrina Trinh. In June 2016, PhD student Quentin Gautier focused on testing remote sensing tablet technology, and in June 2017, Curt, Quentin and PhD student Peter Tueller went to the field to test a prototype of portable 3D scanner to collect data in the archaeological excavations. Starting Fall 2018 Quentin spearheaded the projects shift to VR and began reaching out to <a href="https://tritonxr.ucsd.edu/">TritonXR</a> club members in order to help recreate these locations. That following Summer 2019 Quentin along with Giovanni Vindiola returned to El Zotz and interviewed our collaborators Tom Garrison (UT Austin) and Edwin Roman-Ramirez (UT Austin) for narrations, and further scanning of structures and surfaces for our VR Experience.
+The project started in 2014 with two expeditions to Guatemala. Albert, Ryan, Curt, Perry Naughton, Eric Lo, and Dominique Meyer, traveled to Guatemala in February to evaluate Quadcopters as a method of surveying jungle-bound archaeological sites. The second expedition, in May, focused on data gathering and survey techniques in several archeological sites, some of which contained Maya tombs. Curt and Ryan returned to Guatemala, and brought Dustin Richmond, David Dantas, and Sabrina Trinh. In June 2016, PhD student Quentin Gautier focused on testing remote sensing tablet technology, and in June 2017, Curt, Quentin and PhD student Peter Tueller went to the field to test a prototype of portable 3D scanner to collect data in the archaeological excavations. Starting Fall 2018 Quentin spearheaded the projects shift to VR and began reaching out to TritonXR ("https://tritonxr.ucsd.edu/") club members in order to help recreate these locations. That following Summer 2019 Quentin along with Giovanni Vindiola returned to El Zotz and interviewed our collaborators Tom Garrison (UT Austin) and Edwin Roman-Ramirez (UT Austin) for narrations, and further scanning of structures and surfaces for our VR Experience.
 
 # Leaders / Contact
 
 ![]({{"assets/maya/guatemala_15266303808_o.jpg" | absolute_url}})
 
- - Nathan Hui ([nthui@ucsd.edu](nthui@ucsd.edu))
+ - Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
 
 # In the Press
 
-Calit2 Newsroom: <a href="https://www.calit2.net/newsroom/article.php?id=2420">Capturing Ancient Maya Sites from Both a Rat’s and a ‘Bat’s Eye View’</a> (Credit Tiffany Fox)
+UC San Diego Today: [Capturing Ancient Maya Sites from Both a Rat’s and a ‘Bat’s Eye View’](https://today.ucsd.edu/story/capturing_ancient_maya_sites_from_both_a_rats_and_a_bats_eye_view) (Credit: Tiffany Fox)
+
 
 International Business Times: <a href="https://www.ibtimes.com/drones-lasers-help-archaeologists-study-ancient-mayan-ruins-hidden-guatemala-jungle-video-1690757">Drones, Lasers Help Archaeologists Study Ancient Mayan Ruins Hidden In Guatemala Jungle</a>
-
-Phys Org: <a href="https://phys.org/news/2014-09-capturing-ancient-maya-sites-rat.html">Capturing ancient Maya sites from both a rat’s and a ‘bat’s eye view’</a>    

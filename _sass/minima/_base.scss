@@ -58,6 +58,9 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -271,3 +274,5 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+

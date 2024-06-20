@@ -20,9 +20,9 @@ permissions:
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-# concurrency:
-  # group: "pages"
-  # cancel-in-progress: false
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   # Build job
@@ -31,6 +31,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: make caches
+        run: |
+          mkdir cache
+          mkdir cache/resize
+      - name: Cache Images
+        uses: actions/cache/restore@v3
+        with:
+          path: cache
+          key: cache_test-${{ hashFiles('assets/**') }}
+          restore-keys: |
+            cache_test
+      - name: check cache
+        run: |
+          ls -l cache
+          ls -l cache/resize
       - name: Setup node
         uses: actions/setup-node@v4
       - name: Setup Ruby
@@ -53,6 +68,26 @@ jobs:
       #   uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
+        id: build
         run: npx gulp build -j '--config _config.yml,_dev_config.yml'
         env:
           JEKYLL_ENV: production
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./_site" #--enforce_https false <-- why doesn't this work?
+          arguments: --ignore-status-codes "999,403" --ignore_urls "/kastner.ucsd.edu/,/onlinedigeditions.com/,/e4e.ucsd.edu/,/jaffeweb.ucsd.edu/" --assume-extension .html --swap-urls '^https\://e4e.ucsd.edu/:/'
+      - name: Checks files
+        run: ls -l cache
+      - name: Checks files
+        run: ls -l assets
+      - name: remove extra cache
+        if: steps.build.outcome == 'success'
+        run: rm -rf cache/resize_temp
+      - name: Cache Images
+        uses: actions/cache/save@v3
+        if: always()
+        with:
+          path: cache
+          # this should not hash every file.... how do we connect this to a new cache?
+          key: cache_test-${{ hashFiles('assets/**') }}
