@@ -31,4 +31,4 @@ On July 22nd, 2021, Peter Tueller, Maddie Bland, and Ronan Wallace deployed a pr
     caption="Fish detection using YOLOv4"
     %}
 
-The data we gathered at Birch Aquarium at Scripps also helped us finalize and submit the project's first accepted paper at the OCEANS'21 conference, which takes place right here in San Diego, September 20-23, 2021. You can read the full paper here: [https://kastner.ucsd.edu/wp-content/uploads/2021/08/admin/oceans21-fishsense.pdf](https://kastner.ucsd.edu/wp-content/uploads/2021/08/admin/oceans21-fishsense.pdf).
+The data we gathered at Birch Aquarium at Scripps also helped us finalize and submit the project's first accepted paper at the OCEANS'21 conference, which takes place right here in San Diego, September 20-23, 2021. You can read the full paper here: [https://kastner.ucsd.edu/wp-content/uploads/2021/08/admin/oceans21fishsense.pdf](https://kastner.ucsd.edu/wp-content/uploads/2021/08/admin/oceans21fishsense.pdf).
