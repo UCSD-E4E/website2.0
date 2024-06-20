@@ -1,0 +1,7 @@
+{% if include.float %}
+    {% assign float_class = "float_img_" | append: include.float %}
+{% else %}
+    {% assign float_class = "" %}
+{% endif %}
+    
+<img class="{{float_class}}" src="{{ include.src | absolute_url }}" alt="{{include.alt}}">
