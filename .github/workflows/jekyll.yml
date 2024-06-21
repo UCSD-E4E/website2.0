@@ -107,5 +107,5 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > $SSH_KEY_PATH
           sudo chmod 600 $SSH_KEY_PATH
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          ssh -i $SSH_KEY_PATH deploy@kastner-ml.dynamic.ucsd.edu '/home/deploy/deploy_e4e-dev.sh'
+          ssh -i $SSH_KEY_PATH deploy@kastner-ml.dynamic.ucsd.edu '/bin/bash /home/deploy/deploy_e4e-dev.sh'
 
