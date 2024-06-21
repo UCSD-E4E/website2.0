@@ -91,3 +91,8 @@ jobs:
           path: cache
           # this should not hash every file.... how do we connect this to a new cache?
           key: cache_test-${{ hashFiles('assets/**') }}
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Files
+        run: ls -l .
