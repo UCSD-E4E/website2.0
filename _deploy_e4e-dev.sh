@@ -1,3 +1,4 @@
+set -e -x
 PATH="$PATH:/home/deploy/.nvm/versions/node/v22.3.0/bin:/home/deploy/.rbenv/shims"
 echo $PATH
 HOME_DIR=`pwd`
