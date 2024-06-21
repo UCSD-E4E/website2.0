@@ -7,7 +7,7 @@ JEKYLL_ENV="production"
 # git clone --depth 1 --single-branch --branch=$BRANCH https://github.com/UCSD-E4E/website2.0.git $CLONE_DIR
 cd $CLONE_DIR
 git fetch --all
-git reset --hard origin/mmain
+git reset --hard origin/main
 mkdir -p $CLONE_DIR/cache
 mkdir -p $CLONE_DIR/cache/resize
 npm ci
