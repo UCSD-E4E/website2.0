@@ -107,6 +107,7 @@ jobs:
           echo "$SSH_PRIVATE_KEY" > $SSH_KEY_PATH
           sudo chmod 600 $SSH_KEY_PATH
           echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          wget https://raw.githubusercontent.com/UCSD-E4E/website2.0/main/_deploy_e4e-dev.sh
           scp -i $SSH_KEY_PATH _deploy_e4e-dev.sh deploy@kastner-ml.dynamic.ucsd.edu:/tmp/deploy_e4e-dev.sh
           ssh -i $SSH_KEY_PATH deploy@kastner-ml.dynamic.ucsd.edu '/bin/bash /tmp/deploy_e4e-dev.sh'
 
