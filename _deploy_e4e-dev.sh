@@ -2,7 +2,7 @@ set -e -x
 PATH="$PATH:/home/deploy/.nvm/versions/node/v22.3.0/bin:/home/deploy/.rbenv/shims"
 echo $PATH
 HOME_DIR=`pwd`
-CLONE_DIR=`/home/deploy/workspace/e4e_tools/website2.0`
+CLONE_DIR="/home/deploy/workspace/e4e_tools/website2.0"
 JEKYLL_ENV="production"
 # git clone --depth 1 --single-branch --branch=$BRANCH https://github.com/UCSD-E4E/website2.0.git $CLONE_DIR
 cd $CLONE_DIR
