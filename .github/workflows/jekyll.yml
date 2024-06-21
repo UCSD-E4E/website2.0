@@ -91,22 +91,10 @@ jobs:
           path: cache
           # this should not hash every file.... how do we connect this to a new cache?
           key: cache_test-${{ hashFiles('assets/**') }}
-      - name: Create Artifact
-        run: |
-          zip -r deploy.zip _site
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          path: |
-            deploy.zip
   deploy:
     runs-on: ubuntu-latest
     needs:
       - build
     steps:
-      - name: Download Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: artifact
       - name: Check Files
         run: ls -l .
