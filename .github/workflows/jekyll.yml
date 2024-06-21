@@ -95,6 +95,17 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - build
+    if: github.ref == 'refs/heads/main'
     steps:
-      - name: Check Files
-        run: ls -l .
+      - name: Execute Deploy
+        env:
+          SSH_PRIVATE_KEY: ${{secrets.KASTNER_ML_DEPLOY_SSH}}
+          SSH_KNOWN_HOSTS: ${{secrets.KASTNER_ML_KNOWN_HOSTS}}
+          SSH_KEY_PATH: ${{github.workspace}}/../private.key
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$SSH_PRIVATE_KEY" > $SSH_KEY_PATH
+          sudo chmod 600 $SSH_KEY_PATH
+          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          ssh -i $SSH_KEY_PATH deploy@kastner-ml.dynamic.ucsd.edu '/home/deploy/deploy_e4e-dev.sh'
+
