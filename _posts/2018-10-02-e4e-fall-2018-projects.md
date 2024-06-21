@@ -15,5 +15,3 @@ We're getting up and running again this quarter, and looking forward to making s
 Our open house/information session will be on October 10 at 4pm in EBU1 2512 (Henry Booker Conference Room).  Please come by to hear about our projects and chat with our project leads on how to get involved.
 
 To keep up to date with what we're up to, please join our Google Group, Slack, or show up at one of our weekly meetings (on the calendar).  [JOIN US](http://e4e.ucsd.edu/welcome)
-
-Here's a brief on our current projects: [PROJECTS](https://docs.google.com/document/d/1r-0TCDMW02BCUUf1CdLw9JyRKM3eCHhF4rGGQuQDU1g/edit?usp=sharing)
