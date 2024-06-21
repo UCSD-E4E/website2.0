@@ -36,14 +36,16 @@ function process_CLI(cb) {
         let arg = {}, a, opt, thisOpt, curOpt;
         for (a = 0; a < argList.length; a++) {
             thisOpt = argList[a].trim();
-            opt = thisOpt.replace(/^\-+/, '');
-            if (opt === thisOpt) {
+            //was opt === thisOpt
+            //updated code will always store following opt
+            if (curOpt !== null) {
                 // argument value
-                if (curOpt) arg[curOpt] = opt;
+                if (curOpt) arg[curOpt] = thisOpt;
                 curOpt = null;
             }
             else {
                 // argument name
+                opt = thisOpt.replace(/^\-+/, '');
                 curOpt = opt;
                 arg[curOpt] = true;
             }
@@ -119,6 +121,7 @@ async function build(cb) {
 
 async function dev_build(cb) {
     var arg = process_CLI()
+    console.log(arg)
     if ("j" in arg) {
         await create_command("bundle exec jekyll serve " + arg["j"])
     } else {
