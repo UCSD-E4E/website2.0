@@ -237,12 +237,12 @@
       if (touchendX_{{unique_name}} < touchstartX_{{unique_name}}) {
           onClick_{{unique_name}}()
           //console.log(swiped + 'left!');
-          increment_carousel_{{unique_name}}(direction="backward")
+          increment_carousel_{{unique_name}}(direction="forward")
       }
       else if (touchendX_{{unique_name}} > touchstartX_{{unique_name}}) {
           onClick_{{unique_name}}()
           //console.log(swiped + 'right!');
-          increment_carousel_{{unique_name}}(direction="forward")
+          increment_carousel_{{unique_name}}(direction="backward")
       }
   }
 </script>
