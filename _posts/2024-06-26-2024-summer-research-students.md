@@ -11,6 +11,8 @@ categories:
 students:
 - bio: TESTING SEAN
   photo: assets/people/s.perry.jpg
+- bio: toothless
+  photo: assets/people/t.nightfury.webp
 
 ---
 
