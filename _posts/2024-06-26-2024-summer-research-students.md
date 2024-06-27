@@ -14,5 +14,7 @@ students:
 
 ---
 
-This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. TODO ADD DESCRIPTION  Meet our students by reading their bios below:
+
+This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below:
+
 
