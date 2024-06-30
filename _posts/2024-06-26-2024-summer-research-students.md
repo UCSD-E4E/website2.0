@@ -13,7 +13,8 @@ students:
   photo: assets/people/s.perry.jpg
 - bio: toothless
   photo: assets/people/t.nightfury.webp
-
+- bio: Ben's bio
+  photo: assets/people/b.mccalmon.png
 ---
 
 
