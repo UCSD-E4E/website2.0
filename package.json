@@ -6,6 +6,6 @@
     "cross-spawn": "^7.0.3",
     "del": "^7.1.0",
     "foundation-sites": "^6.8.1",
-    "rimraf": "^5.0.7"
+    "rimraf": "^5.0.8"
   }
 }
