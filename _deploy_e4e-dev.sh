@@ -13,5 +13,5 @@ mkdir -p $CLONE_DIR/cache/resize
 npm ci
 npx gulp build -j '--config _config.yml,_e4e_dev_config.yml'
 date >> _site/last_deployed.txt
-rsync -r -e "ssh -i $HOME/.ssh/id_e4edev" --progress $CLONE_DIR/_site/ e4e-dev@e4e-dev.ucsd.edu:htdocs/
+rsync -r -e "ssh -i $HOME/.ssh/id_e4edev" --progress $CLONE_DIR/_site/ e4e@e4e.ucsd.edu:htdocs/
 cd $HOME_DIR
