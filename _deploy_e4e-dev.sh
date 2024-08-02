@@ -11,7 +11,7 @@ git reset --hard origin/main
 mkdir -p $CLONE_DIR/cache
 mkdir -p $CLONE_DIR/cache/resize
 npm ci
-npx gulp build -j '--config _config.yml,_e4e_dev_config.yml'
+npx gulp build -j '--config _config.yml'
 date >> _site/last_deployed.txt
 rsync -r -e "ssh -i $HOME/.ssh/id_e4edev" --progress $CLONE_DIR/_site/ e4e@e4e.ucsd.edu:htdocs/
 cd $HOME_DIR
