@@ -58,7 +58,6 @@ exclude:
   - cache/resize_temp
   - gulpfile.js
   - LICENSE.txt
-  - redirects.json
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
