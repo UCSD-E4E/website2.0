@@ -91,9 +91,6 @@ async function handle_cache_updates(cb) {
 
     // Remove the temp directory, files here before build should have been taken
     // out by the user 
-
-    console.log("HELLO")
-    console.log(fs.existsSync(temp_dir))
     if(fs.existsSync(temp_dir)) {
         await fsPromises.rmdir(temp_dir, {"recursive": true})
         //rimraf.sync(temp_dir)
