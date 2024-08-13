@@ -13,7 +13,8 @@ students:
   photo: assets/people/s.perry.jpg
 - bio: toothless
   photo: assets/people/t.nightfury.webp
-
+- bio: Tianqi "TQ" Zhang is a rising junior at UC San Diego studying Data Science. He's been on the Acoustic Species ID team since the fall of 2023, and has been a project lead for the team since 2024. This summer, he's primarily been looking into new ways to interpret model outputs and new, learnable representations for audio data. In his free time, he loves to play and listen to music, build LEGOs, and eat delicious food.
+  photo: assets/people/t.zhang.jpg
 ---
 
 
