@@ -13,10 +13,9 @@ students:
   photo: assets/people/s.perry.jpg
 - bio: toothless
   photo: assets/people/t.nightfury.webp
-
+- bio: Gage is a rising senior at Pomona college majoring in Computer Science. This summer, he is working on machine learning models for the Mangrove Monitoring project. After collge, he wants to do research in some area related to machine learning and autonomous agents. Gage enjoys playing on the computer, vehicle repair, motorcycling, and poker.
+  photo: assets/people/g.wrye.jpg
 ---
 
 
-This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below:
-
-
+This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below: 
