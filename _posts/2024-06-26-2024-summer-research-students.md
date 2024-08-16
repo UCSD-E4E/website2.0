@@ -13,7 +13,8 @@ students:
   photo: assets/people/s.perry.jpg
 - bio: toothless
   photo: assets/people/t.nightfury.webp
-
+- bio: Zhuo (Cecilia) Chen is a rising junior at Bryn Mawr College double majoring in Computer Science and Pure Mathematics. In 2024 summer, she worked on Robust Scientific Machine Learning, specifically analyzing the Neural Network performance when the dataset contains different amounts of noise. After undergrad, she would like to do research in TBD field. Cecilia loves to do hot yoga, hike, try different foods, and listen to jazz. 
+  photo: assets/people/z.chen.jpg
 ---
 
 
