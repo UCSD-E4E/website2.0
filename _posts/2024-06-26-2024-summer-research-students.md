@@ -15,6 +15,8 @@ students:
   photo: assets/people/t.nightfury.webp
 - bio: Gage is a rising senior at Pomona college majoring in Computer Science. This summer, he is working on machine learning models for the Mangrove Monitoring project. After collge, he wants to do research in some area related to machine learning and autonomous agents. Gage enjoys playing on the computer, vehicle repair, motorcycling, and poker.
   photo: assets/people/g.wrye.jpg
+- bio: Tyler is a rising senior at the University of California, San Diego majoring in Computer Science. This summer, he is working on collecting and finalizing results from the Baboons on the Move project. After college, he hopes to continue to work robotics for wildlife conservation. Tyler enjoys overcomplicating tasks by trying to automate them, and animals.
+  photo: assets/people/t.flar.png
 ---
 
 
