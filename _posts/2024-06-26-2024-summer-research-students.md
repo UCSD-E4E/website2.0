@@ -13,8 +13,8 @@ students:
   photo: assets/people/s.perry.jpg
 - bio: toothless
   photo: assets/people/t.nightfury.webp
-- bio: Gage is a rising senior at Pomona college majoring in Computer Science. This summer, he is working on machine learning models for the Mangrove Monitoring project. After collge, he wants to do research in some area related to machine learning and autonomous agents. Gage enjoys playing on the computer, vehicle repair, motorcycling, and poker.
-  photo: assets/people/g.wrye.jpg
+- bio: Tongfei is a third-year computer engineering student at UCSD. She is interested in machine learning/AI, computer vision, and image processing. During the summer, she is working on the grouper moon project, including testing fish segmentation model and training AI models for fish detection. In her free time, Tongfei enjoys going to the beach, doing pilates, and trying different coffee spots. 
+  photo: assets/people/t.yang.jpg
 ---
 
 
