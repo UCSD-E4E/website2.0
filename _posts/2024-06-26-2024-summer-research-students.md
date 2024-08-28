@@ -27,6 +27,8 @@ students:
   photo: assets/people/a.panthi.jpg
 - bio: Antara Chugh is an incoming junior at UCLA majoring in computer science and minoring in history. During the summer, she is working on Smartfin, developing and testing the software for a scheduler to allow for sampling multiple sensors with minimal conflict. She also assists with manufacturing the fin, specifically helping with the potting process. Her research interests lie in using robotics and machine learning to study environmental sciences, and at UCLA develops neural networks to model molecular interactions. Outside of research, she enjoys running, swimming, and helping promote UCLA student musicians.
   photo: assets/people/a.chugh.png
+- bio: Surangana Aryal is a rising junior at Howard University. She is majoring in Computer Science. This summer, she worked with the acoustics species identification. She was involved in building a dekstop application that would help the users better interact with the machine learning model. Besides that she also designed a database schema that would handle a very large amount of datas and metadatas related to the acoustic bird species. During her free time, she enjoys watching movies and tv shows.
+- photo: assets/people/s.aryal.jpg
 ---
 
 
