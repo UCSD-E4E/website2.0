@@ -31,6 +31,10 @@ students:
   photo: assets/people/a.chugh.png
 - bio: Surangana Aryal is a rising junior at Howard University. She is majoring in Computer Science. This summer, she worked with the acoustics species identification. She was involved in building a dekstop application that would help the users better interact with the machine learning model. Besides that she also designed a database schema that would handle a very large amount of datas and metadatas related to the acoustic bird species. During her free time, she enjoys watching movies and tv shows.
   photo: assets/people/s.aryal.jpg
+- bio: Kaiying Han is a senior undergraduate major in Computer Engineering in the Chinese Univerisity of Hong Kong, Shenzhen. He is interested in computer vision and systems. This summer, he is working on developing a machine learning pipeline for semantic fish segementation in FishSense, which overcome underwater noise with image enhancement and depth guidance. Out of research, he enjoys TRPG and video games, and watching movies.
+  photo: assets/people/k.han.png
+
+
 ---
 
 
