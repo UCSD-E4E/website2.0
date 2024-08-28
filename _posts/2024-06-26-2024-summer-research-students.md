@@ -23,6 +23,8 @@ students:
   photo: assets/people/g.wrye.jpg
 - bio: Tyler is a rising senior at the University of California, San Diego majoring in Computer Science. This summer, he is working on collecting and finalizing results from the Baboons on the Move project. After college, he hopes to continue to work robotics for wildlife conservation. Tyler enjoys overcomplicating tasks by trying to automate them, and animals.
   photo: assets/people/t.flar.png
+- bio: Aaryan Panthi is a rising junior at Howard University, pursuing a B.S. in Computer Science. This summer, he is contributing to the software development team for Project Mangrove Monitoring, focusing on creating reproducible website code for cloud deployment and enhancing the backend pipeline for image processing. In his free time, Aaryan enjoys outdoor activities with friends, mainly playing soccer or biking around Washington, D.C.
+  photo: assets/people/a.panthi.jpg
 ---
 
 
