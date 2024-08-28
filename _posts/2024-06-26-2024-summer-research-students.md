@@ -25,6 +25,8 @@ students:
   photo: assets/people/t.flar.png
 - bio: Aaryan Panthi is a rising junior at Howard University, pursuing a B.S. in Computer Science. This summer, he is contributing to the software development team for Project Mangrove Monitoring, focusing on creating reproducible website code for cloud deployment and enhancing the backend pipeline for image processing. In his free time, Aaryan enjoys outdoor activities with friends, mainly playing soccer or biking around Washington, D.C.
   photo: assets/people/a.panthi.jpg
+- bio: Antara Chugh is an incoming junior at UCLA majoring in computer science and minoring in history. During the summer, she is working on Smartfin, developing and testing the software for a scheduler to allow for sampling multiple sensors with minimal conflict. She also assists with manufacturing the fin, specifically helping with the potting process. Her research interests lie in using robotics and machine learning to study environmental sciences, and at UCLA develops neural networks to model molecular interactions. Outside of research, she enjoys running, swimming, and helping promote UCLA student musicians.
+  photo: assets/people/a.chugh.png
 ---
 
 
