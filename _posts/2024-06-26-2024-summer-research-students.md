@@ -13,6 +13,8 @@ students:
   photo: assets/people/s.perry.jpg
 - bio: toothless
   photo: assets/people/t.nightfury.webp
+- bio: Tongfei is a third-year computer engineering student at UCSD. She is interested in machine learning/AI, computer vision, and image processing. During the summer, she is working on the grouper moon project, including testing fish segmentation model and training AI models for fish detection. In her free time, Tongfei enjoys going to the beach, doing pilates, and trying different coffee spots. 
+  photo: assets/people/t.yang.jpg
 - bio: Zhuo (Cecilia) Chen is a rising junior at Bryn Mawr College double majoring in Computer Science and Pure Mathematics. In 2024 summer, she worked on Robust Scientific Machine Learning, specifically analyzing the Neural Network performance when the dataset contains different amounts of noise. After undergrad, she would like to do research in TBD field. Cecilia loves to do hot yoga, hike, try different foods, and listen to jazz. 
   photo: assets/people/z.chen.jpg
 - bio: Tianqi "TQ" Zhang is a rising junior at UC San Diego studying Data Science. He's been on the Acoustic Species ID team since the fall of 2023, and has been a project lead for the team since 2024. This summer, he's primarily been looking into new ways to interpret model outputs and new, learnable representations for audio data. In his free time, he loves to play and listen to music, build LEGOs, and eat delicious food.
