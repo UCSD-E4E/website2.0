@@ -23,12 +23,15 @@ students:
   photo: assets/people/g.wrye.jpg
 - bio: Tyler is a rising senior at the University of California, San Diego majoring in Computer Science. This summer, he is working on collecting and finalizing results from the Baboons on the Move project. After college, he hopes to continue to work robotics for wildlife conservation. Tyler enjoys overcomplicating tasks by trying to automate them, and animals.
   photo: assets/people/t.flar.png
+- bio: Ben is a rising junior at the College of the Holy Cross in Worcester, Massachusetts studying Computer Science. During the summer and throughout the following school year, he is working on computer vision problems for FishSense. When he's not doing research, Ben tutors computer science, runs the robotics club, and promotes research awareness and inclusivity for undergraduate students. He enjoys writing music, watching soccer, hanging out on the boat, and learning new things.
+  photo: assets/people/b.mccalmon.jpg
 - bio: Aaryan Panthi is a rising junior at Howard University, pursuing a B.S. in Computer Science. This summer, he is contributing to the software development team for Project Mangrove Monitoring, focusing on creating reproducible website code for cloud deployment and enhancing the backend pipeline for image processing. In his free time, Aaryan enjoys outdoor activities with friends, mainly playing soccer or biking around Washington, D.C.
   photo: assets/people/a.panthi.jpg
 - bio: Antara Chugh is an incoming junior at UCLA majoring in computer science and minoring in history. During the summer, she is working on Smartfin, developing and testing the software for a scheduler to allow for sampling multiple sensors with minimal conflict. She also assists with manufacturing the fin, specifically helping with the potting process. Her research interests lie in using robotics and machine learning to study environmental sciences, and at UCLA develops neural networks to model molecular interactions. Outside of research, she enjoys running, swimming, and helping promote UCLA student musicians.
   photo: assets/people/a.chugh.png
 - bio: Surangana Aryal is a rising junior at Howard University. She is majoring in Computer Science. This summer, she worked with the acoustics species identification. She was involved in building a dekstop application that would help the users better interact with the machine learning model. Besides that she also designed a database schema that would handle a very large amount of datas and metadatas related to the acoustic bird species. During her free time, she enjoys watching movies and tv shows.
-- photo: assets/people/s.aryal.jpg
+  photo: assets/people/s.aryal.jpg
+
 ---
 
 
