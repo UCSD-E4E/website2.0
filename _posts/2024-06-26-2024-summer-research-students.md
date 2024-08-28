@@ -39,6 +39,8 @@ students:
   photo: assets/people/h.cutler.jpg
 - bio: Karis Lewis is a junior at Howard University studying computer science and minoring in electronic studio art. As a Matthew Henson Fellowship recipient, she is working with the Simplifying Meshes team throughout the year to use neural networks as data structures to query shortest path lengths on large-scale terrain graphs. Karis is also working on implementing two mesh simplification algorithms. In her free time, she enjoys music, video games, and game development.
   photo: assets/people/k.lewis.jpg
+- bio: Allen Kan is a rising junior at UC San Diego and is pursuing a degree in Electrical Engineering. For this summer, he has been working on writing a database to assist in storing metadata for the mobile app. He has been out on boat trips to validate features of the mobile app and to address any mobile issues that arise. In his spare time, he enjoys reading, cooking and spending time with his family.
+  photo: assets/people/a.kan.jpg
 
 ---
 
