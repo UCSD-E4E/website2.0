@@ -35,6 +35,8 @@ students:
   photo: assets/people/k.han.png
 - bio: Jonathan He is an incoming sophomore at Johns Hopkins University, enrolled in the combined BS/MS program in Computer Science and Computer Integrated Surgery. As part of the Acoustic Species Monitoring project, he has been working on implementing a transformer-based model for avian species identification, comparing it to existing CNN counterparts. This summer, Jonathan embarked on various adventures around the San Diego region, including skydiving, surfing, and trips to Anza Borrego. As a result, he’s more tanned than ever before.
   photo: assets/people/j.he.jpeg
+- bio: Hannah Cutler is a rising second year at UC Santa Barbara studying Electrical Engineering. She hopes to apply her studies to oceanography and earth sciences, especially in the areas of signal processing and sensor design. This summer she is working on the Smartfin project, debugging and testing the Smartfin PCB version 3.0 with its firmware, and developing a python model to understand the effects of scheduler delays on data accuracy. In her free time, she loves playing with her cats, going for beach walks, drinking lots of tea, and reading science fiction.
+  photo: assets/people/h.cutler.jpg
 
 ---
 
