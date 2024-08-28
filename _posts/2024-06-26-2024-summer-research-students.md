@@ -37,6 +37,8 @@ students:
   photo: assets/people/j.he.jpeg
 - bio: Hannah Cutler is a rising second year at UC Santa Barbara studying Electrical Engineering. She hopes to apply her studies to oceanography and earth sciences, especially in the areas of signal processing and sensor design. This summer she is working on the Smartfin project, debugging and testing the Smartfin PCB version 3.0 with its firmware, and developing a python model to understand the effects of scheduler delays on data accuracy. In her free time, she loves playing with her cats, going for beach walks, drinking lots of tea, and reading science fiction.
   photo: assets/people/h.cutler.jpg
+- bio: Karis Lewis is a junior at Howard University studying computer science and minoring in electronic studio art. As a Matthew Henson Fellowship recipient, she is working with the Simplifying Meshes team throughout the year to use neural networks as data structures to query shortest path lengths on large-scale terrain graphs. Karis is also working on implementing two mesh simplification algorithms. In her free time, she enjoys music, video games, and game development.
+  photo: assets/people/k.lewis.jpg
 
 ---
 
