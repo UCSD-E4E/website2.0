@@ -41,6 +41,8 @@ students:
   photo: assets/people/k.lewis.jpg
 - bio: Allen Kan is a rising junior at UC San Diego and is pursuing a degree in Electrical Engineering. For this summer, he has been working on writing a database to assist in storing metadata for the mobile app. He has been out on boat trips to validate features of the mobile app and to address any mobile issues that arise. In his spare time, he enjoys reading, cooking and spending time with his family.
   photo: assets/people/a.kan.jpg
+- bio: Meena Annamalai is a rising second year at UCLA studying Electrical and Computer Engineering. This summer, she is part of the Smartfin team where she is working on PCB testing, continuing to develop firmware for version 3 of the device, and helping with the fin manufacturing process. In her free time, Meena enjoys playing tennis, exploring beaches, and trying new food.
+  photo: assets/people/m.annamalai.jpg
 
 ---
 
