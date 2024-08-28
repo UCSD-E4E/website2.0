@@ -33,7 +33,8 @@ students:
   photo: assets/people/s.aryal.jpg
 - bio: Kaiying Han is a senior undergraduate major in Computer Engineering in the Chinese Univerisity of Hong Kong, Shenzhen. He is interested in computer vision and systems. This summer, he is working on developing a machine learning pipeline for semantic fish segementation in FishSense, which overcome underwater noise with image enhancement and depth guidance. Out of research, he enjoys TRPG and video games, and watching movies.
   photo: assets/people/k.han.png
-
+- bio: Jonathan He is an incoming sophomore at Johns Hopkins University, enrolled in the combined BS/MS program in Computer Science and Computer Integrated Surgery. As part of the Acoustic Species Monitoring project, he has been working on implementing a transformer-based model for avian species identification, comparing it to existing CNN counterparts. This summer, Jonathan embarked on various adventures around the San Diego region, including skydiving, surfing, and trips to Anza Borrego. As a result, he’s more tanned than ever before.
+  photo: assets/people/j.he.jpeg
 
 ---
 
