@@ -23,6 +23,8 @@ students:
   photo: assets/people/g.wrye.jpg
 - bio: Tyler is a rising senior at the University of California, San Diego majoring in Computer Science. This summer, he is working on collecting and finalizing results from the Baboons on the Move project. After college, he hopes to continue to work robotics for wildlife conservation. Tyler enjoys overcomplicating tasks by trying to automate them, and animals.
   photo: assets/people/t.flar.png
+- bio: Zach Lawrence is a co-lead of the Mangrove Monitoring team and a rising third year undergraduate at UC San Diego majoring in Computer Science and minoring in Physics. He has been on the team since spring of 2023. Over the summer, he is currently working on provisioning, networking and deploying an AWS infrastructure to host the Mangrove Monitoring web platform. In his free time he enjoys writing music, reading, and rock climbing.
+  photo: assets/people/z.lawrence.png
 ---
 
 
