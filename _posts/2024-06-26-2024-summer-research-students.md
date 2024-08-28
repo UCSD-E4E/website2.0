@@ -23,6 +23,8 @@ students:
   photo: assets/people/g.wrye.jpg
 - bio: Tyler is a rising senior at the University of California, San Diego majoring in Computer Science. This summer, he is working on collecting and finalizing results from the Baboons on the Move project. After college, he hopes to continue to work robotics for wildlife conservation. Tyler enjoys overcomplicating tasks by trying to automate them, and animals.
   photo: assets/people/t.flar.png
+- bio: Ben is a rising junior at the College of the Holy Cross in Worcester, Massachusetts studying Computer Science. During the summer and throughout the following school year, he is working on computer vision problems for FishSense. When he's not doing research, Ben tutors computer science, runs the robotics club, and promotes research awareness and inclusivity for undergraduate students. He enjoys writing music, watching soccer, hanging out on the boat, and learning new things.
+  photo: assets/people/b.mccalmon.jpg
 ---
 
 
