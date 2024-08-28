@@ -9,10 +9,8 @@ author: Sean
 categories:
 - news-and-updates
 students:
-- bio: TESTING SEAN
+- bio: Sean is a Project Lead of the Acoustic Species Identification project and an incoming PhD student in the computer science department of UCSD. His key research interests include machine learning with a focus on low-resource acoustic and scientific datasets as well as improving environmental monitoring and conservation. Should the notion of free time exist, Sean enjoys traveling around San Diego, visiting family, playing games with friends, and having the cats in his apartments tolerate him.  
   photo: assets/people/s.perry.jpg
-- bio: toothless
-  photo: assets/people/t.nightfury.webp
 - bio: Tongfei is a third-year computer engineering student at UCSD. She is interested in machine learning/AI, computer vision, and image processing. During the summer, she is working on the grouper moon project, including testing fish segmentation model and training AI models for fish detection. In her free time, Tongfei enjoys going to the beach, doing pilates, and trying different coffee spots. 
   photo: assets/people/t.yang.jpg
 - bio: Zhuo (Cecilia) Chen is a rising junior at Bryn Mawr College double majoring in Computer Science and Pure Mathematics. In 2024 summer, she worked on Robust Scientific Machine Learning, specifically analyzing the Neural Network performance when the dataset contains different amounts of noise. After undergrad, she would like to do research in TBD field. Cecilia loves to do hot yoga, hike, try different foods, and listen to jazz. 
