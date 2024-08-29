@@ -11,6 +11,8 @@ categories:
 students:
 - bio: Sean is a Project Lead of the Acoustic Species Identification project and an incoming PhD student in the computer science department of UCSD. His key research interests include machine learning with a focus on low-resource acoustic and scientific datasets as well as improving environmental monitoring and conservation. Should the notion of free time exist, Sean enjoys traveling around San Diego, visiting family, playing games with friends, and having the cats in his apartments tolerate him.  
   photo: assets/people/s.perry.jpg
+- bio: Ludwig von Schoenfeldt is a co-project lead of the Acoustic Species Identification team and an incoming 4th-year ECE Computer Engineering undergraduate student at UC San Diego. He has been on the team since Fall 2023, exploring various deep learning architectures, leading the team's participation in the BirdCLEF 2024 competition, and researching how to combine template matching with deep learning to enhance classification. Over the summer, Ludwig deepened his work with transformer-based architectures and supported the development of a desktop application to facilitate user interaction with the deep learning models. Currently, he is refining transformer architectures and implementing an inference method for the desktop app using Rust. In his free time, Ludwig enjoys reading, meeting friends, surfing, and cycling.
+   photo: assets/people/l.vonschoenfeldt.jpeg
 - bio: Tongfei is a third-year computer engineering student at UCSD. She is interested in machine learning/AI, computer vision, and image processing. During the summer, she is working on the grouper moon project, including testing fish segmentation model and training AI models for fish detection. In her free time, Tongfei enjoys going to the beach, doing pilates, and trying different coffee spots. 
   photo: assets/people/t.yang.jpg
 - bio: Zhuo (Cecilia) Chen is a rising junior at Bryn Mawr College double majoring in Computer Science and Pure Mathematics. In 2024 summer, she worked on Robust Scientific Machine Learning, specifically analyzing the Neural Network performance when the dataset contains different amounts of noise. After undergrad, she would like to do research in TBD field. Cecilia loves to do hot yoga, hike, try different foods, and listen to jazz. 
@@ -43,8 +45,5 @@ students:
   photo: assets/people/a.kan.jpg
 - bio: Meena Annamalai is a rising second year at UCLA studying Electrical and Computer Engineering. This summer, she is part of the Smartfin team where she is working on PCB testing, continuing to develop firmware for version 3 of the device, and helping with the fin manufacturing process. In her free time, Meena enjoys playing tennis, exploring beaches, and trying new food.
   photo: assets/people/m.annamalai.jpg
-
 ---
-
-
-This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below: 
+This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below:
