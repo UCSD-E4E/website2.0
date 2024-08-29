@@ -45,5 +45,8 @@ students:
   photo: assets/people/a.kan.jpg
 - bio: Meena Annamalai is a rising second year at UCLA studying Electrical and Computer Engineering. This summer, she is part of the Smartfin team where she is working on PCB testing, continuing to develop firmware for version 3 of the device, and helping with the fin manufacturing process. In her free time, Meena enjoys playing tennis, exploring beaches, and trying new food.
   photo: assets/people/m.annamalai.jpg
+- bio: Rahual Rai is a rising junior at Howard University, Computer Science. Rahual is part of the software development team for Project Mangrove Monitoring, focusing on implementing an authentication layer to ensure secure user access and managing the database architecture for efficient data handling. Besides that, Rahual loves exploring the outdoors, especially with his doggo.
+  photo: assets/people/r.rai.jpg
+=======
 ---
 This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below:
