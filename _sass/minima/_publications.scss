@@ -1,0 +1,26 @@
+.accordion-title.pub {
+    padding: 0rem;
+    border: none;
+    border-bottom: none;
+    font: 400 16px / 1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #111;
+}
+
+:last-child:not(.is-active)>.accordion-title.pub {
+    border-bottom: none;
+}
+
+.accordion-content.pub {
+    padding: 0rem;
+    border: none;
+    border-bottom: none;
+    background-color: none;
+}
+
+.pub_seperator{
+    margin-bottom: 15px;
+}
+
+.pub_unseperator{
+    margin-bottom: 0px;
+}
