@@ -1,0 +1,119 @@
+@charset "utf-8";
+@use "sass:math";
+
+$mobile-nav-pad: 8px 5px;
+
+.site-nav-button {
+    display: none;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+
+    .nav-trigger {
+        display: none //set block for debugging
+    }
+}
+
+.nav-sub-menu-drop {
+  display: none;
+}
+
+// For extra Mobile Support
+@include media-query($on-palm) {
+  .menu {
+    flex-direction: column;
+  }
+
+  .sub-menu{
+    padding-top: 5px;
+  }
+
+  .site-nav {
+    position: relative;
+    float: inline-start;
+    top: auto;
+    right: auto;
+    width: 100%;
+    text-align: left;
+    display: none;
+
+    .nav-sub-menu-drop {
+        display: inline-block; 
+        float: right;
+        padding: $mobile-nav-pad;
+        margin: 0px;
+        color: #999;
+        line-height: 1;
+    }
+
+    a {
+       padding: $mobile-nav-pad;
+    }
+
+    li:hover>a {
+        color: #999;
+    
+    }
+
+    ul ul {
+        position: relative;
+    }
+
+    ul li:hover>ul {
+    display: none;
+
+    }
+    .sub-menu a{
+        display: block;
+    }
+  }
+
+  //set site-nav to apepar if site-nav-button has an input that is checked
+  .site-nav-button:has(input:checked) + .site-nav {
+    display: block;
+  }
+
+  .site-nav-button {
+    display: block;
+
+    .menu-icon {
+        width: auto;
+        height: auto;
+        display: block;
+        float: right;
+        line-height: 0;
+        padding-top: 10px;
+        text-align: center;
+        fill: $grey-color-dark;
+      }
+    
+      input~.trigger {
+        clear: both;
+        display: none;
+      }
+    
+      input:checked~.trigger {
+        display: block;
+        padding-bottom: 5px;
+      }
+    
+    
+      label[for="nav-trigger"] {
+          display: block;
+          float: right;
+          width: auto;
+          height: auto;
+          margin: 0px;
+          z-index: 2;
+          cursor: pointer;
+        }
+  }
+
+  
+}
+
+// // Disable Mobile additions
+// @include media-query($on-laptop) {
+//     .site-nav-button {
+//       display: none;
+//     }
+//   }

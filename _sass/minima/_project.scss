@@ -20,7 +20,9 @@
   }
 
 .captioned-img-container{
-    width: fit-content; margin: auto; text-align: center;
+    width: fit-content; 
+    margin: auto; 
+    text-align: center;
 }
 
 .img-container{
@@ -39,6 +41,18 @@
     width: auto;
     min-height: 200px;
     height: auto;
+}
+
+.float_img_left {
+    display: inline;
+    float: left;
+    margin: 1.5em;
+}
+
+.float_img_right {
+    display: inline;
+    float: right;
+    margin: 1.5em;
 }
 
 .caption{
@@ -67,4 +81,10 @@ iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+@include media-query($on-palm) {
+    iframe {
+        width: 90%;
+    }
 }

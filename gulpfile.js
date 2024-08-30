@@ -4,7 +4,7 @@
 var spawn = require('cross-spawn'); 
 const { src, dest , series} = require('gulp');
 const fs   = require('fs');
-const { rimraf, rimrafSync, native, nativeSync } = require('rimraf')
+const fsPromises = require('fs').promises; 
 
 async function create_command(command) {
     command = command.split(" ")
@@ -36,14 +36,16 @@ function process_CLI(cb) {
         let arg = {}, a, opt, thisOpt, curOpt;
         for (a = 0; a < argList.length; a++) {
             thisOpt = argList[a].trim();
-            opt = thisOpt.replace(/^\-+/, '');
-            if (opt === thisOpt) {
+            //was opt === thisOpt
+            //updated code will always store following opt
+            if (curOpt !== null) {
                 // argument value
-                if (curOpt) arg[curOpt] = opt;
+                if (curOpt) arg[curOpt] = thisOpt;
                 curOpt = null;
             }
             else {
                 // argument name
+                opt = thisOpt.replace(/^\-+/, '');
                 curOpt = opt;
                 arg[curOpt] = true;
             }
@@ -90,7 +92,8 @@ async function handle_cache_updates(cb) {
     // Remove the temp directory, files here before build should have been taken
     // out by the user 
     if(fs.existsSync(temp_dir)) {
-        rimraf.sync(temp_dir)
+        await fsPromises.rmdir(temp_dir, {"recursive": true})
+        //rimraf.sync(temp_dir)
     }
 
     // Make sure resize exists if it doesn't already
@@ -119,6 +122,7 @@ async function build(cb) {
 
 async function dev_build(cb) {
     var arg = process_CLI()
+    console.log(arg)
     if ("j" in arg) {
         await create_command("bundle exec jekyll serve " + arg["j"])
     } else {
