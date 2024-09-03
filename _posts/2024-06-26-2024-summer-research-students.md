@@ -47,6 +47,8 @@ students:
   photo: assets/people/m.annamalai.jpg
 - bio: Rahual Rai is a rising junior at Howard University, Computer Science. Rahual is part of the software development team for Project Mangrove Monitoring, focusing on implementing an authentication layer to ensure secure user access and managing the database architecture for efficient data handling. Besides that, Rahual loves exploring the outdoors, especially with his doggo.
   photo: assets/people/r.rai.jpg
+- bio: Derick Mathews is a 2nd-year computer science student at UC Santa Cruz. This is his second summer he working on a project with the Scripps Institute of Oceanography to develop a location system for a swarm of underwater robots. The team hopes to study ocean currents and the creatures they transport, including plankton. He's always had passion for robotics and loves building rockets and drones in his free time. He also loves mountain biking with friends and playing guitar.
+  photo: assets/people/d.mathews.jpg
 =======
 ---
 This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below:
