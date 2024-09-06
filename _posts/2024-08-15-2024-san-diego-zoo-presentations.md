@@ -1,6 +1,6 @@
 ---
 date: 2024-08-15 12:00:00-07:00
-featuredImage: assets/2024-08-15-reu-sdzwa-group-photo.jpg
+featuredImage: assets/2024-09-15-SDZWA_REU_group_photo_outside.JPEG
 layout: blog-post
 title: Summer 2024 REU Presentations at the San Diego Zoo Institute for Conservation Research
 author: Nathan Hui
