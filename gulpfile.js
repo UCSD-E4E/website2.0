@@ -4,7 +4,7 @@
 var spawn = require('cross-spawn'); 
 const { src, dest , series} = require('gulp');
 const fs   = require('fs');
-const { rimraf, rimrafSync, native, nativeSync } = require('rimraf')
+const fsPromises = require('fs').promises; 
 
 async function create_command(command) {
     command = command.split(" ")
@@ -92,7 +92,8 @@ async function handle_cache_updates(cb) {
     // Remove the temp directory, files here before build should have been taken
     // out by the user 
     if(fs.existsSync(temp_dir)) {
-        rimraf.sync(temp_dir)
+        await fsPromises.rmdir(temp_dir, {"recursive": true})
+        //rimraf.sync(temp_dir)
     }
 
     // Make sure resize exists if it doesn't already
