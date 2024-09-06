@@ -22,7 +22,7 @@ categories: {{page.categories}}
 {% endfor %}
 
 {% if page.mentors %}
-    <h2> Mentors <h2>
+    <h2> Mentors </h2>
     {% for student in page.mentors %}
     <div class="floatclearfix">
         {% if student.photo %}

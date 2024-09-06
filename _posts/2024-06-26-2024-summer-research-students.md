@@ -1,7 +1,7 @@
 ---
 date: 2024-06-26 23:42:21+00:00
 description: null
-featuredImage: assets/2023-08-10_sealab_reu_group_photo.jpg
+featuredImage: assets/2024-08-15-reu-sdzwa-group-photo.jpg
 layout: profile-blog-post
 slug: /2024-summer-research-students
 title: 2024 Summer Research Students
