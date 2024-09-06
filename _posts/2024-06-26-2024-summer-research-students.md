@@ -9,8 +9,6 @@ author: Sean
 categories:
 - news-and-updates
 students:
-- bio: Sean is a Project Lead of the Acoustic Species Identification project and an incoming PhD student in the computer science department of UCSD. His key research interests include machine learning with a focus on low-resource acoustic and scientific datasets as well as improving environmental monitoring and conservation. Should the notion of free time exist, Sean enjoys traveling around San Diego, visiting family, playing games with friends, and having the cats in his apartments tolerate him.  
-  photo: assets/people/s.perry.jpg
 - bio: Ludwig von Schoenfeldt is a co-project lead of the Acoustic Species Identification team and an incoming 4th-year ECE Computer Engineering undergraduate student at UC San Diego. He has been on the team since Fall 2023, exploring various deep learning architectures, leading the team's participation in the BirdCLEF 2024 competition, and researching how to combine template matching with deep learning to enhance classification. Over the summer, Ludwig deepened his work with transformer-based architectures and supported the development of a desktop application to facilitate user interaction with the deep learning models. Currently, he is refining transformer architectures and implementing an inference method for the desktop app using Rust. In his free time, Ludwig enjoys reading, meeting friends, surfing, and cycling.
   photo: assets/people/l.vonschoenfeldt.jpeg
 - bio: Tongfei is a third-year computer engineering student at UCSD. She is interested in machine learning/AI, computer vision, and image processing. During the summer, she is working on the grouper moon project, including testing fish segmentation model and training AI models for fish detection. In her free time, Tongfei enjoys going to the beach, doing pilates, and trying different coffee spots. 
@@ -49,7 +47,10 @@ students:
   photo: assets/people/r.rai.jpg
 - bio: Derick Mathews is a 2nd-year computer science student at UC Santa Cruz. This is his second summer he working on a project with the Scripps Institute of Oceanography to develop a location system for a swarm of underwater robots. The team hopes to study ocean currents and the creatures they transport, including plankton. He's always had passion for robotics and loves building rockets and drones in his free time. He also loves mountain biking with friends and playing guitar.
   photo: assets/people/d.mathews.jpeg
+mentors:
+- bio: Sean is a Project Lead of the Acoustic Species Identification project and an incoming PhD student in the computer science department of UCSD. His key research interests include machine learning with a focus on low-resource acoustic and scientific datasets as well as improving environmental monitoring and conservation. Should the notion of free time exist, Sean enjoys traveling around San Diego, visiting family, playing games with friends, and having the cats in his apartments tolerate him.  
+  photo: assets/people/s.perry.jpg
 - bio: Christopher Crutchfield is a fifth-year Ph.D student working under Professor Curt Schurgers and Professor Ryan Kastner.  His Masters was in Intelligent Systems, Robotics, and Control.  He is now putting that background to work by developing sensors for understanding the health of our oceans by developing underwater depth cameras with FishSense, a project which he leads.  Through the use of these cameras, he hopes to be able to help scientists monitor the biodiversity of our oceans and the health of the underwater ecosystem.  When not working to help protect our environment, he enjoys a quiet day at home, with his wife and three cats.
   photo: assets/people/c.crutchfield.jpg
 ---
-This summer, we are hosting 22 students from around the US in our 2024 summer research program at UC San Diego. The projects they will work on include everything from Acoustics species id...  Meet our students by reading their bios below:
+This summer, we are hosting 19 students from around the world in our 2024 summer research program at UC San Diego. Meet our students by reading their bios below:
