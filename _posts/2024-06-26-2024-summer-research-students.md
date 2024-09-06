@@ -5,7 +5,7 @@ featuredImage: assets/2024-08-15-reu-sdzwa-group-photo.jpg
 layout: profile-blog-post
 slug: /2024-summer-research-students
 title: 2024 Summer Research Students
-author: Sean
+author: Sean Perry
 categories:
 - news-and-updates
 students:
