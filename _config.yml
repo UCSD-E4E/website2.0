@@ -70,7 +70,7 @@ exclude:
 is_dev: false
 
 scholar:
-  style: ieee
+  style: ./ieee.csl
   bibliography: publications.bib
   bibtex_filters:
     - latex
