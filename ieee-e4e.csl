@@ -1,3 +1,4 @@
+<!-- modified from https://github.com/citation-style-language/styles/commit/fd6cb3e81762055d107839c3c288c359985f81c8#diff-5f787ae4097709d3c6fa1cd89c96ef842ca721e656961c20958e9cfc63e34d98 -->
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
   <info>
@@ -40,6 +41,10 @@
     <contributor>
       <name>Oliver Couch</name>
       <email>oliver.couch@gmail.com</email>
+    </contributor>
+    <contributor>
+      <name>Sean Perry</name>
+      <email>shperry@ucsd.edu</email>
     </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>
@@ -115,7 +120,7 @@
   </macro>
   <macro name="author">
     <names variable="author">
-      <name and="text" et-al-min="7" et-al-use-first="1" initialize-with=". "/>
+      <name and="text" et-al-min="99" et-al-use-first="1" initialize-with=". "/>
       <label form="short" prefix=", " text-case="capitalize-first"/>
       <et-al font-style="italic"/>
       <substitute>
@@ -329,8 +334,8 @@
   <!-- Bibliography -->
   <bibliography entry-spacing="0" second-field-align="flush">
     <layout>
-      <!-- Citation Number -->
-      <text variable="citation-number" prefix="[" suffix="]"/>
+      <!-- Citation Number --><!-- edit here for adjusting the key -->
+      <text variable="citation-number" prefix="[" suffix="] "/>
       <!-- Author(s) -->
       <text macro="author" suffix=", "/>
       <!-- Rest of Citation -->
