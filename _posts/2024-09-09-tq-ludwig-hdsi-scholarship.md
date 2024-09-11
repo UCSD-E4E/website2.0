@@ -1,7 +1,7 @@
 ---
 date: 2024-09-09 15:38:00-7:00:00
 description: null
-featuredImage: assets/TQ_Ludwig_award_letter_HDSI.png
+featuredImage: assets/acoustic_species_id/piha_spec.jpg #assets/TQ_Ludwig_award_letter_HDSI.png
 author: Tianqi Zhang and Ludwig von Schoenfeldt
 layout: blog-post
 slug: /tq-ludwig-hdsi-scholarship
@@ -12,6 +12,7 @@ tags:
 - acoustic-species-id
 - bioacoustics
 ---
+(Image )
 
 We are excited to announce that two of the project leads from the Acoustic Species Identification Team, **Ludwig von Schoenfeldt** and **Tianqi Zhang**, have been awarded the prestigious **Halıcıoğlu Data Science Institute Undergraduate Scholarship** under the mentorship of **Dr. Ryan Kastner**! Together with Sean Perry, they are leading efforts to develop advanced tools for bioacoustic monitoring.
 
