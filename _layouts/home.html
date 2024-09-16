@@ -45,11 +45,13 @@ layout: default
                 {%- if post.featuredImage -%}
                 <img 
                   src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200!' | format: 'webp' | absolute_url }}"
-                >
+                  alt="{{ post.featuredImageAlt | default: 'featured image' }}"
+                  >
                 {% else %}
                 <img 
                   src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-                >
+                  alt="E4E Logo, post has no featured image"
+                  >
                 {% endif %}
               </div>
               

@@ -16,7 +16,15 @@ layout: default
   </header>
 
   <div class="featured-post-image">
-    <img alt="featured-image" width="816" height="auto" src="{{ page.featuredImage | relative_url }}" class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" sizes="(max-width: 816px) 100vw, 816px" >
+    <!-- we do allow for no images to be shown, could lead to bugs here... -->
+    <img 
+      alt="{{ page.featuredImageAlt | default: 'featured image' }}" 
+      width="816" 
+      height="auto" 
+      src="{{ page.featuredImage | relative_url }}" 
+      class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" 
+      sizes="(max-width: 816px) 100vw, 816px" >
+
   </div>
 
   <div class="post-content e-content" itemprop="articleBody">
