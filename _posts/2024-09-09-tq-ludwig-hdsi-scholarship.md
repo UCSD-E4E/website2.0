@@ -1,7 +1,7 @@
 ---
 date: 2024-09-09 15:38:00-7:00:00
 description: null
-featuredImage: assets/acoustic_species_id/piha_spec.jpg #assets/TQ_Ludwig_award_letter_HDSI.png
+featuredImage: assets/acoustic_species_id/acoustics_zoo_presentation.png #assets/acoustic_species_id/piha_spec.jpg #assets/TQ_Ludwig_award_letter_HDSI.png
 author: Tianqi Zhang and Ludwig von Schoenfeldt
 layout: blog-post
 slug: /tq-ludwig-hdsi-scholarship
