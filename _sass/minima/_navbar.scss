@@ -85,27 +85,36 @@ $mobile-nav-pad: 8px 5px;
         text-align: center;
         fill: $grey-color-dark;
       }
-    
-      input~.trigger {
-        clear: both;
-        display: none;
+
+    input~label[for="nav-trigger"]>.menu-icon {
+        transform: rotate(0deg);
       }
+
+    input:checked~label[for="nav-trigger"]>.menu-icon {
+      transform: rotate(180deg);
+      margin-top: 16px;
+    }
     
-      input:checked~.trigger {
+    input~.trigger {
+      clear: both;
+      display: none;
+    }
+  
+    input:checked~.trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+  
+  
+    label[for="nav-trigger"] {
         display: block;
-        padding-bottom: 5px;
+        float: right;
+        width: auto;
+        height: auto;
+        margin: 0px;
+        z-index: 2;
+        cursor: pointer;
       }
-    
-    
-      label[for="nav-trigger"] {
-          display: block;
-          float: right;
-          width: auto;
-          height: auto;
-          margin: 0px;
-          z-index: 2;
-          cursor: pointer;
-        }
   }
 
   
