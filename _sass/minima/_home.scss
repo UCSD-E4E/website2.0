@@ -5,6 +5,13 @@
     justify-content: flex-start;
 }
 
+@include media-query($on-palm) {
+    .home_flex_container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
 // .home {
 //     max-width: 1240px;
 //     width: 1240px;
@@ -15,6 +22,12 @@
     font-weight: 700;
     font-size: 50%;
     letter-spacing: 0px;
+}
+
+@include media-query($on-palm) {
+    .post-link{
+        font-size: 100%;
+    }
 }
 
 .post-link:visited{
@@ -46,6 +59,13 @@
     justify-content: flex-start;
 }
 
+@include media-query($on-palm) {
+    .home_post-list{
+        justify-content: center
+    }
+}
+
+
 .home_header{
     font-size: medium;
     font-weight: bold;
@@ -58,7 +78,7 @@
 .home_post_container {
     background-color: #111111;
     min-width: 275px;
-    max-width: 290px;
+    max-width: 275px;
     width: min-content;
     height: 340px;
     margin-right: 12px;

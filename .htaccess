@@ -1,5 +1,11 @@
 ErrorDocument 404 /404.html
 RewriteEngine on
+
+# if the url has archive, but not index, add index
+RewriteCond %{REQUEST_URI} archive
+RewriteCond %{REQUEST_URI} !index.html
+RewriteRule (.*) /$1/index.html [L]
+
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule ^(.*?)/$ /$1.html [L]
 

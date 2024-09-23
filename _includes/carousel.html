@@ -13,7 +13,11 @@
           {% for item in carousels.images %}
           <div class="carousel__slide_title">
             {% capture resize_cmd %}1140x500!,jpg,{% if item['crop'] %},{{ item['crop'] }}{% endif %}{% endcapture %}
-            <li class="carousel__slide" style="background-image: url('{{ item['url'] | resize: resize_cmd }}');"></li>
+            <li 
+              class="carousel__slide" 
+              style="background-image: url('{{ item['url'] | resize: resize_cmd }}');"
+              on_slide=""
+            ></li>
             <div class="carousel_titles">
               <p class="carousel_title"> {{item['title']}} </p>
             </div>
@@ -69,7 +73,18 @@
 
 <style>
 /*See _sass\minima\_carousel.scss for general styles, below is for component spefific stuff */
-.carousel__holder_{{unique_name}} {width: 100%; position: relative; padding-bottom: {{ include.height }}{{ include.unit }}; margin: 1rem 0 1rem;}
+.carousel__holder_{{unique_name}} {
+  width: 100%; position: relative; 
+  padding-bottom: {{ include.height }}{{ include.unit }}; 
+  margin: 1rem 0 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel__holder_{{unique_name}} {
+    padding-bottom: 80%;
+  }
+}
+
 
 {% for item in carousels.images %}
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
@@ -170,19 +185,23 @@
     recent_click_{{unique_name}} = true;
   }
 
+  // increments the slides "forward" or "backward"
+  function increment_carousel_{{unique_name}}(direction="forward") {
+    var j=0;
+    var elements = document.querySelectorAll(
+        '#carousel{{ unique_name}} .carousel__control--' + direction
+    );
+    for(i=(elements.length - 1);i>-1;i--) {
+    if(isVisible(elements[i])) j=i;
+    }
+    elements[j].click();
+  }
 
   {% if include.duration %}
   setInterval(function(){
     //if the user has not recently clicked, skip to next image
     if (!recent_click_{{unique_name}}) {
-        var j=0;
-        var elements = document.querySelectorAll(
-            '#carousel{{ unique_name}} .carousel__control--forward'
-        );
-        for(i=(elements.length - 1);i>-1;i--) {
-        if(isVisible(elements[i])) j=i;
-        }
-        elements[j].click();
+      increment_carousel_{{unique_name}}(direction="forward")
     }
 
     //must be at end, click triggers onClick_{{unique_name}}. We want recent_click_{{unique_name}}to be human clicks
@@ -191,4 +210,39 @@
     
   },{{ include.duration }}000);
   {% endif %}
+
+  //TODO: Delete test swiping
+  //Code source from https://gist.github.com/SleepWalker/da5636b1abcbaff48c4d
+  //and https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android
+  //allows users to swipe on the carousel to see new images
+  var touchstartX_{{unique_name}} = 0;
+  var touchendX_{{unique_name}} = 0;
+  var gesuredZone_{{unique_name}} = document.getElementById('carousel{{ unique_name }}');
+
+  gesuredZone_{{unique_name}}.addEventListener('touchstart', function(event) {
+      //console.log(event)
+      touchstartX_{{unique_name}} = event.changedTouches[0].screenX;
+      //console.log("touchstart")
+  }, false);
+
+  gesuredZone_{{unique_name}}.addEventListener('touchend', function(event) {
+      touchendX_{{unique_name}} = event.changedTouches[0].screenX;
+      //console.log("touchend")
+      handleGesure_{{unique_name}}();
+  }, false); 
+
+  function handleGesure_{{unique_name}}() {
+      //console.log(touchstartX_{{unique_name}}, touchendX_{{unique_name}}, touchendX_{{unique_name}} - touchstartX_{{unique_name}})
+      var swiped = 'swiped: ';
+      if (touchendX_{{unique_name}} < touchstartX_{{unique_name}}) {
+          onClick_{{unique_name}}()
+          //console.log(swiped + 'left!');
+          increment_carousel_{{unique_name}}(direction="forward")
+      }
+      else if (touchendX_{{unique_name}} > touchstartX_{{unique_name}}) {
+          onClick_{{unique_name}}()
+          //console.log(swiped + 'right!');
+          increment_carousel_{{unique_name}}(direction="backward")
+      }
+  }
 </script>

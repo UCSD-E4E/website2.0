@@ -10,4 +10,4 @@ categories:
 - uncategorized
 ---
 
-We had a busy summer in our REU program - check out our final presentation for what we accomplished this summer: [PRESENTATION](https://docs.google.com/presentation/d/18DgydneMlk0XcdSHoBYcEKzFNv40TQSKl3rfZ3GeR6k/edit?usp=sharing)
+We had a busy summer in our REU program - check out our final presentation for what we accomplished this summer

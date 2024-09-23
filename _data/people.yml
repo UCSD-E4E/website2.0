@@ -1553,60 +1553,78 @@
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/k.lucas.jpeg
 - name: Nicholas Reyes
   description: Radio Telemetry Tracking, 2023 Summer REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/n.reyes.jpg
 - name: Derick Mathews
   description: Software for Wireless Underwater Communication System on Volt, 2023
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/d.mathews.png
 - name: Hamish Grant
   description: Fishsense, 2023 Summer REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/h.grant.jpg
 - name: Emily Thorpe
   description: Smartfin, 2023
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/e.thorpe.jpg
 - name: Josephine Dominguez
   description: Smartfin, Radio Telemetry Tracking, and FishSense, 2023
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/j.dominguez.jpg
 - name: Michael Pham
   description: Mangrove Monitoring, 2023
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/m.pham.png
 - name: Jordan Reichhardt
   description: Smartfin, Radio Telemetry Tracking, Fishsense, 2023
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/j.reichhardt.jpg
 - name: Ana Perez
   description: FishSense, 2023
   start: 2023
   end: 2023
   level: Project Member - Alumni
+  image: assets/people/a.perez.jpeg
+- name: Benjamin Cates
+  description: Acoustic Species ID, Summer 2023
+  start: 2023
+  end: 2023
+  level: Project Member - Alumni
+  image: assets/people/b.cates.jpg
 - name: Chima Nwughala
   description: AKER, Summer 2023
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/c.nwughala.jpg
 - name: Diana Ekechukwu
   description: Junkyard Computing, Summer 2023
   level: Project Member - Alumni
   start: 2023
   end: 2023
+  image: assets/people/u.ekechukwu.png
 - name: Marco Bazzani
   description: Acoustic Species ID since 2023
   level: Project Member
   start: 2023
+  image: assets/people/m.bazzani.jpg
 - name: Zach Lawrence
   description: Mangrove Monitoring since 2023
   level: Project Lead
