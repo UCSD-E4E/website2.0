@@ -21,6 +21,20 @@
     margin-bottom: 15px;
 }
 
+.pub_seperator>a>span {
+    padding-right: 3rem;
+    display: inline-block;
+}
+
+.accordion-title::before {
+    position: absolute;
+    top: 5%;
+    right: 1rem;
+    margin-top: -.25rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .pub_unseperator{
     margin-bottom: 0px;
 }
