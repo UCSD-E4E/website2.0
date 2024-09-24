@@ -56,8 +56,10 @@
           if (event.target.tagName.toLowerCase() !== 'a') {
             if (ul.style.display === 'none' || ul.style.display === '') {
               ul.style.display = 'block';
+              ul.parentElement.querySelector("p").innerHTML = "-"
             } else {
               ul.style.display = 'none';
+              ul.parentElement.querySelector("p").innerHTML = "+"
             }
           }
         });
