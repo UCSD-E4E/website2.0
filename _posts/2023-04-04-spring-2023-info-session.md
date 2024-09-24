@@ -1,7 +1,7 @@
 ---
 date: 2023-04-04 06:05:55+00:00
 description: null
-featuredImage: assets/2023-04-03-info-session.png
+featuredImage: assets/recruiting/2023-04-03-info-session.png
 layout: blog-post
 slug: /spring-2023-info-session
 title: Spring 2023 Info Session

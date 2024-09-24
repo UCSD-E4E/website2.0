@@ -1,7 +1,7 @@
 ---
 date: 2024-04-03 00:00:00-07:00
 author: Nathan
-featuredImage: assets/2024-04-03-info-session.png
+featuredImage: assets/recruiting/2024-04-03-info-session.png
 layout: blog-post
 slug: /spring-2024-info-session
 title: Spring 2024 Info Session

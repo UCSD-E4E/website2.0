@@ -1,7 +1,7 @@
 ---
 date: 2022-01-11 03:42:22+00:00
 description: null
-featuredImage: assets/2022-01-10-info-session.png
+featuredImage: assets/recruiting/2022-01-10-info-session.png
 layout: blog-post
 slug: /winter-2022-info-session
 title: Winter 2022 Info Session
