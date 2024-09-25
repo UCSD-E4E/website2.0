@@ -1,7 +1,7 @@
 ---
 date: 2021-09-24 02:34:27+00:00
 description: null
-featuredImage: assets/2021-09-24-fa24-projects.png
+featuredImage: assets/recruiting/2021-09-24-fa24-projects.png
 layout: blog-post
 slug: /2021-fall-info-session
 title: 2021 Fall Info Session
