@@ -1,7 +1,7 @@
 ---
 date: 2022-11-30 04:17:40+00:00
 description: null
-featuredImage: assets/2022-11-29-2023-reu-recruitment.png
+featuredImage: assets/recruiting/2022-11-29-2023-reu-recruitment.png
 layout: blog-post
 slug: /engineers-for-exploration-e4e-summer-research-program-at-uc-san-diego-application-submission-by-february-15th-2023
 title: Engineers for Exploration (E4E) Summer Research Program at UC San Diego ­-
