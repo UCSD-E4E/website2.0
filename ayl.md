@@ -7,11 +7,11 @@ Hope you are enjoying/enjoyed the info session!
 
 **The application to apply can be found at [{{ "join" | absolute_url }}]({{ "join" | relative_url }})**
 
-If you are interested in the projects, please check out the following contacts.
+If you are interested in the project, please check out some of the onboarding papers associated with the projects at [{{ "onboarding-papers" | absolute_url }}]({{ "onboarding-papers" | relative_url }}) as well as the following contact information for any questions you may have.
 
 ##  [Aqua3D]({{ "fishsense" | relative_url }})
 - Christopher Crutchfield, [ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu)
-- Avik Ghosh, a8ghosh@ucsd.edu 
+- Avik Ghosh, [a8ghosh@ucsd.edu](mailto:a8ghosh@ucsd.edu) 
 
 ##  [FishSense Core Technologies]({{ "fishsense" | relative_url }})
 - Benjamin McCalmon, [bbmcca26@g.holycross.edu](mailto:bbmcca26@g.holycross.edu )
