@@ -1,6 +1,6 @@
 ---
 date: 2023-09-30 00:10:28+00:00
-featuredImage: assets/2023-09-29-info-session.png
+featuredImage: assets/recruiting/2023-09-29-info-session.png
 author: Tyler Flar
 layout: blog-post
 slug: /fall-2023-info-session

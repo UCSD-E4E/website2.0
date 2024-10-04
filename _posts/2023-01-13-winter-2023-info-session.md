@@ -1,7 +1,7 @@
 ---
 date: 2023-01-13 03:06:15+00:00
 description: null
-featuredImage: assets/2023-01-12-info-session.png
+featuredImage: assets/recruiting/2023-01-12-info-session.png
 layout: blog-post
 slug: /winter-2023-info-session
 title: Winter 2023 Info Session
