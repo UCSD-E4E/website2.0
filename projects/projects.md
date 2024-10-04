@@ -16,7 +16,7 @@ blurbs:
    text: "Using drone footage and computer vision to track baboon troop movement in the plains of the Laikipia Plateau in Kenya"
    link: "/baboons-on-the-move"
  - project_name: "Aqua3D"
-   photo: assets/fishsense/2023-07-17_nathan_fishsense_lite.jpg
+   photo: assets/aqua3d/about_aqua3d.jpg
    text: "Developing underwater depth cameras which can be used in applications in collaboration with the Scripps Institute of Oceanography and FishSense."
    link: "/aqua3d"
  - project_name: "FishSense"
