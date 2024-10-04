@@ -23,7 +23,7 @@ If you are interested in the projects, please check out the following contacts.
 - Nathan Hui, [nthui@ucsd.edu](mailto:nthui@ucsd.edu)
 
 ## [Radio Telemetry Tracking]({{ "radio-collar-tracker" | relative_url }})
-- Tyler Flar (Radio Telemetry Tracking), [tflar@ucsd.edu](mailto:tflar@ucsd.edu)
+- Tyler Flar, [tflar@ucsd.edu](mailto:tflar@ucsd.edu)
 
 ## [Radio Telemetry Tracking]({{ "acoustic-species-identification" | relative_url }}) 
 - Sean Perry, [shperry@ucsd.edu](mailto:shperry@ucsd.edu)
@@ -33,9 +33,6 @@ If you are interested in the projects, please check out the following contacts.
 ##  [Mangrove Monitoring]({{ "mangrove-monitoring" | relative_url }}) 
 - Gage Wyre, [gwrye100@gmail.com](mailto:gwrye100@gmail.com)
 - Zach Lawrence, [zclawrence@ucsd.edu](mailto:zclawrence@ucsd.edu) 
-
-## [Hardware Dev/Research Support]({{ "research-support-group" | relative_url }})   
-- Nathan Hui, [nthui@ucsd.edu](mailto:nthui@ucsd.edu) 
 
 ## Co-Directors
 - Curt Schurgers, [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu) 
