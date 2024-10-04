@@ -25,7 +25,7 @@ If you are interested in the project, please check out some of the onboarding pa
 ## [Radio Telemetry Tracking]({{ "radio-collar-tracker" | relative_url }})
 - Tyler Flar, [tflar@ucsd.edu](mailto:tflar@ucsd.edu)
 
-## [Radio Telemetry Tracking]({{ "acoustic-species-identification" | relative_url }}) 
+## [Acoustic Species Identification]({{ "acoustic-species-identification" | relative_url }}) 
 - Sean Perry, [shperry@ucsd.edu](mailto:shperry@ucsd.edu)
 - Ludwig von Schoenfeldt, [lvonschoenfeldt@ucsd.edu](mailto:lvonschoenfeldt@ucsd.edu)
 - TQ Zhang, [tiz019@ucsd.edu](mailto:tiz019@ucsd.edu)
