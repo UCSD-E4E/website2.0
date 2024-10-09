@@ -6,8 +6,8 @@ const { src, dest , series} = require('gulp');
 const fs   = require('fs');
 const fsPromises = require('fs').promises; 
 
-async function create_command(command) {
-    command = command.split(" ")
+async function create_command(command_str) {
+    var command = command_str.split(" ")
     console.log(command[0], command.slice(1))
     const child = spawn(command[0], command.slice(1));
 
@@ -24,9 +24,14 @@ async function create_command(command) {
     });
 
     //wait until child closes to continue
-    await new Promise( (resolve) => {
+    var value = await new Promise( (resolve) => {
         child.on('close', resolve)
+        return "test"
     })
+    if (value != 0) {
+        throw new Error(`FAILED TO RUN ${command_str} \n see above for stacktrace`);
+    }
+    console.log(value)
 }
 
 function process_CLI(cb) {
