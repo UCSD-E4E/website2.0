@@ -4,6 +4,6 @@
   },
   "dependencies": {
     "cross-spawn": "^7.0.3",
-    "foundation-sites": "^6.8.1"
+    "foundation-sites": "^6.9.0"
   }
 }
