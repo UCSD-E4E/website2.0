@@ -1,0 +1,28 @@
+name: Deploy Jekyll PR to E4E-DEV
+
+on:
+    pull_request: 
+        types: 
+            - opened
+            - edited
+        branches: 
+            - main
+    workflow_dispatch: 
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Execute Deploy
+              env:
+                SSH_PRIVATE_KEY: ${{secrets.KASTNER_ML_DEPLOY_SSH}}
+                SSH_KNOWN_HOSTS: ${{secrets.KASTNER_ML_KNOWN_HOSTS}}
+                SSH_KEY_PATH: ${{github.workspace}}/../private.key
+                PR_NUMBER: ${{github.event.number}}
+              run: |
+                mkdir -p ~/.ssh/
+                echo "$SSH_PRIVATE_KEY" > $SSH_KEY_PATH
+                chmod 600 $SSH_KEY_PATH
+                echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+                # ssh -i $SSH_KEY_PATH deploy@kastner-ml.dynamic.ucsd.edu '/bin/bash /tmp/deploy_e4e.sh'
+                
