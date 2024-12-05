@@ -33,7 +33,7 @@ Many thanks to the following people who have contributed to this effort:
 - Dalton Rust
 - Taylor Wirth
 - Nathan Hui
-- Phil Bresnehan
+- Phil Bresnahan
 - Todd Martz
 - Ryan Kastner
 
