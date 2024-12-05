@@ -41,6 +41,6 @@ Some photos of the progress over the past couple years:
 
 {% include img_caption.html src="assets/smartfin/2024-08-09_antara_hannah_mixing_resin.jpg" src2="assets/smartfin/2024-08-09_hannah_meena_potting.jpg" src3="assets/smartfin/2024-08-09_hannah_mixing_resin1.jpg" caption="Antara, Hannah, and Meena from the 2024 Summer REU potting a fin" %}
 
-{% include img_caption.html src="assets/smartfin/2024-12-04_sio_makerspace_potting_setups.jpg" caption="New potting setup at the SIO Makerspace" %}
+{% include img_caption.html src="assets/smartfin/2024-10-23_sio_makerspace_potting_setup.jpg" caption="New potting setup at the SIO Makerspace" %}
 
 {% include img_caption.html src="assets/smartfin/2024-11-27_open_mold.jpg" src2="assets/smartfin/2024-12-04_finished_fin.jpg" caption="Finished fins" %}
