@@ -99,7 +99,7 @@
   - Experience with React
   - Experience with GIS-based mapping libraries/tools (Leaflet, Folium, QGIS, etc.)
 - project: Radio Telemetry Tracker
-  title: Electrical Engineer
+  title: Embedded Systems Engineer
   link: /radio-collar-tracker
   description: The Radio Telemetry Tracker project aims to provide system prototypes to collaborators for field testing. We are seeking students to develop reliable control systems for our field devices. This role involves selecting appropriate components, assembling the devices, and creating software that enables wireless communication between the system's peripheral devices and the user interface.
   required:
