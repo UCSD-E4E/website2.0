@@ -50,7 +50,7 @@ Prospective Students
 This project is always looking for new team members who have experience with Python, Github, data analysis, or other related skills. Specific positions can be found here: [Open Positions](open-opportunities).
 
 More Info:
-[https://smartfin.org/](https://smartfin.org/)
+<!-- [https://smartfin.org/](https://smartfin.org/) -->
 
 <!-- [https://www.surfrider.org/programs/smartfin](https://www.surfrider.org/programs/smartfin) -->
 [https://www.surfrider.org/media/press-releases/surfers-become-citizen-scientists-as-surfboard-fin-collects-critical-ocean](https://www.surfrider.org/media/press-releases/surfers-become-citizen-scientists-as-surfboard-fin-collects-critical-ocean) 
