@@ -99,13 +99,13 @@
   - Experience with React
   - Experience with GIS-based mapping libraries/tools (Leaflet, Folium, QGIS, etc.)
 - project: Radio Telemetry Tracker
-  title: Controls Engineer
+  title: Electrical Engineer
   link: /radio-collar-tracker
   description: The Radio Telemetry Tracker project aims to provide system prototypes to collaborators for field testing. We are seeking students to develop reliable control systems for our field devices. This role involves selecting appropriate components, assembling the devices, and creating software that enables wireless communication between the system's peripheral devices and the user interface.
   required:
   - Basic communication interfaces (I2C, Serial, GPIO, etc.)
   - Python, C++, or Rust programming
-  - Experience with microcontrollers (Arduino, Raspberry Pi, etc.)
+  - Experience with microcontrollers/microprocessors (Arduino, Raspberry Pi, etc.)
   desired:
   - Experience with IoT, particularly long-range communication
   - Experience with solar panels and battery management
