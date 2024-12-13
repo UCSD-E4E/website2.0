@@ -23,7 +23,7 @@ The Radio Telemetry Tracker project is a collaboration between the San Diego Zoo
 
 Since the start of this project, we have had the opportunity to use this platform in the field. In a 2015 collaboration with Stesha Pasachnik (San Diego Zoo), we took the Radio Telemetry Tracker to the Dominican Republic to study the rhinoceros iguana (Cyclura cornuta) and the Ricord’s iguana (Cyclura ricordi). Then, in a 2016 collaboration with Jennette Moss (Mississippi State University) and Glenn Gerber (San Diego Zoo), we took the Radio Collar Tracker to Little Cayman to study the Sister Isle’s Rock Iguana (Cyclura nubila caymanensis).
 
-Project Lead: Tyler Flar (<a href="mailto:tflar@ucsd.edu">tflar@ucsd.edu</a>)
+Project Lead: Tyler Flar ([tflar@ucsd.edu](mailto:tflar@ucsd.edu))
 
 # PUBLICATIONS
  - Hui, N. T., Lo, E. K., Moss, J. B., Gerber, G. P., Welch, M. E., Kastner, R., & Schurgers, C. (2021). A more precise way to localize animals using drones. Journal of Field Robotics, 1– 12. [https://doi.org/10.1002/rob.22017](https://doi.org/10.1002/rob.22017)
