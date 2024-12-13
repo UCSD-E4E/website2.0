@@ -88,7 +88,7 @@
 - project: Radio Telemetry Tracker
   title: User Interface Developer
   link: /radio-collar-tracker
-  description: The Radio Telemetry Tracker project requires a convenient graphical user interfaces to display location estimates of trasmitters/animals and statuses from field devices. The interface also allow users to control the field devices and view previous data. We are seeking students who are interested in designing and developing a functional and aesthetically pleasing interfaces.
+  description: The Radio Telemetry Tracker project aims to develop an intuitive graphical user interface (GUI) that displays location estimates of transmitters and animals, provides status updates from field devices, and enables users to control these devices and access previous deployments. We are seeking enthusiastic students interested in designing and developing interfaces that are both functional and visually appealing.
   required:
   - Python
   - HTML/CSS/JavaScript
@@ -101,18 +101,18 @@
 - project: Radio Telemetry Tracker
   title: Controls Engineer
   link: /radio-collar-tracker
-  description: The Radio Telemetry Tracker project seeks to provide prototypes of our system to collaborators to test in the field. We are looking for students to help develop reliable control systems for field devices. This includes picking the components, building the field devices, and developing the software to communicate with the system's peripheral devices and user interface wirelessly.
+  description: The Radio Telemetry Tracker project aims to provide system prototypes to collaborators for field testing. We are seeking students to develop reliable control systems for our field devices. This role involves selecting appropriate components, assembling the devices, and creating software that enables wireless communication between the system's peripheral devices and the user interface.
   required:
   - Basic communication interfaces (I2C, Serial, GPIO, etc.)
   - Python, C++, or Rust programming
   - Experience with microcontrollers (Arduino, Raspberry Pi, etc.)
   desired:
-  - Experience with IoT particularly long range communication
+  - Experience with IoT, particularly long-range communication
   - Experience with solar panels and battery management
 - project: Radio Telemetry Tracker
   title: Mechanical Engineer
   link: /radio-collar-tracker
-  description: To conduct a field test of our system, the Radio Telemetry Tracker team needs to create mounts and enclosures for field devices that will be deployed on drones and towers for extended periods. We are seeking students to assist in the design and construction of these mounts and enclosures.
+  description: To prepare for a field test of our system, the Radio Telemetry Tracker team needs to develop durable mounts and enclosures for field devices that will be deployed on drones and towers for extended periods. We are seeking students to help design and construct these mounts and enclosures.
   required:
   - CAD Design + Drafting
   - SolidWorks or similar CAD software
@@ -123,7 +123,7 @@
 - project: Radio Telemetry Tracker
   title: Digital Signal Processing Researcher
   link: /radio-collar-tracker
-  description: The Radio Telemetry Tracker team is looking for students to contribute to the development of our digital signal processing algorithms. This role is responsible for the fundamental research aspects of the project. We are seeking students to help design methods to process raw data from software-defined radios (SDR) and convert it into transmitter location estimates.
+  description: The Radio Telemetry Tracker team is seeking students to help research and develop digital signal processing and location estimation algorithms. This role focuses on the core research aspects of the project. We are looking for students to design methods for processing raw data from software-defined radios (SDR) and converting it into accurate transmitter location estimates.
   required:
   - Reading research papers
   - Basic DSP knowledge (signal basics, modulation/demodulation, frequency domain analysis, etc.)
@@ -131,4 +131,4 @@
   desired:
   - Writing research papers
   - Antenna design
-  - Tangable experience with SDRs (USRP, HackRF, Airspy)
+  - Tangible experience with SDRs (USRP, HackRF, Airspy)
