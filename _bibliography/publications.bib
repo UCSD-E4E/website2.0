@@ -1,3 +1,23 @@
+@InProceedings{ayers_perry_prestrelski_etal_neurips_2024,
+  title={A Deep Learning Approach to the Automated Segmentation of Bird Vocalizations from Weakly Labeled Crowd-sourced Audio},
+  author={Ayers, Jacob and Perry, Sean and Prestrelski, Samantha and Zhang, Tianqi and von Schoenfeldt, Ludwig and Blue, Mugen and Steinberg, Gabriel and Tobler, Mathias and Ingram, Ian and Schurgers, Curt and Kastner, Ryan},
+  booktitle={NeurIPS 2024 Workshop on Tackling Climate Change with Machine Learning},
+  url={https://www.climatechange.ai/papers/neurips2024/8},
+  year={2024},
+  month=dec,
+  abstract={Ecologists interested in monitoring the effects caused by climate change are increasingly turning to passive acoustic monitoring, the practice of placing autonomous audio recording units in ecosystems to monitor species richness and occupancy via species calls. However, identifying species calls in large datasets by hand is an expensive task, leading to a reliance on machine learning models. Due to a lack of annotated datasets of soundscape recordings, these models are often trained on large databases of community created focal recordings. A challenge of training on such data is that clips are given a "weak label," a single label that represents the whole clip. This includes segments that only have background noise but are labeled as calls in the training data, reducing model performance. Heuristic methods exist to convert clip-level labels to "strong" call-specific labels, where the label tightly bounds the temporal length of the call and better identifies bird vocalizations. Our work improves on the current weakly to strongly labeled method used on the training data for BirdNET, the current most popular model for audio species classification. We utilize an existing RNN-CNN hybrid, resulting in a precision improvement of 12% (going to 90% precision) against our new strongly hand-labeled dataset of Peruvian bird species.},
+}
+
+@MastersThesis{Ayers2024,
+  title={An Exploration of Automated Methods for the Efficient Acquisition of Training Data for Acoustic Species Identification},
+  author={Ayers, Jacob Glenn},
+  year={2024},
+  month=jun,
+  school={University of California San Diego},
+  abstract={Passive acoustic monitoring is a field that strives to understand the health of ecosystems around the world through the acoustics of natural soundscapes. By identifying fauna vocalizations within soundscapes, we begin to build a quantitative understanding of local biodiversity populations, a key indicator of ecosystem health. The reduced cost of audio recorders have enabled researchers to collect datasets at a scale untenable in years past. These datasets are too vast for exhaustive human identification of species vocalizations. To which, researchers hope to train deep learning models for automated acoustic species identification to mitigate the burden of human labor.},
+  url={https://escholarship.org/content/qt3xk2377r/qt3xk2377r.pdf},
+}
+
 @Article{WallaceGurungKastner_JCGI_2024,
   author    = {Wallace, Ronan and Gurung, Yungdrung Tsewang and Kastner, Ryan},
   journal   = {Journal of Critical Global Issues},
