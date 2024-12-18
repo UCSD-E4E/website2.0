@@ -13,9 +13,7 @@ tags:
 - bioacoustics
 ---
 
-Our work, "A Deep Learning Approach to the Automated Segmentation of Bird Vocalizations from Weakly Labeled Crowd-sourced Audio" was accepted at NeurIPS 2024 in the "Tackling Climate Change with Machine Learning" Workshop hosted by Climate Change AI! Congrats to the authors: Jacob Ayers, Sean Perry, Samantha Prestrelski, Tianqi Zhang, Ludwig von Schoenfeldt, Mugen Blue, Gabriel Steinberg, Mathias Tobler,Ian Ingram, Curt Schurgers and Ryan Kastner.
-
-Last week, Acoustic Species Identification Leads **Sean Perry** and **Ludwig von Schoenfeldt** attended NeurIPS 2024 and presented the work! The two traveled out of the country to Vancover, Canda to attend most of the confrence, getting to see hundreds of posters, amazing research in machine learning, and present thier own work! It was an inspiring moment getting to see where the future of the felid could be heading.
+Our work, "A Deep Learning Approach to the Automated Segmentation of Bird Vocalizations from Weakly Labeled Crowd-sourced Audio" was accepted and presented at NeurIPS 2024 in the "Tackling Climate Change with Machine Learning" Workshop hosted by Climate Change AI! Congrats to the authors: Jacob Ayers, Sean Perry, Samantha Prestrelski, Tianqi Zhang, Ludwig von Schoenfeldt, Mugen Blue, Gabriel Steinberg, Mathias Tobler,Ian Ingram, Curt Schurgers and Ryan Kastner.
 
 {% include 
     img_caption.html
@@ -24,6 +22,10 @@ Last week, Acoustic Species Identification Leads **Sean Perry** and **Ludwig von
 %}
 
 This focused on the issue of weakly labeled datasets, often associated with large bioacoustic crowdsource dataset. Traditional methods frequently use digital signal processing approches to identify the species of interest. This work takes a look at testing these methods with deep learning models. [The paper can be found here](https://www.climatechange.ai/papers/neurips2024/8)
+
+Key contributions to this work include [PyHa](https://github.com/UCSD-E4E/pyha), the python repository where the main techonologies used in the paper are stored. Credits primarly to **Jacob Ayers** for crediting the repo and vision for the project and **Samantha Prestrelski** for the work has done developing it and carrying out experiments. Shout out to [Pyrenote](https://github.com/UCSD-E4E/Pyrenote) by Sean Perry for providing the the labeling for the project. 
+
+Last week, **Sean Perry** and **Ludwig von Schoenfeldt** attended NeurIPS 2024 and presented the work! The two traveled out of the country to Vancover, Canda to attend most of the confrence, getting to see hundreds of posters, amazing research in machine learning, and present thier own work! It was an inspiring moment getting to see where the future of the felid could be heading.
 
 Acoustic Species is not done with this work. We will be continue to evalute how these methods may influnce the behavior of upstream models as we continue to work to improve bioacoustic machine learning techinques to identify species of interest. 
 
