@@ -25,7 +25,7 @@ This focused on the issue of weakly labeled datasets, often associated with larg
 
 Key contributions to this work include [PyHa](https://github.com/UCSD-E4E/pyha), the python repository where the main techonologies used in the paper are stored. Credits primarly to **Jacob Ayers** for crediting the repo and vision for the project and **Samantha Prestrelski** for the work has done developing it and carrying out experiments. Further thanks to **Gabriel Steinberg** for his techical contributions with isolation techinques and chunking methods and **Mugen Blue** for his training TweetyNet, which was the most successful method used as seen in the paper. 
 
-Shout out to [Pyrenote](https://github.com/UCSD-E4E/Pyrenote) by Sean Perry for providing the the labeling for the project. 
+Shout out to [Pyrenote](https://github.com/UCSD-E4E/Pyrenote) by **Sean Perry** for providing the the labeling for the project. 
 
 Last week, **Sean Perry** and **Ludwig von Schoenfeldt** attended NeurIPS 2024 and presented the work! The two traveled out of the country to Vancover, Canda to attend most of the confrence, getting to see hundreds of posters, amazing research in machine learning, and present thier own work! It was an inspiring moment getting to see where the future of the felid could be heading.
 
