@@ -13,7 +13,7 @@ tags:
 - bioacoustics
 ---
 
-Our work, "A Deep Learning Approach to the Automated Segmentation of Bird Vocalizations from Weakly Labeled Crowd-sourced Audio" was accepted at NeurIPS 2024 in the "Tackling Climate Change with Machine Learning" Workshop hosted by Climate Change AI! Congrats to the authors, Jacob Ayers, Sean Perry, Samantha Prestrelski, Tianqi Zhang, Ludwig von Schoenfeldt, Mugen Blue, Gabriel Steinberg, Mathias Tobler,Ian Ingram, Curt Schurgers and Ryan Kastner.
+Our work, "A Deep Learning Approach to the Automated Segmentation of Bird Vocalizations from Weakly Labeled Crowd-sourced Audio" was accepted at NeurIPS 2024 in the "Tackling Climate Change with Machine Learning" Workshop hosted by Climate Change AI! Congrats to the authors: Jacob Ayers, Sean Perry, Samantha Prestrelski, Tianqi Zhang, Ludwig von Schoenfeldt, Mugen Blue, Gabriel Steinberg, Mathias Tobler,Ian Ingram, Curt Schurgers and Ryan Kastner.
 
 Last week, Acoustic Species Identification Leads **Sean Perry** and **Ludwig von Schoenfeldt** attended NeurIPS 2024 and presented the work! The two traveled out of the country to Vancover, Canda to attend most of the confrence, getting to see hundreds of posters, amazing research in machine learning, and present thier own work! It was an inspiring moment getting to see where the future of the felid could be heading.
 
