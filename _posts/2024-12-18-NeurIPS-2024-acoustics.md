@@ -21,9 +21,11 @@ Our work, "A Deep Learning Approach to the Automated Segmentation of Bird Vocali
     caption="View of Canda Place, an iconic landmark of Vancover. View taken from the east side of the Vancover Convention Center. The confrence actually took place in both buildings with an underground tunnel connecting the two, as seen on the bottom right of the image. Taken by Sean Perry"
 %}
 
-This focused on the issue of weakly labeled datasets, often associated with large bioacoustic crowdsource dataset. Traditional methods frequently use digital signal processing approches to identify the species of interest. This work takes a look at testing these methods with deep learning models. [The paper can be found here](https://www.climatechange.ai/papers/neurips2024/8)
+This focused on the issue of weakly labeled datasets, often associated with large bioacoustic crowdsource dataset. Traditional methods frequently use digital signal processing approches to identify the species of interest. This work takes a look at testing these methods with deep learning models. [The paper can be found here](https://www.climatechange.ai/papers/neurips2024/8). Credits to **Mathias Tobler** for frist conceptualizing the idea. 
 
-Key contributions to this work include [PyHa](https://github.com/UCSD-E4E/pyha), the python repository where the main techonologies used in the paper are stored. Credits primarly to **Jacob Ayers** for crediting the repo and vision for the project and **Samantha Prestrelski** for the work has done developing it and carrying out experiments. Shout out to [Pyrenote](https://github.com/UCSD-E4E/Pyrenote) by Sean Perry for providing the the labeling for the project. 
+Key contributions to this work include [PyHa](https://github.com/UCSD-E4E/pyha), the python repository where the main techonologies used in the paper are stored. Credits primarly to **Jacob Ayers** for crediting the repo and vision for the project and **Samantha Prestrelski** for the work has done developing it and carrying out experiments. Further thanks to **Gabriel Steinberg** for his techical contributions with isolation techinques and chunking methods and **Mugen Blue** for his training TweetyNet, which was the most successful method used as seen in the paper. 
+
+Shout out to [Pyrenote](https://github.com/UCSD-E4E/Pyrenote) by Sean Perry for providing the the labeling for the project. 
 
 Last week, **Sean Perry** and **Ludwig von Schoenfeldt** attended NeurIPS 2024 and presented the work! The two traveled out of the country to Vancover, Canda to attend most of the confrence, getting to see hundreds of posters, amazing research in machine learning, and present thier own work! It was an inspiring moment getting to see where the future of the felid could be heading.
 
