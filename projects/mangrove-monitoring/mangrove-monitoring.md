@@ -14,7 +14,7 @@ Mangroves are a very valuable and understudied plant species.  They provide $100
 We are collaborating with the Aburto Lab and the Gulf of California Marine Program at the Scripps Institution of Oceanography to use drone and satellite imagery to quantify mangrove species and extent in Baja California. 
 
 ## Machine Learning
-We build machine learning models to extract metrics from drone and satellite imagery. Most of the team's previous work has been on classifying the presence of mangroves in a drone image. As of 2025, our main focus is making satellite super-resolution models to get higher quality predictions from satellite images.
+We build machine learning models to extract metrics from drone and satellite imagery. Most of the team's previous work has been on classifying the presence of mangroves in a drone image. As of 2025, our main focus is making satellite super-resolution models to get higher quality predictions from satellite images. We are planning to try various model architectures, including diffusion, SRCNN, and GAN.
 
 # Summer 2020
 
