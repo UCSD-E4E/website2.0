@@ -1,7 +1,7 @@
 ---
 date: 2025-01-08 00:00:00-08:00
 description: null
-featuredImage: assets/recruiting/wi25_recruiting.png
+featuredImage: assets/recruiting/2025-01-08-info-session.png
 author: Nathan
 layout: blog-post
 slug: /winter-2025-info-session
