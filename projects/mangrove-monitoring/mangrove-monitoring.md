@@ -50,8 +50,7 @@ During the summer of 2017, Eric Lo, Brynn Hall, and Nikko (Nicholas) Bouck trave
 
 ![]({{"assets/mangrove/2018-06-05_species_classification.jpg" | absolute_url}})
 
-
-If you are interested in becoming involved in this project contact us @ [e4e@ucsd.edu](mailto:e4e@ucsd.edu).
+If you are interested in becoming involved in this project apply @ [https://e4e.ucsd.edu/join](https://e4e.ucsd.edu/join).
 
 SIO collaborators:
 Octavio Aburto, Astrid Hsu, Mathew Costa, Joy Kumagai, Alex Makic
