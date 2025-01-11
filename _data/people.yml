@@ -970,12 +970,13 @@
   start: 2020
   end: 2020
 
-- description: Baboons on the Move since 2018, FishSense since 2022
+- description: Baboons on the Move since 2018, FishSense since 2022, Aqua3D since 2024
   expedition: true
   image: assets/people/c.crutchfield.jpg
   level: Project Lead
   name: Christopher Crutchfield
   start: 2018
+  link: https://ccrutchf.github.io/
 - description: Baboons on the Move 2018-2023
   expedition: false
   image: assets/people/a.ngo.jpg

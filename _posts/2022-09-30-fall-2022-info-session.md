@@ -1,7 +1,7 @@
 ---
 date: 2022-09-30 02:23:07+00:00
 description: null
-featuredImage: assets/2022-09-30-info-session.png
+featuredImage: assets/recruiting/2022-09-30-info-session.png
 author: Nathan
 layout: blog-post
 slug: /fall-2022-info-session

@@ -86,37 +86,49 @@
   - Have worked with NoSQL databases (MongoDB)
   - Experience with any testing frameworks
 - project: Radio Telemetry Tracker
+  title: User Interface Developer
+  link: /radio-collar-tracker
+  description: The Radio Telemetry Tracker project aims to develop an intuitive graphical user interface (GUI) that displays location estimates of transmitters and animals, provides status updates from field devices, and enables users to control these devices and access previous deployments. We are seeking enthusiastic students interested in designing and developing interfaces that are both functional and visually appealing.
+  required:
+  - Python
+  - HTML/CSS/JavaScript
+  - Git/GitHub
+  desired:
+  - Experience with Flask
+  - UI/UX design experience
+  - Experience with React
+  - Experience with GIS-based mapping libraries/tools (Leaflet, Folium, QGIS, etc.)
+- project: Radio Telemetry Tracker
+  title: Embedded Systems Engineer
+  link: /radio-collar-tracker
+  description: The Radio Telemetry Tracker project aims to provide system prototypes to collaborators for field testing. We are seeking students to develop reliable control systems for our field devices. This role involves selecting appropriate components, assembling the devices, and creating software that enables wireless communication between the system's peripheral devices and the user interface.
+  required:
+  - Basic communication interfaces (I2C, Serial, GPIO, etc.)
+  - Python, C++, or Rust programming
+  - Experience with microcontrollers/microprocessors (Arduino, Raspberry Pi, etc.)
+  desired:
+  - Experience with IoT, particularly long-range communication
+  - Experience with solar panels and battery management
+- project: Radio Telemetry Tracker
   title: Mechanical Engineer
   link: /radio-collar-tracker
-  description: The Radio Telemetry Tracking project seeks to aid scientists in the monitoring and conservation of wildlife by offering an efficient and reliable method of tracking animals. We are currently working on creating a long-term monitoring system that requires hardware mounts to be designed and built, and are seeking students with background in mechanical engineering to help us. We would be looking for students to commit at least 4 hours a week.
+  description: To prepare for a field test of our system, the Radio Telemetry Tracker team needs to develop durable mounts and enclosures for field devices that will be deployed on drones and towers for extended periods. We are seeking students to help design and construct these mounts and enclosures.
   required:
-  - SolidWorks CAD + Drawings
-  - 3D Printing and/or Laser Cutting
-  - Familiarity with using hand tools (screwdriveres, wrenches, etc)
+  - CAD Design + Drafting
+  - SolidWorks or similar CAD software
+  - 3D Printing 
+  desired:
+  - Designing with IP and IP protection in mind
+  - Experience with hand tools
 - project: Radio Telemetry Tracker
-  title: Electrical Engineer
+  title: Digital Signal Processing Researcher
   link: /radio-collar-tracker
-  description: The Radio Telemetry Tracking project seeks to aid scientists in the monitoring and conservation of wildlife by offering an efficient and reliable method of tracking animals. We are looking for students to help maintain, develop, and test next generation monitoring systems ranging from drone payload trackers to mobile tracking stations. We would be looking for students to commit at least 4 hours a week.
+  description: The Radio Telemetry Tracker team is seeking students to help research and develop digital signal processing and location estimation algorithms. This role focuses on the core research aspects of the project. We are looking for students to design methods for processing raw data from software-defined radios (SDR) and converting it into accurate transmitter location estimates.
   required:
-  - Circuit design
-  - Experience in electrical debugging
-  - Technical documentation
+  - Reading research papers
+  - Basic DSP knowledge (signal basics, modulation/demodulation, frequency domain analysis, etc.)
+  - MATLAB, Python, C++, or Rust programming
   desired:
-  - Experience soldering
-- project: Radio Telemetry Tracker
-  title: Student Co-Lead
-  link: /radio-collar-tracker
-  description: |
-    Engineers for Exploration (E4E) is looking for motivated students to take on a leadership role for our Radio Telemetry Tracker (RTT) team. This role could tie into an undergraduate or master's thesis project, and we encourage students to explore this option. RTT is a multidisciplinary systems project in collaboration with the San Diego Zoo Wildlife Alliance which aims to improve methods of tracking animals using radio telemetry. This type of animal tracking picks up signals from radio transmitters which have been attached to or embedded in subject animals. Traditional on-foot methods of radio telemetry require researchers to trek through difficult terrain with unwieldy antennae, so we're developing two systems to make the process easier: a drone-based system to fly over the terrain, and a tower-based system to be set up and left to collect data with little supervision.
-
-    We have deployed our system to the field previously, and the project's current goals include designing a new PCB for our payload, redesigning our payload's physical housing, and developing software to communicate with the system's peripheral devices, all to prepare for upcoming deployments. Examples of skills which would be helpful for this role include systems engineering, PCB design, electrical debugging, embedded programming, and digital signal processing.
-
-    We assemble our system with custom sensors to gather the data we need and record it for later analysis. Due to such customization and the multidisciplinary nature of RTT, this project has many moving parts, and the ideal candidate would have some experience navigating such problems of complexity. This role includes the expectation and opportunity to deploy the system you develop into the field in order to track animals and report on results.
-  desired:
-  - Leadership/Project Management
-  - PCB Design/Layout/Assembly/Testing
-  - Mechanical Design/Fabrication/Assembly/Testing
-  - Digital Interfacing (I2C/Serial)
-  - Embedded Linux (I2C/Serial/GPIO/sysfs/networking)
-  - Python (pybind11/threading)
-  - Digital Signal Processing (STFT/spectral analysis/mixing)
+  - Writing research papers
+  - Antenna design
+  - Tangible experience with SDRs (USRP, HackRF, Airspy)
