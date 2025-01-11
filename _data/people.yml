@@ -767,7 +767,7 @@
 - description: Acoustic Species ID since 2020, 2020 Summer REU, 2021 Summer REU
   expedition: true
   image: assets/people/j.ayers.jpg
-  level: Project Member
+  level: Project Member - Alumni
   name: Jacob Ayers
   start: 2020
 - description: Acoustic Species ID since 2020, 2021 Summer REU, 2022 Summer REU
@@ -1248,7 +1248,7 @@
 - description: Acoustic Species ID since 2021, 2022 Summer REU
   expedition: false
   image: assets/people/s.prestrelski.jpg
-  level: Project Lead
+  level: Project Lead - Alumni
   name: Samantha Prestrelski
   start: 2021
 - description: Smartfin, 2022 Summer REU
@@ -1320,12 +1320,12 @@
   image: assets/people/l.li.jpg
 - name: Kyle Hu
   description: FishSense since 2021
-  level: Project Lead
+  level: Project Lead - Alumni
   start: 2021
   image: assets/people/k.shu.jpg
 - name: Harish Vasanth
   description: FishSense since 2022
-  level: Project Member
+  level: Project Lead
   start: 2022
   image: assets/people/h.vasanth.png
 - name: Allen Kan
@@ -1429,7 +1429,7 @@
   image: assets/people/v.vaidyanathan.jpg
 - name: Kyle Tran
   description: FishSense since 2023
-  level: Project Member
+  level: Project Lead
   start: 2023
   image: assets/people/k.tran.jpg
 - name: Tyler Flar
@@ -1645,3 +1645,18 @@
   level: Project Lead
   image: assets/people/l.vonschoenfeldt.jpeg
   start: 2023
+- name: Ben McCalmon
+  description: FishSense Core since 2024
+  level: Project Lead
+  image: assets/people/b.mccalmon.jpg
+  start: 2024
+- name: Tongfei Yang
+  description: FishSense Core since 2024
+  level: Project Lead
+  image: assets/people/t.yang.jpg
+  start: 2024
+- name: Gage Wyre
+  description: Mangrove Monitoring since 2024
+  level: Project Lead
+  image: assets/people/g.wrye.jpg
+  start: 2024
