@@ -1,7 +1,7 @@
 ---
 date: 2022-03-31 00:23:30+00:00
 description: null
-featuredImage: assets/2022-03-31-info-session.png
+featuredImage: assets/recruiting/2022-03-31-info-session.png
 author: Christopher Crutchfield
 layout: blog-post
 slug: /spring-2022-info-session

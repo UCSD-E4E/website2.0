@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /fishsense
-title: Fishsense
+title: FishSense
 category: fishsense
 enable_nav: false
 ---
@@ -10,7 +10,7 @@ Monitoring fish species to keep track of their population growth and general hea
 {% include 
     img_caption.html
     src="assets/fishsense/fishsense-lite-system.png"
-    caption="Image of Fishsense Lite module."
+    caption="Image of FishSense Lite module."
 %}
 
 Currently, such fish length data is gathered by employing human divers to manually survey and area and visually estimate and record the lengths of individual fish. This method is prone to inaccuracy, while also requiring each diver to be trained to visually estimate fish length. We intend to ease this data collection process by developing a prototype device that will perform length estimation automatically. 
@@ -18,7 +18,7 @@ Currently, such fish length data is gathered by employing human divers to manual
 {% include 
     img_caption.html
     src="assets/fishsense/2023-07-17_nathan_fishsense_lite.jpg"
-    caption="Diver using Fishsense Lite camera for data collection."
+    caption="Diver using FishSense Lite camera for data collection."
 %}
 
 The current prototype uses a standard dive camera with a rigidly attached waterproof laser pointer. The laser allows us to extrapolate an estimate of the fish’s distance away from the camera, from which fish length can be calculated.
