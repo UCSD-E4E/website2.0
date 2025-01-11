@@ -82,7 +82,7 @@ layout: default
       <nav class="home_post_nav">
         {% assign year = site.posts[0].date | date: '%Y' %}
         <a class="post-link" href="{{ "/archive/" | append: year | relative_url }}">
-            <h6>To Archive</h6>
+            <h2>To Archive</h6>
         </a>
       </nav>
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>

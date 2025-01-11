@@ -5,7 +5,7 @@ layout: page
 <p>* Denotes people that have participated in one of our <a href="{{ '/expeditions' | absolute_url }}">expeditions/deployments</a>.</p>
 {% assign people = site.data.people %}
 
-<h2>Former E4E Directors</h2>
+<h1>Former E4E Directors</h1>
 <div class="people_level_block">
     {% for person in people %}
         {% if person.level == 'Former E4E Director' %}
@@ -15,7 +15,7 @@ layout: page
     {% endfor %}
 </div>
 
-<h2>Former Staff Engineers</h2>
+<h1>Former Staff Engineers</h1>
 <div class="people_level_block">
     {% for person in people %}
         {% if person.level == 'Former Staff Engineer' %}
@@ -25,7 +25,7 @@ layout: page
     {% endfor %}
 </div>
 
-<h2>Project Leads - Alumni</h2>
+<h1>Project Leads - Alumni</h1>
 <div class="people_level_block">
     {% for person in people %}
         {% if person.level == 'Project Lead - Alumni' %}
@@ -35,7 +35,7 @@ layout: page
     {% endfor %}
 </div>
 
-<h2>Project Members - Alumni</h2>
+<h1>Project Members - Alumni</h1>
 <div class="people_level_block">
     {% for person in people %}
         {% if person.level == 'Project Member - Alumni' %}

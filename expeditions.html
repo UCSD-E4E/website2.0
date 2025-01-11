@@ -4,7 +4,7 @@ layout: page
 ---
 {% assign expeditions = site.data.expeditions | sort: "date" | reverse %}
 {% for trip in expeditions %}
-<h2>{% if trip.link %}<a href="{{trip.link | absolute_url}}">{% endif %}{{trip.project}} - {{trip.month}} {{trip.year}}{% if trip.link %}</a>{% endif %}</h2>
+<h1>{% if trip.link %}<a href="{{trip.link | absolute_url}}">{% endif %}{{trip.project}} - {{trip.month}} {{trip.year}}{% if trip.link %}</a>{% endif %}</h2>
 <p>
     <strong>Location:</strong>  {{trip.location}}
 </p>

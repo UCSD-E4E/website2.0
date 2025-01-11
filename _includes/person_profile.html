@@ -2,11 +2,11 @@
     <img
         title="{{ include.person.name }}"
         src="{% if include.person.image %}{{ include.person.image | resize: '200x200^,webp,80' | absolute_url }}{% else %}{{ 'assets/people/blank-profile-drawing.png' | absolute_url }}{% endif %}">
-    <h3>
+    <h2>
         {% if include.person.link %}<a href="{{ person.link }}">{% endif %}
             {{ include.person.name }}{% if include.person.expedition %}*{% endif %}
         {% if include.person.link %}</a>{% endif %}
-    </h3>
+    </h2>
     <p>
         {{ include.person.description }}
     </p>
