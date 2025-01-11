@@ -3,7 +3,7 @@
     "gulp": "^5.0.0"
   },
   "dependencies": {
-    "cross-spawn": "^7.0.5",
+    "cross-spawn": "^7.0.6",
     "foundation-sites": "^6.9.0"
   }
 }
