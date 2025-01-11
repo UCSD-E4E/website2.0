@@ -14,7 +14,7 @@ The Acoustic Species Identification project is a collaboration between Engineers
 
 ![]({{"assets/acoustic_species_id/white_winged_becard_vocalization.png" | absolute_url}})
 
-Project Lead: Sean Perry (<a href="mailto:shperry@ucsd.edu">shperry@ucsd.edu</a>), Samantha Prestrelski(<a href="mailto:sprestrelski@ucsd.edu">sprestrelski@ucsd.edu</a>)
+Project Lead: Sean Perry (<a href="mailto:shperry@ucsd.edu">shperry@ucsd.edu</a>), Tianqi Zhang(<a href="mailto:tiz019@ucsd.edu">tiz019@ucsd.edu</a>), Ludwig von Schoenfeldt (<a href="mailto:lvonschoenfeldt@ucsd.edu">lvonschoenfeldt@ucsd.edu</a>)
 
 Slack channel: acoustic-species-id
 
