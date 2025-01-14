@@ -46,8 +46,13 @@ The Smartfin calculates wave height through a Kalman Filter and spectral analysi
 
 There are a number of challenges to overcome before all of the wave statistics can be measured, as real ocean waves provide the sensors with very noisy data that can be difficult to interpret. In addition to this, the control buoy is far enough off-shore that there can be a discrepancy between its measured values and the Smartfins, making it difficult to determine if the Smartfin’s calculated values align with the buoy’s. An ongoing project to solve this issue is creating a filter that can remove data that is too far away from the expected results. These data points come up sometimes due to overly noisy data, or when there is too big of a discrepancy between the control values and the actual wave statistics for that day. Another possible way of solving this would be to build a program that can compare the results of individual Smartfin users within the same area against one another, therefore eliminating the need for an off-shore control buoy.
 
-Prospective Students
-This project is always looking for new team members who have experience with Python, Github, data analysis, or other related skills. Specific positions can be found here: [Open Positions](open-opportunities).
+# Prospective Students
+Currently, this project is focused on developing the next generation hardware, firmware, and supporting infrastructure.  In particular, we are looking for students with any of the following skills:
+- Embedded C/C++ (particularly with Particle or STM32)
+- PCB Design (particularly with Altium)
+- Mechanical Design/Fabrication (particularly with SolidWorks and composites)
+
+Specific positions can be found here: [Open Positions]({{ "open-opportunities" | absolute_url }}).
 
 More Info:
 <!-- [https://smartfin.org/](https://smartfin.org/) -->
