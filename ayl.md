@@ -34,6 +34,9 @@ If you are interested in the project, please check out some of the onboarding pa
 - Gage Wyre, [gwrye100@gmail.com](mailto:gwrye100@gmail.com)
 - Zach Lawrence, [zclawrence@ucsd.edu](mailto:zclawrence@ucsd.edu) 
 
+##  [Maya Archeology]({{ "maya-archaeology" | relative_url }}) 
+- Aviral Agarwal, [aviral@ucsd.edu](mailto:aviral@ucsd.edu)
+
 ## Co-Directors
 - Curt Schurgers, [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu) 
 - Ryan Kastner, [rkastner@ucsd.edu](mailto:rkastner@ucsd.edu) 
