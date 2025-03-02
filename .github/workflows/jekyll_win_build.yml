@@ -24,7 +24,11 @@ jobs:
       - name: Setup build dependencies
         run: |
           npm ci
-      - name: BUild with Jekyll
+      - name: make caches
+        run: |
+          mkdir cache
+          mkdir cache/resize
+      - name: Build with Jekyll
         id: build
         run: npx gulp build
         env: 
