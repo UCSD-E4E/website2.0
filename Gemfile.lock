@@ -141,7 +141,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-redirect-from
   jekyll-resize!
-  jekyll-scholar
+  jekyll-scholar (~> 7.1.3)
   jekyll-seo-tag (~> 2.6)
   tzinfo (>= 1, < 3)
   tzinfo-data

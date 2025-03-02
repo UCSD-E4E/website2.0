@@ -16,7 +16,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-seo-tag", "~> 2.6"
   gem 'jekyll-redirect-from'
-  gem 'jekyll-scholar'
+  gem 'jekyll-scholar', "~> 7.1.3"
   gem 'jekyll-archives'
   gem "jekyll-resize", git: "https://github.com/UCSD-E4E/jekyll-resize"
 end

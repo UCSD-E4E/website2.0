@@ -1,0 +1,31 @@
+name: Windows Jekyll Build
+
+on:
+  push:
+    paths: 
+      - Gemfile
+      - Gemfile.lock
+  workflow_dispatch: 
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup node
+        uses: actions/setup-node@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1 # v1.161.0
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          cache-version: 1
+      - name: Setup build dependencies
+        run: |
+          npm ci
+      - name: BUild with Jekyll
+        id: build
+        run: npx gulp build
+        env: 
+          JEKYLL_ENV: production
