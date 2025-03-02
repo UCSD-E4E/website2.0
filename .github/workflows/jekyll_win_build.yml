@@ -5,6 +5,7 @@ on:
     paths: 
       - Gemfile
       - Gemfile.lock
+      - .github/workflows/jekyll_win_build.yml
   workflow_dispatch: 
 
 jobs:
