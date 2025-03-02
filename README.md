@@ -1,6 +1,8 @@
 # Website 2.0
 ## Developer Get Started
 1. Follow the instructions at https://jekyllrb.com/docs/installation/ to install the Jekyll generator on your machine.
+  1. Use Ruby 3.4
+  2. `gem install bundler`
 2. Follow the instructions at http://www.graphicsmagick.org/README.html#installation to install GraphicsMagick on your machine.
 3. Follow the instructions at https://docs.npmjs.com/downloading-and-installing-node-js-and-npm to install Node.js and npm on your machine
 4. Run `npm ci` in this repository root
