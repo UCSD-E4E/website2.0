@@ -4,13 +4,13 @@ description: null
 featuredImage: assets/acoustic_species_id/2025-02-kendall-frosh-high-tide.jpg
 author: Sean Perry, Weshley Wu
 layout: blog-post
-slug: /winter-2025-info-session
-title: Kendall-Forst Marsh Acoustic Deployment!
+slug: /kendall-frost-deployment-march-2025
+title: Kendall-Frost Marsh Acoustic Deployment!
 categories:
 - news-and-updates
 ---
 
-South of UCSD lies Mission Bay, a popular tourist spot that was once a biodiverse-rich marshland that was destroied though a combination of dredging and the redirection of the San Diego River. However, recent efforts have begun to presreve and restore some of the original habitat, particularlly in the Kendall-Forst Marsh, one of serval biodiversity reverseed managed by the UC Natural Reserve System. This 40-achre Marsh land lies in the northern section of Mission Bay and is a popular spot for migrating birds and two endangered species: "Ridgway’s rail and Belding’s savannah sparrow". CITATIONS (https://ucnrs.org/reserves/kendall-frost-mission-bay-marsh-reserve/, https://nrs.ucsd.edu/reserves/kendall.html#History,-Hydrology,-and-Hydromo). 
+South of UCSD lies Mission Bay, a popular tourist spot that was once a biodiverse-rich marshland that was destroied though a combination of dredging and the redirection of the San Diego River. However, recent efforts have begun to presreve and restore some of the original habitat, particularlly in the Kendall-Forst Marsh, one of serval biodiversity reverseed managed by the UC Natural Reserve System. This 40-achre Marsh land lies in the northern section of Mission Bay and is a popular spot for migrating birds and two endangered species: "Ridgway’s rail and Belding’s savannah sparrow" [[1](https://ucnrs.org/reserves/kendall-frost-mission-bay-marsh-reserve/),[2](https://nrs.ucsd.edu/reserves/kendall.html#History,-Hydrology,-and-Hydromo)]. 
 
 Towards aiding in the preservation of this wetland and protecting our avian friends, the Acoustic Species Identification Team at Engineers for Exploration have started conducting Acoustic deployments to the wetland. Efforts led by 1st year master student Wesley Wu and 1st year PhD and Project Lead Sean Perry has resulted into two audio recording devices monitoring continuously for 3 weeks nearby Ridgeway Rail nesting sites and closer to the coastline. The goal: The ability to later create new systems for monitoring bird activity around the marsh and the impact of antroprogentic noise on these wonderful local species that call the marsh thier home.
 
@@ -44,7 +44,7 @@ Upon collecting GPS coordinates of various views of the area, we decided this wa
 
 Two key aspects were needed to get ready to go: Getting approval for the deployment, and getting the equipment set up. Wesley handled the documentation work and networking with the Nature Resereve System to apporove the deployment (which was quite a bit of work!). Sean primarly worked on aquiring recording equipment and setup. 
 
-The devices of interest were the Hydromoth and Audiomoth. Both devices were created by Open Acoustic Devices (CITATION), with the biggest diffrence between the two being the Hydromoth was rated for underwater usecases. The Audiomoth, being less waterproof, would be placed further away from the waterline than the Hydromoth in the upcoming deployment. 
+The devices of interest were the Hydromoth and Audiomoth. Both devices were created by Open Acoustic Devices, with the biggest diffrence between the two being the Hydromoth was rated for underwater usecases [3](https://www.openacousticdevices.info/audiomoth). The Audiomoth, being less waterproof, would be placed further away from the waterline than the Hydromoth in the upcoming deployment. 
 
 {% include 
     img_caption.html
@@ -88,3 +88,7 @@ These devices will recording with a sample rate of 48khz and will record contino
     src="assets/acoustic_species_id/2025-03-Sean-Wesley.jpg"
     caption="Sean (left) and Wesley (right), celebrating thier work with one last photo of the marsh. Taken by Sean Perry"
 %}
+
+
+{% capture bib_file %}posts/2025-3-17-kendall-frost.bib{% endcapture %}
+{% bibliography --file {{bib_file}} %}
