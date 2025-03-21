@@ -1,5 +1,5 @@
 ---
-date: 2025-01-08 00:00:00-08:00
+date: 2025-03-17 00:00:00-08:00
 description: null
 featuredImage: assets/acoustic_species_id/2025-02-kendall-frosh-high-tide.jpg
 author: Sean Perry, Wesley Wu
@@ -10,7 +10,7 @@ categories:
 - news-and-updates
 ---
 
-South of UCSD lies Mission Bay, a popular tourist spot once a biodiverse-rich marshland destroyed through a combination of dredging and the redirection of the San Diego River. However, recent efforts have begun to preserve and restore some of the original habitats, particularly in the Kendall-Frost Marsh, one of several biodiversity reserves managed by the UC Natural Reserve System. This 40-acre marshland lies in the northern section of Mission Bay and is a popular spot for migrating birds and two endangered species: "Ridgway’s rail and Belding’s savannah sparrow" [[1](https://ucnrs.org/reserves/kendall-frost-mission-bay-marsh-reserve/),[2](https://nrs.ucsd.edu/reserves/kendall.html)]. 
+South of UCSD lies Mission Bay, a popular tourist spot once a biodiverse-rich marshland destroyed through a combination of dredging and the redirection of the San Diego River. However, recent efforts have begun to preserve and restore some of the original habitats, particularly in the Kendall-Frost Marsh, one of several biodiversity reserves managed by the UC Natural Reserve System. This 40-acre marshland lies in the northern section of Mission Bay and is a popular spot for migrating birds and two endangered species: "Ridgway’s rail and Belding’s savannah sparrow" [[1](https://ucnrs.org/reserves/kendall-frost-mission-bay-marsh-reserve/),[2](https://nrs.ucsd.edu/reserves/kendall-frost/index.html)]. 
 
 Towards aiding in the preservation of this wetland and protecting our avian friends, the Acoustic Species Identification Team at Engineers for Exploration has started conducting Acoustic deployments to the wetland. Efforts led by 1st-year master's student Wesley Wu and 1st year PhD and Project Lead Sean Perry have resulted in two audio recording devices monitoring continuously for 3 weeks near Ridgway’s rail nesting sites and closer to the coastline. The goal: The ability to later create new systems for monitoring bird activity around the marsh and the impact of anthropogenic noise on these incredible local species that call the marsh their home.
 
