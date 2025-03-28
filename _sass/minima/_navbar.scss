@@ -1,12 +1,13 @@
 @charset "utf-8";
 @use "sass:math";
+@use "variables";
 
 $mobile-nav-pad: 8px 5px;
 
 .site-nav-button {
     display: none;
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{variables.$content-width} - (#{variables.$spacing-unit} * 2));
+    max-width:         calc(#{variables.$content-width} - (#{variables.$spacing-unit} * 2));
 
     .nav-trigger {
         display: none //set block for debugging
@@ -18,7 +19,7 @@ $mobile-nav-pad: 8px 5px;
 }
 
 // For extra Mobile Support
-@include media-query($on-palm) {
+@include variables.media-query(variables.$on-palm) {
   .menu {
     flex-direction: column;
   }
@@ -83,7 +84,7 @@ $mobile-nav-pad: 8px 5px;
         line-height: 0;
         padding-top: 10px;
         text-align: center;
-        fill: $grey-color-dark;
+        fill: variables.$grey-color-dark;
       }
 
     input~label[for="nav-trigger"]>.menu-icon {
