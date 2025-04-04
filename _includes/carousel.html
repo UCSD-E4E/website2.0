@@ -15,9 +15,11 @@
             {% capture resize_cmd %}1140x500!,jpg,{% if item['crop'] %},{{ item['crop'] }}{% endif %}{% endcapture %}
             <li 
               class="carousel__slide" 
-              style="background-image: url('{{ item['url'] | resize: resize_cmd }}');"
-              on_slide=""
-            ></li>
+            >
+              <img 
+                style=""
+                src="{{ item['url'] | resize: resize_cmd }}" alt="">
+            </li>
             <div class="carousel_titles">
               <p class="carousel_title"> {{item['title']}} </p>
             </div>
@@ -99,6 +101,7 @@
   left: 0;
   right: 0;
   opacity: 1;
+  z-index: 10;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
@@ -107,6 +110,7 @@
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
+  z-index: 10;
 }
 
 
@@ -124,14 +128,18 @@
 .carousel__track .carousel__slide:nth-of-type({{ forloop.index }}) {
   opacity: 0;
   transition: opacity 2s ease 0s;
+  z-index: 0;
 }
 {% endfor %}
 
 {% for item in carousels.images %}
-.carousel__slide:nth-of-type({{ forloop.index }}),
+.carousel__slide:nth-of-type({{ forloop.index }})>img,
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
-  background-size: cover;
-  background-position: center;
+  margin-left: 0; 
+  margin-right: 0; 
+  object-fit: cover; 
+  width: 100%; 
+  height: 100%;
 }
 {% endfor %}
 </style>
