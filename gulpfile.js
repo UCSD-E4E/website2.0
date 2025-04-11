@@ -103,13 +103,13 @@ async function handle_cache_updates(cb) {
 
     // Make sure resize exists if it doesn't already
     if(!fs.existsSync(dir)) {
-        fs.mkdirSync(dir)
+        fs.mkdirSync(dir, { recursive: true })
     }
     
     // Move all files in resize (the stuff we ideally want to keep)
     // into resize_temp to actually check during jekyll build if files should be kept
     fs.renameSync(dir, temp_dir);
-    fs.mkdirSync(dir)
+    fs.mkdirSync(dir, { recursive: true })
     return cb
 }
 
