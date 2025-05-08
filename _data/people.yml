@@ -770,7 +770,7 @@
   level: Project Lead - Alumni
   name: Jacob Ayers
   start: 2020
-- description: Acoustic Species ID since 2020, 2021 REU, 2022 REU, 2023 REU, Mentor for 2024 REU PhD Student
+- description: Acoustic Species ID since 2020, 2021 REU, 2022 REU, 2023 REU, Mentor for 2024 REU, PhD Student
   expedition: true
   image: assets/people/s.perry.jpg
   level: Project Lead
@@ -1683,60 +1683,66 @@
   start: 2024
 - name: Iha Gadiya
   description: Smartfin since 2024
-  lebel: Project Member
+  level: Project Member
   image: assets/people/i.gadiya.jpg
   start: 2024
 - name:  Zhuo Chen
   description: Scientific Machine Learning, Summer 2024 REU
-  lebel: Project Member- Alumni
+  level: Project Member- Alumni
   image: assets/people/z.chen.jpg
   start: 2024
   end: 2024
 - name:  Aaryan Panthi
   description: Mangrove Monitoring, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/a.panthi.jpg
   start: 2024
   end: 2024
 - name:  Antara Chugh
   description: Smartfin, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/a.chugh.png
   start: 2024
   end: 2024
 - name:  Surangana Aryal
   description: Acoustics Species Identification, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/s.aryal.jpg
   start: 2024
   end: 2024
 - name:  Kaiying Han
   description: FishSense, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/k.han.png
   start: 2024
   end: 2024
 - name:  Jonathan He
   description: Acoustic Species Monitoring, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/j.he.jpeg
   start: 2024
   end: 2024
 - name:  Hannah Cutler
   description: Smartfin, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/h.culter.jpeg
   start: 2024
   end: 2024
 - name:  Meena Annamalai
   description: Smartfin, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/m.annamalai.jpg
   start: 2024
   end: 2024
 - name:  Rahual Rai
   description: Mangrove Monitoring, Summer 2024 REU
-  lebel: Project Member - Alumni
+  level: Project Member - Alumni
   image: assets/people/r.rai.jpg
   start: 2024
   end: 2024
+- name:  Siya Kamboj
+  description: Acoustic Species since Spring 2024, Summer 2025 REU
+  level: Project Lead
+  image: assets/people/s.kamboj.jpg
+  start: 2024
+
