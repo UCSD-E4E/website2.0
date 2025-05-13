@@ -1276,12 +1276,12 @@
   end: 2023
 - name: Mohit Sridhar
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/m.sridhar.jpg
 - name: Jose Salazar
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/j.salazar.jpg
 - name: Joe Yan
@@ -1291,12 +1291,12 @@
   end: 2023
 - name: Zoe Ludena
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/z.ludena.jpg
 - name: Jeannie Kim
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member - Alumni
   start: 2022
 - name: Shaurya Raswan
   description: Baboons on the Move since 2022, FishSense since 2022
@@ -1496,7 +1496,7 @@
 - name: Dylan Stockard
   description: Baboons on the Move, Acoustic Species ID since 2023
   start: 2023
-  level: Project Candidate
+  level: Project Member - Alumni
 - name: Daniel George
   description: Baboons on the Move since 2023
   start: 2023
@@ -1824,6 +1824,11 @@
   description: Smartfin since 2024
   level: Project Member
   image: assets/people/s.phung.jpg
+  start: 2024
+- name: Andrew Zhou 
+  description: Mangrove Monitoring since 2024
+  level: Project Member
+  image: assets/people/a.zhou.jpg
   start: 2024
 
 
