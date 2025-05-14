@@ -1830,6 +1830,37 @@
   level: Project Member
   image: assets/people/a.zhou.jpg
   start: 2024
+- name: Bethany Miyamoto
+  description: Acoustic Species since 2024
+  level: Project Member
+  image: assets/people/b.miyamoto.png
+  start: 2024
+- name: Kishen Thevandran
+  description: Mangrove Monitoring Since 2025
+  level: Project Member
+  image: assets/people/k.thevandran.png
+  start: 2025
+- name: Daris Chen
+  description: Fishsense Since 2025
+  level: Project Member
+  image: assets/people/d.chen.png
+  start: 2025
+- name: Harper Strickland
+  description: Acoustic Species since 2025
+  level: Project Member
+  image: assets/people/h.strickland.jpg
+  start: 2025
+- name: Hari Prakash
+  description: Acoustic Species since 2025
+  level: Project Member
+  image: assets/people/h.prakash.jpg
+  start: 2025
+- name: Hieu Le
+  description: Acoustic Species since 2024
+  level: Project Member
+  image: assets/people/h.le.jpg
+  start: 2024
+
 
 
 
