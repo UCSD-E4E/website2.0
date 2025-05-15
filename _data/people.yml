@@ -1277,12 +1277,12 @@
   end: 2023
 - name: Mohit Sridhar
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/m.sridhar.jpg
 - name: Jose Salazar
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/j.salazar.jpg
 - name: Joe Yan
@@ -1292,12 +1292,12 @@
   end: 2023
 - name: Zoe Ludena
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/z.ludena.jpg
 - name: Jeannie Kim
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member - Alumni
   start: 2022
 - name: Shaurya Raswan
   description: Baboons on the Move since 2022, FishSense since 2022
@@ -1448,7 +1448,7 @@
   start: 2023
 - name: Jason Yang
   description: Mangrove Monitoring since 2023 REU
-  level: Project Lead
+  level: Project Lead - Alumni
   start: 2023
   image: assets/people/j.yang.jpg
 - name: Edward Jin
@@ -1497,7 +1497,7 @@
 - name: Dylan Stockard
   description: Baboons on the Move, Acoustic Species ID since 2023
   start: 2023
-  level: Project Candidate
+  level: Project Member - Alumni
 - name: Daniel George
   description: Baboons on the Move since 2023
   start: 2023
@@ -1546,7 +1546,7 @@
   level: Project Candidate
   start: 2023
 - name: Vasil Bogdev
-  description: Hardware Team supporting Smartfin and Radio Telemetry Tracking since 2023
+  description: Radio Telemetry Tracking, Hardware Team supporting Smartfin and Radio Telemetry Tracking since 2023
   level: Project Member
   start: 2023
 - name: Rana Singh
@@ -1664,7 +1664,7 @@
   start: 2024
 - name: Tongfei Yang
   description: FishSense Core since 2024, REU 2024
-  level: Project Lead
+  level: Project Lead - Alumni
   image: assets/people/t.yang.jpg
   start: 2024
 - name: Gage Wyre
@@ -1679,7 +1679,7 @@
   start: 2024
 - name: Atharva Kedia
   description: Smartfin since 2024
-  level: Project Member
+  level: Project Member - Alumni
   image: assets/people/a.kedia.jpg
   start: 2024
 - name: Iha Gadiya
@@ -1746,4 +1746,124 @@
   level: Project Lead
   image: assets/people/s.kamboj.jpg
   start: 2024
+- name: Ryan Lee
+  description: Acoustic Species since November 2024
+  level: Project Member
+  image: assets/people/r.lee.jpg
+  start: 2024
+- name: Arnav Kirpekar
+  description: Smartfin since Winter 2025
+  level: Project Member
+  image: assets/people/a.kirpekar.jpg
+  start: 2025
+- name: Jeremy Frank
+  description: Acoustic Species since April 2024
+  level: Project Lead
+  image: assets/people/j.frank.jpg
+  start: 2024
+- name: Joseph Kan
+  description: Acoustic Species since Fall 2024
+  level: Project Member
+  image: assets/people/j.kan.jpg
+  start: 2024
+- name: Sahil Dalal
+  description: Acoustic Species since October 2024
+  level: Project Member
+  image: assets/people/s.dalal.jpg
+  start: 2024
+- name: Vaibhav Maloo
+  description: Radio Telemetry Tracker
+  level: Project Member
+  image: assets/people/v.maloo.png
+  start: 2025
+- name: Jialin Wang
+  description: Acoustic Species since November 2024
+  level: Project Member
+  image: assets/people/j.wang.jpg
+  start: 2024
+- name: Liam Hardy
+  description: FishSense since Winter 2025
+  level: Project Member 
+  image: assets/people/l.hardy.jpg
+  start: 2025
+- name: Tyler Houy
+  description: FishSense since 2025
+  level: Project Member
+  image: assets/people/t.houy.jpg
+  start: 2025
+- name: Daniel Budidharma
+  description: Acoustic Species since Winter 2025
+  level: Project Member
+  image: assets/people/d.budidharma.jpg
+  start: 2025
+- name: Akhill Nallacheruvu
+  description: Active Learning Since 2024
+  level: Project Member
+  image: assets/people/a.nallacheruvu.jpg
+  start: 2024
+- name: Tom Zhang
+  description: Fishsense and Aqua3D since 2025
+  level: Project Member
+  image: assets/people/t.zhang.1.jpg
+  start: 2025
+- name: Kiruthika Marikumaran
+  description: Radio Telemetry Tracker since Fall 2024
+  level: Project Member
+  image: assets/people/k.marikumaran.jpeg
+  start: 2024
+- name: Ishan Vaish
+  description: Mangrove Monitoring since 2025
+  level: Project Member
+  image: assets/people/i.vaish.jpg
+  start: 2025
+- name: Ishan Vaish
+  description: Mangrove Monitoring since 2025
+  level: Project Member
+  image: assets/people/i.vaish.jpg
+  start: 2025
+- name: Sophie Phung
+  description: Smartfin since 2024
+  level: Project Member
+  image: assets/people/s.phung.jpg
+  start: 2024
+- name: Andrew Zhou 
+  description: Mangrove Monitoring since 2024
+  level: Project Member
+  image: assets/people/a.zhou.jpg
+  start: 2024
+- name: Bethany Miyamoto
+  description: Acoustic Species since 2024
+  level: Project Member
+  image: assets/people/b.miyamoto.png
+  start: 2024
+- name: Kishen Thevandran
+  description: Mangrove Monitoring Since 2025
+  level: Project Member
+  image: assets/people/k.thevandran.png
+  start: 2025
+- name: Daris Chen
+  description: Fishsense Since 2025
+  level: Project Member
+  image: assets/people/d.chen.png
+  start: 2025
+- name: Harper Strickland
+  description: Acoustic Species since 2025
+  level: Project Member
+  image: assets/people/h.strickland.jpg
+  start: 2025
+- name: Hari Prakash
+  description: Acoustic Species since 2025
+  level: Project Member
+  image: assets/people/h.prakash.jpg
+  start: 2025
+- name: Hieu Le
+  description: Acoustic Species since 2024
+  level: Project Member
+  image: assets/people/h.le.jpg
+  start: 2024
+- name: Zhenchen Lin
+  description: Maya archaeology
+  level: Project Member
+  start: 2024
+
 
