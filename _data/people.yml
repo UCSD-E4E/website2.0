@@ -1865,5 +1865,15 @@
   description: Maya archaeology
   level: Project Member
   start: 2024
+- name: Jennifer (Chengxi) Xu
+  description: Fishsense since 2024
+  level: Project Member
+  image: assets/people/j.xu.jpg
+  start: 2024
+- name: Junran Wang
+  description: Fishsense since 2025
+  level: Project Member
+  # image: assets/people/j.wang.jpg
+  start: 2025
 
 
