@@ -97,6 +97,9 @@
   month: June
   media:
     - https://www.flickr.com/photos/ucsd-e4e/albums/72157648413456271
+  people:
+    - Dustin Richmond
+    - Curt Schurgers
 - project: Vaquita
   location: Mission Bay
   date: 2015-09
