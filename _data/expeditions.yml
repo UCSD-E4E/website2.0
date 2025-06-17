@@ -100,6 +100,9 @@
   people:
     - Dustin Richmond
     - Curt Schurgers
+    - Ryan Kastner
+    - David Dantas
+    - Sabrina Trinh
 - project: Vaquita
   location: Mission Bay
   date: 2015-09
@@ -129,6 +132,8 @@
   date: 2016-06
   year: 2016
   month: June
+  people:
+    - Quentin Gautier
 - project: Harpy Eagle
   location: Bladen Natural Reserve - Belize
   date: 2016-03
