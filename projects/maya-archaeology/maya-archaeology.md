@@ -6,7 +6,7 @@ category: maya-archaeology
 enable_nav: false
 ---
 
-![]({{"assets/maya/scanning-masks-in-maya-temples_29008736970_o.jpg" | absolute_url}})
+![]({{"assets/maya/scanning-masks-in-maya-temples_29008736970_o.jpg" | resize: '1100x786^,webp,80' | absolute_url}})
 
 In the dense jungle canopies of Central America and the Yucatan, much of what remains of the Maya civilization remains hidden from view. While important archaeological sites have been discovered and are now iconic tourist destinations, an understanding of how the Maya used the land – the extent of their settlements, the organization of towns and spheres of influences – is yet unknown. Currently, remote sensing technologies that can see through the thick canopy exist, but they are prohibitively expensive. Fortunately, the convergence of aerial drones and light-weight advanced sensor packages such as LiDAR, have just now opened the door to creating the disruptive technology needed to explore the hidden secrets of the Maya. One goal of this project is to assemble a remote sensing device using drone technology for the jungle.
 
