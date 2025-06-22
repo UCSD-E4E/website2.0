@@ -23,6 +23,6 @@ Several engineering challenges are presented in making a system to be mounted on
 
 Our goal for the project is to create a low-power, high quality compact video system that can be deployed not only on condors but on other species to facilitate investigation into species behavior.
 
-Please contact our staff engineer Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu)) for more information.
+Please contact our staff at ([e4e@ucsd.edu](mailto:e4e@ucsd.edu)) for more information.
 
     
