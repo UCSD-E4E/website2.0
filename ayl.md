@@ -37,6 +37,3 @@ If you are interested in the project, please check out some of the onboarding pa
 ## Co-Directors
 - Curt Schurgers, [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu) 
 - Ryan Kastner, [rkastner@ucsd.edu](mailto:rkastner@ucsd.edu) 
-
-## Staff Engineer
-- Nathan Hui, [nthui@ucsd.edu](mailto:nthui@ucsd.edu) 
