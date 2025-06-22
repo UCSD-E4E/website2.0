@@ -17,12 +17,13 @@
   level: Former E4E Director
   name: Dr. Albert Lin
   start: 2010
-- description: E4E Staff Engineer since 2020
+- description: E4E Staff Engineer 2020-2025, Project Lead (Radio Tracking, Smartfin) 2015-2020
   expedition: true
   image: assets/people/n.hui.png
-  level: Staff Engineer
+  level: Former Staff Engineer
   name: Nathan Hui
   start: 2015
+  end: 2025
   link: https://www.linkedin.com/in/ntlhui/
 - description: Mangrove Monitoring, 2018-2023
   expedition: true
