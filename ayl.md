@@ -20,7 +20,7 @@ If you are interested in the project, please check out some of the onboarding pa
 - Harish Vasanth, [havasanth@ucsd.edu](mailto:havasanth@ucsd.edu)
 
 ## [Smartfin]({{ "smartfin" | relative_url }})
-- Nathan Hui, [nthui@ucsd.edu](mailto:nthui@ucsd.edu)
+- Steve Taylor, [stt017@ucsd.edu](mailto:stt017@ucsd.edu)
 
 ## [Radio Telemetry Tracking]({{ "radio-collar-tracker" | relative_url }})
 - Tyler Flar, [tflar@ucsd.edu](mailto:tflar@ucsd.edu)
