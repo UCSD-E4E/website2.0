@@ -1880,3 +1880,43 @@
   level: Project Member
   image: assets/people/s.shrestha.jpeg
   start: 2025
+- name: Hayden Dosseh
+  description: Hallpass, 2025 summer REU
+  level: Project Member
+  image: assets/people/h.dosseh.jpg
+- name: Aprille Thomas
+  description: Hallpass, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.thomas.jpg
+- name: Theo Darci-Maher
+  description: FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/t.darcimaher.jpg
+- name: Milo Akerman
+  description: Acoustic Collar, 2025 REU
+  image: assets/people/m.akerman.jpg
+  start: 2025
+  level: Project Member
+- name: Brendon Mwamba
+  description: FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/b.mwamba.jpeg
+  start: 2025
+- name: Aayushka Budhathoki
+  description: Smartfin & FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.budhathoki.jpg
+- name: Dhruv Tomar
+  description: Acoustic Species, 2025 Summer REU
+  level: Project Member
+  image: assets/people/d.tomar.jpg
+  start: 2025
+- name: Anu Jajodia
+  description: Acoustic Species and Mangrove Monitoring, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.jajodia.jpg
+  start: 2025
+- name: Nykolas Rekasius
+  description: Fishsense, 2025 Summer REU
+  image: assets/people/n.rekasius.png
+  level: Project Member
