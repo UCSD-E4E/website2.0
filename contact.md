@@ -35,7 +35,7 @@ Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 
 **Remote Trap Monitoring:** Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu))
 
-**Acoustic Species Identification:** Sean Perry and Samantha Prestrelski ([shperry@ucsd.edu](mailto:shperry@ucsd.edu), [sprestrelski@ucsd.edu](mailto:sprestrelski@ucsd.edu))
+**Acoustic Species Identification:** Sean Perry, Ludwig von Schoenfeldt, Tianqi Zhang, Siya Kamboj, and Jeremy Frank ([shperry@ucsd.edu](mailto:shperry@ucsd.edu), [lvonschoenfeldt@ucsd.edu](mailto:lvonschoenfeldt@ucsd.edu), [tiz019@ucsd.edu](mailto:tiz019@ucsd.edu), [sskamboj@ucsd.edu](mailto:sskamboj@ucsd.edu), [jefrank@ucsd.edu](mailto:jefrank@ucsd.edu))
 
 **FishSense:**  Christopher Crutchfield, Harish Vasanth, and Kyle Tran ([ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu), [havasanth@ucsd.edu](mailto:havasanth@ucsd.edu), [kyt001@ucsd.edu](mailto:kyt001@ucsd.edu))
 
