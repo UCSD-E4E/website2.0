@@ -46,8 +46,10 @@ toc:
   - name: How to join
     url: /welcome
     subfolderitems:
-      - name: Open Opportunities - Academic Year
-        url: /open-opportunities
+      - name: Join During the Academic Year
+        url: /academic-year-join
+      - name: Join the Summer REU at E4E!
+        url: /reu-faq
       - name: Onboarding Papers
         url: /onboarding-papers
       - name: Tips for Effective Applications
