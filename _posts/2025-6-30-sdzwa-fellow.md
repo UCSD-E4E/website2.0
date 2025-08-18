@@ -1,7 +1,7 @@
 ---
 date: 2025-03-17 00:00:00-08:00
 description: null
-featuredImage: assets/acoustic_species_id/2025-02-kendall-frosh-high-tide.jpg
+featuredImage: assets/people/s.perry_sdzwa.jpg
 author: Sean Perry
 layout: blog-post
 slug: /sean-sdzwa-fellow-2025
