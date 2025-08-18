@@ -1871,7 +1871,7 @@
   image: assets/people/j.wang.1.jpg
   start: 2025
 - name: Evan Wu
-  description: Mangrove Monitoring since 2024
+  description: Mangrove Monitoring since 2024, Summer 2025 REU
   level: Project Member
   image: assets/people/e.wu.jpg
   start: 2024
@@ -1879,6 +1879,14 @@
   description: Acoustic Collar, 2025
   level: Project Member
   image: assets/people/f.irazaba.jpg
+- name: Annabelle Chen
+  description: FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.chen.jpg
+- name: AnMei Dasbach-Prisk
+  description: Acoustic Collar, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.dp.jpg
   start: 2025
 - name: Hayden Dosseh
   description: Hallpass, 2025 summer REU
