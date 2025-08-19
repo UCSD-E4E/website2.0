@@ -23,6 +23,7 @@
   level: Staff Engineer
   name: Nathan Hui
   start: 2015
+  link: https://www.linkedin.com/in/ntlhui/
 - description: Mangrove Monitoring, 2018-2023
   expedition: true
   image: assets/people/d.hicks.jpg
@@ -770,7 +771,7 @@
   level: Project Lead - Alumni
   name: Jacob Ayers
   start: 2020
-- description: Acoustic Species ID since 2020, 2021 Summer REU, 2022 Summer REU
+- description: Acoustic Species ID since 2020, 2021 REU, 2022 REU, 2023 REU, Mentor for 2024 REU, PhD Student
   expedition: true
   image: assets/people/s.perry.jpg
   level: Project Lead
@@ -1180,8 +1181,9 @@
   expedition: false
   image: assets/people/v.suresh.jpg
   level: Project Member - Alumni
-  name: Viva Suresh
+  name: Vivaswat Suresh
   start: 2021
+  end: 2023
 - description: FishSense, 2022 Summer REU
   end: 2022
   expedition: true
@@ -1245,12 +1247,13 @@
   name: Melina Dimitropoulou Kapsogeorgou
   start: 2021
   end: 2022
-- description: Acoustic Species ID since 2021, 2022 Summer REU
+- description: Acoustic Species ID since 2021, 2022 Summer REU, 2023 Summer REU
   expedition: false
   image: assets/people/s.prestrelski.jpg
   level: Project Lead - Alumni
   name: Samantha Prestrelski
   start: 2021
+  end: 2024
 - description: Smartfin, 2022 Summer REU
   expedition: false
   level: Project Member - Alumni
@@ -1274,12 +1277,12 @@
   end: 2023
 - name: Mohit Sridhar
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/m.sridhar.jpg
 - name: Jose Salazar
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/j.salazar.jpg
 - name: Joe Yan
@@ -1289,12 +1292,12 @@
   end: 2023
 - name: Zoe Ludena
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   image: assets/people/z.ludena.jpg
 - name: Jeannie Kim
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member - Alumni
   start: 2022
 - name: Shaurya Raswan
   description: Baboons on the Move since 2022, FishSense since 2022
@@ -1319,9 +1322,10 @@
   end: 2023
   image: assets/people/l.li.jpg
 - name: Kyle Hu
-  description: FishSense since 2021
+  description: FishSense since 2021, Summer 2023 REU
   level: Project Lead - Alumni
   start: 2021
+  end: 2024
   image: assets/people/k.shu.jpg
 - name: Harish Vasanth
   description: FishSense since 2022
@@ -1329,8 +1333,8 @@
   start: 2022
   image: assets/people/h.vasanth.png
 - name: Allen Kan
-  description: FishSense since 2022
-  level: Project Candidate
+  description: FishSense since 2022, REU 2024
+  level: Project Member
   start: 2022
   image: assets/people/a.kan.jpg
 - name: Varun Singh
@@ -1406,6 +1410,7 @@
   description: Hardware Team supporting Radio Telemetry Tracking since 2023
   level: Project Member - Alumni
   start: 2023
+  end: 2023
   image: assets/people/a.bhosale.jpg
 - name: Nicholas Chua
   description: FishSense since 2023
@@ -1433,7 +1438,7 @@
   start: 2023
   image: assets/people/k.tran.jpg
 - name: Tyler Flar
-  description: Baboons on the Move since 2023, Radio Telemetry Tracking since 2024 
+  description: Baboons on the Move since 2023, Radio Telemetry Tracking since 2024, REU 2024 
   level: Project Lead
   start: 2023
   image: assets/people/t.flar.png
@@ -1442,8 +1447,8 @@
   level: Project Member
   start: 2023
 - name: Jason Yang
-  description: Mangrove Monitoring since 2023
-  level: Project Lead
+  description: Mangrove Monitoring since 2023 REU
+  level: Project Lead - Alumni
   start: 2023
   image: assets/people/j.yang.jpg
 - name: Edward Jin
@@ -1492,7 +1497,7 @@
 - name: Dylan Stockard
   description: Baboons on the Move, Acoustic Species ID since 2023
   start: 2023
-  level: Project Candidate
+  level: Project Member - Alumni
 - name: Daniel George
   description: Baboons on the Move since 2023
   start: 2023
@@ -1541,7 +1546,7 @@
   level: Project Candidate
   start: 2023
 - name: Vasil Bogdev
-  description: Hardware Team supporting Smartfin and Radio Telemetry Tracking since 2023
+  description: Radio Telemetry Tracking, Hardware Team supporting Smartfin and Radio Telemetry Tracking since 2023
   level: Project Member
   start: 2023
 - name: Rana Singh
@@ -1562,7 +1567,7 @@
   end: 2023
   image: assets/people/n.reyes.jpg
 - name: Derick Mathews
-  description: Software for Wireless Underwater Communication System on Volt, 2023
+  description: Software for Wireless Underwater Communication System on Volt, 2023 REU, 2024 REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
@@ -1574,60 +1579,61 @@
   end: 2023
   image: assets/people/h.grant.jpg
 - name: Emily Thorpe
-  description: Smartfin, 2023
+  description: Smartfin, 2023 REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
   image: assets/people/e.thorpe.jpg
 - name: Josephine Dominguez
-  description: Smartfin, Radio Telemetry Tracking, and FishSense, 2023
+  description: Smartfin, Radio Telemetry Tracking, and FishSense, 2023 REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
   image: assets/people/j.dominguez.jpg
 - name: Michael Pham
-  description: Mangrove Monitoring, 2023
+  description: Mangrove Monitoring, 2023 REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
   image: assets/people/m.pham.png
 - name: Jordan Reichhardt
-  description: Smartfin, Radio Telemetry Tracking, Fishsense, 2023
+  description: Smartfin, Radio Telemetry Tracking, Fishsense, 2023 REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
   image: assets/people/j.reichhardt.jpg
 - name: Ana Perez
-  description: FishSense, 2023
+  description: FishSense, 2023 REU
   start: 2023
   end: 2023
   level: Project Member - Alumni
   image: assets/people/a.perez.jpeg
 - name: Benjamin Cates
-  description: Acoustic Species ID, Summer 2023
+  description: Acoustic Species ID, Summer 2023 REU
   start: 2023
   end: 2023
   level: Project Member - Alumni
   image: assets/people/b.cates.jpg
 - name: Chima Nwughala
-  description: AKER, Summer 2023
+  description: AKER, Summer 2023 REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
   image: assets/people/c.nwughala.jpg
 - name: Diana Ekechukwu
-  description: Junkyard Computing, Summer 2023
+  description: Junkyard Computing, Summer 2023 REU
   level: Project Member - Alumni
   start: 2023
   end: 2023
   image: assets/people/u.ekechukwu.png
 - name: Marco Bazzani
-  description: Acoustic Species ID since 2023
-  level: Project Member
+  description: Acoustic Species ID since 2023, 2023 REU
+  level: Project Member - Alumni
   start: 2023
+  end: 2024
   image: assets/people/m.bazzani.jpg
 - name: Zach Lawrence
-  description: Mangrove Monitoring since 2023
+  description: Mangrove Monitoring since 2023, REU 2024
   level: Project Lead
   start: 2023
   image: assets/people/z.lawrence.png
@@ -1636,11 +1642,13 @@
   level: Project Candidate
   start: 2023
 - name: Tianqi Zhang
-  description: Acoustic Species ID since 2023
+  expedition: true
+  description: Acoustic Species ID since 2023, Summer 2023 REU
   level: Project Lead
   image: assets/people/t.zhang.jpg
   start: 2023
 - name: Ludwig von Schoenfeldt
+  expedition: true
   description: Acoustic Species ID since 2023
   level: Project Lead
   image: assets/people/l.vonschoenfeldt.jpeg
@@ -1650,17 +1658,17 @@
   level: Project Lead
   image: assets/people/a.agarwal.jpeg
 - name: Ben McCalmon
-  description: FishSense Core since 2024
+  description: FishSense Core since 2024, REU 2024
   level: Project Lead
   image: assets/people/b.mccalmon.jpg
   start: 2024
 - name: Tongfei Yang
-  description: FishSense Core since 2024
-  level: Project Lead
+  description: FishSense Core since 2024, REU 2024
+  level: Project Lead - Alumni
   image: assets/people/t.yang.jpg
   start: 2024
 - name: Gage Wyre
-  description: Mangrove Monitoring since 2024
+  description: Mangrove Monitoring since 2024, REU 2024
   level: Project Lead
   image: assets/people/g.wrye.jpg
   start: 2024
@@ -1671,11 +1679,252 @@
   start: 2024
 - name: Atharva Kedia
   description: Smartfin since 2024
-  level: Project Member
+  level: Project Member - Alumni
   image: assets/people/a.kedia.jpg
   start: 2024
 - name: Iha Gadiya
   description: Smartfin since 2024
-  lebel: Project Memger
+  level: Project Member
   image: assets/people/i.gadiya.jpg
   start: 2024
+- name:  Zhuo Chen
+  description: Scientific Machine Learning, Summer 2024 REU
+  level: Project Member- Alumni
+  image: assets/people/z.chen.jpg
+  start: 2024
+  end: 2024
+- name:  Aaryan Panthi
+  description: Mangrove Monitoring, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/a.panthi.jpg
+  start: 2024
+  end: 2024
+- name:  Antara Chugh
+  description: Smartfin, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/a.chugh.png
+  start: 2024
+  end: 2024
+- name:  Surangana Aryal
+  description: Acoustics Species Identification, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/s.aryal.jpg
+  start: 2024
+  end: 2024
+- name:  Kaiying Han
+  description: FishSense, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/k.han.png
+  start: 2024
+  end: 2024
+- name:  Jonathan He
+  description: Acoustic Species Monitoring, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/j.he.jpeg
+  start: 2024
+  end: 2024
+- name:  Hannah Cutler
+  description: Smartfin, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/h.culter.jpeg
+  start: 2024
+  end: 2024
+- name:  Meena Annamalai
+  description: Smartfin, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/m.annamalai.jpg
+  start: 2024
+  end: 2024
+- name:  Rahual Rai
+  description: Mangrove Monitoring, Summer 2024 REU
+  level: Project Member - Alumni
+  image: assets/people/r.rai.jpg
+  start: 2024
+  end: 2024
+- name:  Siya Kamboj
+  description: Acoustic Species since Spring 2024, Summer 2025 REU
+  level: Project Lead
+  image: assets/people/s.kamboj.jpg
+  start: 2024
+- name: Ryan Lee
+  description: Acoustic Species since November 2024
+  level: Project Member
+  image: assets/people/r.lee.jpg
+  start: 2024
+- name: Arnav Kirpekar
+  description: Smartfin since Winter 2025
+  level: Project Member
+  image: assets/people/a.kirpekar.jpg
+  start: 2025
+- name: Jeremy Frank
+  description: Acoustic Species since April 2024
+  level: Project Lead
+  image: assets/people/j.frank.jpg
+  start: 2024
+- name: Joseph Kan
+  description: Acoustic Species since Fall 2024
+  level: Project Member
+  image: assets/people/j.kan.jpg
+  start: 2024
+- name: Sahil Dalal
+  description: Acoustic Species since October 2024
+  level: Project Member
+  image: assets/people/s.dalal.jpg
+  start: 2024
+- name: Vaibhav Maloo
+  description: Radio Telemetry Tracker
+  level: Project Member
+  image: assets/people/v.maloo.png
+  start: 2025
+- name: Jialin Wang
+  description: Acoustic Species since November 2024
+  level: Project Member
+  image: assets/people/j.wang.jpg
+  start: 2024
+- name: Liam Hardy
+  description: FishSense since Winter 2025
+  level: Project Member 
+  image: assets/people/l.hardy.jpg
+  start: 2025
+- name: Tyler Houy
+  description: FishSense since 2025
+  level: Project Member
+  image: assets/people/t.houy.jpg
+  start: 2025
+- name: Daniel Budidharma
+  description: Acoustic Species since Winter 2025
+  level: Project Member
+  image: assets/people/d.budidharma.jpg
+  start: 2025
+- name: Akhill Nallacheruvu
+  description: Active Learning Since 2024
+  level: Project Member
+  image: assets/people/a.nallacheruvu.jpg
+  start: 2024
+- name: Tom Zhang
+  description: Fishsense and Aqua3D since 2025
+  level: Project Member
+  image: assets/people/t.zhang.1.jpg
+  start: 2025
+- name: Kiruthika Marikumaran
+  description: Radio Telemetry Tracker since Fall 2024
+  level: Project Member
+  image: assets/people/k.marikumaran.jpeg
+  start: 2024
+- name: Ishan Vaish
+  description: Mangrove Monitoring since 2025
+  level: Project Member
+  image: assets/people/i.vaish.jpg
+  start: 2025
+- name: Sophie Phung
+  description: Smartfin since 2024
+  level: Project Member
+  image: assets/people/s.phung.jpg
+  start: 2024
+- name: Andrew Zhou 
+  description: Mangrove Monitoring since 2024
+  level: Project Member
+  image: assets/people/a.zhou.jpg
+  start: 2024
+- name: Bethany Miyamoto
+  description: Acoustic Species since 2024
+  level: Project Member
+  image: assets/people/b.miyamoto.png
+  start: 2024
+- name: Kishen Thevandran
+  description: Mangrove Monitoring Since 2025
+  level: Project Member
+  image: assets/people/k.thevandran.png
+  start: 2025
+- name: Daris Chen
+  description: Fishsense Since 2025
+  level: Project Member
+  image: assets/people/d.chen.png
+  start: 2025
+- name: Harper Strickland
+  description: Acoustic Species since 2025
+  level: Project Member
+  image: assets/people/h.strickland.jpg
+  start: 2025
+- name: Hari Prakash
+  description: Acoustic Species since 2025
+  level: Project Member
+  image: assets/people/h.prakash.jpg
+  start: 2025
+- name: Hieu Le
+  description: Acoustic Species since 2024
+  level: Project Member
+  image: assets/people/h.le.jpg
+  start: 2024
+- name: Zhencheng Lin
+  description: Maya archaeology
+  level: Project Member
+  start: 2024
+- name: Jennifer (Chengxi) Xu
+  description: Fishsense since 2024
+  level: Project Member
+  image: assets/people/j.xu.jpg
+  start: 2024
+- name: Junran Wang
+  description: Fishsense since 2025
+  level: Project Member
+  image: assets/people/j.wang.1.jpg
+  start: 2025
+- name: Evan Wu
+  description: Mangrove Monitoring since 2024, Summer 2025 REU
+  level: Project Member
+  image: assets/people/e.wu.jpg
+  start: 2024
+- name: Francisco Irazaba
+  description: Acoustic Collar, 2025
+  level: Project Member
+  image: assets/people/f.irazaba.jpg
+- name: Annabelle Chen
+  description: FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.chen.jpg
+- name: AnMei Dasbach-Prisk
+  description: Acoustic Collar, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.dp.jpg
+  start: 2025
+- name: Hayden Dosseh
+  description: Hallpass, 2025 summer REU
+  level: Project Member
+  image: assets/people/h.dosseh.jpg
+- name: Aprille Thomas
+  description: Hallpass, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.thomas.jpg
+- name: Theo Darci-Maher
+  description: FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/t.darcimaher.jpg
+- name: Milo Akerman
+  description: Acoustic Collar, 2025 REU
+  image: assets/people/m.akerman.jpg
+  start: 2025
+  level: Project Member
+- name: Brendon Mwamba
+  description: FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/b.mwamba.jpeg
+  start: 2025
+- name: Aayushka Budhathoki
+  description: Smartfin & FishSense, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.budhathoki.jpg
+- name: Dhruv Tomar
+  description: Acoustic Species, 2025 Summer REU
+  level: Project Member
+  image: assets/people/d.tomar.jpg
+  start: 2025
+- name: Anu Jajodia
+  description: Acoustic Species and Mangrove Monitoring, 2025 Summer REU
+  level: Project Member
+  image: assets/people/a.jajodia.jpg
+  start: 2025
+- name: Nykolas Rekasius
+  description: Fishsense, 2025 Summer REU
+  image: assets/people/n.rekasius.png
+  level: Project Member

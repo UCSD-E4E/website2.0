@@ -37,7 +37,7 @@ During this program, students will create and apply technologies in novel ways t
 
 Applications are currently being accepted at [https://e4e.ucsd.edu/apply]({{ "/apply" | absolute_url }}) through February 15.  Applications will continue to be accepted through March 30 if positions are not yet filled.
 
-Please follow the instructions at https://etap.nsf.gov/assets/docs/NSF-ETAP-Account-Creation.pdf to create an ETAP account.  Please ensure that ad-blockers are disabled when using ETAP.
+Please follow the instructions at [https://etap.nsf.gov/assets/docs/NSF-ETAP-Account-Creation.pdf](https://etap.nsf.gov/assets/docs/NSF-ETAP-Account-Creation.pdf) to create an ETAP account.  Please ensure that ad-blockers are disabled when using ETAP.
 
 ## Get Involved - Academic Year
 If you are interested, or if you have more questions, please feel free to come to any of our other general meetings listed on the [Calendar of Events]({{ "/calendar" | absolute_url }}). You should also [contact]({{ "/contact" | absolute_url }}) the project lead if you have questions about specific projects. If you have specific skillsets, have a look at our targeted [open positions]({{ "/open-opportunities" | absolute_url }}), and see if you have a skillset we are looking for in particular!
