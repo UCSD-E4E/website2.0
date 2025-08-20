@@ -11,8 +11,8 @@ categories:
 students:
 - bio: Aayushka Budhathoki is a Computer Science and Mathematics student transitioning into her senior year at Howard University. This summer, she worked on the FishSense project, implementing Generative Adversarial Networks to enhance the quality of underwater images. She also worked with the Smartfin team, focusing on sensor characterization and calibration. In her free time, she enjoys cooking a variety of cuisines, playing with her cat and competitive GeoGuessing.
   photo: assets/people/a.budhathoki.jpg
-- bio: AnMei Dasback-Prisk...
-  photo: assets/people/...
+- bio: AnMei Dasback-Prisk is a rising senior at UC San Diego, studying Computer Engineering. This summer, she worked on the Acoustic Collar project exploring dataloss and the use of auto encoders to compress data. In their free time they enjoy chilling at the beach, eating food, and walking around outside whether that be in nature or a city.
+  photo: assets/people/a.dp.jpg
 - bio: Annabelle Chen is a rising junior studying Computer Science and Mathematics at Amherst College. This summer, she worked on FishSense's new ROV-focused branch, namely focusing on methods for on-device computing and camera calibration for underwater optics. While she loves to think about fish, she also enjoys oil painting, baking sweets, and playing the electric guitar.
   photo: assets/people/a.chen.jpg
 - bio: Anu Jajodia...
