@@ -14,6 +14,6 @@ tags:
 - summer
 ---
 
-Engineers for Exploration is once again hosting final presentations for the REU students this year! This year will include recent work and effort done by the REU students working in exploratory methods for audio data mining, development on edge devices for acoustics, improvements to the FishSense System, and updates on the latest Smartfin device. 
+Engineers for Exploration is once again hosting final presentations for the REU students this year! This year will include recent work and effort done by the REU students working in exploratory methods for audio data mining, development on edge devices for acoustics, improvements to the FishSense System, improvements to secure chip access, and updates on the latest Smartfin device. 
 
 The presentations will be on Thursday, August 28 at 10:30 – 11:50am. If you are interested in attending, please fill out the RSVP at [https://forms.gle/psHRRH8euGga9nTw5](https://forms.gle/psHRRH8euGga9nTw5).
