@@ -25,8 +25,8 @@ students:
   photo: assets/people/d.tomar.jpg
 - bio: Francisco Irazaba is a rising senior at Cal Poly SLO, studying Computer Engineering with an interest in embedded systems. This summer, he worked on the acoustic collar team, focusing on integrating firmware, measuring power consumption, and providing low-power solutions for an STM32 microcontroller inside the collar. In his free time, he enjoys going to the gym, hiking, and skateboarding.
   photo: assets/people/f.irazaba.jpg
-- bio: Hayden Dosseh...
-  photo: assets/people/...
+- bio: Hayden Dosseh is a rising junior at Howard University studying Electrical Engineering and Biology. Hayden has been working with the Acoustic Species Collar Team and HallPass to build an autoencoder while managing data loss on flash memory, and building various access control systems for System-On-Chip architectures respectively. He loves to cook, play football (not soccer), play musical instruments, and say "Wagwann!!" .
+  photo: assets/people/h.dosseh.jpg
 - bio: Milo Akerman is a rising sophomore at Brown University, studying Computer Engineering. He has worked in the acoustic collar project this summer, developing the hardware and firmware to deploy low-power embedded systems tracking free-range animal vocalizations. His work focuses on intermittent computing, TinyML, and wireless networking on STM32 ARM CPUs. Outside of the bioacoustics, he enjoys playing guitar, learning cardistry, and perhaps even other things.
   photo: assets/people/m.akerman.jpg
 - bio: Nykolas Rekasius is a rising senior computer science major at Williams College. This summer he has been working on the FishSense project working on underwater color correction, automatic underwater fish identification and segmentation, and automatic underwater laser detection. Outside of the lab Nykolas is an avid cellist, budding photographer, and thorough enjoyer of spending time outdoors.
