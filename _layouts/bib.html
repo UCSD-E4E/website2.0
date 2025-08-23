@@ -18,17 +18,17 @@
 
 {% if entry.abstract or  entry.keywords %}
 <ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
-    <li class="accordion-item pub_seperator" data-accordion-item>
+    <li class="accordion-item pub_separator" data-accordion-item>
       <a href="#" class="accordion-title pub">
         {{ reference }}
       </a>
       <div class="accordion-content pub" data-tab-content >
         {% if entry.abstract %}
         <p></p>
-        <blockquote class="pub_unseperator"><p>{{ entry.abstract }}</p></blockquote>
+        <blockquote class="pub_unseparator"><p>{{ entry.abstract }}</p></blockquote>
         {% endif %}
         {% if entry.keywords %}
-        <blockquote class="pub_unseperator"><p>Keywords: {{ entry.keywords }}</p></blockquote>
+        <blockquote class="pub_unseparator"><p>Keywords: {{ entry.keywords }}</p></blockquote>
         {% endif %}
       </div>
       <p>[{{urls | split: "|" | join: " | "}}]</p>
