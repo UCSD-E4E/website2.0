@@ -17,8 +17,8 @@ students:
   photo: assets/people/a.chen.jpg
 - bio: Anu Jajodia is a senior at Carleton College studying Statistics (though he loves interdisciplinary work). This summer, he worked on the Acoustic Species ID team, where he worked on methods for extracting features from unlabeled audio data, namely information theory, autoencoders, and clustering. He also helped develop methodology for the analysis of audio data with networks. In his free time, he spent a lot of time playing jazz guitar and surfing.
   photo: assets/people/a.jajodia.jpg
-- bio: Aprile Thomas...
-  photo: assets/people/...
+- bio: Aprille Thomas is a rising junior Computer Science major at Howard University. Over the summer she worked on the HallPass project where she built a Python-based model for an access control system that prevents unintended proxies for System-on-Chip architecture. She enjoys hiking, trying new foods and watching anime.
+  photo: assets/people/a.thomas.jpg
 - bio: Brendon Mwamba is a rising senior at California Baptist University studying Computer Science. This summer, he is working on the FishSense project, focusing on vector databases, mobile app development, and VR development. In his free time, he enjoys going to the gym, playing basketball, and hiking.
   photo: assets/people/b.mwamba.jpeg
 - bio: Dhruv Tomar is a rising junior at the University of Illinois Urbana-Champaign pursuing a dual degree in Computer Science and Integrative Biology. He has been working with the Acoustic Species ID team this summer, implementing template matching as part of an unsupervised learning pipeline for unlabelled bioacoustic datasets. He enjoys birdwatching, videogames, and playing the classical guitar in his free time.
@@ -32,7 +32,7 @@ students:
 - bio: Nykolas Rekasius is a rising senior computer science major at Williams College. This summer he has been working on the FishSense project working on underwater color correction, automatic underwater fish identification and segmentation, and automatic underwater laser detection. Outside of the lab Nykolas is an avid cellist, budding photographer, and thorough enjoyer of spending time outdoors.
   photo: assets/people/n.rekasius.png
 - bio: Sijan Shrestha is a rising junior at Howard University majoring in Computer Science. This summer, he has contributed to the FishSense Project, focusing on fish species identification, detection, and segmentation. He is also working on testing a new deep-water exploration camera, which is being integrated with a Rupik Pi to develop an autonomous underwater monitoring system. During free time, he enjoys writing songs and singing with his guitar.
-  photo: assets/people/...
+  photo: assets/people/s.shrestha.jpg
 - bio: Siya Kamboj is a rising senior at UC San Diego majoring in Computer Science. This summer, she worked on the Acoustic Species Identification team as part of the machine learning sub-team, where she focused on developing a knowledge graph for unsupervised bioacoustic discovery. Outside of research, she enjoys filmmaking and photography.   
   photo: assets/people/s.kamboj.jpg
 - bio: Theo Darci-Maher is a rising junior at Macalester college, majoring in Physics with an emphasis in Astronomy and minoring in both Math and Studio Art. This summer he worked on FishSense, focusing on underwater optics and mechanical systems for the new ROV project. Outisde of research, he enjoys backpacking, playing sports like soccer or ice hockey, and walking his dog.
