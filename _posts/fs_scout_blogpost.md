@@ -5,7 +5,7 @@ featuredImage: assets/fishsense/scout_08_2025_blog_thumbnail.jpeg
 layout: blog-post
 slug: /fishsense-scout-introduction
 title: Introducing FishSense Scout
-author: Annabelle Chen, Theo Darci-Maher, Christopher Crutchfield
+author: Annabelle Chen, Theo Darci-Maher, Sijan Shrestha, Christopher Crutchfield
 categories:
 - news-and-updates
 - fishsense
@@ -79,3 +79,4 @@ With these changes leading to future deployments and collaborations, we will exp
     src=image
     caption="A (very official) post-pool testing debriefing session"
     %}
+
