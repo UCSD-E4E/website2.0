@@ -17,7 +17,7 @@ Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 ### Environmental Monitoring Projects
 **Smartfin:** Steve Taylor ([stt017@ucsd.edu](mailto:stt017@ucsd.edu))
 
-**Mangrove Monitoring:** Jason Yang and Zach Lawrence ([jay026@ucsd.edu](mailto:jay026@ucsd.edu), [zclawrence@ucsd.edu](mailto:zclawrence@ucsd.edu))
+**Mangrove Monitoring:** Zach Lawrence, Gage Wyre, Evan Wu ([zclawrence@ucsd.edu](mailto:zclawrence@ucsd.edu), [gwrye100@gmail.com](mailto:gwrye100@gmail.com), [e8wu@ucsd.edu](mailto:e8wu@ucsd.edu), )
 
 **Floods of Lubra**: Ronan Wallace ([rwallace@macalester.edu](mailto:rwallace@macalester.edu))
 
@@ -35,7 +35,7 @@ Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 
 **Remote Trap Monitoring:** Engineers for Exploration ([e4e@ucsd.edu](mailto:e4e@ucsd.edu))
 
-**Acoustic Species Identification:** Sean Perry and Samantha Prestrelski ([shperry@ucsd.edu](mailto:shperry@ucsd.edu), [sprestrelski@ucsd.edu](mailto:sprestrelski@ucsd.edu))
+**Acoustic Species Identification:** Sean Perry, Ludwig von Schoenfeldt, Tianqi Zhang, Siya Kamboj, and Jeremy Frank ([shperry@ucsd.edu](mailto:shperry@ucsd.edu), [lvonschoenfeldt@ucsd.edu](mailto:lvonschoenfeldt@ucsd.edu), [tiz019@ucsd.edu](mailto:tiz019@ucsd.edu), [sskamboj@ucsd.edu](mailto:sskamboj@ucsd.edu), [jefrank@ucsd.edu](mailto:jefrank@ucsd.edu))
 
 **FishSense:**  Christopher Crutchfield, Harish Vasanth, and Kyle Tran ([ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu), [havasanth@ucsd.edu](mailto:havasanth@ucsd.edu), [kyt001@ucsd.edu](mailto:kyt001@ucsd.edu))
 
