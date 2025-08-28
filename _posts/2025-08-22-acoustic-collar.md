@@ -12,11 +12,15 @@ tags:
 - reu
 - reu2025
 - summer
+- acoustic-species-id
+- bioacoustics
 ---
 
 Do you know what sound a panda makes? Over the last eight weeks, our team has been collaborating with the San Diego Zoo Wildlife Alliance to find ways to record, label, and store the various vocalizations produced by panda bears, polar bears, and several other species using specialized collars. While initially simple, the problem has posed several questions relevant to the field of computer hardware at large: how do you keep a low-power device running for periods of over a year? Can you collect only the relevant sounds, while avoiding environmental noise? What is the domain shift between a noisy MEMS microphone and high-quality training data?
 
 This project is split into several engineering problems and a larger, overarching design problem: collecting microphone data, denoising that data, running lightweight inference, and storing the result are all fairly trivial issues on their own, but they become more complicated when the resources are heavily constrained and the target audience--intended to both collect and access the data--is unfamiliar with the technology. In particular, power consumption optimization and ease of use are dissimilar--and, in some cases, incompatible--goals. Thus, the goal of this project is not only to develop a bioacoustic device, but to solve an optimization problem.
+
+This project was made possible thanks to the efforts of **Milo Akerman**, **Francisco Irazaba**, **AnMei Dasbach-Prisk**, and **Hayden Dosseh**, along with the teams who have worked on hardware and software previously. 
 
 ## Crossing the STM Barrier
 
@@ -70,5 +74,3 @@ The idea behind autoencoders is as follows: a multi-layer perceptron (the encode
 %}
 
 Putting everything together, we arrive at a cutting-edge device capable of acting as a low-power edge node within and without an external network: a versatile device for analyzing animal behavioral data, which ultimately has the potential to aid countless conservation efforts. We hope our work will be of use to the San Diego Zoo, and continue to be iterated on for years to come.
-
-This project was made possible thanks to the efforts of **Milo Akerman**, **Francisco Irazaba**, **AnMei Dasbach-Prisk**, and **Hayden Dosseh**, along with the teams who have worked on hardware and software previously. 
