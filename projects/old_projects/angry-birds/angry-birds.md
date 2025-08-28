@@ -23,4 +23,4 @@ The Angry Birds project will not only strive to provide valuable biological foot
 
 Using a series of piezoelectric sensors mounted onto glass, the monitor will be able to detect vibrations and determine whether a collision has occurred. Once a collision has been detected, the system will then proceed to store data and video footage belonging to that event in order to further avian research by biologists. Our detection system will be a significant technical improvement for researchers seeking to quantify an accurate number of collisions over conventional retrieve-and-count methods which provide only rough estimates at best.
 
-Please contact our staff engineer Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu)) for more information
+Please contact our staff at ([e4e@ucsd.edu](mailto:e4e@ucsd.edu)) for more information
