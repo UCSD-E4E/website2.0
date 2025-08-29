@@ -5,7 +5,7 @@ featuredImage: assets/acoustic_species_id/2025-08-22-acoustic-collar.png
 author: Milo Akerman
 layout: blog-post
 slug: /acoustic-collar-reu-2025
-title: Bear-ly Audible: Tracking Panda Vocalizations with STM32
+title: Bear-ly Audible Tracking Panda Vocalizations with STM32
 categories:
 - news-and-updates
 tags:
@@ -30,7 +30,7 @@ It was once we got a firm grasp of the STM32H7 that we realized the boon that wa
 
 {% include 
     img_caption.html
-    src="assets/acoustic_species_id/2025-08-22-spec-piha.jpg"
+    src="assets/acoustic_species_id/2025-08-22-spec-piha.png"
     caption="Output spectrogram from on-board MEMS microphone. Notice the noise at mel bands 20-30, 60"
 %}
 
@@ -41,7 +41,7 @@ If you want a board running continuously for a year on 6kg of batteries (just sl
 {% include 
     img_caption.html
     src="assets/acoustic_species_id/2025-08-22-fsd.png"
-    src2="assets/acoustic_species_id/2025-08-22-merzetti.png"
+    src2="assets/acoustic_species_id/2025-08-22-marzetti.png"
     caption="Left: System diagram of our collar, with simplified piezo wake-up circuit (analog signal processing) at bottom. Right: A similar, complete piezo wake-up circuit. Marzetti et al., 2020"
 %}
 
