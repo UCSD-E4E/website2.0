@@ -1,5 +1,5 @@
 ---
-date: 2024-06-26 23:42:21+00:00
+date: 2025-06-26 23:42:21+00:00
 description: null
 featuredImage: assets/2025-08-14-reu-group-photo-sdzwa.jpg
 layout: profile-blog-post
