@@ -1,3 +1,5 @@
+@use "variables";
+
 .menu-project {
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +85,7 @@ iframe {
     margin-right: auto;
 }
 
-@include media-query($on-palm) {
+@include variables.media-query(variables.$on-palm) {
     iframe {
         width: 90%;
     }
