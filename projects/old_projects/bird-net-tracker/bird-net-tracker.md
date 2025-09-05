@@ -1,7 +1,7 @@
 ---
 layout: project
 permalink: /bird-nest-tracker
-title: Bird Net Tracker
+title: Bird Nest Tracker
 category: bird-nest-tracker
 enable_nav: true
 ---
@@ -11,4 +11,4 @@ We are developing technology for aerial bird nest surveys using thermal imaging.
 
 ![]({{"assets/bird_nest/Birdnest-Payload.png" | absolute_url}})
 
-Please contact our staff engineer Nathan Hui ([nthui@ucsd.edu](mailto:nthui@ucsd.edu)) for more information
+Please contact our staff ([e4e@ucsd.edu](mailto:e4e@ucsd.edu)) for more information
