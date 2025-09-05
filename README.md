@@ -1,4 +1,7 @@
 # Website 2.0
+## To Edit:
+Please use https://vscode.dev/github/UCSD-E4E/website2.0
+
 ## Developer Get Started
 1. Follow the instructions at https://jekyllrb.com/docs/installation/ to install the Jekyll generator on your machine.
 2. Follow the instructions at http://www.graphicsmagick.org/README.html#installation to install GraphicsMagick on your machine.
