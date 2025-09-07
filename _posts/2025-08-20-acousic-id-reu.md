@@ -1,5 +1,5 @@
 ---
-date: 2025-08-20 00:00:00-08:00
+date: 2025-09-06 00:00:00-08:00
 description: null
 featuredImage: assets/acoustic_species_id/2025-08-20_coral_reef.png
 author: Dhruv Tomar, Siya Kamboj, Anu Jajodia, Sean Perry
