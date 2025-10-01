@@ -23,6 +23,10 @@ blurbs:
    photo: "assets/fishsense/about_fishsense.jpg"
    text: "Using handheld 3D imaging platforms to monitor and measure fish populations in collaboration with the Scripps Institute of Oceanography"
    link: "/fishsense"
+ - project_name: "FishSense Mobile"
+   photo: "assets/fishsense-mobile/2025-10-01_fishsense-demo.jpg"
+   text: "Leveraging consumer-grade iOS LiDAR sensors to generate accurate, real-time fish length data, enabling citizen scientists and researchers to scale fisheries monitoring at lower cost."
+   link: "/fishsense"
  - project_name: "Floods of Lubra"
    photo: assets/floods_of_lubra/floods-of-lubra_thumb.jpg
    text: Floods of Lubra focuses on using remote sensing techniques to monitor and predict the impact of climate change in the Himalayas
