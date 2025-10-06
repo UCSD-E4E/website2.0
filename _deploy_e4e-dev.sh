@@ -18,6 +18,6 @@ mkdir -p $MOUNT_DIR
 if ! findmnt e4e@mywebsite.eng.ucsd.edu:htdocs/; then
   sshfs e4e@mywebsite.eng.ucsd.edu:htdocs/ $MOUNT_DIR -o IdentityFile=/home/deploy/.ssh/id_e4edev
 fi
-rsync -r --progress -c $CLONE_DIR/_site/ $MOUNT_DIR
+rsync -r --progress -c --delete $CLONE_DIR/_site/ $MOUNT_DIR
 umount $MOUNT_DIR
 cd $HOME_DIR
