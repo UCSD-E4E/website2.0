@@ -5,7 +5,7 @@ title: FishSense - Scalable tools for fish measurement
 category: fishsense
 enable_nav: false
 ---
-**FishSense** is a family of imaging and sensing tools designed to make accurate fish measurement more accessible, scalable, and practical across marine environments. From underwater surveys to on-deck operations and exploratory autonomous monitoring, FishSense combines optical sensing, machine learning, and edge computing to support data collection in situations where traditional methods can be limited.
+FishSense is a family of imaging and sensing tools designed to make accurate fish measurement more accessible, scalable, and practical across marine environments. From underwater surveys to on-deck operations and exploratory autonomous monitoring, FishSense combines optical sensing, machine learning, and edge computing to support data collection in situations where traditional methods can be limited.
 
 Built by researchers and engineers working directly with fisheries scientists, conservation organizations, and operators in the field, FishSense systems are designed to reduce handling stress on fish, lower deployment barriers, and improve data quality through repeatable, technology-assisted workflows.
 
