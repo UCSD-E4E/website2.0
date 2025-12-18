@@ -64,7 +64,7 @@ Explore the FishSense platforms to learn more about each system and its current 
 
   <div class="card__holder cell small-4">
     <a class="card" href="/fishsense-lite">
-      <img src="/assets/fishsense-lite/2025-12-18_fishsense_lite_card_banner.jpg">
+      <img src="/assets/fishsense-lite/2025-12-18_fishsense_lite_card_banner.jpg" alt="FishSense Lite Banner">
       <div class="card-section">
           <h4>FishSense Lite</h4>
           <h5>Citizen Science for Smarter Fisheries</h5>
@@ -80,7 +80,7 @@ Explore the FishSense platforms to learn more about each system and its current 
 
   <div class="card__holder cell small-4">
     <a class="card cell small-4" href="/fishsense-mobile">
-      <img src="/assets/fishsense-mobile/2025-12-18_fishsense_mobile_card_banner.jpg">
+      <img src="/assets/fishsense-mobile/2025-12-18_fishsense_mobile_card_banner.jpg" alt="FishSense Mobile Banner">
       <div class="card-section">
           <h4>FishSense Mobile</h4>
           <h5>Turn your phone into a fisheries science tool</h5>
@@ -96,7 +96,7 @@ Explore the FishSense platforms to learn more about each system and its current 
 
   <div class="card__holder cell small-4">
     <a class="card cell small-4" href="/fishsense-scout">
-      <img src="/assets/fishsense-scout/2025-12-18_fishsense_scout_card_banner.jpg">
+      <img src="/assets/fishsense-scout/2025-12-18_fishsense_scout_card_banner.jpg" alt="FishSense Scout Banner">
       <div class="card-section">
           <h4>FishSense Scout</h4>
           <h5>Autonomous eyes for large-scale ocean monitoring</h5>
