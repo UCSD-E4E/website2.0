@@ -12,7 +12,7 @@ Scout is being developed as a flexible research platform, allowing us to explore
 {% include 
     img_caption.html
     src="assets/fishsense-scout/2025-12-18_fishsense_scout_about.jpg"
-    caption="Develoment version of FishSense Scout."
+    caption="Development version of FishSense Scout."
 %}
 
 ### Current focus
