@@ -1,8 +1,8 @@
 ---
 layout: post_feed
-#permalink: /fishsense/project-updates
-title: Fishsense
-category: fishsense-mobile
+#permalink: /fishsense-mobile/project-updates
+title: FishSense Mobile - Turn your phone into a fisheries science tool
+category: fishsense, fishsense-mobile
 enable_nav: false
 ---
 

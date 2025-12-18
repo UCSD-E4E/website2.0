@@ -1,8 +1,8 @@
 ---
 layout: project
 permalink: /fishsense-mobile
-title: "FishSense Mobile: Citizen Science for Smarter Fisheries"
-category: fishsense
+title: FishSense Mobile - Turn your phone into a fisheries science tool
+category: fishsense, fishsense-mobile
 enable_nav: false
 ---
 Monitoring fish populations is critical for understanding ocean health and ensuring sustainable fisheries. Traditionally, researchers rely on methods such as “catch-and-release” studies or in-water surveys, but these approaches are costly, labor-intensive, and often require expert scientists on board every research trip.
@@ -12,7 +12,7 @@ One key measurement for fisheries management is fish length. Programs like the C
 {% include 
     img_caption.html
     src="assets/fishsense-mobile/2025-10-01_fishsense-demo.jpg"
-    caption="Image of FishSense Lite module."
+    caption="Image of FishSense Mobile in action."
 %}
 
 FishSense Mobile offers a new, citizen science–driven approach. Using the built-in LiDAR sensors on iPhone Pro and iPad Pro devices, our prototype app allows recreational anglers, students, and community scientists to accurately measure fish length on deck—no measuring board required. Users simply photograph the fish with their device, and the app calculates its length in real time. Immediate feedback lets participants retake or refine measurements, ensuring accuracy without slowing down field operations.

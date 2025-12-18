@@ -1,7 +1,7 @@
 ---
 layout: gallery
 #permalink: /fishsense/media
-title: Fishsense
+title: FishSense - Scalable tools for fish measurement
 category: fishsense
 enable_nav: false
 grid: true
