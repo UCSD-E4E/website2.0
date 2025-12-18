@@ -1,0 +1,5 @@
+{
+  "build": { "dockerfile": "Dockerfile" },
+  "postCreateCommand": "npm ci && bundle install",
+  "forwardPorts": [4000]
+}
