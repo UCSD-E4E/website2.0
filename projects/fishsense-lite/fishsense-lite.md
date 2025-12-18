@@ -42,5 +42,5 @@ A short video demonstrating the system in use, courtesy of REEF, is available he
 
 FishSense Lite remains an active research and development project, with ongoing refinement informed by diver feedback and field deployments.
 
-If you would like to learn more about FishSense Lite or the SMILE Project, please contact **Christopher Crutchfield** at  
+If you would like to learn more about FishSense Lite, please contact **Christopher Crutchfield** at  
 [ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu).
