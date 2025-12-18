@@ -62,7 +62,7 @@ Explore the FishSense platforms to learn more about each system and its current 
     }
   </style>
 
-  <div class="card__holder cell small-4">
+  <div class="card__holder cell small-12 med-4">
     <a class="card" href="/fishsense-lite">
       <img src="/assets/fishsense-lite/2025-12-18_fishsense_lite_card_banner.jpg" alt="FishSense Lite Banner">
       <div class="card-section">
@@ -78,8 +78,8 @@ Explore the FishSense platforms to learn more about each system and its current 
     </a>
   </div>
 
-  <div class="card__holder cell small-4">
-    <a class="card cell small-4" href="/fishsense-mobile">
+  <div class="card__holder cell small-12 med-4">
+    <a class="card" href="/fishsense-mobile">
       <img src="/assets/fishsense-mobile/2025-12-18_fishsense_mobile_card_banner.jpg" alt="FishSense Mobile Banner">
       <div class="card-section">
           <h4>FishSense Mobile</h4>
@@ -94,8 +94,8 @@ Explore the FishSense platforms to learn more about each system and its current 
     </a>
   </div>
 
-  <div class="card__holder cell small-4">
-    <a class="card cell small-4" href="/fishsense-scout">
+  <div class="card__holder cell small-12 med-4">
+    <a class="card" href="/fishsense-scout">
       <img src="/assets/fishsense-scout/2025-12-18_fishsense_scout_card_banner.jpg" alt="FishSense Scout Banner">
       <div class="card-section">
           <h4>FishSense Scout</h4>
