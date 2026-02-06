@@ -1953,7 +1953,7 @@
   level: Project Member
 - name: Cecilia Li
   description: FishSense Since 2026
-  image:
+  image: assets/people/c.li.jpg
   level: Project Member
 - name: Zander Baker
   description: FishSense Since 2026
@@ -1961,7 +1961,6 @@
   level: Project Member
 - name: Hamza Mohiuddin
   description: FishSense Since 2026
-  image:
   level: Project Member
 - name: Long HoDac
   description: FishSense Since 2026
@@ -1969,5 +1968,4 @@
   level: Project Member
 - name: Tom Klappenecker
   description: FishSense Since 2026
-  image:
   level: Project Member
