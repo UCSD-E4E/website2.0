@@ -21,4 +21,4 @@ Thank you to the students who participated in our Summer Research program this y
   * UC San Diego Summer Research Internship Program
   * Matthew Henson Fellowship
 
-<iframe src="https://docs.google.com/presentation/d/1-5UkK01mT__t10i72UKnUidtzTW3r3fREEs7wmDllIk/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1-5UkK01mT__t10i72UKnUidtzTW3r3fREEs7wmDllIk/embed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="800" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" title="Summer 2024 REU presentation slides"></iframe>
