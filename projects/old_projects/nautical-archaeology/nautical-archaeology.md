@@ -15,7 +15,7 @@ We collaborate with nautical archaeologists from the [Atlantic World Marine Arch
 
 # Stereo Camera Rig Platform
 
-![]({{"assets/nautical_archaeology/2014-06-26_stereo_rig.jpg" | absolute_url}})
+![Image]({{"assets/nautical_archaeology/2014-06-26_stereo_rig.jpg" | absolute_url}})
 
 Our Stereo Camera Rig platform fuses measurements from a variety of sensors to gain more accurate underwater pose estimates and create high-accuracy underwater models using Structure from Motion and other 3D reconstruction algorithms. 
 

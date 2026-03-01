@@ -23,7 +23,7 @@ The goal of our first test run at the zoo was to gather training footage of the 
 
 To capture the data needed to build these tiger-finding algorithms, we constructed a fixed camera turret with a webcam, high resolution thermal camera, and an experimental ultra low resolution infrared sensor. With the webcam we would capture human-friendly footage, while the thermal camera and low resolution heat sensor would capture computer-friendly footage. By cross-referencing the thermal and color videos, we will be able to extract the training data needed to construct and test the effectiveness of our tiger detection algorithms.
 
-![gabrielle-riley-setup]({{'/assets/2013-07-23-gabrielle-riley-setup.jpg' | resize: '175x261>'}}) ![david-catwalk]({{'/assets/2013-07-23-david-catwalk.jpg' | resize: '175x261>'}}) ![]({{'/assets/2013-07-23-setup.jpg' | resize: '175x261>'}})
+![gabrielle-riley-setup]({{'/assets/2013-07-23-gabrielle-riley-setup.jpg' | resize: '175x261>'}}) ![david-catwalk]({{'/assets/2013-07-23-david-catwalk.jpg' | resize: '175x261>'}}) ![Image]({{'/assets/2013-07-23-setup.jpg' | resize: '175x261>'}})
 
 With help from Greg Vicino and San Diego Zoo staff, we set up the camera rig in the tiger enclosure. The cameras aimed towards an area near the back of the enclosure, one of the tiger's favorite places to hang out. We mounted the turret up high on the fence near the back of the enclosure. Though getting good footage of the tiger was important, we also wanted the camera rig to come back out in one piece the next day.
 

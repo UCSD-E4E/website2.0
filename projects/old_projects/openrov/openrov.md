@@ -5,7 +5,7 @@ title: OpenROV
 category: openrov
 enable_nav: True
 ---
-![]({{"assets/openrov/openrov_big.jpg" | absolute_url}})
+![Image]({{"assets/openrov/openrov_big.jpg" | absolute_url}})
 
  
 

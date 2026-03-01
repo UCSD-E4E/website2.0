@@ -61,7 +61,7 @@ Current Research]({{"assets/floods_of_lubra/Ronan-Wallace-Using-Remote-Sensing-T
 
 Moving forward, there are three subproblems under flooding that are worth exploring:
 
-![]({{"assets/floods_of_lubra/future-research.png" | resize: "1074x571>" | absolute_url}})
+![Image]({{"assets/floods_of_lubra/future-research.png" | resize: "1074x571>" | absolute_url}})
 
 
 # Redirecting Flash Floods

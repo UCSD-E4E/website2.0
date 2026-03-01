@@ -25,7 +25,7 @@ As climate change becomes a growing crisis in our society, oceanography is a pow
 Searching for a solution to this problem, the Surfrider Foundation has partnered with the Scripps Institution of Oceanography to develop a solution called Smartfin that would allow surfers to passively collect this crucial data while they are in the water. The Smartfin hardware has been developed with many sensors designed to measure temperature, location, and wave characteristics, with more currently in development to study pH, dissolved oxygen, and chlorophyll. Preliminary testing of the Smartfin has shown its potential, as shown below temperature data from the board was compared to standard data collected from a near offshore buoy run by Scripps. As many beaches do not have this capability, providing this tool to surfers in select locations will give ordinary citizens the power to make powerful scientific observations, all while catching waves.
 
 
-![]({{"assets/smartfin/waveData_fullres.jpg" | absolute_url}})
+![Image]({{"assets/smartfin/waveData_fullres.jpg" | absolute_url}})
 
 In the chart above, Smartfin user data is recorded in black on top verified temperature measurements from Scripps Pier in blue. The data points line up nicely, showing the impressive accuracy and reliability of the Smartfin to record this ocean parameter.
 Image courtesy of Dr. Tyler Cyronak, Scripps Institute of Oceanography

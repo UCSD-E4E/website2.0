@@ -11,13 +11,13 @@ These planes can be outfitted with a variety of sensors, including high-resoluti
 
 # 3DR Aero
 
-![]({{"assets/planes/aero.jpg" | absolute_url}})
+![Image]({{"assets/planes/aero.jpg" | absolute_url}})
 
 # Ranger
 
-![]({{"assets/planes/ranger.jpg" | absolute_url}})
+![Image]({{"assets/planes/ranger.jpg" | absolute_url}})
 
 # Talon
 
-![]({{"assets/planes/talon.jpg" | absolute_url}})
+![Image]({{"assets/planes/talon.jpg" | absolute_url}})
    
