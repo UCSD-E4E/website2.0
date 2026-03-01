@@ -22,7 +22,7 @@ This project is divided into 3 main parts:
 
 # Aerial Surveys
 
-<div style="text-align: left;"><iframe frameborder="0" height="281" src="//player.vimeo.com/video/88212266" width="500"></iframe></div>
+<div style="text-align: left;"><iframe frameborder="0" height="281" src="//player.vimeo.com/video/88212266" width="500" title="Aerial surveys video"></iframe></div>
 
 # Tunnel Mapping
 
