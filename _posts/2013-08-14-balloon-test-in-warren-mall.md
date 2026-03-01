@@ -30,7 +30,7 @@ The gimbal
 </figure>
 
 <figure>
-<a href="{{'/assets/2013-08-14-eric-nathan-balloon.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-eric-nathan-balloon.jpg' | resize: '670x448>'}}" alt="Preparing to send up the balloon (note the properly deployed sail!)"></a>
+<a href="{{'/assets/2013-08-14-eric-nathan-balloon.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-eric-nathan-balloon.jpg' | resize: '670x448'}}" alt="Preparing to send up the balloon (note the properly deployed sail!)"></a>
 <figcaption>
 Preparing to send up the balloon (note the properly deployed sail!)
 </figcaption>
