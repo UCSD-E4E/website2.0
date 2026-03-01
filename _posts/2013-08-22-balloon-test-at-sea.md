@@ -51,7 +51,7 @@ Overall, the polarizing filter performed well and we were very pleased with how 
 [![Sea test thumbnail 12]({{'/assets/2013-08-22-img12.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img12.jpg' | absolute_url}})
 [![Sea test thumbnail 13]({{'/assets/2013-08-22-img13.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img13.jpg' | absolute_url}})
 
-[![]({{'/assets/2013-08-22-img14.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img14.jpg' | absolute_url}})
+[![Sea test thumbnail 14]({{'/assets/2013-08-22-img14.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img14.jpg' | absolute_url}})
 [![]({{'/assets/2013-08-22-img09.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img09.jpg' | absolute_url}})
 [![]({{'/assets/2013-08-22-img02.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img02.jpg' | absolute_url}})
 
