@@ -48,7 +48,7 @@ From this, we created a structure from motion 3D reconstruction with decent resu
 Overall, the polarizing filter performed well and we were very pleased with how well the stabilization worked, so it was a successful deployment. Our thanks go out to Dr. Stewart, Bob, and Jim for a successful excursion.
 
 [![Sea test thumbnail 11]({{'/assets/2013-08-22-img11.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img11.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img12.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img12.jpg' | absolute_url}})
+[![Sea test thumbnail 12]({{'/assets/2013-08-22-img12.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img12.jpg' | absolute_url}})
 [![]({{'/assets/2013-08-22-img13.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img13.jpg' | absolute_url}})
 
 [![]({{'/assets/2013-08-22-img14.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img14.jpg' | absolute_url}})
