@@ -112,6 +112,14 @@
     margin-bottom: 10px;
 }
 
+.home_post_text .post-meta,
+.home_post_text .post-link,
+.home_post_text .post-link:visited,
+.home_post_text .post-link:hover,
+.home_post_text .home_post_excerpt {
+    color: #ffffff;
+}
+
 .home_post_page {
     display: none;
 }

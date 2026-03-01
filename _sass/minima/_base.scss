@@ -158,6 +158,10 @@ blockquote {
   letter-spacing: -1px;
   font-style: italic;
 
+  p {
+    color: #5f5f5f;
+  }
+
   > :last-child {
     margin-bottom: 0;
   }
