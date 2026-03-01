@@ -37,7 +37,7 @@ Preparing to send up the balloon (note the properly deployed sail!)
 </figure>
 
 <figure>
-<a href="{{'/assets/2013-08-14-balloon-away.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-balloon-away.jpg' | resize: '670x448>'}}" alt="Up, up, and away!"></a>
+<a href="{{'/assets/2013-08-14-balloon-away.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-balloon-away.jpg' | resize: '670x448'}}" alt="Up, up, and away!"></a>
 <figcaption>
 Up, up, and away!
 </figcaption>
