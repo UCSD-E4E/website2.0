@@ -13,7 +13,7 @@ layout: default
         <div class="project-gallery_container">
             <a href={{ project_data.link }}>
                 <img src="{{ project_data.photo | absolute_url }}" class="project-gallery_img" decoding="async"
-                    alt="">
+                    alt="{{ project_data.project_name | default: 'Project image' }}">
             </a>
             <div description>
                 <a href={{ project_data.link }}>
