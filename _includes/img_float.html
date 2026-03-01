@@ -4,4 +4,4 @@
     {% assign float_class = "" %}
 {% endif %}
     
-<img class="{{float_class}}" src="{{ include.src | absolute_url }}" alt="{{include.alt}}">
+<img class="{{float_class}}" src="{{ include.src | absolute_url }}" alt="{{ include.alt | default: 'Image' }}">
