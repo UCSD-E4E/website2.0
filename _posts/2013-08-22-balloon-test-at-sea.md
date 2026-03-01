@@ -53,7 +53,7 @@ Overall, the polarizing filter performed well and we were very pleased with how 
 
 [![Sea test thumbnail 14]({{'/assets/2013-08-22-img14.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img14.jpg' | absolute_url}})
 [![Sea lions thumbnail]({{'/assets/2013-08-22-img09.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img09.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img02.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img02.jpg' | absolute_url}})
+[![Balloon inflation thumbnail]({{'/assets/2013-08-22-img02.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img02.jpg' | absolute_url}})
 
 [![]({{'/assets/2013-08-22-img01.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img01.jpg' | absolute_url}})
 [![]({{'/assets/2013-08-22-img15.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img15.jpg' | absolute_url}})
