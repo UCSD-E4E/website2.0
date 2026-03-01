@@ -18,7 +18,7 @@
             >
               <img 
                 style=""
-                src="{{ item['url'] | resize: resize_cmd }}" alt="">
+                src="{{ item['url'] | resize: resize_cmd }}" alt="{{ item['title'] | default: 'Carousel image' }}">
             </li>
             <div class="carousel_titles">
               <p class="carousel_title"> {{item['title']}} </p>
