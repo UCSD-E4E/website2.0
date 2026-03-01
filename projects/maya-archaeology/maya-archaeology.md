@@ -30,7 +30,7 @@ The Tunnel Mapping project aims to lower the cost of digital documentation by ex
 
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/7tKovc0Eo54" width="540" title="Tunnel mapping video 1"></iframe>
 
-<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/pTD_uXEwNHw" width="540"></iframe>
+<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/pTD_uXEwNHw" width="540" title="Tunnel mapping video 2"></iframe>
 
 Below, is a fly-through video created from a composite point cloud generated from 50 LIDAR scans.
 
