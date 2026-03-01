@@ -151,7 +151,7 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #747474;
+  color: #737373;
   border-left: 4px solid $grey-color-light;
   padding-left: math.div($spacing-unit, 2);
   @include relative-font-size(1.125);
@@ -278,5 +278,5 @@ table {
 
 .archive-link{
   font-size: 2em;
-  color: #747474;
+  color: #737373;
 }
