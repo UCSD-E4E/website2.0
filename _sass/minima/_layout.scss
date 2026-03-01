@@ -52,7 +52,7 @@
   a {
     font-family: 'Cabin Condensed', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    color: #757575;
+    color: #6f6f6f;
     text-transform: uppercase;
     display: inline-block;
     padding: 5px 8px;
@@ -91,7 +91,7 @@
   }
 
   .page-link {
-    color: #757575;
+    color: #6f6f6f;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -225,19 +225,19 @@
 
 .post-meta {
   font-size: $small-font-size;
-  color: #757575;
+  color: #6f6f6f;
 }
 
 .post-meta .dt-published {
-  color: #757575;
+  color: #6f6f6f;
 }
 
 .post-meta .p-author {
-  color: #757575;
+  color: #6f6f6f;
 }
 
 .footer-col .p-name {
-  color: #757575;
+  color: #6f6f6f;
 }
 
 .footer-col .u-email {
@@ -247,7 +247,7 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-  color: #757575;
+  color: #6f6f6f;
 }
 
 
