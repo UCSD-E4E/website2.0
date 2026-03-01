@@ -23,7 +23,7 @@ Contemplating balloon gimbal rigging
 </figure>
 
 <figure>
-<a href="{{'/assets/2013-08-14-gimbal.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-gimbal.jpg' | resize: '670x448>'}}" alt="The gimbal"></a>
+<a href="{{'/assets/2013-08-14-gimbal.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-gimbal.jpg' | resize: '670x448'}}" alt="The gimbal"></a>
 <figcaption>
 The gimbal
 </figcaption>
