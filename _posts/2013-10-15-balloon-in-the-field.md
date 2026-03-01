@@ -37,7 +37,7 @@ After getting set up in the parking lot, we began our trek through the rough ter
 </figure>
 
 <figure>
-<a href="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | absolute_url}}"><img src="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | resize: '640x480'}}" alt=">Along the way we found a turtle"></a>
+<a href="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | absolute_url}}"><img src="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | resize: '640x480'}}" alt="Along the way we found a turtle"></a>
 <figcaption>Along the way we found a turtle</figcaption>
 </figure>
 
@@ -46,4 +46,3 @@ After weeks of processing, we are excited to present high resolution orthophotos
 I'd like to thank David O'Connor for providing us with this opportunity, as well as all of the summer REU students for making this deployment a success.
 
 For more photos of our trip, see [Jennifer's flickr gallery](https://www.flickr.com/photos/kokosnu55/sets/72157635440616518/)
-
