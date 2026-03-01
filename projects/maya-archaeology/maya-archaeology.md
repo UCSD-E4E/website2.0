@@ -28,7 +28,7 @@ This project is divided into 3 main parts:
 
 The Tunnel Mapping project aims to lower the cost of digital documentation by experimenting with data collection methods. These methods include stereo-panoramic cameras, LiDAR, and experimental remote sensing systems based on the Microsoft Kinect camera or the Google Tango tablet. In prior expeditions to Guatemala, we brought a ground-based LiDAR system for high resolution scans of these large excavated temples. One method we are particularly excited about is Structure from Motion (SfM), a low cost technique for generating 3D models using photos from a traditional camera. This group is seeking highly motivated individuals to build data collection infrastructure for expeditions.
 
-<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/7tKovc0Eo54" width="540"></iframe>
+<iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/7tKovc0Eo54" width="540" title="Tunnel mapping video 1"></iframe>
 
 <iframe allowfullscreen="allowfullscreen" frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/pTD_uXEwNHw" width="540"></iframe>
 
