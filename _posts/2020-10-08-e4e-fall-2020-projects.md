@@ -42,7 +42,6 @@ Facebook Event: [https://www.facebook.com/events/387996932221808/](https://www.f
 
 
 
-<iframe width="800" height="475" src="https://www.youtube.com/embed/SL9vEpzvxeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
+<iframe width="800" height="475" src="https://www.youtube.com/embed/SL9vEpzvxeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" title="E4E fall 2020 projects video"></iframe>
 
 
