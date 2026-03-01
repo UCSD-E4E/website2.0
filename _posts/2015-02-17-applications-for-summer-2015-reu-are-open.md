@@ -12,7 +12,7 @@ categories:
 
 We are now taking applications for our 2015 summer REU! If you are interested in spending the summer in San Diego and working on cool engineering projects and exciting fieldwork, please apply to be considered for our summer REU program. Submit your application (before March 15)!
 
-<span style="color: red">IMPORTANT: Make sure to apply to the REU application on REUManager.com. The Google Forms application on this site is only for UCSD students to register their interest during the school year. If you fill out that form, that application will not be considered for our summer REU program.</span>
+<span style="color: #ec0000">IMPORTANT: Make sure to apply to the REU application on REUManager.com. The Google Forms application on this site is only for UCSD students to register their interest during the school year. If you fill out that form, that application will not be considered for our summer REU program.</span>
 
 Last year, we had students from universities across the US working on projects in underwater robotics, aerial vehicles, intelligent camera traps, and others. They worked with scientists and researchers from organizations including the National Geographic Society, San Diego Zoo Institute for Conservation Research, NOAA, and the California Wolf Center, and deployed their projects in the San Diego Zoo, La Jolla Cove, and local wilderness preserves.
 
