@@ -8,7 +8,7 @@
     {% elsif include.src2 %}
     <div class="img-container">
         <img class="side_img" src="{{ include.src | absolute_url }}" alt="{{ include.alt | default: 'Image' }}">
-        <img class="side_img" src="{{ include.src2 | absolute_url }}" alt="{{include.alt2}}">
+        <img class="side_img" src="{{ include.src2 | absolute_url }}" alt="{{ include.alt2 | default: 'Image' }}">
     </div>
     {% else %}
     <div class="img-container">
