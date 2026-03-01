@@ -1,9 +1,29 @@
 {
   "devDependencies": {
-    "gulp": "^5.0.1"
+    "gulp": "^5.0.1",
+    "pa11y": "^9.1.1",
+    "pa11y-ci": "^4.0.1"
   },
   "dependencies": {
     "cross-spawn": "^7.0.6",
     "foundation-sites": "^6.9"
-  }
+  },
+  "name": "website2.0",
+  "description": "Please use https://vscode.dev/github/UCSD-E4E/website2.0",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCSD-E4E/website2.0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCSD-E4E/website2.0/issues"
+  },
+  "homepage": "https://github.com/UCSD-E4E/website2.0#readme"
 }
