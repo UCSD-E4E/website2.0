@@ -16,7 +16,7 @@ post_format:
 This summer, we've been hard at work redesigning the stabilized aerial camera platform. In our past tests towing the balloon from a boat to survey marine wildlife, the gimbal was not able to move quickly enough to counteract strong gusting motions, and the rigging prevented the balloon's sail from deploying completely. To improve the stability of the balloon platform, we switched to a new gimbal that is lighter and better balanced, which reduces the work that the servos need to do. This means that the servos will be able to provide faster response than the previous gimbal and stabilize more effectively, which is critical to getting good imagery when tethered to the back of a bobbing boat. In addition, we rewrote the stabilization code from the ground up to allow more tuning options and new features, such as autofocus control or the addition of other sensors. Finally, we redid the rigging so the gimbal would now be held at a skewed angle, which would prevent the sail from deploying. The sail is crucial for maintaining stability in windy conditions, as it prevents the balloon from spinning out of control. With all these new improvements, we sent up the balloon to see how it'd fare.
 
 <figure>
-<a href="{{'/assets/2013-08-14-rigging.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-rigging.jpg' | resize: '670x448>'}}" alt="Contemplating balloon gimbal rigging"></a>
+<a href="{{'/assets/2013-08-14-rigging.jpg' | absolute_url}}"><img src="{{'/assets/2013-08-14-rigging.jpg' | resize: '670x448'}}" alt="Contemplating balloon gimbal rigging"></a>
 <figcaption>
 Contemplating balloon gimbal rigging
 </figcaption>
