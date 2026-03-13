@@ -6,51 +6,220 @@ category: mangrove-monitoring
 enable_nav: true
 ---
 
-![Image]({{"assets/mangrove/2018-06-05_aburto_lab_photos.jpg" | absolute_url}})
+<style>
+.scrolly {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+}
+
+/* Left column: sticky graphic */
+.graphic {
+  flex: 0 0 40%;
+  max-width: 700px;
+  margin: 0 auto;
+  position: sticky;
+  top: 100px;
+  bottom: 100px;
+  max-height: calc(100vh - 140px);
+  padding-bottom: 450px
+  /* overflow: hidden; */
+}
+
+/* Make image fill the column */
+.graphic img {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  margin: 0;
+}
+
+.graphic img.active {
+  opacity: 1;
+}
+
+/* Right column: steps */
+.steps {
+  flex: 1;
+  min-width: 280px;
+}
+
+.step {
+  margin: 0 0 2rem;
+  padding-top: 50px;
+}
+
+/* Responsive: stack on narrow screens */
+/* @media (max-width: 900px) {
+  .scrolly {
+    display: block;
+  }
+  .graphic {
+    position: relative;
+    top: auto;
+    max-width: 100%;
+  }
+} */
+</style>
+
+<div class="scrolly" markdown="1">
+
+<div class="graphic" markdown="1">
+<img id="imgA" src="/assets/mangrove/2018-06-05_aburto_lab_photos.jpg" alt="Mangrove Conservation Title" class="active">
+<img id="imgB" src="/assets/mangrove/2018-06-05_aburto_lab_photos.jpg" alt="Mangrove Conservation Title">
+</div>
+
+<div class="steps">
+
+<!-- ![Image]({{"assets/mangrove/2018-06-05_aburto_lab_photos.jpg" | absolute_url}}) -->
+<div class="step" markdown="1" imageIndex="0">
+## Why Mangroves?
+
 Mangroves are a very valuable and understudied plant species.  They provide $100,000 per hectare per year in services that are critical to the overall health of coastal ecosystems.  Mangroves act as fishery habitats, they sequester carbon, filter runoff, and protect coastlines from hurricanes.
+</div>
 
-![Image]({{"assets/mangrove/2018-06-05_services_and_loss.jpg" | absolute_url}})
-
+<!-- ![Image]({{"assets/mangrove/2018-06-05_services_and_loss.jpg" | absolute_url}}) -->
+<div class="step" markdown="1" imageIndex="0">
 We are collaborating with the Aburto Lab and the Gulf of California Marine Program at the Scripps Institution of Oceanography to use drone and satellite imagery to quantify mangrove species and extent in Baja California. 
+</div>
 
-## Machine Learning
+<div class="step" markdown="1" imageIndex="1">
+
 We build machine learning models to extract metrics from drone and satellite imagery. Most of the team's previous work has been on classifying the presence of mangroves in a drone image. As of 2025, our main focus is making satellite super-resolution models to get higher quality predictions from satellite images. We are planning to try various model architectures, including diffusion, SRCNN, and GAN.
+</div>
 
+<div class="step" markdown="1" imageIndex="1">
 # Summer 2020
 
-<iframe width="800" height="475" src="https://www.youtube.com/embed/obCpmMlv9pw" title="E4E Mangrove Monitoring: Summer 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/obCpmMlv9pw" title="E4E Mangrove Monitoring: Summer 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
+
+<!-- ![Image]({{"assets/mangrove/2018-05-10_Day1_full-Team.jpg" | resize: '768x465>' | absolute_url}}) -->
+<div class="step" markdown="1" imageIndex="2">
 # Spring 2018
 
 Mangrove Monitoring in Puerto San Carlos
 
-![Image]({{"assets/mangrove/2018-05-10_Day1_full-Team.jpg" | resize: '768x465>' | absolute_url}})
-
 Engineers for Exploration leaders Nikko Dutra Bouck and Eric Lo went to Baja Sur California with [Scripps Institution of Oceanography](https://scripps.ucsd.edu/) (SIO) researchers Astrid Hsu and Joy Kumagai and Beni Martinez from the Gulf of California Marine Program from May 9th to May 15th, where the team collected new data to help support the conservation of coastal mangrove ecosystems in Puerto San Carlos, Baja Sur California, México.
+</div>
 
+<div class="step" markdown="1" imageIndex="2">
 The overall goal for expedition was to test data collection methodologies that can provide accurate information about the distribution and extent of Baja’s mangroves. By utilizing remote sensing techniques and on-the-ground methods, this project aims to calculate mangrove biomass by species and region in a quick and efficient manner.  In particular, we developed new methodologies to support and improve our machine learning techniques. Parallel to this, the Aburto Lab spent a substantial amount of time collecting biomass data within the mangroves, information that the Engineers for Exploration team will use to compose a statistical model on species density.
+</div>
 
+
+<!-- ![Image]({{"assets/mangrove/2018-06-05_labeled_survey.jpg" | resize: '768x474>' | absolute_url}}) -->
+
+<div class="step" markdown="1" imageIndex="3">
 The first day on site, in Mexico, Nikko developed a new methodology for ground truthing aerial surveys that will greatly improve the teams confidence in machine learning classification and crowdsourced labeling.  The methodology is called a perimeter survey which implements a low altitude drone flight that provides imagery so sharp that mangrove species can be classified by leaf shape. At the edge of the mangrove forest, the pilot drops a large species marker on the ground to reference the starting point for drawing polygons around the individual plant species, and then flies at roughly 15 meters above. This new approach is preferred over our previous approach because the perimeter survey enables a drone pilot to validate the identity of each plant species while in the field.  The addition of this dataset can dramatically improve the ability to train machine learning algorithms, and provides an excellent reference for analyzing the accuracy of the team’s machine learning efforts.
+</div>
 
-![Image]({{"assets/mangrove/2018-06-05_labeled_survey.jpg" | resize: '768x474>' | absolute_url}})
 
-Throughout the remainder of the trip, Eric trained the Beni Martinez and Astrid to collect aerial drone imagery for biomass and species analysis at altitudes of 120m and 15m. The long-term vision is that members of the GCMP such as Beni Martinez will train local park rangers in Baja California Sur and scale up these efforts, resulting in a greatly improved workflow that will enable the three organizations involved to identify changes in the environment within a year.  The rangers will be able send the data collected to the GCMP, the Aburto Lab, and Engineers for Exploration where each team will then utilize the machine learning platform to automatically identify changes in mangrove species distribution and provide insight into illegal dumping activities. This Machine Learning platform is currently being developed by John Dorian, Tammy Mok, and Nikko Dutra Bouck and will continue this summer during our NSF REU program.
+<div class="step" markdown="1" imageIndex="3">
+Throughout the remainder of the trip, Eric trained the Beni Martinez and Astrid to collect aerial drone imagery for biomass and species analysis at altitudes of 120m and 15m. The long-term vision is that members of the GCMP such as Beni Martinez will train local park rangers in Baja California Sur and scale up these efforts, resulting in a greatly improved workflow that will enable the three organizations involved to identify changes in the environment within a year.  
+</div>
 
-![Image]({{"assets/mangrove/2018-05-12_phantom4_over_mexico.jpg" | resize: '768x512>' | absolute_url}})
+<!-- ![Image]({{"assets/mangrove/2018-05-12_phantom4_over_mexico.jpg" | resize: '768x512>' | absolute_url}}) -->
+<div class="step" markdown="1" imageIndex="4">
+The rangers will be able send the data collected to the GCMP, the Aburto Lab, and Engineers for Exploration where each team will then utilize the machine learning platform to automatically identify changes in mangrove species distribution and provide insight into illegal dumping activities. This Machine Learning platform is currently being developed by John Dorian, Tammy Mok, and Nikko Dutra Bouck and will continue this summer during our NSF REU program.
+</div>
 
+<div class="step" markdown="1" imageIndex="4">
 Check back soon for results and our updated crowdsourced tool with high resolution imagery.
 
 Beta release:
 
 [https://davidjasperforman.github.io/MLPaintWeb/](https://davidjasperforman.github.io/MLPaintWeb/)
+</div>
 
+
+<!-- ![Image]({{"assets/mangrove/2018-06-05_species_classification.jpg" | absolute_url}}) -->
+<div class="step" markdown="1" imageIndex="5">
 # Summer 2017
 
 During the summer of 2017, Eric Lo, Brynn Hall, and Nikko (Nicholas) Bouck traveled to Baja California with our SIO collaborators to capture drone imagery and ground truth data on the mangroves.  After capturing aerial imagery in Baja California we began to explore machine learning techniques to automate analysis of the data collected. Julien Bloch, from UC Berkeley, and Felix Parker, Johns Hopkins University explored various machine learning algorithms as Nikko Bouck and Brynn Hall built up training data for these algorithms. The image below illustrates the results of the automation efforts over the summer of 2017.
-
-![Image]({{"assets/mangrove/2018-06-05_species_classification.jpg" | absolute_url}})
 
 If you are interested in becoming involved in this project apply @ [https://e4e.ucsd.edu/join](https://e4e.ucsd.edu/join).
 
 SIO collaborators:
 Octavio Aburto, Astrid Hsu, Mathew Costa, Joy Kumagai, Alex Makic
+</div>
+
+</div> 
+</div> 
+
+
+<script type="module">
+import scrollama from 'https://cdn.jsdelivr.net/npm/scrollama@3.2.0/+esm';
+
+const scroller = scrollama();
+
+let showingA = true;
+
+const images = [
+    "/assets/mangrove/2018-06-05_aburto_lab_photos.jpg",
+    "/assets/mangrove/2018-06-05_services_and_loss.jpg",
+    "/assets/mangrove/2018-05-10_Day1_full-Team.jpg",
+    "/assets/mangrove/2018-06-05_labeled_survey.jpg",
+    "/assets/mangrove/2018-05-12_phantom4_over_mexico.jpg",
+    "/assets/mangrove/2018-06-05_species_classification.jpg"
+];
+
+const alts = [
+  "Mangrove Conservation Title",
+  "Mangrove services and loss infographic",
+  "Full team in the field",
+  "Labeled mangrove survey",
+  "Drone over mangrove forest",
+  "Species classification overlay"
+];
+
+const originalImage = images[0];
+let oldImageIndex = 0;
+
+images.forEach(src => { const img = new Image(); img.src = src; });
+
+scroller
+  .setup({
+    step: ".step",
+    offset: 0.8
+  })
+  .onStepEnter(({ element }) => {
+
+    // Replace with new source (if the image has changed)
+    const newImageIndex = Number(element.getAttribute("imageIndex"));
+    const newSrc = images[newImageIndex];
+
+    if (oldImageIndex !== newImageIndex) {
+      oldImageIndex = newImageIndex;
+
+      const hiddenImg = showingA ? imgB : imgA;
+      const visibleImg = showingA ? imgA : imgB;
+
+      const swap = () => {
+        hiddenImg.classList.add("active");
+        visibleImg.classList.remove("active");
+        showingA = !showingA;
+      };
+
+      hiddenImg.alt = alts[newImageIndex] ?? "Mangrove project image";
+      hiddenImg.onload = () => swap();
+      hiddenImg.src = newSrc;
+
+      // If already cached, trigger swap immediately
+      if (hiddenImg.complete) {
+        swap();
+      }
+    }
+
+  });
+</script>
