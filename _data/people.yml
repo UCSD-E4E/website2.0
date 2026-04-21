@@ -1787,6 +1787,11 @@
   level: Project Member 
   image: assets/people/l.hardy.jpg
   start: 2025
+- name: Yuvraj Bhatia
+  description: FishSense since Winter 2025
+  level: Project Member
+  image: assets/people/y.bhatia.jpg
+  start: 2025
 - name: Tyler Houy
   description: FishSense since 2025
   level: Project Member
@@ -1812,11 +1817,6 @@
   level: Project Member
   image: assets/people/k.marikumaran.jpeg
   start: 2024
-- name: Ishan Vaish
-  description: Mangrove Monitoring since 2025
-  level: Project Member
-  image: assets/people/i.vaish.jpg
-  start: 2025
 - name: Ishan Vaish
   description: Mangrove Monitoring since 2025
   level: Project Member
@@ -1863,7 +1863,7 @@
   image: assets/people/h.le.jpg
   start: 2024
 - name: Zhencheng Lin
-  description: Maya archaeology
+  description: Maya archaeology, FishSense since 2025
   level: Project Member
   start: 2024
 - name: Jennifer (Chengxi) Xu
@@ -1943,4 +1943,31 @@
   description: Fishsense, 2025 Summer REU
   image: assets/people/n.rekasius.png
   level: Project Member
-  
+- name: Nandita Raj Kumar
+  description: FishSense Since 2026
+  image: assets/people/n.raj_kumar.jpeg
+  level: Project Member
+  start: 2026
+- name: Cecilia Li
+  description: FishSense Since 2026
+  image: assets/people/c.li.jpg
+  level: Project Member
+  start: 2026
+- name: Zander Baker
+  description: FishSense Since 2026
+  image: assets/people/z.baker.png
+  level: Project Member
+  start: 2026
+- name: Hamza Mohiuddin
+  description: FishSense Since 2026
+  level: Project Member
+  start: 2026
+- name: Long HoDac
+  description: FishSense Since 2026
+  image: assets/people/l.hodac.png
+  level: Project Member
+  start: 2026
+- name: Tom Klappenecker
+  description: FishSense Since 2026
+  level: Project Member
+  start: 2026
