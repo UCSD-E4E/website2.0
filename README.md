@@ -14,7 +14,7 @@ Please use https://vscode.dev/github/UCSD-E4E/website2.0
 
 ## Other gulp commands
 - `npx gulp build` performs a single static build of the site
-- `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arugments
+- `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arguments
 
 ## Adding blog posts
 Create a new file in `/_posts` with the following name: `{year}-{month}-{day}-{hyphenated-title}.md`.  For example: `2024-05-10-e4e-releases-new-jekyll-website.md`.
