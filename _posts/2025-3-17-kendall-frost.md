@@ -43,7 +43,7 @@ Upon collecting GPS coordinates of various views of the area, we decided this wa
  src=image2
 %}
 
-# Preperation
+# Preparation
 
 Two key aspects were needed to get ready to go: Getting approval for the deployment, and getting the equipment set up. Wesley handled the documentation work and networking with the Nature Reserve System to approve the deployment (which was quite a bit of work!). Sean primarily worked on acquiring recording equipment and setup. 
 
