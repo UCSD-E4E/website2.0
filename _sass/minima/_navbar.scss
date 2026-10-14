@@ -38,7 +38,7 @@ $mobile-nav-pad: 8px 5px;
     display: none;
 
     .nav-sub-menu-drop {
-        display: inline-block; 
+        display: inline-block;
         float: right;
         padding: $mobile-nav-pad;
         margin: 0px;
@@ -52,7 +52,7 @@ $mobile-nav-pad: 8px 5px;
 
     li:hover>a {
         color: #999;
-    
+
     }
 
     ul ul {
@@ -95,18 +95,18 @@ $mobile-nav-pad: 8px 5px;
       transform: rotate(180deg);
       margin-top: 16px;
     }
-    
+
     input~.trigger {
       clear: both;
       display: none;
     }
-  
+
     input:checked~.trigger {
       display: block;
       padding-bottom: 5px;
     }
-  
-  
+
+
     label[for="nav-trigger"] {
         display: block;
         float: right;
@@ -118,7 +118,7 @@ $mobile-nav-pad: 8px 5px;
       }
   }
 
-  
+
 }
 
 // // Disable Mobile additions

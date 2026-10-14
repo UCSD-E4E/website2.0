@@ -32,6 +32,15 @@ body {
 }
 
 /**
+ * Maintain element spacing after the reset rules.
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: math.div($spacing-unit, 2);
+}
+
+/**
  * `main` element
  */
 main {
@@ -118,7 +127,7 @@ a {
 
   &:visited {
     color: color.adjust($brand-color, $lightness: -15%, $space: hsl);
-  } 
+  }
 
   &:hover {
     color: $text-color;
@@ -230,7 +239,7 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   text-align: $table-text-align;
-  color: color.adjust($text-color, $lightness: 18%, $space: hsl); 
+  color: color.adjust($text-color, $lightness: 18%, $space: hsl);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
   tr {

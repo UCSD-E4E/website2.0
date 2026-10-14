@@ -18,7 +18,7 @@ $background-color: #fdfdfd !default;
 $brand-color:      #2a7ae2 !default;
 
 $grey-color:       #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%, $space: hsl) !default; 
+$grey-color-light: color.adjust($grey-color, $lightness: 40%, $space: hsl) !default;
 $grey-color-dark:  color.adjust($grey-color, $lightness: -25%, $space: hsl) !default;
 
 $table-text-align: left !default;
@@ -59,9 +59,6 @@ $on-laptop:        800px !default;
   /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: math.div($spacing-unit, 2);
 }

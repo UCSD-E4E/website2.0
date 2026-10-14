@@ -2,7 +2,7 @@
 @use "sass:math";
 
 // Import partials.
-@use "minima/syntax-highlighting" as *; 
+@use "minima/syntax-highlighting" as *;
 @use "minima/base" as *;
 @use "minima/layout" as *;
 @use "minima/home" as *;
@@ -13,3 +13,5 @@
 @use "minima/people" as *;
 @use "minima/navbar" as *;
 @use "minima/variables" as *;
+
+@use "minima/publications" as *;

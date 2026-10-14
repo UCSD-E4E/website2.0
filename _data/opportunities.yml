@@ -34,28 +34,6 @@
   - Github
   desired:
   - Strong linear algebra background
-- project: Hardware Team
-  title: Electrical Designer
-  link: /research-support-group
-  description: Engineers for Exploration develops a number of systems to support scientists in conducting scientific studies. These systems often contain experimental technologies, but need to survive in harsh austere environments such as in jungles, ocean depths, or the desert, as well as for long periods of time. We are looking for a team of students to help with developing and building the electrical components for several of these systems. This team will be supporting every project that involves hardware, which enables students to get a broad range of experience with various types of design spaces. We would be looking for students to commit at least 4 hours a week.
-  required:
-  - Altium Designer
-  - Electrical design, analysis, and prototyping
-  - Technical documentation
-  desired:
-  - Rapid prototyping and design
-  - Experience with soldering
-- project: Hardware Team
-  title: Mechanical Designer
-  link: /research-support-group
-  description: Engineers for Exploration develops a number of systems to support scientists in conducting scientific studies. These systems often contain experimental technologies, but need to survive in harsh austere environments such as in jungles, ocean depths, or the desert. We are looking for a team of students to help with developing and building the mechanical components for several of these systems. This team will be supporting every project that involves hardware, which enables students to get a broad range of experience with various types of design spaces. We would be looking for students to commit at least 4 hours a week.
-  required:
-  - SolidWorks
-  - Mechanical design, analysis, and prototyping
-  - Technical documentation
-  desired:
-  - Rapid prototyping and design
-  - Experience with building hardened systems
 - project: Mangrove Monitoring
   title: ML
   link: /mangrove-monitoring

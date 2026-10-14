@@ -19,24 +19,14 @@ toc:
   - name: Projects
     url: /projects
     subfolderitems:
-      - name: Radio Telemetry Tracker
-        url: /radio-collar-tracker
-      - name: Baboons on the Move
-        url: /baboons-on-the-move
       - name: Acoustic Species Identification
         url: /acoustic-species-identification
       - name: Mangrove Monitoring
         url: /mangrove-monitoring
-      - name: Maya Archeology
-        url: /maya-archaeology 
       - name: Smartfin
         url: /smartfin
-      - name: Aqua3D
-        url: /aqua3d
       - name: FishSense
         url: /fishsense
-      - name: Floods of Lubra
-        url: /floods-of-lubra
       - name: Research Support Group
         url: /research-support-group
       - name: Past Projects
