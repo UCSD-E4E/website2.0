@@ -1,7 +1,7 @@
 ---
 ---
 <style>ol.bibliography li { list-style: none }</style>
-{{ reference }}
+
 
 {% assign urls = "" %}
 {% capture doi_url %}<a href="https://doi.org/{{ entry.doi| remove_first: "https://doi.org/"}}">DOI</a>|{% endcapture %}
@@ -15,13 +15,31 @@
 
 
 
-<p>[{{urls | split: "|" | join: " | "}}]</p>
 
-{% if entry.abstract %}
-<p></p>
-<blockquote><p>{{ entry.abstract }}</p></blockquote>
-{% endif %}
+{% if entry.abstract or entry.keywords %}
+<ul class="accordion" data-accordion data-multi-expand="true" data-allow-all-closed="true">
+    <li class="accordion-item pub_separator" data-accordion-item>
+      <a href="#" class="accordion-title pub">
+        {{ reference }}
+      </a>
+      <div class="accordion-content pub" data-tab-content >
+        {% if entry.abstract %}
+        <p></p>
+        <blockquote class="pub_unseparator"><p>{{ entry.abstract }}</p></blockquote>
+        {% endif %}
+        {% if entry.keywords %}
+        <blockquote class="pub_unseparator"><p>Keywords: {{ entry.keywords }}</p></blockquote>
+        {% endif %}
+      </div>
+      <p>[{{urls | split: "|" | join: " | "}}]</p>
+    </li>
+  </ul>
+  {% else %}
+  {{ reference }}
+  <p>[{{urls | split: "|" | join: " | "}}]</p>
+  {% endif %}
+ 
 
-{% if entry.keywords %}
-<blockquote><p>Keywords: {{ entry.keywords }}</p></blockquote>
-{% endif %}
+
+
+

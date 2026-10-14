@@ -11,15 +11,16 @@ Mangroves are a very valuable and understudied plant species.  They provide $100
 
 ![]({{"assets/mangrove/2018-06-05_services_and_loss.jpg" | absolute_url}})
 
-We are collaborating with the Aburto Lab and the Gulf of California Marine Program at the Scripps Institution of Oceanography to use drone and satellite imagery to quantify mangrove species and extent in Baja California.
+We are collaborating with the Aburto Lab and the Gulf of California Marine Program at the Scripps Institution of Oceanography to use drone and satellite imagery to quantify mangrove species and extent in Baja California. 
 
-# REU Summer 2017
+## Machine Learning
+We build machine learning models to extract metrics from drone and satellite imagery. Most of the team's previous work has been on classifying the presence of mangroves in a drone image. As of 2025, our main focus is making satellite super-resolution models to get higher quality predictions from satellite images. We are planning to try various model architectures, including diffusion, SRCNN, and GAN.
 
-During the summer of 2017, Eric Lo, Brynn Hall, and Nikko (Nicholas) Bouck traveled to Baja California with our SIO collaborators to capture drone imagery and ground truth data on the mangroves.  After capturing aerial imagery in Baja California we began to explore machine learning techniques to automate analysis of the data collected. Julien Bloch, from UC Berkeley, and Felix Parker, Johns Hopkins University explored various machine learning algorithms as Nikko Bouck and Brynn Hall built up training data for these algorithms. The image below illustrates the results of the automation efforts over the summer of 2017.
+# Summer 2020
 
-![]({{"assets/mangrove/2018-06-05_species_classification.jpg" | absolute_url}})
+<iframe width="800" height="475" src="https://www.youtube.com/embed/obCpmMlv9pw" title="E4E Mangrove Monitoring: Summer 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-# Spring 2018 Update
+# Spring 2018
 
 Mangrove Monitoring in Puerto San Carlos
 
@@ -43,9 +44,13 @@ Beta release:
 
 [https://davidjasperforman.github.io/MLPaintWeb/](https://davidjasperforman.github.io/MLPaintWeb/)
 
-If you are interested in learning more about labeling events or becoming involved in this project contact us. [e4e@ucsd.edu](mailto:e4e@ucsd.edu)
+# Summer 2017
+
+During the summer of 2017, Eric Lo, Brynn Hall, and Nikko (Nicholas) Bouck traveled to Baja California with our SIO collaborators to capture drone imagery and ground truth data on the mangroves.  After capturing aerial imagery in Baja California we began to explore machine learning techniques to automate analysis of the data collected. Julien Bloch, from UC Berkeley, and Felix Parker, Johns Hopkins University explored various machine learning algorithms as Nikko Bouck and Brynn Hall built up training data for these algorithms. The image below illustrates the results of the automation efforts over the summer of 2017.
+
+![]({{"assets/mangrove/2018-06-05_species_classification.jpg" | absolute_url}})
+
+If you are interested in becoming involved in this project apply @ [https://e4e.ucsd.edu/join](https://e4e.ucsd.edu/join).
 
 SIO collaborators:
 Octavio Aburto, Astrid Hsu, Mathew Costa, Joy Kumagai, Alex Makic
-
-<iframe width="800" height="475" src="https://www.youtube.com/embed/obCpmMlv9pw" title="E4E Mangrove Monitoring: Summer 2020" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

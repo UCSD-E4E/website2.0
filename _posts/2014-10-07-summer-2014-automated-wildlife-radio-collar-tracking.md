@@ -16,7 +16,7 @@ Although wildlife radio collar tracking is common practice in wildlife research,
 <figcaption>Our hexacopter aerial platform, equipped with the custom radio collar tracking payload</figcaption>
 </figure>
 
-Our solution consists of an aerial platform that carries a custom radio receiver payload which can detect the radio collar signal. By flying, we can avoid the challenges presented from navigating impassible terrain and cover a significantly larger area than would be possible on foot. In addition, the receiver payload can scan for multiple radio collars at once, streamlining the process of tracking multiple animals.
+Our solution consists of an aerial platform that carries a custom radio receiver payload which can detect the radio collar signal. By flying, we can avoid the challenges presented from navigating impassable terrain and cover a significantly larger area than would be possible on foot. In addition, the receiver payload can scan for multiple radio collars at once, streamlining the process of tracking multiple animals.
 
 <figure>
 <a href="{{'/assets/2014-10-07-s800-prep.jpg' | absolute_url}}"><img src="{{'/assets/2014-10-07-s800-prep.jpg' | resize: '1024x768'}}" alt="Flight testing at Warren Field"></a>

@@ -1,12 +1,13 @@
 @charset "utf-8";
 @use "sass:math";
+@use "variables";
 
 $mobile-nav-pad: 8px 5px;
 
 .site-nav-button {
     display: none;
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(#{variables.$content-width} - (#{variables.$spacing-unit} * 2));
+    max-width:         calc(#{variables.$content-width} - (#{variables.$spacing-unit} * 2));
 
     .nav-trigger {
         display: none //set block for debugging
@@ -18,7 +19,7 @@ $mobile-nav-pad: 8px 5px;
 }
 
 // For extra Mobile Support
-@include media-query($on-palm) {
+@include variables.media-query(variables.$on-palm) {
   .menu {
     flex-direction: column;
   }
@@ -37,7 +38,7 @@ $mobile-nav-pad: 8px 5px;
     display: none;
 
     .nav-sub-menu-drop {
-        display: inline-block; 
+        display: inline-block;
         float: right;
         padding: $mobile-nav-pad;
         margin: 0px;
@@ -51,7 +52,7 @@ $mobile-nav-pad: 8px 5px;
 
     li:hover>a {
         color: #999;
-    
+
     }
 
     ul ul {
@@ -83,7 +84,7 @@ $mobile-nav-pad: 8px 5px;
         line-height: 0;
         padding-top: 10px;
         text-align: center;
-        fill: $grey-color-dark;
+        fill: variables.$grey-color-dark;
       }
 
     input~label[for="nav-trigger"]>.menu-icon {
@@ -94,18 +95,18 @@ $mobile-nav-pad: 8px 5px;
       transform: rotate(180deg);
       margin-top: 16px;
     }
-    
+
     input~.trigger {
       clear: both;
       display: none;
     }
-  
+
     input:checked~.trigger {
       display: block;
       padding-bottom: 5px;
     }
-  
-  
+
+
     label[for="nav-trigger"] {
         display: block;
         float: right;
@@ -117,7 +118,7 @@ $mobile-nav-pad: 8px 5px;
       }
   }
 
-  
+
 }
 
 // // Disable Mobile additions

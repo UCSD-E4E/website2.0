@@ -1,4 +1,7 @@
 # Website 2.0
+## To Edit:
+Please use https://vscode.dev/github/UCSD-E4E/website2.0
+
 ## Developer Get Started
 1. Follow the instructions at https://jekyllrb.com/docs/installation/ to install the Jekyll generator on your machine.
 2. Follow the instructions at http://www.graphicsmagick.org/README.html#installation to install GraphicsMagick on your machine.
@@ -11,7 +14,7 @@
 
 ## Other gulp commands
 - `npx gulp build` performs a single static build of the site
-- `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arugments
+- `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arguments
 
 ## Adding blog posts
 Create a new file in `/_posts` with the following name: `{year}-{month}-{day}-{hyphenated-title}.md`.  For example: `2024-05-10-e4e-releases-new-jekyll-website.md`.

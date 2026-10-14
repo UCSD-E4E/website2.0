@@ -12,7 +12,7 @@ enable_nav: true
 %}
 
 
-The Radio Telemetry Tracker project is a collaboration between the San Diego Zoo’s Beckman Institute for Conservation Research (ICR) and UC San Diego’s Engineers For Exploration. We have been working with the ICR and its collaborators to develop a drone to conduct radio telemetry tracking missions. Tracking wildlife radio collars is the most effective way of monitoring animal movement patters, however, this is limited by the speed at which researchers can traverse over the terrain in the area where these animals reside. The Radio Telemetry Tracker project addresses these challenges by adapting new technology to approach this problem in a new direction. Ultimately, the goal of this project is to develop a tool for researchers to do more and better research in less time and with less effort. To accomplish this, our system flies a search grid over a candidate area while recording a large swath of radio spectrum using a software defined radio. Once the drone returns from the flight, we use digital signal processing to extract the frequencies that the radio transmitters are transmitting on, and use a statistical model to determine where the transmitters we heard are. This data is then saved to a GIS (Geographical Information System) file, which ecologists and biologists can then use in their research.
+The Radio Telemetry Tracker project is a collaboration between the San Diego Zoo’s Beckman Institute for Conservation Research (ICR) and UC San Diego’s Engineers For Exploration. We have been working with the ICR and its collaborators to develop a drone to conduct radio telemetry tracking missions. Tracking wildlife radio collars is the most effective way of monitoring animal movement patterns, however, this is limited by the speed at which researchers can traverse over the terrain in the area where these animals reside. The Radio Telemetry Tracker project addresses these challenges by adapting new technology to approach this problem in a new direction. Ultimately, the goal of this project is to develop a tool for researchers to do more and better research in less time and with less effort. To accomplish this, our system flies a search grid over a candidate area while recording a large swath of radio spectrum using a software defined radio. Once the drone returns from the flight, we use digital signal processing to extract the frequencies that the radio transmitters are transmitting on, and use a statistical model to determine where the transmitters we heard are. This data is then saved to a GIS (Geographical Information System) file, which ecologists and biologists can then use in their research.
 
 {% include 
     img_caption.html
@@ -23,80 +23,7 @@ The Radio Telemetry Tracker project is a collaboration between the San Diego Zoo
 
 Since the start of this project, we have had the opportunity to use this platform in the field. In a 2015 collaboration with Stesha Pasachnik (San Diego Zoo), we took the Radio Telemetry Tracker to the Dominican Republic to study the rhinoceros iguana (Cyclura cornuta) and the Ricord’s iguana (Cyclura ricordi). Then, in a 2016 collaboration with Jennette Moss (Mississippi State University) and Glenn Gerber (San Diego Zoo), we took the Radio Collar Tracker to Little Cayman to study the Sister Isle’s Rock Iguana (Cyclura nubila caymanensis).
 
-# THE TEAM
-Tyler Flar, B.S. Computer Science at UC San Diego
-
-Nathan Hui, Staff Engineer at UC San Diego
-
-Matthew Peng, B.S. Computer Science at UC San Diego
-
-Praveen Swaminathan, B.S. Electrical Engineering at UC San Diego
-
-Vaibhav Maloo, B.S. Computer Engineering at UC San Diego
-
-Wesley Lewis, B.S. Computer Science at the University of Virginia
-
-Claire Wang, B.S. Mechanical Engineering at UC San Diego
-
-Aniket Bhosale, B.S. Electrical Engineering at UC San Diego
-
-# PAST MEMBERS
-
-Hannah Grehm (2021 – 2024)
-
-Mia Lucio, UC San Diego (2020 – 2021)
-
-Eric Lo, UC San Diego (2013 – 2020)
-
-Emmanuel Gharehbekloo (2019 – 2020)
-
-Aditi Gaur (2019 – 2020)
-
-Rujvi Mehendre (2019 – 2020)
-
-Emilio Figueroa (2019 – 2020)
-
-Eric Tran (2018 – 2019)
-
-Charles Kinzel, CSU San Bernardino (2019 NSF REU)
-
-Matt Epperson, UC San Diego (2017)
-
-Katlin Dahn, Portland State University (2017 NSF REU)
-
-Anthony Koutroulis, UC Santa Cruz (2017 NSF REU)
-
-Jacob Domine, UC San Diego (2016 – 2017)
-
-Thomas An, UC San Diego (2017)
-
-Naveen Ketagoda, UC San Diego (2017)
-
-Daniel Knapp, UC San Diego (2017)
-
-Samuel Vineyard, UC San Diego (2017)
-
-Jacob Torres, UC San Diego (2016 – 2017)
-
-Daniel Webber, Santa Clara University (2016 NSF REU)
-
-Samuel Bauza, UC San Diego (2016)
-
-Nan Shu, UC San Diego (2016)
-
-Gilberto Antonio Marcon dos Santos, Universidade Federal de Gois (2014 NSF REU)
-
-Zachary Barnes, UC San Diego (2014 NSF REU)
-
-Xavier Tejeda, UC San Diego (2014)
-
-Alex Ke, UC San Diego (2014)
-
-Bryan Ritoper, UC San Diego (2013 – 2014)
-
-Lauren Nishizaki, Harvey Mudd College (2013 NSF REU)
-
-Han Lin, UC San Diego (2013)
+Project Lead: Tyler Flar ([tflar@ucsd.edu](mailto:tflar@ucsd.edu))
 
 # PUBLICATIONS
  - Hui, N. T., Lo, E. K., Moss, J. B., Gerber, G. P., Welch, M. E., Kastner, R., & Schurgers, C. (2021). A more precise way to localize animals using drones. Journal of Field Robotics, 1– 12. [https://doi.org/10.1002/rob.22017](https://doi.org/10.1002/rob.22017)

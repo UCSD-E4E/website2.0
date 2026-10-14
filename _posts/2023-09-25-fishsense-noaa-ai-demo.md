@@ -1,7 +1,7 @@
 ---
 date: 2023-09-25 00:00:00-08:00
 description: null
-featuredImage: assets/assets/2023-09-25_noaa_demo.jpg
+featuredImage: assets/fishsense/2023-09-25_noa_demo.jpg
 author: Christopher L. Crutchfield
 layout: blog-post
 slug: /fishsense-noaa-ai-5
