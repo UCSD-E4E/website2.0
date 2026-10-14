@@ -29,7 +29,7 @@ Shout out to **Sean Perry** for developing [Pyrenote](https://github.com/UCSD-E4
 
 Last week, **Sean Perry** and **Ludwig von Schoenfeldt** attended NeurIPS 2024 and presented the work! The two traveled out of the country to Vancouver, Canada to attend most of the conference, getting to see hundreds of posters, amazing research in machine learning, and present their own work! It was an inspiring moment getting to see where the future of the field could be heading.
 
-Acoustic Species is planning many exciting extensions to this work. We will continue to evaluate how these methods may influence the behavior of upstream models as we continue to work to improve bioacoustic machine learning techinques to identify species of interest. 
+Acoustic Species is planning many exciting extensions to this work. We will continue to evaluate how these methods may influence the behavior of upstream models as we continue to work to improve bioacoustic machine learning techniques to identify species of interest.
 
 {% include 
     img_caption.html
