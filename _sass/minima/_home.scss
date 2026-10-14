@@ -1,3 +1,5 @@
+@use "variables";
+
 .home_flex_container{
     display: flex;
     flex-wrap: nowrap;
@@ -5,7 +7,7 @@
     justify-content: flex-start;
 }
 
-@include media-query($on-palm) {
+@include variables.media-query(variables.$on-palm) {
     .home_flex_container{
         flex-direction: column-reverse;
         align-items: center;
@@ -24,7 +26,7 @@
     letter-spacing: 0px;
 }
 
-@include media-query($on-palm) {
+@include variables.media-query(variables.$on-palm) {
     .post-link{
         font-size: 100%;
     }
@@ -59,7 +61,7 @@
     justify-content: flex-start;
 }
 
-@include media-query($on-palm) {
+@include variables.media-query(variables.$on-palm) {
     .home_post-list{
         justify-content: center
     }
