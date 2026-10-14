@@ -74,7 +74,7 @@
 </div>
 
 <style>
-/*See _sass\minima\_carousel.scss for general styles, below is for component spefific stuff */
+/*See _sass\minima\_carousel.scss for general styles, below is for component specific stuff */
 .carousel__holder_{{unique_name}} {
   width: 100%; position: relative; 
   padding-bottom: {{ include.height }}{{ include.unit }}; 
@@ -150,12 +150,12 @@
   Jekyll allows for inserting any string directly into the html, including in javascript scripts
   So anything of the form var_{{unique_name}} will compile the variable as var_1 (if unique_name=1)
 
-  The reason for this is so we can render mutliple components on the same page without overloading the same value
-  This prevents things like onClick from breaking say the second carousel when it should be changing the frist one
+  The reason for this is so we can render multiple components on the same page without overloading the same value
+  This prevents things like onClick from breaking say the second carousel when it should be changing the first one
   */
 
 
-  //tracks human clicks and index of this spefific carousel
+  //tracks human clicks and index of this specific carousel
   var recent_click_{{unique_name}} = false;
   
 
