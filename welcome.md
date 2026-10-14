@@ -30,18 +30,10 @@ Our research group consists mostly of undergraduate students interested in apply
 
 We are looking for students who are enthusiastic about engineering, technology, and exploration to participate in our research and development projects. Students must be self-motivated and excited about learning new technical skills, no matter their academic backgrounds. We especially encourage students with an interest in photography and filmmaking to join, since our field expeditions provide extraordinary opportunities for creating exciting media.
 
-## Summer Research 2025 (Past Program)
-
-The information below describes the 2025 summer program. For questions about future summer research opportunities, please [contact us]({{ "/contact" | absolute_url }}).
-
-UC San Diego’s Engineers for Exploration Summer Research Program is an NSF REU (Research Experience for Undergraduates) Site centered around multidisciplinary and collaborative student research with the broad goals of protecting the environment, uncovering mysteries related to cultural heritage, and providing experiential learning experiences.  The 2025 program was a full-time paid research experience from June 23rd to August 29th, 2025, in which students worked in multidisciplinary research teams to aid scientists from the San Diego Zoo, Scripps Institute of Oceanography, and UC San Diego in tackling problems in fields such as ecology, physical oceanography, and archeology.
-
-During this program, students created and applied technologies in novel ways to aid scientists in their work, with opportunities to accompany these technologies on field deployments around the world.  Through these projects, students had opportunities to learn about embedded systems and software, machine learning, electronics integration, mechanical design, system building, as well as project management and team leadership.  For more information, please visit our website at [https://e4e.ucsd.edu]({{ "/" | absolute_url }}).
-
 ## Get Involved - Academic Year
 If you are interested, or if you have more questions, please feel free to come to any of our other general meetings listed on the [Calendar of Events]({{ "/calendar" | absolute_url }}). You should also [contact]({{ "/contact" | absolute_url }}) the project lead if you have questions about specific projects. If you have specific skillsets, have a look at our targeted [open positions]({{ "/open-opportunities" | absolute_url }}), and see if you have a skillset we are looking for in particular!
 
-For UCSD students, to get started, please fill out this [Intake Form]({{ "/join" | absolute_url }}).  One of our staff engineers or project leads will reach out to you. If you don't hear back from us, feel free to ping us at [e4e@ucsd.edu](mailto:e4e@ucsd.edu).  In addition, feel free to come to any of the general meetings listed on the [Calendar of Events]({{ "/calendar" | absolute_url }}).
+For UCSD students please reach out directly to the project contact point or at [e4e@ucsd.edu](mailto:e4e@ucsd.edu). In addition, feel free to come to any of the general meetings listed on the [Calendar of Events]({{ "/calendar" | absolute_url }}).
 
 Applications are open year round, however, focused review will occur at the beginning of each academic quarter.
 
