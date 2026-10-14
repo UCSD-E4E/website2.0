@@ -17,6 +17,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="{{ "/cache/foundation.min.js" | absolute_url }}"></script>
+    <script>
+    $(document).foundation();
+    </script>
     <!-- https://stackoverflow.com/questions/73978467/jekyll-datatables-below-sidebar -->
     {%- if page.datatable == true -%}
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css"> <!--add style sheet-->

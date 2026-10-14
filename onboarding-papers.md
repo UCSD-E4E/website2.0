@@ -11,6 +11,9 @@ papers:
 - bib_file: mangrove_monitoring
   name: Mangrove Monitoring
   url: /mangrove-monitoring
+- bib_file: maya_archeology
+  name: Maya Archeology
+  url: /maya-archaeology
 - bib_file: radio_telemetry_tracking
   name: Radio Telemetry Tracking
   url: /radio-collar-tracker

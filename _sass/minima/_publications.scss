@@ -1,0 +1,43 @@
+.accordion-title.pub {
+    padding: 0rem;
+    border: none;
+    border-bottom: none;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+    line-height: $base-line-height;
+    color: $text-color;
+}
+
+:last-child:not(.is-active)>.accordion-title.pub {
+    border-bottom: none;
+}
+
+.accordion-content.pub {
+    padding: 0rem;
+    border: none;
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.pub_separator{
+    margin-bottom: 15px;
+}
+
+.pub_separator>a>span {
+    padding-right: 3rem;
+    display: inline-block;
+}
+
+.accordion-title::before {
+    position: absolute;
+    top: 5%;
+    right: 1rem;
+    margin-top: -.25rem;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pub_unseparator{
+    margin-bottom: 0px;
+}

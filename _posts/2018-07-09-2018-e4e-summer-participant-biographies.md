@@ -75,7 +75,7 @@ Indira Avendano is a rising junior at the University of Central Florida majoring
     src=image
 %}
 
-Robert Barlow is a rising junior at Franklin W. Olin College of Engineering, studying mechanical engineering. Originally from Vermont, this is his first time in San Diego. Prior to this summer, Robert has worked in the field of sUAS, particularly with fixed wing airframes, ranging from fire supression to aerial imagery of sargassum algae in the North Atlantic sea gyre. This summer, Robert is working on developing a standalone sensor system for the 100 Island Challenge at Scripps Institute of Oceanography. Outside of engineering, Robert enjoys rock climbing, backpacking, skiing, playing guitar, and just recently got into surfing.
+Robert Barlow is a rising junior at Franklin W. Olin College of Engineering, studying mechanical engineering. Originally from Vermont, this is his first time in San Diego. Prior to this summer, Robert has worked in the field of sUAS, particularly with fixed wing airframes, ranging from fire suppression to aerial imagery of sargassum algae in the North Atlantic sea gyre. This summer, Robert is working on developing a standalone sensor system for the 100 Island Challenge at Scripps Institute of Oceanography. Outside of engineering, Robert enjoys rock climbing, backpacking, skiing, playing guitar, and just recently got into surfing.
 
 {% assign image = "/assets/dillon-233x350.jpg" | absolute_url %}
 {% include 

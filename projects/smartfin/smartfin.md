@@ -52,7 +52,7 @@ Currently, this project is focused on developing the next generation hardware, f
 - PCB Design (particularly with Altium)
 - Mechanical Design/Fabrication (particularly with SolidWorks and composites)
 
-Specific positions can be found here: [Open Positions](open-opportunities).
+Specific positions can be found here: [Open Positions]({{ "open-opportunities" | absolute_url }}).
 
 More Info:
 <!-- [https://smartfin.org/](https://smartfin.org/) -->

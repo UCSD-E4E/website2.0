@@ -9,10 +9,6 @@ Hope you are enjoying/enjoyed the info session!
 
 If you are interested in the project, please check out some of the onboarding papers associated with the projects at [{{ "onboarding-papers" | absolute_url }}]({{ "onboarding-papers" | relative_url }}) as well as the following contact information for any questions you may have.
 
-##  [Aqua3D]({{ "fishsense" | relative_url }})
-- Christopher Crutchfield, [ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu)
-- Avik Ghosh, [a8ghosh@ucsd.edu](mailto:a8ghosh@ucsd.edu) 
-
 ##  [FishSense Core Technologies]({{ "fishsense" | relative_url }})
 - Benjamin McCalmon, [bbmcca26@g.holycross.edu](mailto:bbmcca26@g.holycross.edu )
 
@@ -20,7 +16,7 @@ If you are interested in the project, please check out some of the onboarding pa
 - Harish Vasanth, [havasanth@ucsd.edu](mailto:havasanth@ucsd.edu)
 
 ## [Smartfin]({{ "smartfin" | relative_url }})
-- Nathan Hui, [nthui@ucsd.edu](mailto:nthui@ucsd.edu)
+- Steve Taylor, [stt017@ucsd.edu](mailto:stt017@ucsd.edu)
 
 ## [Radio Telemetry Tracking]({{ "radio-collar-tracker" | relative_url }})
 - Tyler Flar, [tflar@ucsd.edu](mailto:tflar@ucsd.edu)
@@ -37,6 +33,3 @@ If you are interested in the project, please check out some of the onboarding pa
 ## Co-Directors
 - Curt Schurgers, [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu) 
 - Ryan Kastner, [rkastner@ucsd.edu](mailto:rkastner@ucsd.edu) 
-
-## Staff Engineer
-- Nathan Hui, [nthui@ucsd.edu](mailto:nthui@ucsd.edu) 

@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<div class="grid-x">
-    <div class="medium-4 large-8 cell archive-posts">
+<div class="grid-x grid-margin-x">
+    <div class="cell auto archive-posts">
         <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
         <ul class="posts">
         {% for post in page.posts %}
         <li class="no-list archive-posts">
             <a class="post-link archive-post-link" href="{{ post.url | relative_url }}">
-                <h3 class="archive-post-title archive-post-link">{{ post.title }}</h3>    
+                <h2 class="archive-post-title archive-post-link">{{ post.title }}</h2>    
             </a>
             <p>Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
             {%- if post.featuredImage -%}
@@ -43,7 +43,7 @@ layout: default
         {% endfor %}
         </ul>
     </div>
-    <div class="medium-8 large-4 cell archive-years">
+    <div class="cell shrink archive-years">
         <!-- https://nithinbekal.com/posts/jekyll-posts-by-year/ -->
         {% assign years = site.posts
             | group_by_exp: "post", "post.date | date: '%Y'"
