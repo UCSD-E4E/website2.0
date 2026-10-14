@@ -3,6 +3,22 @@ layout: project_gallery
 permalink: /past-projects
 title: Past Projects
 blurbs: 
+ - project_name: "Radio Collar Tracker"
+   photo: "assets/radio_collar_tracker/projects-radio_collar_tracker-project_radiocollar.jpg"
+   text: "The Airborne Radio Collar Tracker is a low cost solution to tracking wildlife radio collars from an aerial vantage point"
+   link: "/radio-collar-tracker"
+ - project_name: "Baboons on the Move"
+   photo: "assets/baboons_on_the_move/2013-02-14_baboons.jpg"
+   text: "Using drone footage and computer vision to track baboon troop movement in the plains of the Laikipia Plateau in Kenya"
+   link: "/baboons-on-the-move"
+ - project_name: "Floods of Lubra"
+   photo: assets/floods_of_lubra/floods-of-lubra_thumb.jpg
+   text: Floods of Lubra focuses on using remote sensing techniques to monitor and predict the impact of climate change in the Himalayas
+   link: "/floods-of-lubra"
+ - project_name: "Maya Archaeology"
+   photo: "assets/maya/maya_thumb.jpg"
+   text: "Remote sensing technologies for documenting ancient Maya ruins in the jungles of Guatemala"
+   link: "/maya-archaeology"
  - project_name: "Aye Aye"
    photo: "assets/aye_aye/aye-aye-thumb.jpg"
    text: "Intelligent camera systems to remotely monitor wildlife"
