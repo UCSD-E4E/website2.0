@@ -57,7 +57,7 @@ To read more about relocation and visualizing flood damages, feel free to take a
 [Using Remote Sensing Technologies in Relocating Lubra Village and Visualizing Flood Damages (2022)
 Current Research]({{"assets/floods_of_lubra/Ronan-Wallace-Using-Remote-Sensing-Technologies-in-Relocating-Lubra-Village-and-Visualizing-Flood-Damages.pdf" | absolute_url}})
 
-# Current Reserach
+# Current Research
 
 Moving forward, there are three subproblems under flooding that are worth exploring:
 
