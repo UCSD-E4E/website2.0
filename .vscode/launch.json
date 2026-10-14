@@ -6,9 +6,9 @@
     "configurations": [
         {
             "name": "Jekyll Live Server",
-            "type": "PowerShell",
+            "type": "node-terminal",
             "request": "launch",
-            "script": "npx gulp watch",
+            "command": "npx gulp watch",
             "cwd": "${workspaceFolder}"
         }
         
