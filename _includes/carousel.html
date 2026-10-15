@@ -197,7 +197,17 @@
   function onClick_{{unique_name}}(el) {
     recent_click_{{unique_name}} = true;
     const input = el && document.getElementById(el.dataset.slide);
-    if (input) { input.checked = true; input.dispatchEvent(new Event('change', {bubbles: true})); }
+    const hadFocus = el && document.activeElement === el;
+    if (input) {
+      input.checked = true;
+      input.dispatchEvent(new Event('change', {bubbles: true}));
+      if (hadFocus && el.classList.contains('carousel__control')) {
+        const carousel = el.closest('.carousel');
+        const index = [...carousel.querySelectorAll('.carousel__activator')].findIndex(radio => radio.checked);
+        const direction = el.classList.contains('carousel__control--forward') ? 'forward' : 'backward';
+        carousel.querySelectorAll('.carousel__controls')[index].querySelector('.carousel__control--' + direction).focus();
+      }
+    }
   }
 
   // increments the slides "forward" or "backward"

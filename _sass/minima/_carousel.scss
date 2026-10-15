@@ -200,3 +200,14 @@
 .carousel__control--forward { right: 20px; }
 .carousel__control--backward::before { transform: rotate(-135deg); }
 .carousel__control--forward::before { transform: rotate(45deg); }
+
+.carousel__indicators {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: calc(100% - 80px);
+}
+@media screen and (max-width: 360px) {
+    .carousel__track { height: calc(100% - 48px); }
+    .carousel__meta_controls { height: 48px; align-items: flex-start; }
+    .carousel__control { top: 12px; }
+}
