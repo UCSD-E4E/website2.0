@@ -90,3 +90,16 @@ iframe {
         width: 90%;
     }
 }
+
+// Keep the slide deck proportional on narrow screens.
+.presentation-slides {
+    aspect-ratio: 1440 / 839;
+    width: 100%;
+
+    iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
