@@ -37,7 +37,7 @@ After getting set up in the parking lot, we began our trek through the rough ter
 </figure>
 
 <figure>
-<a href="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | absolute_url}}"><img src="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | resize: '640x480'}}" alt=">Along the way we found a turtle"></a>
+<a href="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | absolute_url}}"><img src="{{'/assets/del_dios/2013-08-28_SDRVC_Mapping_sample_imagery_turtle.jpg' | resize: '640x480'}}" alt="Along the way we found a turtle"></a>
 <figcaption>Along the way we found a turtle</figcaption>
 </figure>
 

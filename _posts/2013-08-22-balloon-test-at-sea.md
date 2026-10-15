@@ -47,20 +47,20 @@ From this, we created a structure from motion 3D reconstruction with decent resu
 
 Overall, the polarizing filter performed well and we were very pleased with how well the stabilization worked, so it was a successful deployment. Our thanks go out to Dr. Stewart, Bob, and Jim for a successful excursion.
 
-[![]({{'/assets/2013-08-22-img11.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img11.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img12.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img12.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img13.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img13.jpg' | absolute_url}})
+[![Sea test thumbnail 11]({{'/assets/2013-08-22-img11.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img11.jpg' | absolute_url}})
+[![Sea test thumbnail 12]({{'/assets/2013-08-22-img12.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img12.jpg' | absolute_url}})
+[![Sea test thumbnail 13]({{'/assets/2013-08-22-img13.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img13.jpg' | absolute_url}})
 
-[![]({{'/assets/2013-08-22-img14.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img14.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img09.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img09.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img02.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img02.jpg' | absolute_url}})
+[![Sea test thumbnail 14]({{'/assets/2013-08-22-img14.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img14.jpg' | absolute_url}})
+[![Sea lions thumbnail]({{'/assets/2013-08-22-img09.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img09.jpg' | absolute_url}})
+[![Balloon inflation thumbnail]({{'/assets/2013-08-22-img02.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img02.jpg' | absolute_url}})
 
-[![]({{'/assets/2013-08-22-img01.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img01.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img15.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img15.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img16.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img16.jpg' | absolute_url}})
+[![Sea test thumbnail 01]({{'/assets/2013-08-22-img01.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img01.jpg' | absolute_url}})
+[![Sea test thumbnail 15]({{'/assets/2013-08-22-img15.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img15.jpg' | absolute_url}})
+[![Sea test thumbnail 16]({{'/assets/2013-08-22-img16.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img16.jpg' | absolute_url}})
 
-[![]({{'/assets/2013-08-22-img05.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img05.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img10.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img10.jpg' | absolute_url}})
-[![]({{'/assets/2013-08-22-img08.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img08.jpg' | absolute_url}})
+[![Sea test thumbnail 05]({{'/assets/2013-08-22-img05.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img05.jpg' | absolute_url}})
+[![Sea test thumbnail 10]({{'/assets/2013-08-22-img10.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img10.jpg' | absolute_url}})
+[![Sea test thumbnail 08]({{'/assets/2013-08-22-img08.jpg' | resize: '150x150'}})]({{'/assets/2013-08-22-img08.jpg' | absolute_url}})
 
 Our next deployment will be in the San Dieguito River Valley Conservancy's Del Dios Gorge, where we will be photographing the progress of replacing non-native invasive plant life as part of a possibly annual study.
