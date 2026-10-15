@@ -1,0 +1,10 @@
+{
+  "nonContentPages": [
+    {
+      "path": "google5a648ae1a8f8c1a9.html",
+      "sha256": "db5b2667971f677b840908ac80a2446beefce38101891d8a4481aac11da80798",
+      "reason": "Google Search Console ownership verification payload. This is a machine-readable token, not a visitor-facing HTML document. Google requires the file content to remain unchanged.",
+      "reference": "https://support.google.com/webmasters/answer/9008080?hl=en"
+    }
+  ]
+}

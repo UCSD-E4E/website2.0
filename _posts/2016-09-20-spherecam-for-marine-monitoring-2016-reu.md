@@ -64,7 +64,7 @@ How long does it the computer take to read each value? How much time does that l
 
 ![edison_adc](/assets/2016-09-20-spherecam-for-marine-monitoring-2016-reu_edison_adc-300x300.jpg)
 
-**Edison ADC breakout:** Made by Sparkfun this board provides a €œbuilt-in€ ability for the Edison to take readings from a microphone using an Analog to Digital Converter (ADC). Because Linux is not a real-time system and there is an inherent latency with accessing the ports on the Edison this was able to sample at a maximum rate of about 9,000 Hz. Not good enough!
+**Edison ADC breakout:** Made by Sparkfun this board provides a “built-in” ability for the Edison to take readings from a microphone using an Analog to Digital Converter (ADC). Because Linux is not a real-time system and there is an inherent latency with accessing the ports on the Edison this was able to sample at a maximum rate of about 9,000 Hz. Not good enough!
    
    
 ![spherecam-edisons](/assets/2016-09-20-spherecam-for-marine-monitoring-2016-reu_spherecam-edisons-286x300.jpg)

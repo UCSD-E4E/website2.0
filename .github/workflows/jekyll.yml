@@ -65,6 +65,8 @@ jobs:
       # - name: Setup Pages
       #   id: pages
       #   uses: actions/configure-pages@v4
+      - name: Check component style placement
+        run: bundle exec ruby scripts/test_page_styles.rb
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         id: build

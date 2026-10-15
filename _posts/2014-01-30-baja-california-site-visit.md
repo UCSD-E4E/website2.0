@@ -42,5 +42,5 @@ Below are some photos from our visit to San Felipe. These and more can also be v
 
 {% for image in page.gallery %}
 <a href="{{ image | absolute_url }}">
-<img alt="baja-california-gallery" src="{{ image | resize: '150x150' }}" width="150px" height="150px">
+<img alt="baja-california-gallery" src="{{ image | resize: '150x150' }}" width="150" height="150">
 </a>{% endfor %}

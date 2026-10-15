@@ -40,4 +40,4 @@ The team did find an unexpected trend of four six hour interval peaks as seen in
 
 In the future, the Acoustic Species Identification team will investigate into what is causing the odd six hour intervals. They also hope to produce more datasets derived from the various audio recordings and tools they work with, which can be used for future team data science challenges.
 
-<iframe src="{{'assets/aid-median_bubble.html' | absolute_url}}" title="Interactive Map" width="100%" height="600"></iframe>
+<iframe src="{{'assets/aid-median_bubble.html' | absolute_url}}" title="Interactive Map" class="full-width-embed" height="600"></iframe>

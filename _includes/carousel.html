@@ -6,39 +6,42 @@
 
     <div id="carousel{{ unique_name }}" class="carousel">
         {% for item in carousels.images %}
-          <input class="carousel__activator" type="radio" name="carousel{{ unique_name }}" id="{{ unique_name }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+          <input aria-label="{{ item.title | escape }}" class="carousel__activator" type="radio" name="carousel{{ unique_name }}" id="{{ unique_name }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
-        
-        <ul  class="carousel__track">
+
+        <div class="carousel__track" role="group" aria-label="Featured photographs">
           {% for item in carousels.images %}
-          <div class="carousel__slide_title">
+          <div class="carousel__slide_title" aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
             {% capture resize_cmd %}1140x500!,jpg,{% if item['crop'] %},{{ item['crop'] }}{% endif %}{% endcapture %}
-            <li 
-              class="carousel__slide" 
+            <div
+              class="carousel__slide"
             >
-              <img 
+              <img
                 style=""
                 src="{{ item['url'] | resize: resize_cmd }}" alt="{{ item['title'] | escape }}">
-            </li>
+            </div>
             <div class="carousel_titles">
               <p class="carousel_title"> {{item['title']}} </p>
             </div>
           </div>
           {% endfor %}
-        </ul>
-        
+        </div>
+
         {%- comment -%} TODO make this take up space at bottom of carousel like original site {%- endcomment -%}
         <div class="carousel__meta_controls">
           <div class="carousel__indicators">
               {% for item in carousels.images %}
-                <label 
-                  class="carousel__indicator" 
-                  for="{{ unique_name }}{{ letters[forloop.index0] }}"
+                <button type="button"
+                  class="carousel__indicator"
+
+                  aria-label="Show photograph {{ forloop.index }}: {{ item.title | escape }}"
+                  aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
+                  data-slide="{{ unique_name }}{{ letters[forloop.index0] }}"
                   onClick="onClick_{{unique_name}}(this)"
-                ></label>
-                
+                ></button>
+
               {% endfor %}
-            
+
           </div>
 
           <div class="carousel__controls_wrapper">
@@ -56,16 +59,18 @@
               {% endif %}
               {% assign prevletter = letters[previndex] %}
               <div class="carousel__controls">
-                  <label 
-                    class="carousel__control carousel__control--backward" 
-                    for="{{ unique_name }}{{ prevletter }}"
+                  <button type="button"
+                    class="carousel__control carousel__control--backward"
+                     aria-label="Previous photograph"
+                    data-slide="{{ unique_name }}{{ prevletter }}"
                     onClick="onClick_{{unique_name}}(this)"
-                  ></label>
-                  <label 
-                    class="carousel__control carousel__control--forward" 
-                    for="{{ unique_name }}{{ nextletter }}"
+                  ></button>
+                  <button type="button"
+                    class="carousel__control carousel__control--forward"
+                     aria-label="Next photograph"
+                    data-slide="{{ unique_name }}{{ nextletter }}"
                     onClick="onClick_{{unique_name}}(this)"
-                ></label>
+                ></button>
               </div>
             {% endfor %}
           </div>
@@ -73,11 +78,11 @@
     </div>
 </div>
 
-<style>
+<style data-page-styles>
 /*See _sass\minima\_carousel.scss for general styles, below is for component specific stuff */
 .carousel__holder_{{unique_name}} {
-  width: 100%; position: relative; 
-  padding-bottom: {{ include.height }}{{ include.unit }}; 
+  width: 100%; position: relative;
+  padding-bottom: {{ include.height }}{{ include.unit }};
   margin: 1rem 0 1rem;
 }
 
@@ -135,10 +140,10 @@
 {% for item in carousels.images %}
 .carousel__slide:nth-of-type({{ forloop.index }})>img,
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type({{ forloop.index }}) {
-  margin-left: 0; 
-  margin-right: 0; 
-  object-fit: cover; 
-  width: 100%; 
+  margin-left: 0;
+  margin-right: 0;
+  object-fit: cover;
+  width: 100%;
   height: 100%;
 }
 {% endfor %}
@@ -157,7 +162,7 @@
 
   //tracks human clicks and index of this specific carousel
   var recent_click_{{unique_name}} = false;
-  
+
 
   function isVisible(el) {
         while (el) {
@@ -191,6 +196,18 @@
   */
   function onClick_{{unique_name}}(el) {
     recent_click_{{unique_name}} = true;
+    const input = el && document.getElementById(el.dataset.slide);
+    const hadFocus = el && document.activeElement === el;
+    if (input) {
+      input.checked = true;
+      input.dispatchEvent(new Event('change', {bubbles: true}));
+      if (hadFocus && el.classList.contains('carousel__control')) {
+        const carousel = el.closest('.carousel');
+        const index = [...carousel.querySelectorAll('.carousel__activator')].findIndex(radio => radio.checked);
+        const direction = el.classList.contains('carousel__control--forward') ? 'forward' : 'backward';
+        carousel.querySelectorAll('.carousel__controls')[index].querySelector('.carousel__control--' + direction).focus();
+      }
+    }
   }
 
   // increments the slides "forward" or "backward"
@@ -205,17 +222,25 @@
     elements[j].click();
   }
 
+  const carousel_{{unique_name}} = document.getElementById('carousel{{unique_name}}');
+  carousel_{{unique_name}}.addEventListener('focusin', function() { recent_click_{{unique_name}} = true; });
+  carousel_{{unique_name}}.addEventListener('mouseenter', function() { recent_click_{{unique_name}} = true; });
+  carousel_{{unique_name}}.addEventListener('change', function() {
+    const selected = [...carousel_{{unique_name}}.querySelectorAll('.carousel__activator')].findIndex(input => input.checked);
+    carousel_{{unique_name}}.querySelectorAll('.carousel__slide_title').forEach((slide, index) => slide.setAttribute('aria-hidden', index !== selected));
+    carousel_{{unique_name}}.querySelectorAll('.carousel__indicator').forEach((button, index) => button.setAttribute('aria-pressed', index === selected));
+  });
+
   {% if include.duration %}
   setInterval(function(){
     //if the user has not recently clicked, skip to next image
-    if (!recent_click_{{unique_name}}) {
-      increment_carousel_{{unique_name}}(direction="forward")
+    if (!recent_click_{{unique_name}} && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      increment_carousel_{{unique_name}}(direction="forward");
+      recent_click_{{unique_name}} = false;
     }
 
-    //must be at end, click triggers onClick_{{unique_name}}. We want recent_click_{{unique_name}}to be human clicks
-    //we also want to reset recent_clicks when we block a simulated click to restart the carousel autoplay
-    recent_click_{{unique_name}} = false; 
-    
+    // Human selection, focus, or hover stops rotation; timer-driven clicks do not.
+
   },{{ include.duration }}000);
   {% endif %}
 
@@ -237,7 +262,7 @@
       touchendX_{{unique_name}} = event.changedTouches[0].screenX;
       //console.log("touchend")
       handleGesure_{{unique_name}}();
-  }, false); 
+  }, false);
 
   function handleGesure_{{unique_name}}() {
       //console.log(touchstartX_{{unique_name}}, touchendX_{{unique_name}}, touchendX_{{unique_name}} - touchstartX_{{unique_name}})

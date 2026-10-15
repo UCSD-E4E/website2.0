@@ -48,5 +48,5 @@ Over the next few months, we will continue to refine our fixed-wing aerial imagi
 
 {% for image in page.gallery %}
 <a href="{{ image | absolute_url }}">
-<img alt="gallery" src="{{ image | resize: '150x150' }}" width="150px" height="150px">
+<img alt="gallery" src="{{ image | resize: '150x150' }}" width="150" height="150">
 </a>{% endfor %}

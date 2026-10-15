@@ -162,3 +162,14 @@ $mobile-nav-pad: 8px 5px;
     }
   }
 }
+
+// Reveal existing desktop dropdowns to keyboard users without changing hover layout.
+@media screen and (min-width: 601px) {
+  .site-nav ul li:focus-within > ul { display: block; }
+}
+.nav-sub-menu-drop:focus-visible { outline: 2px solid #1d6dd5; outline-offset: 2px; }
+
+@include variables.media-query(variables.$on-palm) {
+  // Keep the original block-stacked mobile links after repairing the list markup.
+  .site-nav .sub-menu > li { float: none; }
+}
