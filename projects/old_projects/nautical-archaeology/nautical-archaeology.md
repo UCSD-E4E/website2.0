@@ -23,7 +23,7 @@ Our Stereo Camera Rig platform fuses measurements from a variety of sensors to g
 
 We deployed the Stereo Rig in Emerald Bay, Lake Tahoe in June 2014 to image two Gold Rush-era underwater barges. The video below shows one of the reconstructions resulting from this fieldwork. 
 
-<iframe allowfullscreen="allowfullscreen" class="youtube-center" frameborder="0" height="315" src="https://www.youtube.com/embed/mUuxQBkg4ws" width="560"></iframe>
+<iframe allowfullscreen="allowfullscreen" class="youtube-center" frameborder="0" height="315" src="https://www.youtube.com/embed/mUuxQBkg4ws" width="560" title="Nautical archaeology video"></iframe>
 
 Reconstruction of barge in Emerald Bay, Lake Tahoe
 

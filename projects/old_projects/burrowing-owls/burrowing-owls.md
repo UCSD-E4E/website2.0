@@ -21,7 +21,7 @@ Overall, this project is still in the early stages of development so this is sti
 
 Slack Channel: #burrowing-owl
 
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="475" src="https://www.youtube.com/embed/QQJ8qClyIQw" width="800"></iframe>
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="475" src="https://www.youtube.com/embed/QQJ8qClyIQw" width="800" title="Burrowing owls video"></iframe>
 
 In the video above we show some of the progress made during the summer of 2020.
    
