@@ -66,8 +66,8 @@ Explore the FishSense platforms to learn more about each system and its current 
     <a class="card" href="/fishsense-lite">
       <img src="/assets/fishsense-lite/2025-12-18_fishsense_lite_card_banner.jpg" alt="FishSense Lite Banner">
       <div class="card-section">
-          <h4>FishSense Lite</h4>
-          <h5>Citizen Science for Smarter Fisheries</h5>
+          <h2 class="fishsense-card-heading">FishSense Lite</h2>
+          <p class="fishsense-card-tagline">Citizen Science for Smarter Fisheries</p>
           <ul>
             <li>Single-laser measurement</li>
             <li>Built for divers &amp; surveys</li>
@@ -82,8 +82,8 @@ Explore the FishSense platforms to learn more about each system and its current 
     <a class="card" href="/fishsense-mobile">
       <img src="/assets/fishsense-mobile/2025-12-18_fishsense_mobile_card_banner.jpg" alt="FishSense Mobile Banner">
       <div class="card-section">
-          <h4>FishSense Mobile</h4>
-          <h5>Turn your phone into a fisheries science tool</h5>
+          <h2 class="fishsense-card-heading">FishSense Mobile</h2>
+          <p class="fishsense-card-tagline">Turn your phone into a fisheries science tool</p>
           <ul>
             <li>On-deck measurement</li>
             <li>Species ID support</li>
@@ -98,8 +98,8 @@ Explore the FishSense platforms to learn more about each system and its current 
     <a class="card" href="/fishsense-scout">
       <img src="/assets/fishsense-scout/2025-12-18_fishsense_scout_card_banner.jpg" alt="FishSense Scout Banner">
       <div class="card-section">
-          <h4>FishSense Scout</h4>
-          <h5>Autonomous eyes for large-scale ocean monitoring</h5>
+          <h2 class="fishsense-card-heading">FishSense Scout</h2>
+          <p class="fishsense-card-tagline">Autonomous eyes for large-scale ocean monitoring</p>
           <ul>
             <li>Persistent deployments</li>
             <li>Edge AI sensing</li>

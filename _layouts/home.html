@@ -4,6 +4,8 @@ layout: default
 <div class="home">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
+  {%- else -%}
+    <h1 class="visually-hidden">{{ site.title | escape }}</h1>
   {%- endif -%}
   {{ content }}
   {% include carousel.html height="40" unit="%" duration="10" data=site.data.carousels.front_carousel %}
@@ -32,6 +34,7 @@ layout: default
       </p>
     </div>
     <div class="home_flex_item home_posts">
+      <h2 class="visually-hidden">Latest news</h2>
       <!-- <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2> -->
       <ul class="post-list home_post-list">
         {%- assign post_per_page = 12 -%}

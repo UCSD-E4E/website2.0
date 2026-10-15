@@ -15,7 +15,8 @@ Scout is being developed as a flexible research platform, allowing us to explore
     caption="Development version of FishSense Scout."
 %}
 
-### Current focus
+## Current focus
+{:.project-subsection-heading}
 
 Development of FishSense Scout is focused on understanding practical constraints and design tradeoffs for autonomous and semi-autonomous deployments.
 
@@ -27,11 +28,13 @@ Development of FishSense Scout is focused on understanding practical constraints
 
 * Designing data outputs suitable for downstream analysis and review
 
-### Ongoing work and partnerships
+## Ongoing work and partnerships
+{:.project-subsection-heading}
 
 We are actively developing and testing FishSense Scout in collaboration with partners, including NWIC Pacific, to evaluate use cases and requirements relevant to real-world deployments. These efforts are informing both hardware and software design decisions as the platform evolves.
 
-### Status
+## Status
+{:.project-subsection-heading}
 
 FishSense Scout is a research and development platform. Capabilities, configurations, and deployment models are evolving as testing continues.
 
