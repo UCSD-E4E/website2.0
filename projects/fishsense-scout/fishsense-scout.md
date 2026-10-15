@@ -35,4 +35,4 @@ We are actively developing and testing FishSense Scout in collaboration with par
 
 FishSense Scout is a research and development platform. Capabilities, configurations, and deployment models are evolving as testing continues.
 
-If you’d like to learn more or get involved, please contact Christopher Crutchfield ([ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu)).
+If you’d like to learn more or get involved, please email [e4e@ucsd.edu](mailto:e4e@ucsd.edu).

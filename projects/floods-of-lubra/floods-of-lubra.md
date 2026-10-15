@@ -86,7 +86,6 @@ With that being said, it is imperative to develop a way to effectively visualize
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/jj0PMHVHvKc" title="Floods of Lubra - Lubra Village Valleyside Model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-If you’d like to learn more about the project, or wish to get involved, please contact project lead Ronan Wallace at [rwallace@macalester.edu](mailto:rwallace@macalester.edu) or [e4e@ucsd.edu](mailto:e4e@ucsd.edu).
 
 ## In the News
 [Mustang Forced to Adapt to Climate Crisis | Nepali Times](https://nepalitimes.com/banner/mustang-forced-to-adapt-to-climate-crisis)

@@ -14,5 +14,3 @@ The LIDAR system currently uses a Velodyne Puck LIDAR and a GPS unit.
 ![]({{"assets/aerial_lidar/LiDAR-Point-Cloud.png" | absolute_url}})
 
 The individual LIDAR scans are stitched together into a point cloud showing terrain, elevation data, and other environmental characteristics.
-
-Please contact our staff ([e4e@ucsd.edu](mailto:e4e@ucsd.edu)) for more information.
