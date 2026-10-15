@@ -42,5 +42,4 @@ A short video demonstrating the system in use, courtesy of REEF, is available he
 
 FishSense Lite remains an active research and development project, with ongoing refinement informed by diver feedback and field deployments.
 
-If you would like to learn more about FishSense Lite, please contact **Christopher Crutchfield** at  
-[ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu).
+If you would like to learn more about FishSense Lite, please email [e4e@ucsd.edu](mailto:e4e@ucsd.edu).

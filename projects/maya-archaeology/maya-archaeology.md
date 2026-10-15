@@ -88,11 +88,8 @@ The Guatemala project is a collaboration between several organizations, Jason Pa
 
 The project started in 2014 with two expeditions to Guatemala. Albert, Ryan, Curt, Perry Naughton, Eric Lo, and Dominique Meyer, traveled to Guatemala in February to evaluate Quadcopters as a method of surveying jungle-bound archaeological sites. The second expedition, in May, focused on data gathering and survey techniques in several archeological sites, some of which contained Maya tombs. Curt and Ryan returned to Guatemala, and brought Dustin Richmond, David Dantas, and Sabrina Trinh. In June 2016, PhD student Quentin Gautier focused on testing remote sensing tablet technology, and in June 2017, Curt, Quentin and PhD student Peter Tueller went to the field to test a prototype of portable 3D scanner to collect data in the archaeological excavations. Starting Fall 2018 Quentin spearheaded the projects shift to VR and began reaching out to TritonXR ("https://tritonxr.ucsd.edu/") club members in order to help recreate these locations. That following Summer 2019 Quentin along with Giovanni Vindiola returned to El Zotz and interviewed our collaborators Tom Garrison (UT Austin) and Edwin Roman-Ramirez (UT Austin) for narrations, and further scanning of structures and surfaces for our VR Experience.
 
-# Leaders / Contact
-
 ![]({{"assets/maya/guatemala_15266303808_o.jpg" | absolute_url}})
 
- - Engineers for Exploration ([e4e@ucsd.edu](mailto:e4e@ucsd.edu))
 
 # In the Press
 
