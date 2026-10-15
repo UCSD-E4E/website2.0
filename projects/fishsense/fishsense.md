@@ -27,7 +27,7 @@ Explore the FishSense platforms to learn more about each system and its current 
       --fs-border: rgba(255,255,255,0.14);
       --fs-text: rgba(255,255,255,0.92);
       --fs-muted: rgba(255,255,255,0.70);
-      --fs-accent: rgba(120, 200, 255, 0.9);
+      --fs-accent: #006fa8;
       --fs-shadow: 0 12px 30px rgba(0,0,0,0.35);
       --fs-radius: 18px;
     }
