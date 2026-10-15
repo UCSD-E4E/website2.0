@@ -2,6 +2,7 @@ name: Cross-platform Jekyll Build
 
 on:
   push:
+    branches: [main]
     paths:
       - '.ruby-version'
       - 'Gemfile'
@@ -20,6 +21,10 @@ on:
       - 'gulpfile.js'
       - '.github/workflows/jekyll_windows.yml'
   workflow_dispatch:
+
+concurrency:
+  group: platform-build-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
