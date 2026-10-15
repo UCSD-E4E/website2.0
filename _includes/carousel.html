@@ -6,7 +6,7 @@
 
     <div id="carousel{{ unique_name }}" class="carousel">
         {% for item in carousels.images %}
-          <input class="carousel__activator" type="radio" name="carousel{{ unique_name }}" id="{{ unique_name }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+          <input aria-label="{{ item.title | escape }}" class="carousel__activator" type="radio" name="carousel{{ unique_name }}" id="{{ unique_name }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
 
         <div class="carousel__track" role="group" aria-label="Featured photographs">

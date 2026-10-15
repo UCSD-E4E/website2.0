@@ -159,3 +159,44 @@
 }
 
 .carousel__control { background: transparent; border-radius: 0; }
+
+// Keep the small dot/arrow artwork, with 24px buttons for touch and keyboard use.
+.carousel__indicator {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    background-color: transparent;
+}
+.carousel__indicator::before {
+    content: "";
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #5a5a5a;
+}
+.carousel__control {
+    width: 24px;
+    height: 24px;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    border: 0;
+    transform: none;
+}
+.carousel__control::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 7px;
+    left: 7px;
+    border-width: 5px 5px 0 0;
+    border-style: solid;
+    border-color: #5a5a5a;
+}
+.carousel__control--backward { right: 52px; }
+.carousel__control--forward { right: 20px; }
+.carousel__control--backward::before { transform: rotate(-135deg); }
+.carousel__control--forward::before { transform: rotate(45deg); }
