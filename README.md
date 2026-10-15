@@ -16,6 +16,11 @@ Please use https://vscode.dev/github/UCSD-E4E/website2.0
 - `npx gulp build` performs a single static build of the site
 - `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arguments
 
+## Checking hyperlinks
+After building, run `python3 scripts/check_relative_links.py _site`. Internal hyperlinks must start with `/` (use Jekyll's `relative_url` or `absolute_url` filter). Fragment and query-only links, external URLs, and schemes such as `mailto:` are allowed. The check reports the generated page and line for each document-relative hyperlink.
+
+Run the checker tests with `python3 -m unittest discover -s scripts -p 'test_*.py'`.
+
 ## Adding blog posts
 Create a new file in `/_posts` with the following name: `{year}-{month}-{day}-{hyphenated-title}.md`.  For example: `2024-05-10-e4e-releases-new-jekyll-website.md`.
 
