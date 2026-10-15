@@ -30,11 +30,11 @@ Contact: [e4e@ucsd.edu](mailto:e4e@ucsd.edu)
 - Ludwig von Schoenfeldt
 - TQ Zhang
 
-##  [Mangrove Monitoring]({{ "mangrove-monitoring" | relative_url }}) 
+##  [Mangrove Monitoring]({{ "mangrove-monitoring" | relative_url }})
 - Gage Wyre
 - Zach Lawrence
 
-Contact: [e4e@ucsd.edu](mailto:e4e@ucsd.edu)
+Contact: Nick Swetlin ([nswetlin@ucsd.edu](mailto:nswetlin@ucsd.edu))
 
 ## Co-Directors
 - Curt Schurgers, [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
