@@ -29,7 +29,7 @@
                 <p class="nav-sub-menu-drop">+</p>
                 <ul class="sub-menu">
                   {% for subitem in item.subfolderitems %}
-                 <a href="{{ subitem.url | absolute_url }}">{{subitem.name}}</a></li>
+                 <li><a href="{{ subitem.url | absolute_url }}">{{subitem.name}}</a></li>
                   {% endfor %}
                 </ul>
                 {% endif %}

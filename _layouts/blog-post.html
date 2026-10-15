@@ -20,10 +20,8 @@ layout: default
     <img 
       alt="{{ page.featuredImageAlt | default: 'featured image' }}" 
       width="816" 
-      height="auto" 
       src="{{ page.featuredImage | relative_url }}" 
-      class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" 
-      sizes="(max-width: 816px) 100vw, 816px" >
+      class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" >
 
   </div>
 
@@ -35,5 +33,5 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
 
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden>{{ page.title | escape }}</a>
 </article>
