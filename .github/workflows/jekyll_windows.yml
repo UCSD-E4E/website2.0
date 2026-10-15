@@ -44,7 +44,12 @@ jobs:
           node-version: '22'
       - name: Install Windows image build dependencies
         if: runner.os == 'Windows'
-        run: choco install graphicsmagick imagemagick --yes --no-progress
+        run: |
+          choco install graphicsmagick imagemagick --yes --no-progress
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Get-ChildItem -Path "$env:ProgramFiles\ImageMagick*", "$env:ProgramFiles\GraphicsMagick*" -Directory |
+            ForEach-Object { $_.FullName } |
+            Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
       - name: Install Linux image build dependencies
         if: runner.os == 'Linux'
         run: |
