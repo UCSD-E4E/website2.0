@@ -3,11 +3,12 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="main_logo" title="{{site.title | escape }}" src="{{"e4e_website-no-e4e.png" | absolute_url}}" alt="e4e logo"></a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img class="main_logo" src="{{"e4e_website-no-e4e.png" | absolute_url}}" alt="e4e logo"></a>
 
     <div class="site-nav-button">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
+        <span class="visually-hidden">Toggle navigation</span>
         <!-- <span class="menu-icon"> -->
           <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="54px" height="45px">
             <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

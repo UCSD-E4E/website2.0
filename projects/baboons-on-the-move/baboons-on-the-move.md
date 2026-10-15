@@ -16,7 +16,6 @@ Since drone footage will give a view of the “big picture”, Dr. Strum hopes t
 
 If you are interested in learning more about labeling events or becoming involved in this project contact us. 
 
-[tflar@ucsd.edu](mailto:tflar@ucsd.edu)
 
 Videos and photos provided by [Neil Thomas](https://www.neilthomas.com/).
 

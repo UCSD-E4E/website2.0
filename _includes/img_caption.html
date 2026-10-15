@@ -1,18 +1,18 @@
 <div clas="captioned-img-container">
     {% if include.src3 %}
     <div class="img-container">
-        <img class="side_img" src="{{ include.src | absolute_url }}" alt="{{include.alt}}">
-        <img class="side_img" src="{{ include.src2 | absolute_url }}" alt="{{include.alt2}}">
-        <img class="side_img" src="{{ include.src3 | absolute_url }}" alt="{{include.alt3}}">
+        <img class="side_img" src="{{ include.src | absolute_url }}" alt="{{ include.alt | escape }}">
+        <img class="side_img" src="{{ include.src2 | absolute_url }}" alt="{{ include.alt2 | escape }}">
+        <img class="side_img" src="{{ include.src3 | absolute_url }}" alt="{{ include.alt3 | escape }}">
     </div>
     {% elsif include.src2 %}
     <div class="img-container">
-        <img class="side_img" src="{{ include.src | absolute_url }}" alt="{{include.alt}}">
-        <img class="side_img" src="{{ include.src2 | absolute_url }}" alt="{{include.alt2}}">
+        <img class="side_img" src="{{ include.src | absolute_url }}" alt="{{ include.alt | escape }}">
+        <img class="side_img" src="{{ include.src2 | absolute_url }}" alt="{{ include.alt2 | escape }}">
     </div>
     {% else %}
     <div class="img-container">
-        <img src="{{ include.src | absolute_url }}" alt="{{include.alt}}">
+        <img src="{{ include.src | absolute_url }}" alt="{{ include.alt | escape }}">
     </div>
     {% endif %}
     <p class="caption">

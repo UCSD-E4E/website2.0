@@ -24,4 +24,4 @@ By enabling non-experts to collect high-quality data, FishSense Mobile expands t
 
 Looking ahead, the app will integrate features such as species identification and Marine Protected Area (MPA) awareness tools, turning everyday devices into powerful instruments for conservation. Together, scientists and citizen scientists can build richer, larger datasets to protect fish populations and the ecosystems they depend on.
 
-If you’d like to learn more or get involved, please contact Christopher Crutchfield ([ccrutchf@ucsd.edu](mailto:ccrutchf@ucsd.edu)).
+If you’d like to learn more or get involved, please email [e4e@ucsd.edu](mailto:e4e@ucsd.edu).

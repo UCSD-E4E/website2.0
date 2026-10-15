@@ -1,6 +1,6 @@
 <div class="person_block">
     <img
-        title="{{ include.person.name }}"
+        alt="{{ include.person.name | escape }}"
         src="{% if include.person.image %}{{ include.person.image | resize: '200x200^,webp,80' | absolute_url }}{% else %}{{ 'assets/people/blank-profile-drawing.png' | absolute_url }}{% endif %}">
     <h3>
         {% if include.person.link %}<a href="{{ person.link }}">{% endif %}
