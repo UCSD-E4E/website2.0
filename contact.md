@@ -17,7 +17,7 @@ Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 ### Environmental Monitoring Projects
 **Smartfin:** Steve Taylor ([stt017@ucsd.edu](mailto:stt017@ucsd.edu))
 
-**Mangrove Monitoring:** Zach Lawrence, Gage Wyre, Evan Wu ([e4e@ucsd.edu](mailto:e4e@ucsd.edu))
+**Mangrove Monitoring:** Zach Lawrence, Gage Wyre, Evan Wu, and Nick Swetlin. Contact: Nick Swetlin ([nswetlin@ucsd.edu](mailto:nswetlin@ucsd.edu))
 
 **Floods of Lubra**: Ronan Wallace
 
