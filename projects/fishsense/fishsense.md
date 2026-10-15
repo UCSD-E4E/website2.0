@@ -19,7 +19,7 @@ Whether you need a lightweight underwater measurement system, a smartphone-based
 Explore the FishSense platforms to learn more about each system and its current capabilities.
 
 <div class="grid-x">
-  <style>
+  <style data-page-styles>
     :root{
       --fs-bg: #071625;
       --fs-card: rgba(255,255,255,0.06);

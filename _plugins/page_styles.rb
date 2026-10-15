@@ -1,4 +1,4 @@
-# Inline component CSS is global even when authored in a page/include. Place it
+# Opted-in component CSS is global even when authored in a page/include. Place it
 # after the shared stylesheets in <head>, preserving rule order and media attrs.
 # This keeps Liquid-generated carousel/gallery CSS unchanged and valid HTML.
 Jekyll::Hooks.register [:pages, :documents], :post_render do |document|
@@ -8,9 +8,16 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |document|
   next unless body_start && html.match?(%r{</head>}i)
 
   styles = []
-  body = html[body_start..].gsub(%r{<style\b[^>]*>.*?</style\s*>}mi) do |style|
-    styles << style
-    ''
+  # Ignore raw script/text content and HTML comments; only explicitly marked
+  # component styles move. Future author examples and scripts remain untouched.
+  tokens = %r{<!--.*?-->|<(script|textarea|iframe|template)\b[^>]*>.*?</\1\s*>|<style\b[^>]*>.*?</style\s*>}mi
+  body = html[body_start..].gsub(tokens) do |token|
+    if token.match?(/\A<style\b[^>]*\bdata-page-styles(?:[\s=>])/i)
+      styles << token
+      ''
+    else
+      token
+    end
   end
   next if styles.empty?
 
