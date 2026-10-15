@@ -13,7 +13,11 @@ mkdir -p $CLONE_DIR/cache
 mkdir -p $CLONE_DIR/cache/resize
 npm ci
 npx gulp build -j '--config _config.yml'
-date >> _site/last_deployed.txt
+{
+  date -u '+Deployed: %Y-%m-%dT%H:%M:%SZ'
+  printf 'Commit: '
+  git rev-parse HEAD
+} > _site/last_deployed.txt
 mkdir -p $MOUNT_DIR
 if ! findmnt e4e@mywebsite.eng.ucsd.edu:htdocs/; then
   sshfs e4e@mywebsite.eng.ucsd.edu:htdocs/ $MOUNT_DIR -o IdentityFile=/home/deploy/.ssh/id_e4edev
