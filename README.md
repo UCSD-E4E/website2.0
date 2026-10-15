@@ -28,7 +28,7 @@ bundle _2.5.5_ install
 npx gulp watch
 ```
 
-Open http://localhost:4000. Run `npx gulp build` for a static build. If the lockfile's Bundler version changes, update the setup commands above to match it. The Windows build workflow verifies a clean installation with the configured Ruby version and GraphicsMagick.
+Open http://localhost:4000. Run `npx gulp build` for a static build. If the lockfile's Bundler version changes, update the setup commands above to match it. The cross-platform build workflow verifies a clean installation with the configured Ruby version and GraphicsMagick.
 
 ~~Dev deployment target: https://ucsd-e4e.github.io/website2.0/~~
 

@@ -1,4 +1,4 @@
-name: Windows Jekyll Build
+name: Cross-platform Jekyll Build
 
 on:
   push:
@@ -26,15 +26,25 @@ permissions:
 
 jobs:
   build:
-    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install image build dependencies
+      - name: Install Windows image build dependencies
+        if: runner.os == 'Windows'
         run: choco install graphicsmagick imagemagick --yes --no-progress
+      - name: Install Linux image build dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y graphicsmagick imagemagick
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
