@@ -11,7 +11,7 @@
         
         <div class="carousel__track" role="group" aria-label="Featured photographs">
           {% for item in carousels.images %}
-          <div class="carousel__slide_title">
+          <div class="carousel__slide_title" aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
             {% capture resize_cmd %}1140x500!,jpg,{% if item['crop'] %},{{ item['crop'] }}{% endif %}{% endcapture %}
             <div
               class="carousel__slide" 
@@ -32,7 +32,10 @@
           <div class="carousel__indicators">
               {% for item in carousels.images %}
                 <label 
-                  class="carousel__indicator" 
+                  class="carousel__indicator"
+                  role="button" tabindex="0"
+                  aria-label="Show photograph {{ forloop.index }}: {{ item.title | escape }}"
+                  aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"
                   for="{{ unique_name }}{{ letters[forloop.index0] }}"
                   onClick="onClick_{{unique_name}}(this)"
                 ></label>
@@ -57,12 +60,14 @@
               {% assign prevletter = letters[previndex] %}
               <div class="carousel__controls">
                   <label 
-                    class="carousel__control carousel__control--backward" 
+                    class="carousel__control carousel__control--backward"
+                    role="button" tabindex="0" aria-label="Previous photograph"
                     for="{{ unique_name }}{{ prevletter }}"
                     onClick="onClick_{{unique_name}}(this)"
                   ></label>
                   <label 
-                    class="carousel__control carousel__control--forward" 
+                    class="carousel__control carousel__control--forward"
+                    role="button" tabindex="0" aria-label="Next photograph"
                     for="{{ unique_name }}{{ nextletter }}"
                     onClick="onClick_{{unique_name}}(this)"
                 ></label>
@@ -205,16 +210,30 @@
     elements[j].click();
   }
 
+  const carousel_{{unique_name}} = document.getElementById('carousel{{unique_name}}');
+  carousel_{{unique_name}}.addEventListener('keydown', function(event) {
+    if ((event.key === 'Enter' || event.key === ' ') && event.target.matches('[role="button"]')) {
+      event.preventDefault(); event.target.click();
+    }
+  });
+  carousel_{{unique_name}}.addEventListener('focusin', function() { recent_click_{{unique_name}} = true; });
+  carousel_{{unique_name}}.addEventListener('mouseenter', function() { recent_click_{{unique_name}} = true; });
+  carousel_{{unique_name}}.addEventListener('change', function() {
+    const selected = [...carousel_{{unique_name}}.querySelectorAll('.carousel__activator')].findIndex(input => input.checked);
+    carousel_{{unique_name}}.querySelectorAll('.carousel__slide_title').forEach((slide, index) => slide.setAttribute('aria-hidden', index !== selected));
+    carousel_{{unique_name}}.querySelectorAll('.carousel__indicator').forEach((button, index) => button.setAttribute('aria-pressed', index === selected));
+  });
+
   {% if include.duration %}
   setInterval(function(){
     //if the user has not recently clicked, skip to next image
-    if (!recent_click_{{unique_name}}) {
-      increment_carousel_{{unique_name}}(direction="forward")
+    if (!recent_click_{{unique_name}} && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      increment_carousel_{{unique_name}}(direction="forward");
+      recent_click_{{unique_name}} = false;
     }
 
     //must be at end, click triggers onClick_{{unique_name}}. We want recent_click_{{unique_name}}to be human clicks
     //we also want to reset recent_clicks when we block a simulated click to restart the carousel autoplay
-    recent_click_{{unique_name}} = false; 
     
   },{{ include.duration }}000);
   {% endif %}

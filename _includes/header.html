@@ -26,8 +26,8 @@
               <li class="menu-item">
                 <a href="{{ item.url | absolute_url }}">{{item.name}}</a>
                 {% if item.subfolderitems %}
-                <p class="nav-sub-menu-drop">+</p>
-                <ul class="sub-menu">
+                <p class="nav-sub-menu-drop" role="button" tabindex="0" aria-label="Toggle {{ item.name | escape }} submenu" aria-expanded="false" aria-controls="submenu-{{ forloop.index }}">+</p>
+                <ul class="sub-menu" id="submenu-{{ forloop.index }}">
                   {% for subitem in item.subfolderitems %}
                  <li><a href="{{ subitem.url | absolute_url }}">{{subitem.name}}</a></li>
                   {% endfor %}
@@ -53,14 +53,20 @@
 
       //for a submenu, if click is not on a link, display the submenu items
       nestedUlElements.forEach(function(ul) {
-        ul.parentElement.addEventListener('click', function() {
+        const toggle = ul.parentElement.querySelector('.nav-sub-menu-drop');
+        toggle.addEventListener('keydown', function(event) {
+          if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); toggle.click(); }
+        });
+        ul.parentElement.addEventListener('click', function(event) {
           if (event.target.tagName.toLowerCase() !== 'a') {
             if (ul.style.display === 'none' || ul.style.display === '') {
               ul.style.display = 'block';
-              ul.parentElement.querySelector("p").innerHTML = "-"
+              toggle.textContent = "-";
+              toggle.setAttribute("aria-expanded", "true");
             } else {
               ul.style.display = 'none';
-              ul.parentElement.querySelector("p").innerHTML = "+"
+              toggle.textContent = "+";
+              toggle.setAttribute("aria-expanded", "false");
             }
           }
         });
