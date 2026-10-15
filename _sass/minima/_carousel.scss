@@ -153,7 +153,9 @@
     text-align: justify;
 
 }
-.carousel [role="button"]:focus-visible { outline: 2px solid #1d6dd5; outline-offset: 3px; }
+.carousel button:focus-visible { outline: 2px solid #1d6dd5; outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   .carousel__track .carousel__slide, .carousel_title { transition: none; }
 }
+
+.carousel__control { background: transparent; border-radius: 0; }
