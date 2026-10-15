@@ -9,23 +9,23 @@
           <input class="carousel__activator" type="radio" name="carousel{{ unique_name }}" id="{{ unique_name }}{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
         
-        <ul  class="carousel__track">
+        <div class="carousel__track" role="group" aria-label="Featured photographs">
           {% for item in carousels.images %}
           <div class="carousel__slide_title">
             {% capture resize_cmd %}1140x500!,jpg,{% if item['crop'] %},{{ item['crop'] }}{% endif %}{% endcapture %}
-            <li 
+            <div
               class="carousel__slide" 
             >
               <img 
                 style=""
                 src="{{ item['url'] | resize: resize_cmd }}" alt="{{ item['title'] | escape }}">
-            </li>
+            </div>
             <div class="carousel_titles">
               <p class="carousel_title"> {{item['title']}} </p>
             </div>
           </div>
           {% endfor %}
-        </ul>
+        </div>
         
         {%- comment -%} TODO make this take up space at bottom of carousel like original site {%- endcomment -%}
         <div class="carousel__meta_controls">

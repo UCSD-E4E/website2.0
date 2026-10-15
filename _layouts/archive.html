@@ -12,33 +12,28 @@ layout: default
                 <h2 class="archive-post-title archive-post-link">{{ post.title }}</h2>    
             </a>
             <p>Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
-            {%- if post.featuredImage -%}
-            <span>
-                <div>
-                    <img 
-                        src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-                        class="inline_image archive-image"
-                        alt="{{ post.featuredImageAlt | default: 'featured image' }}"
-                    >
-                    {% else %}
-                    <img 
-                        src="{{ 'e4e_website-no-e4e.png' |  crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
-                        class="inline_image archive-image"
-                        alt="E4E Logo, post has no featured image"
-                    >
-                    {% endif %}
-                    
-                
-                </siv>
+            <div>
+                {%- if post.featuredImage -%}
+                <img
+                    src="{{ post.featuredImage | string | crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                    class="inline_image archive-image"
+                    alt="{{ post.featuredImageAlt | default: 'featured image' }}"
+                >
+                {% else %}
+                <img
+                    src="{{ 'e4e_website-no-e4e.png' | crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                    class="inline_image archive-image"
+                    alt="E4E Logo, post has no featured image"
+                >
+                {% endif %}
                 <span>
                     {%- if post.description -%}
                     {{ post.description }}
-                  {% else %}
-                    {{post.content | strip_html | truncate: 500}}
-                  {% endif %}
+                    {% else %}
+                    {{ post.content | strip_html | truncate: 500 }}
+                    {% endif %}
                 </span>
-            </span>
-            </span>
+            </div>
         </li>
         {% endfor %}
         </ul>

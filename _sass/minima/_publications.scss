@@ -43,3 +43,6 @@
 .pub_unseparator{
     margin-bottom: 0px;
 }
+
+// Shared bibliography presentation; formerly repeated inline for each entry.
+ol.bibliography li { list-style: none; }
