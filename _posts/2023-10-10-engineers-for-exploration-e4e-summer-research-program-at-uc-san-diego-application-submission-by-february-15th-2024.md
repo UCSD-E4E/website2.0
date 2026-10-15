@@ -13,4 +13,4 @@ During this program, students will create and apply technologies in novel ways t
 
 Applications are currently being accepted at [https://e4e.ucsd.edu/apply]({{"/apply" | absolute_url}}) through February 15. Applications will continue to be accepted through March 30 if positions are not yet filled.
 
-If you have any questions, comments or concerns, please feel free to contact me at [nthui@ucsd.edu](mailto:nthui@ucsd.edu).
+For questions about the program, email [e4e@ucsd.edu](mailto:e4e@ucsd.edu).

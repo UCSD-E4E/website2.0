@@ -10,11 +10,9 @@
     <link href="https://journals.ieeeauthorcenter.ieee.org/your-role-in-article-production/ieee-editorial-style-manual/" rel="documentation"/>
     <author>
       <name>Michael Berkowitz</name>
-      <email>mberkowi@gmu.edu</email>
     </author>
     <contributor>
       <name>Julian Onions</name>
-      <email>julian.onions@gmail.com</email>
     </contributor>
     <contributor>
       <name>Rintze Zelle</name>
@@ -29,7 +27,6 @@
     </contributor>
     <contributor>
       <name>Giuseppe Silano</name>
-      <email>g.silano89@gmail.com</email>
       <uri>http://giuseppesilano.net</uri>
     </contributor>
     <contributor>
@@ -40,11 +37,9 @@
     </contributor>
     <contributor>
       <name>Oliver Couch</name>
-      <email>oliver.couch@gmail.com</email>
     </contributor>
     <contributor>
       <name>Sean Perry</name>
-      <email>shperry@ucsd.edu</email>
     </contributor>
     <category citation-format="numeric"/>
     <category field="engineering"/>

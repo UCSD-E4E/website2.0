@@ -127,3 +127,38 @@ $mobile-nav-pad: 8px 5px;
 //       display: none;
 //     }
 //   }
+
+@include variables.media-query(variables.$on-palm) {
+  .site-nav-button {
+    .nav-trigger {
+      display: block;
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+    }
+
+    .nav-trigger:focus-visible + label {
+      outline: 2px solid #fff;
+      outline-offset: 3px;
+    }
+
+    .menu-icon {
+      fill: #a4a4a4;
+    }
+  }
+}
+
+@include variables.media-query(variables.$on-palm) {
+  // The expanded mobile menu is light, unlike the desktop header.
+  .site-nav {
+    a, .sub-menu {
+      background-color: variables.$background-color;
+    }
+
+    a, .nav-sub-menu-drop, li:hover > a {
+      color: #626262;
+    }
+  }
+}
