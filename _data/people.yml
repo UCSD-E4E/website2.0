@@ -1690,10 +1690,15 @@
   start: 2024
 - name:  Zhuo Chen
   description: Scientific Machine Learning, Summer 2024 REU
-  level: Project Member- Alumni
+  level: Project Member - Alumni
   image: assets/people/z.chen.jpg
   start: 2024
   end: 2024
+- name: Karis Lewis
+  description: Simplifying Meshes, 2024 Summer Research, Matthew Henson Fellowship
+  level: Project Member - Alumni
+  image: assets/people/k.lewis.jpg
+  start: 2024
 - name:  Aaryan Panthi
   description: Mangrove Monitoring, Summer 2024 REU
   level: Project Member - Alumni
