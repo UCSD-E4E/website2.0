@@ -1,0 +1,48 @@
+name: Windows Jekyll Build
+
+on:
+  push:
+    paths:
+      - '.ruby-version'
+      - 'Gemfile'
+      - 'Gemfile.lock'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'gulpfile.js'
+      - '.github/workflows/jekyll_windows.yml'
+  pull_request:
+    paths:
+      - '.ruby-version'
+      - 'Gemfile'
+      - 'Gemfile.lock'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'gulpfile.js'
+      - '.github/workflows/jekyll_windows.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install image build dependencies
+        run: choco install graphicsmagick imagemagick --yes --no-progress
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - name: Install JavaScript dependencies
+        run: npm ci
+      - name: Build site
+        run: npx gulp build
+        env:
+          JEKYLL_ENV: production
+      - name: Check generated hyperlinks
+        run: python scripts/check_relative_links.py _site
