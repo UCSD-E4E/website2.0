@@ -43,7 +43,7 @@ layout: default
           {%- assign posts_start = i | times: post_per_page -%}
           {%- assign posts = site.posts | slice: posts_start, post_per_page -%}
             {%- for post in posts -%}
-            <div class="home_post_container  home_post_page home_post_page_{{i}}">
+            <li class="home_post_container  home_post_page home_post_page_{{i}}">
               <div class="home-post-image">
                 {%- if post.featuredImage -%}
                 <img 
@@ -58,7 +58,7 @@ layout: default
                 {% endif %}
               </div>
               
-              <li class="home_post_text" id="home_post_text_{{forloop.index}}">
+              <div class="home_post_text" id="home_post_text_{{forloop.index}}">
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
                 <h3 style="margin-bottom: 1px;">
@@ -77,8 +77,8 @@ layout: default
                   {% endif %}
 
                 </p>
-              </li>
-            </div>
+              </div>
+            </li>
             {%- endfor -%}
 
       </ul>

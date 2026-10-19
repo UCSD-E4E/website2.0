@@ -220,7 +220,7 @@
   margin-left: 0;
   list-style: none;
 
-  > li {
+  &:not(.home_post-list) > li {
     margin-bottom: variables.$spacing-unit;
   }
 }

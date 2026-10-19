@@ -19,6 +19,10 @@ Install [Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node
 ### Windows
 Install [RubyInstaller with Devkit](https://rubyinstaller.org/downloads/) matching `.ruby-version`, run its `ridk install` setup, and install Node.js/npm and GraphicsMagick/ImageMagick. Ensure `ruby`, `bundle`, `node`, `npm`, and `gm` are available in a new terminal. Install Bundler with `gem install bundler -v 2.5.5`. The Windows-only `wdm` gem accelerates file watching; it is not required on macOS or Linux.
 
+### Do I need make?
+
+You do not run `make` to build or serve this website; use the Gulp commands below. However, installing Ruby or compiling native gems may require `make` and a compiler as part of your platform's build tools. Follow the [Jekyll installation prerequisites](https://jekyllrb.com/docs/installation/) and your Ruby installer's instructions rather than removing those tools.
+
 ### Build and serve
 From this repository root:
 

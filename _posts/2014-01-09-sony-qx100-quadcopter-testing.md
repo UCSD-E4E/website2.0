@@ -72,5 +72,5 @@ Hope you enjoy the pictures!
 
 {% for image in page.gallery %}
 <a href="{{ image | absolute_url }}">
-<img alt="sony-gallery" src="{{ image | resize: '150x150' }}" width="150px" height="150px">
+<img alt="sony-gallery" src="{{ image | resize: '150x150' }}" width="150" height="150">
 </a>{% endfor %}

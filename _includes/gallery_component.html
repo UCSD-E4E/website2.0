@@ -9,7 +9,7 @@
 
 {%- if include.grid -%}
 <!-- https://www.w3schools.com/css/css_grid.asp -->
-<style>
+<style data-page-styles>
     .gallery {
         display: flex;
         flex-direction: row;
@@ -33,7 +33,7 @@
 {% else %}
 <!-- the css to handle nice image resizing from-->
 <!-- https://blog.logrocket.com/responsive-image-gallery-css-flexbox/ -->
-<style>
+<style data-page-styles>
     .gallery {
         display: flex;
         flex-wrap: wrap;
@@ -59,4 +59,3 @@
     }
 </style>
 {%- endif -%}
-</div>

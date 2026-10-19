@@ -22,7 +22,7 @@ One application of the Aerial Camera Platform is the creation of 3D reconstructi
 We have used the Aerial Camera Platform to create 3D models of various structures and environments, such as an art installation from the Stuart Art Collection seen below.
 
 
-<div clas="captioned-img-container">
+<div>
   <div class="img-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/gDJPp5WQOFw" title="Falling Star Structure from Motion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -35,7 +35,7 @@ We have used the Aerial Camera Platform to create 3D models of various structure
 
 We have also used the platform to create 3D models of archaeological excavations, notably the excavation of the famed racehorse Native Diver in March 2014. The remains of Native Diver, which had lain at Hollywood Park Racetrack in Inglewood, CA for several decades, were excavated by USC Archaeology and moved to the Del Mar Racetrack after the closure of Hollywood Park. We were on-site to create a 3D model and aerial timelapse of the excavation using our aerial camera system.
 
-<div clas="captioned-img-container">
+<div>
   <div class="img-container">
     <iframe width="500" height="400" src="https://www.youtube.com/embed/Tw7VNB5Eo6c" title="3D reconstruction of Native Diver Excavation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <iframe width="500" height="400" src="https://www.youtube.com/embed/jdPi06WAWFM" title="Timelapse of Native Diver Excavation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

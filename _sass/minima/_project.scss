@@ -79,6 +79,10 @@
     height: 250px;
 }
 
+iframe:where(.full-width-embed) {
+    width: 100%;
+}
+
 iframe {
     display: block;
     margin-left: auto;
