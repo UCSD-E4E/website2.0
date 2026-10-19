@@ -107,3 +107,39 @@ iframe {
         border: 0;
     }
 }
+
+.mangrove-story {
+  &__graphic { display: none; }
+  &__step { margin-bottom: 2rem; }
+  &__figure { margin: 1.5rem 0; }
+  &__video { width: 100%; height: auto; aspect-ratio: 3 / 2; }
+
+  @media (min-width: 900px) {
+    &.is-enhanced {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 3rem;
+      align-items: start;
+
+      .mangrove-story__graphic {
+        display: flex;
+        position: sticky;
+        top: 6rem;
+        height: calc(100vh - 8rem);
+        align-items: center;
+        img { max-height: 100%; object-fit: contain; }
+      }
+      .mangrove-story__figure {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip-path: inset(50%);
+        white-space: nowrap;
+      }
+      .mangrove-story__step { padding: 2rem 0; min-height: 45vh; }
+    }
+  }
+}
