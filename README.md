@@ -1,4 +1,29 @@
 # Website 2.0
+
+## Website versions and releases
+
+`VERSION` is the single source for the website's stable `MAJOR.MINOR.PATCH`
+version. Jekyll reads it into the footer; deployment records it alongside the
+commit and timestamp in `last_deployed.txt`. Dependency versions are independent.
+
+- **Major:** incompatible public URL, navigation, or content/data-format changes.
+  Preserve existing URLs with redirects when possible.
+- **Minor:** new pages/features or substantial backward-compatible improvements.
+- **Patch:** content corrections, accessibility fixes, security/dependency updates,
+  and build or publishing repairs.
+
+Group related PRs into a release rather than bumping for every merge. For the next
+release, update `VERSION` and add a `### X.Y.Z — Title` section under **Unreleased**
+in [CHANGELOG.md](CHANGELOG.md). Leave existing release notes intact. After merging,
+deploy `main` and verify its version and commit in the live footer and
+`last_deployed.txt`. Then manually run **Release verified website** on that same
+`main` commit: it checks the live stamp before creating `vX.Y.Z` and a GitHub Release.
+If `main` has advanced, deploy the new commit before releasing. Record the verified
+release date in the changelog in a subsequent maintenance PR.
+
+Version 2.2.1 is prepared as the first formal release. Earlier 2.0.0–2.2.0 entries
+are retrospective groupings, not claims of historical deployments or tags.
+
 ## To Edit:
 Please use https://vscode.dev/github/UCSD-E4E/website2.0
 

@@ -1,0 +1,66 @@
+name: Release verified website
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            /VERSION
+            /CHANGELOG.md
+          sparse-checkout-cone-mode: false
+      - name: Verify production and prepare release notes
+        env:
+          EXPECTED_COMMIT: ${{ github.sha }}
+        run: |
+          curl --fail --silent --show-error --max-time 30 \
+            -H 'Cache-Control: no-cache' \
+            "https://e4e.ucsd.edu/last_deployed.txt?release=$EXPECTED_COMMIT" \
+            -o /tmp/deployed.txt
+          python3 - <<'PY'
+          import os
+          import re
+          from pathlib import Path
+
+          version = Path("VERSION").read_text().strip()
+          if not re.fullmatch(r"(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)", version):
+              raise SystemExit("VERSION must be MAJOR.MINOR.PATCH without leading zeroes")
+          stamp = dict(line.split(": ", 1) for line in Path("/tmp/deployed.txt").read_text().splitlines() if ": " in line)
+          if stamp.get("Version") != version or stamp.get("Commit") != os.environ["EXPECTED_COMMIT"]:
+              raise SystemExit("Production does not match this version and commit; deploy and verify it first")
+          changelog = Path("CHANGELOG.md").read_text()
+          section = re.search(r"^### " + re.escape(version) + r" — ([^\n]+)\n(.*?)(?=^## |^### |\Z)", changelog, re.M | re.S)
+          if section is None:
+              raise SystemExit("Missing changelog section for " + version)
+          notes = section.group(2).strip()
+          # The first paragraph records pre-release status, not release notes.
+          if notes.startswith("Prepared for"):
+              notes = notes.split("\n\n", 1)[1]
+          Path("/tmp/release-notes.md").write_text(notes + "\n")
+          with open(os.environ["GITHUB_ENV"], "a") as env:
+              env.write("WEBSITE_VERSION=" + version + "\n")
+          PY
+      - name: Create version tag and GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v$WEBSITE_VERSION" \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --title "Website v$WEBSITE_VERSION" \
+            --notes-file /tmp/release-notes.md

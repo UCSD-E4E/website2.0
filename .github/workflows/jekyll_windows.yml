@@ -11,6 +11,11 @@ on:
       - 'package-lock.json'
       - 'gulpfile.js'
       - '.github/workflows/jekyll_windows.yml'
+      - 'VERSION'
+      - '_plugins/site_version.rb'
+      - '_includes/footer.html'
+      - 'scripts/test_site_version.rb'
+      - '_config.yml'
   pull_request:
     paths:
       - '.ruby-version'
@@ -20,6 +25,11 @@ on:
       - 'package-lock.json'
       - 'gulpfile.js'
       - '.github/workflows/jekyll_windows.yml'
+      - 'VERSION'
+      - '_plugins/site_version.rb'
+      - '_includes/footer.html'
+      - 'scripts/test_site_version.rb'
+      - '_config.yml'
   workflow_dispatch:
 
 concurrency:
@@ -61,6 +71,8 @@ jobs:
           bundler-cache: true
       - name: Install JavaScript dependencies
         run: npm ci
+      - name: Check website version rendering
+        run: bundle exec ruby scripts/test_site_version.rb
       - name: Build site
         run: npx gulp build
         env:
