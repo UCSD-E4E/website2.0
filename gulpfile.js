@@ -3,8 +3,7 @@
 
 var spawn = require('cross-spawn'); 
 const { src, dest , series} = require('gulp');
-const fs   = require('fs');
-const fsPromises = require('fs').promises; 
+const { prepareImageCache } = require('./scripts/image-cache.cjs');
 
 async function create_command(command_str) {
     var command = command_str.split(" ")
@@ -88,31 +87,9 @@ function copy_foundation_files(cb) {
     return src(foundation).pipe(dest('cache')) 
 }
 
-async function handle_cache_updates(cb) {
-    // delete temp cache if it exists, otherwise add a new temp cache
-    // The idea is we delete the temp cache each build, temp cache contains unused images
-    const temp_dir = "./cache/resize_temp"
-    const dir = "./cache/resize"
-
-    // Remove the temp directory, files here before build should have been taken
-    // out by the user 
-    if(fs.existsSync(temp_dir)) {
-        await fsPromises.rm(temp_dir, { recursive: true, force: true })
-        //rimraf.sync(temp_dir)
-    }
-
-    // Make sure resize exists if it doesn't already
-    if(!fs.existsSync(dir)) {
-        fs.mkdirSync(dir, { recursive: true })
-    }
-    
-    // Move all files in resize (the stuff we ideally want to keep)
-    // into resize_temp to actually check during jekyll build if files should be kept
-    fs.renameSync(dir, temp_dir);
-    fs.mkdirSync(dir, { recursive: true })
-    return cb
+async function handle_cache_updates() {
+    await prepareImageCache();
 }
-
 
 
 async function build(cb) {
@@ -143,5 +120,6 @@ async function defaultTask(cb) {
 }
 
 exports.default = handle_cache_updates
-exports.build = series(update_packages, handle_cache_updates, copy_foundation_files, build)
-exports.watch = series(update_packages, handle_cache_updates, copy_foundation_files, dev_build)
+exports.setup = update_packages
+exports.build = series(handle_cache_updates, copy_foundation_files, build)
+exports.watch = series(handle_cache_updates, copy_foundation_files, dev_build)

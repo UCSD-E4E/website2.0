@@ -32,21 +32,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: make caches
-        run: |
-          mkdir cache
-          mkdir cache/resize
-      - name: Cache Images
-        uses: actions/cache/restore@v3
-        with:
-          path: cache
-          key: cache_test-${{ hashFiles('assets/**') }}
-          restore-keys: |
-            cache_test
-      - name: check cache
-        run: |
-          ls -l cache
-          ls -l cache/resize
       - name: Setup node
         uses: actions/setup-node@v4
         with:
@@ -61,6 +46,26 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y graphicsmagick imagemagick
           npm ci
+      - name: Identify image processing tools
+        id: image-toolchain
+        shell: bash
+        run: |
+          fingerprint=$({ gm version; convert -version; } | sha256sum | cut -d ' ' -f 1)
+          echo "version=$fingerprint" >> "$GITHUB_OUTPUT"
+      # Separate snapshots let template-only changes add variants. The plugin's
+      # content/settings hashes reuse unchanged images from the latest snapshot.
+      - name: Restore processed images
+        id: image-cache
+        uses: actions/cache/restore@v5
+        with:
+          path: |
+            cache/resize
+            cache/resize_temp
+          key: images-v1-${{ runner.os }}-${{ steps.image-toolchain.outputs.version }}-${{ hashFiles('Gemfile.lock', 'scripts/image-cache.cjs') }}-${{ github.sha }}
+          restore-keys: |
+            images-v1-${{ runner.os }}-${{ steps.image-toolchain.outputs.version }}-${{ hashFiles('Gemfile.lock', 'scripts/image-cache.cjs') }}-
+      - name: Check image cache recovery
+        run: node --test scripts/test_image_cache.cjs
       - name: Checks Ruby Gems
         run: bundle list
       - name: Checks npm packages
@@ -72,6 +77,8 @@ jobs:
         run: bundle exec ruby scripts/test_page_styles.rb
       - name: Check website version rendering
         run: bundle exec ruby scripts/test_site_version.rb
+      - name: Check image reuse with Jekyll
+        run: bundle exec ruby scripts/test_image_cache_integration.rb
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         id: build
@@ -91,9 +98,6 @@ jobs:
         run: ls -l cache
       - name: Checks files
         run: ls -l assets
-      - name: remove extra cache
-        if: steps.build.outcome == 'success'
-        run: rm -rf cache/resize_temp
       # The publish stamp (was written on kastner-ml by _deploy_e4e-dev.sh).
       - name: Stamp the build
         if: github.ref == 'refs/heads/main'
@@ -114,13 +118,14 @@ jobs:
           include-hidden-files: true
           if-no-files-found: error
           retention-days: 7
-      - name: Cache Images
-        uses: actions/cache/save@v3
-        if: always()
+      - name: Save processed images
+        uses: actions/cache/save@v5
+        if: ${{ !cancelled() && steps.build.outcome == 'success' && steps.image-cache.outputs.cache-hit != 'true' }}
         with:
-          path: cache
-          # this should not hash every file.... how do we connect this to a new cache?
-          key: cache_test-${{ hashFiles('assets/**') }}
+          path: |
+            cache/resize
+            cache/resize_temp
+          key: ${{ steps.image-cache.outputs.cache-primary-key }}
   # Publish on the krg-nat Incus slot `e4e-website`: a campus host, which mywebsite's
   # SSH requires. The runner stages the artifact and starts `e4e-website-publish`. That
   # unit holds the SSH key and rsyncs to e4e@mywebsite.eng.ucsd.edu:htdocs/ (the slot's

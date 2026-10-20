@@ -10,6 +10,9 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'gulpfile.js'
+      - 'scripts/image-cache.cjs'
+      - 'scripts/test_image_cache.cjs'
+      - 'scripts/test_image_cache_integration.rb'
       - '.github/workflows/jekyll_windows.yml'
       - 'VERSION'
       - '_plugins/site_version.rb'
@@ -24,6 +27,9 @@ on:
       - 'package.json'
       - 'package-lock.json'
       - 'gulpfile.js'
+      - 'scripts/image-cache.cjs'
+      - 'scripts/test_image_cache.cjs'
+      - 'scripts/test_image_cache_integration.rb'
       - '.github/workflows/jekyll_windows.yml'
       - 'VERSION'
       - '_plugins/site_version.rb'
@@ -73,6 +79,10 @@ jobs:
         run: npm ci
       - name: Check website version rendering
         run: bundle exec ruby scripts/test_site_version.rb
+      - name: Check image cache recovery
+        run: node --test scripts/test_image_cache.cjs
+      - name: Check image reuse with Jekyll
+        run: bundle exec ruby scripts/test_image_cache_integration.rb
       - name: Build site
         run: npx gulp build
         env:

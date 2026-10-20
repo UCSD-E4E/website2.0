@@ -57,6 +57,8 @@ bundle _2.5.5_ install
 npx gulp watch
 ```
 
+Install dependencies once after cloning, and again when their lockfiles change. Build and watch commands reuse installed dependencies; `npx gulp setup` explicitly reinstalls them.
+
 Open http://localhost:4000. Run `npx gulp build` for a static build. If the lockfile's Bundler version changes, update the setup commands above to match it. The cross-platform build workflow verifies a clean installation with the configured Ruby version and GraphicsMagick.
 
 ~~Dev deployment target: https://ucsd-e4e.github.io/website2.0/~~
@@ -64,6 +66,16 @@ Open http://localhost:4000. Run `npx gulp build` for a static build. If the lock
 ## Other gulp commands
 - `npx gulp build` performs a single static build of the site
 - `npx gulp build -j "<INSERT JEKYLL ARGS>"` creates a build of the site with custom jekyll arguments
+
+## Image build cache
+
+Generated images are keyed by source contents and transformation settings. Builds reuse matching files, processing only missing variants. Unused variants stay in `cache/resize_temp` for future reuse; that directory is excluded from the published site. Cache preparation also recovers images left by an interrupted build.
+
+GitHub saves a snapshot per commit and restores the latest compatible snapshot when there is no exact match. The cache namespace includes the operating system, image tool versions, Ruby dependency lockfile, and cache preparation code. This lets template-only changes add variants without reprocessing unchanged images. Only successful image builds are saved. Cross-platform checks intentionally build without a restored image cache to verify a clean installation.
+
+For a local cold build, or after changing image tools or the image plugin, delete `cache/resize` and `cache/resize_temp` before building. This also reclaims unused variants. CI caches may be evicted; a missing cache simply causes a cold build.
+
+Run `node --test scripts/test_image_cache.cjs` to check cache recovery, and `bundle exec ruby scripts/test_image_cache_integration.rb` to verify reuse and invalidation with actual Jekyll image builds.
 
 ## Checking hyperlinks
 After building, run `python3 scripts/check_relative_links.py _site`. Internal hyperlinks must start with `/` (use Jekyll's `relative_url` or `absolute_url` filter). Fragment and query-only links, external URLs, and schemes such as `mailto:` are allowed. The check reports the generated page and line for each document-relative hyperlink.
