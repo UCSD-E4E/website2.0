@@ -7,7 +7,7 @@ enable_nav: true
 ---
 
 <div class="mangrove-story" data-mangrove-story>
-<div class="mangrove-story__graphic" aria-hidden="true"><img alt=""></div>
+<div class="mangrove-story__graphic" aria-hidden="true"><img src="{{ "/assets/mangrove/2018-06-05_aburto_lab_photos.jpg" | relative_url }}" alt=""></div>
 <div class="mangrove-story__steps" markdown="1">
 <section class="mangrove-story__step" data-image="{{ "/assets/mangrove/2018-06-05_aburto_lab_photos.jpg" | relative_url }}" data-alt="Mangrove Conservation in Baja, Mexico with Octavio Aburto’s Lab" markdown="1">
 
