@@ -12,7 +12,7 @@ tags:
 - outreach
 ---
 
-E4E demonstrated some of our remote imaging platforms at the first event in the [Tech to Reconnect](https://techtoreconnect.org/) series at the San Diego Zoo. This lecture series features speakers who have invented tools to help people engage with nature in inventive ways. Our advisor Albert Lin was one of the featured speakers! And one of our alumni and current staff scientist Eric Lo was featured in the Tech to Reconnect promotional video below.
+E4E demonstrated some of our remote imaging platforms at the first event in the [Tech to Reconnect](https://web.archive.org/web/20141222155138/http://techtoreconnect.org/) series at the San Diego Zoo. This lecture series features speakers who have invented tools to help people engage with nature in inventive ways. Our advisor Albert Lin was one of the featured speakers! And one of our alumni and current staff scientist Eric Lo was featured in the Tech to Reconnect promotional video below.
 <figure>
 <iframe src="https://player.vimeo.com/video/109060191?h=2b5413da55&color=575757&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Tech to reconnect video"></iframe>
 <figcaption><a href="https://vimeo.com/109060191">Tech To Reconnect | San Diego Zoo</a></figcaption>
