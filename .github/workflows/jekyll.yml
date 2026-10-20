@@ -3,8 +3,8 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+# Build on GitHub and publish to Jacobs hosting through the campus runner.
+name: Deploy E4E website
 
 on:
   # Runs on pushes targeting the default branch
@@ -13,16 +13,17 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Build checkout; the publish job separately grants artifact access.
 permissions:
   contents: read
-  id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: ${{ github.ref }}
-  cancel-in-progress: true
+  # Branches: a new push cancels the old build. main: QUEUE instead, because a cancelled
+  # deploy job abandons a publish that's still running on the slot.
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
   # Build job
@@ -89,6 +90,25 @@ jobs:
       - name: remove extra cache
         if: steps.build.outcome == 'success'
         run: rm -rf cache/resize_temp
+      # The publish stamp (was written on kastner-ml by _deploy_e4e-dev.sh).
+      - name: Stamp the build
+        if: github.ref == 'refs/heads/main'
+        run: |
+          {
+            date -u '+Deployed: %Y-%m-%dT%H:%M:%SZ'
+            echo "Commit: ${{ github.sha }}"
+          } > _site/last_deployed.txt
+      # Handed to the `deploy` job on the publish slot. include-hidden-files: _site has
+      # .htaccess, and upload-artifact@v4 drops dotfiles by default.
+      - name: Upload the built site
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
       - name: Cache Images
         uses: actions/cache/save@v3
         if: always()
@@ -96,23 +116,56 @@ jobs:
           path: cache
           # this should not hash every file.... how do we connect this to a new cache?
           key: cache_test-${{ hashFiles('assets/**') }}
+  # Publish on the krg-nat Incus slot `e4e-website`: a campus host, which mywebsite's
+  # SSH requires. The runner stages the artifact and starts `e4e-website-publish`. That
+  # unit holds the SSH key and rsyncs to e4e@mywebsite.eng.ucsd.edu:htdocs/ (the slot's
+  # deploy/incus/publish.nix). No secrets in this repo: the key lives in the lab's
+  # OpenBao and never reaches this job.
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, e4e-website]
     needs:
       - build
     if: github.ref == 'refs/heads/main'
+    permissions:
+      actions: read # download the artifact
+    concurrency:
+      group: publish
+      cancel-in-progress: false
+    env:
+      STAGING: /var/lib/e4e-website/staging
     steps:
-      - name: Execute Deploy
-        env:
-          SSH_PRIVATE_KEY: ${{secrets.KASTNER_ML_DEPLOY_SSH}}
-          SSH_KNOWN_HOSTS: ${{secrets.KASTNER_ML_KNOWN_HOSTS}}
-          SSH_KEY_PATH: ${{github.workspace}}/../private.key
+      # A publish can outlive its job (a manually cancelled run leaves the unit
+      # running), so never touch staging while one is in flight.
+      - name: Wait for any in-flight publish
         run: |
-          mkdir -p ~/.ssh/
-          echo "$SSH_PRIVATE_KEY" > $SSH_KEY_PATH
-          sudo chmod 600 $SSH_KEY_PATH
-          echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          wget https://raw.githubusercontent.com/UCSD-E4E/website2.0/main/_deploy_e4e-dev.sh
-          scp -i $SSH_KEY_PATH _deploy_e4e-dev.sh deploy@kastner-ml.ucsd.edu:/tmp/deploy_e4e-dev.sh
-          ssh -i $SSH_KEY_PATH deploy@kastner-ml.ucsd.edu '/bin/bash /tmp/deploy_e4e-dev.sh'
-
+          for i in $(seq 1 60); do
+            state=$(systemctl show e4e-website-publish.service -p ActiveState --value)
+            case "$state" in
+              active|activating|deactivating|reloading) ;;
+              inactive|failed) exit 0 ;;
+              *) echo "::error::Unexpected publish state: $state"; exit 1 ;;
+            esac
+            echo "[$i/60] a publish is still running..."
+            sleep 10
+          done
+          echo "::error::e4e-website-publish has been running for 10 minutes; check it on the slot"
+          exit 1
+      - name: Clear the download area
+        run: rm -rf -- "$STAGING/incoming"
+      - name: Download the built site
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: ${{ env.STAGING }}/incoming
+      # Only a COMPLETE download becomes the site the unit publishes. The runner's umask
+      # is 0066 and the publish unit runs as a different user, hence the chmod.
+      - name: Swap it into place
+        run: |
+          chmod -R a+rX "$STAGING/incoming"
+          rm -rf -- "$STAGING/site"
+          mv -- "$STAGING/incoming" "$STAGING/site"
+      - name: Publish
+        run: systemctl start e4e-website-publish.service # polkit-authorized on the slot
+      - name: Publish log
+        if: always()
+        run: cat /run/e4e-website-publish/log || true

@@ -1,0 +1,77 @@
+name: Update krg-infra pin
+
+# "Axis B" (krg-infra docs/tenant-updates.md): advance the krg-infra pin so new nixpkgs
+# (kernel / bash / openssl / CVE fixes) flow in via `nixpkgs.follows =
+# "krg-infra/nixpkgs"`. reference-manager's workflow, verbatim but for the tenant name.
+#
+# Commits the updated flake.lock STRAIGHT TO main (no PR): the gate is the eval below
+# plus the nightly autoUpgrade's atomic switch (a lock that doesn't build fails the
+# switch and rolls back). A new kernel needs a manual `incus restart`.
+#
+# Skipping this freezes the slot on old, unpatched packages — the nightly upgrade
+# only ever rebuilds the COMMITTED lock.
+#
+# Needs a GitHub App (vars.APP_ID + secrets.APP_PRIVATE_KEY) that may push to main
+# (add it to the branch protection bypass list); GITHUB_TOKEN can't push to a
+# protected main. The UCSD-E4E org's existing App works if it's installed on this repo.
+
+on:
+  schedule:
+    - cron: "0 8 * * 1" # Mondays 08:00 UTC
+  workflow_dispatch: {} # out-of-cycle bump (e.g. a named CVE)
+
+permissions: {}
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/create-github-app-token@v2
+        id: app-token
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          ref: main
+
+      - uses: DeterminateSystems/nix-installer-action@v22
+
+      - name: nix flake update krg-infra
+        run: nix flake update krg-infra
+
+      - name: Stop if nothing changed
+        id: diff
+        run: |
+          if git diff --quiet -- flake.lock; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::krg-infra pin already current; nothing to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Eval-gate: an eval error or failed module assertion (krg-infra changed a
+      # contract) blocks the commit instead of landing a lock the nightly would reject.
+      - name: Eval-gate the new lock
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          nix eval --raw \
+            .#nixosConfigurations.e4e-website.config.system.build.toplevel.drvPath
+
+      - name: Commit flake.lock to main
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          app="${{ steps.app-token.outputs.app-slug }}[bot]"
+          uid="$(gh api "/users/${app}" --jq .id)"
+          git config user.name "$app"
+          git config user.email "${uid}+${app}@users.noreply.github.com"
+          git add flake.lock
+          git commit -m "chore(flake): bump krg-infra pin (system package updates)
+
+          Weekly Axis-B bump (krg-infra docs/tenant-updates.md). Rolls out on the
+          next converge (nightly system.autoUpgrade, or converge.yml on this push)."
+          git push origin HEAD:main

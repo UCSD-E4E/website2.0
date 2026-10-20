@@ -1,0 +1,75 @@
+name: Converge publish slot
+
+# Rebuilds the e4e-website Incus slot from this repo's flake when the slot's own config
+# changes (flake.nix, flake.lock, deploy/incus/). The slot's runner starts
+# `e4e-website-selfupdate`, which runs
+#   nixos-rebuild switch --flake github:UCSD-E4E/website2.0#e4e-website --refresh
+# The nightly system.autoUpgrade does the same thing; this just doesn't wait for it.
+#
+# The converge is a TRIGGER, not a CI gate: the unit stops this very runner mid-switch
+# and restarts it after, so start it with --no-block. `verify` runs on the same runner,
+# so it can't be scheduled until the runner is back. If the converge leaves the runner
+# dead, `verify` times out red.
+#
+# Don't judge a converge by `systemctl status e4e-website-selfupdate`:
+# switch-to-configuration exits 4 if ANY unit is failed, including ones it never touched.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - flake.nix
+      - flake.lock
+      - deploy/incus/**
+      - .github/workflows/converge.yml
+  workflow_dispatch: {}
+
+permissions: {}
+
+concurrency:
+  group: converge-slot
+  cancel-in-progress: false # a cancelled converge leaves the slot on an older main
+
+jobs:
+  converge:
+    runs-on: [self-hosted, e4e-website] # the label the platform sets on our runner
+    steps:
+      - name: Converge the slot
+        run: systemctl start --no-block e4e-website-selfupdate # polkit-authorized on the slot
+
+  verify:
+    needs: converge
+    permissions:
+      contents: read
+    runs-on: [self-hosted, e4e-website]
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # the ancestry check below needs history
+
+      # The deploy signal is the revision the slot is RUNNING, not the selfupdate unit's
+      # Result (exit 4 can be a false red, see the header). flake.nix stamps each
+      # generation with its commit (system.configurationRevision).
+      - name: Assert the slot runs this commit (or a newer main)
+        run: |
+          set -euo pipefail
+          SYSTEMCTL=/run/current-system/sw/bin/systemctl
+          for i in $(seq 1 40); do
+            state=$("$SYSTEMCTL" is-active e4e-website-selfupdate 2>/dev/null || true)
+            [ "$state" != "activating" ] && break
+            echo "[$i/40] converge still running..."
+            sleep 15
+          done
+          echo "e4e-website-selfupdate: Result=$("$SYSTEMCTL" show e4e-website-selfupdate -p Result --value)"
+
+          deployed=$(/run/current-system/sw/bin/nixos-version --configuration-revision)
+          echo "slot runs: $deployed   this run: $GITHUB_SHA"
+          # selfupdate builds main HEAD, which may already be past this commit.
+          if [ "$deployed" != "$GITHUB_SHA" ] && \
+             ! git merge-base --is-ancestor "$GITHUB_SHA" "$deployed" 2>/dev/null; then
+            echo "::error title=Converge verify::the slot is NOT on this commit; check 'journalctl -u e4e-website-selfupdate' on the slot"
+            exit 1
+          fi
+          "$SYSTEMCTL" cat e4e-website-publish.service > /dev/null
+          echo "### ✅ slot runs $deployed (contains $GITHUB_SHA); publish unit present" >> "$GITHUB_STEP_SUMMARY"
