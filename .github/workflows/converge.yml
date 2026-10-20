@@ -73,4 +73,3 @@ jobs:
           fi
           "$SYSTEMCTL" cat e4e-website-publish.service > /dev/null
           echo "### ✅ slot runs $deployed (contains $GITHUB_SHA); publish unit present" >> "$GITHUB_STEP_SUMMARY"
-

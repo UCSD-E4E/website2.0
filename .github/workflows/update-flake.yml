@@ -75,4 +75,3 @@ jobs:
           Weekly Axis-B bump (krg-infra docs/tenant-updates.md). Rolls out on the
           next converge (nightly system.autoUpgrade, or converge.yml on this push)."
           git push origin HEAD:main
-
