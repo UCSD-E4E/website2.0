@@ -17,6 +17,9 @@ pin weekly, evaluating the configuration before committing it.
 Follow the [platform onboarding runbook](https://github.com/KastnerRG/krg-infra/blob/main/docs/onboarding-e4e-website.md).
 Before activating the slot:
 
+- Use Actions Runner 2.327.1 or newer on the campus slot for the Node 24 action
+  runtime. The website itself still builds with Node 22; these are separate runtimes.
+
 - Apply the platform's OpenBao role and install the publisher's public key on the
   hosting account. Confirm the hosting server has `rsync`.
 - Install the platform runner GitHub App on this repository.
