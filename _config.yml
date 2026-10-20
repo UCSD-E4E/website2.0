@@ -51,6 +51,9 @@ whitelist:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - flake.nix
+  - flake.lock
+  - deploy
   - README.md
   - scripts
   - node_modules
