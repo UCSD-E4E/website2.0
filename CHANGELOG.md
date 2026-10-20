@@ -13,6 +13,8 @@ verified. No historical deployment or release tag is implied.
 - Replace the retired kastner-ml publishing hop with the campus e4e-website runner;
   add pinned infrastructure, convergence, and weekly system updates (#373).
 - Align deployment with the tested Node 22 and image-tool setup (#374).
+- Update GitHub checkout, Node setup, cache, and artifact actions to Node 24
+  runtimes; pin hosted Linux jobs to Ubuntu 24.04 to avoid automatic OS migration.
 - Update jekyll-feed, jekyll-redirect-from, and jekyll-seo-tag with upstream security
   fixes (#370–372).
 - Establish VERSION as the version source, display it in the footer, include it in
