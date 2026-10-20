@@ -51,6 +51,8 @@ whitelist:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - VERSION
+  - CHANGELOG.md
   - flake.nix
   - flake.lock
   - deploy

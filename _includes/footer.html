@@ -28,6 +28,7 @@
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
         <p class="footer-copyright" style="text-align: right;">&copy; <span id="copyright-year">{{ site.time | date: "%Y" }}</span> {{ site.title | escape }}</p>
+        <p class="footer-version" style="text-align: right;">Website v{{ site.website_version | escape }}</p>
         <script>
           document.getElementById("copyright-year").textContent = new Date().getFullYear();
         </script>

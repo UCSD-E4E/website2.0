@@ -70,6 +70,8 @@ jobs:
       #   uses: actions/configure-pages@v4
       - name: Check component style placement
         run: bundle exec ruby scripts/test_page_styles.rb
+      - name: Check website version rendering
+        run: bundle exec ruby scripts/test_site_version.rb
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         id: build
@@ -97,6 +99,7 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           {
+            printf 'Version: %s\n' "$(cat VERSION)"
             date -u '+Deployed: %Y-%m-%dT%H:%M:%SZ'
             echo "Commit: ${{ github.sha }}"
           } > _site/last_deployed.txt
