@@ -49,6 +49,8 @@ jobs:
           ls -l cache/resize
       - name: Setup node
         uses: actions/setup-node@v4
+        with:
+          node-version: '22'
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1 # v1.161.0
         with:
@@ -57,7 +59,7 @@ jobs:
       - name: Setup build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install graphicsmagick
+          sudo apt-get install -y graphicsmagick imagemagick
           npm ci
       - name: Checks Ruby Gems
         run: bundle list
