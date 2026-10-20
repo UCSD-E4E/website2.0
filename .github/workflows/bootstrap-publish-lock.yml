@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            /flake.nix
+            /flake.lock
+            /deploy/
+          sparse-checkout-cone-mode: false
       - uses: DeterminateSystems/nix-installer-action@v22
       - run: nix flake lock
       - name: Evaluate publisher configuration

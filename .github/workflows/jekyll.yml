@@ -3,8 +3,8 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages
+# Build on GitHub and publish to Jacobs hosting through the campus runner.
+name: Deploy E4E website
 
 on:
   # Runs on pushes targeting the default branch
@@ -13,10 +13,9 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Build checkout; the publish job separately grants artifact access.
 permissions:
   contents: read
-  id-token: write
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
@@ -140,7 +139,12 @@ jobs:
       - name: Wait for any in-flight publish
         run: |
           for i in $(seq 1 60); do
-            systemctl is-active --quiet e4e-website-publish.service || exit 0
+            state=$(systemctl show e4e-website-publish.service -p ActiveState --value)
+            case "$state" in
+              active|activating|deactivating|reloading) ;;
+              inactive|failed) exit 0 ;;
+              *) echo "::error::Unexpected publish state: $state"; exit 1 ;;
+            esac
             echo "[$i/60] a publish is still running..."
             sleep 10
           done
@@ -165,5 +169,3 @@ jobs:
       - name: Publish log
         if: always()
         run: cat /run/e4e-website-publish/log || true
-
-

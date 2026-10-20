@@ -39,6 +39,8 @@ jobs:
 
   verify:
     needs: converge
+    permissions:
+      contents: read
     runs-on: [self-hosted, e4e-website]
     timeout-minutes: 25
     steps:
