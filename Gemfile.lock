@@ -99,7 +99,7 @@ GEM
       citeproc-ruby (>= 2.1.6)
       csl-styles (~> 2.0)
       jekyll (~> 4.0)
-    jekyll-seo-tag (2.9.0)
+    jekyll-seo-tag (2.9.1)
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
