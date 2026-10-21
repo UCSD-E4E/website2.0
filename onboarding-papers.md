@@ -20,9 +20,6 @@ papers:
 - bib_file: smartfin
   name: Smartfin
   url: /smartfin
-- bib_file: support_group
-  name: Research Support Group
-  url: /research-support-group
 ---
 Below are some good papers for each project that will help you get a feel for what the project is about.
 
