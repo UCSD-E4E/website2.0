@@ -7,6 +7,13 @@ uploads it to `e4e@mywebsite.eng.ucsd.edu:htdocs/`. The hosting server accepts S
 from campus only. The runner does not receive the SSH private key; the publishing
 service obtains it from the platform's OpenBao secret store.
 
+When `AUTO_VERSIONING_ENABLED=true`, the build waits for automatic version
+metadata on `main`; it publishes the App's metadata follow-up commit rather than
+the original unversioned merge. Configure the App and branch permissions described
+in the root README before activating this setting. Versioning does not enable a
+disabled deployment workflow or change the production verification required for
+release tags.
+
 The slot's NixOS configuration is `flake.nix` plus `incus/publish.nix`. Its exact
 infrastructure dependencies are committed in `flake.lock`. Configuration changes
 on `main` trigger `converge.yml`; `update-flake.yml` advances the infrastructure

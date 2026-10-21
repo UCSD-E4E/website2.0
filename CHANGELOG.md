@@ -2,6 +2,8 @@
 
 Versions describe the website, independently of its dependency versions. Dates and
 tags are assigned when a release is verified on production, not when a PR merges.
+After automatic versioning is activated, each merged PR receives a version and a
+linked entry below; these assignments do not mean that version has been deployed.
 
 ## Unreleased
 

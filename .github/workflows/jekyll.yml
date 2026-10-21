@@ -20,14 +20,38 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
-  group: ${{ github.ref }}
+  # Unversioned pushes only run the gate; do not let them replace a queued build
+  # of the App's versioned follow-up. Preserve the existing queue when disabled.
+  group: >-
+    ${{ github.ref }}${{ github.ref == 'refs/heads/main' && vars.AUTO_VERSIONING_ENABLED == 'true' && github.event_name == 'push' && !contains(github.event.head_commit.message, 'Website-Version-Update: true') && '-awaiting-version' || '' }}
   # Branches: a new push cancels the old build. main: QUEUE instead, because a cancelled
   # deploy job abandons a publish that's still running on the slot.
   cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
 
 jobs:
+  version-ready:
+    runs-on: ubuntu-24.04
+    outputs:
+      ready: ${{ steps.version.outputs.ready }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Wait for version metadata on main when automation is enabled
+        id: version
+        env:
+          AUTO_VERSIONING_ENABLED: ${{ vars.AUTO_VERSIONING_ENABLED }}
+        run: |
+          if [ "$GITHUB_REF" = refs/heads/main ] && [ "$AUTO_VERSIONING_ENABLED" = true ]; then
+            python3 scripts/auto_version.py gate
+          else
+            echo 'ready=true' >> "$GITHUB_OUTPUT"
+          fi
   # Build job
   build:
+    needs: version-ready
+    if: needs.version-ready.outputs.ready == 'true'
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout
