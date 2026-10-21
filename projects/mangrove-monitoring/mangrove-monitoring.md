@@ -35,6 +35,9 @@ We build machine learning models to extract metrics from drone and satellite ima
 
 ## Spring 2026
 
+<iframe class="mangrove-story__video" width="600" height="400" src="https://www.youtube.com/embed/aPNVecYxMmw?si=QSW-iPO420VEtcdZ" title="E4E Mangrove Monitoring: Spring 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 Under the lead of Jason Cheung, the team found a potential route to improve Mangrove Monitoring's classifier on two fronts:
 1. Expanding from drone imagery to satellite imagery.
 2. Improving recognition between mangroves and other vegetation.
