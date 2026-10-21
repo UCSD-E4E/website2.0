@@ -61,22 +61,15 @@ layout: default
               <div class="home_post_text" id="home_post_text_{{forloop.index}}">
                 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
-                <h3 style="margin-bottom: 1px;">
-                  <a class="post-link truncate" href="{{ post.url | relative_url }}" rel="bookmark">
+                <h3 class="home_post_title">
+                  <a class="post-link" href="{{ post.url | relative_url }}" rel="bookmark">
                     {{ post.title | escape }}
                   </a>
                 </h3>
-                <p class="home_post_excerpt truncate">
-
-
-
-                  {%- if post.description -%}
-                    {{ post.description }}
-                  {% else %}
-                    {{post.content | strip_html}}
-                  {% endif %}
-
+                <p class="home_post_excerpt">
+                  {{ post.description | default: post.excerpt | markdownify | strip_html | normalize_whitespace | escape }}
                 </p>
+                <a class="home_post_read_more" href="{{ post.url | relative_url }}" aria-label="Read more: {{ post.title | escape }}">Read more <span aria-hidden="true">→</span></a>
               </div>
             </li>
             {%- endfor -%}
@@ -92,33 +85,46 @@ layout: default
     </div>
   </div>
   <script>
-    let posts_containers = document.getElementsByClassName("home_post_text")
-    for (var i = 0; i < posts_containers.length; i++) {
-      let max_height = posts_containers[i].offsetHeight
+    (() => {
+      const excerpts = Array.from(document.querySelectorAll('.home_post_excerpt'), element => ({
+        element,
+        original: element.textContent.trim()
+      }));
 
-      let children = posts_containers[i].children
+      // Keep the CSS line clamp as a fallback, but end shortened text at a whole word.
+      function fitExcerpts() {
+        for (const { element, original } of excerpts) {
+          element.textContent = original;
+          element.style.maxHeight = '';
+          // Reserve the link and title first, then use only complete excerpt lines.
+          const lineHeight = parseFloat(getComputedStyle(element).lineHeight);
+          const lines = Math.max(1, Math.floor(element.clientHeight / lineHeight));
+          element.style.webkitLineClamp = lines;
+          element.style.maxHeight = `${lines * lineHeight}px`;
+          if (element.scrollHeight <= element.clientHeight + 1) continue;
 
-      //ASSUME: the date will always be 1 line and child 0
-      //ASSUME: Title is roughly twice - 3 times date height and child 1
-      //ASSUME: description line height roughly the same as date and child 2
-      let line_width = children[0].offsetHeight 
-
-      let title_height = line_width + children[1].offsetHeight
-      let max_title_lines = Math.floor((max_height - line_width * 2) / line_width)
-      
-      if (title_height > max_height) {
-        children[1].children[0].style['-webkit-line-clamp'] = max_title_lines
+          const words = original.split(/\s+/);
+          const shortened = count => words.slice(0, count).join(' ').replace(/[.,;:!?…]+$/, '') + '…';
+          let low = 0;
+          let high = words.length - 1;
+          while (low < high) {
+            const middle = Math.ceil((low + high) / 2);
+            element.textContent = shortened(middle);
+            if (element.scrollHeight <= element.clientHeight + 1) low = middle;
+            else high = middle - 1;
+          }
+          element.textContent = shortened(low);
+        }
       }
 
-      title_height = line_width + children[1].offsetHeight
-      let excerpt_height = title_height + children[2].offsetHeight
-      let max_excerpt_lines = Math.floor((max_height - title_height) / line_width)
-
-      if (excerpt_height > max_height ) {
-        //edit title to only have set number of lines
-        children[2].style['-webkit-line-clamp'] = max_excerpt_lines
-        
+      let pending;
+      function scheduleFit() {
+        cancelAnimationFrame(pending);
+        pending = requestAnimationFrame(fitExcerpts);
       }
-    }
+      fitExcerpts();
+      window.addEventListener('resize', scheduleFit);
+      if (document.fonts) document.fonts.ready.then(scheduleFit);
+    })();
   </script>
 </div>

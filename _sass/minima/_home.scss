@@ -77,41 +77,66 @@
     color: #1d6dd5;
 }
 
-.home_post_text{
-    height: calc(100% - 183px - 10px);
-}
-
 .home_post_container {
     background-color: #111111;
     min-width: 275px;
     max-width: 275px;
     width: min-content;
     height: 340px;
+    overflow: hidden;
     margin-right: 12px;
     margin-bottom: 20px;
-    max-height: inherit;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    flex-direction: column;
 }
 
-.truncate {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 200;
-    -webkit-box-orient: vertical;
-    display: -webkit-box;
-}
-
-.home_post_excerpt {
-    color:  #707070;
-    font-size: 75%;
-    // height: calc(100% - 183px - 10px - 50px);
+.home-post-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
 }
 
 .home_post_text {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 6px 10px 10px;
+}
+
+.home_post_title {
+    margin: 0;
+    flex-shrink: 0;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+.home_post_text .post-link {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    font-size: inherit;
+}
+
+.home_post_excerpt {
+    flex: 1;
+    min-height: 0;
+    margin: 0;
+    font-size: 75%;
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.home_post_text .post-meta {
+    flex-shrink: 0;
+    font-size: 0.875rem;
 }
 
 .home_post_text .post-meta,
@@ -122,12 +147,32 @@
     color: #ffffff;
 }
 
+.home_post_read_more {
+    margin-top: auto;
+    flex-shrink: 0;
+    color: #ffffff;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.home_post_read_more:visited,
+.home_post_read_more:hover {
+    color: #ffffff;
+}
+
+.home_post_text a:focus-visible {
+    outline: 2px solid #ffcd00;
+    outline-offset: 3px;
+}
+
 .home_post_page {
     display: none;
 }
 
 .home_post_page.home_post_page_0 {
-    display: block;
+    display: flex;
 }
 
 .archive-years {
