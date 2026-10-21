@@ -27,6 +27,8 @@ toc:
         url: /smartfin
       - name: FishSense
         url: /fishsense
+      - name: Elephant Monitoring
+        url: /elephant-monitoring
       - name: Past Projects
         url: /past-projects
   - name: Calendar

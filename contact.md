@@ -25,6 +25,8 @@ Curt Schurgers, Co-Director: [cschurgers@ucsd.edu](mailto:cschurgers@ucsd.edu)
 
 **FishSense:**  Christopher Crutchfield, Omair Qazi, Tom Zhang, Sijan Shrestha, and Thomas Jos ([e4e@ucsd.edu](mailto:e4e@ucsd.edu))
 
+**Elephant Monitoring:** Minyoung Kim ([mik061@ucsd.edu](mailto:mik061@ucsd.edu))
+
 ## Other Information
 For all other inquiries, contact our staff at [e4e@ucsd.edu](mailto:e4e@ucsd.edu).
 

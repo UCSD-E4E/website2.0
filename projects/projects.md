@@ -23,4 +23,8 @@ blurbs:
    photo: "assets/smartfin/about_smartfin.jpg"
    text: "Smartfin brings citizen science to surfing, turning surfboards into coastal monitoring stations to seamlessly gather data on the near-shore environment"
    link: "/smartfin"
+ - project_name: "Elephant Monitoring"
+   photo: "assets/elephant_infrasound/elephant_thumb.jpg"
+   text: "Developing low-frequency microphones for monitoring elephant activity in collaboration with the San Diego Zoo"
+   link: "/elephant-monitoring"
 ---
