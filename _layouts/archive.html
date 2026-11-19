@@ -13,11 +13,12 @@ layout: default
             </a>
             <p>Posted on {{ post.date | date: "%b %-d, %Y" }}</p>
             <div>
-                {%- if post.featuredImage -%}
+                {%- assign thumbnail_image = post.thumbnailImage | default: post.featuredImage -%}
+                {%- if thumbnail_image -%}
                 <img
-                    src="{{ post.featuredImage | string | crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
+                    src="{{ thumbnail_image | string | crop: '3:2+0+0,Center' | resize: '300x200' | format: 'webp' | absolute_url }}"
                     class="inline_image archive-image"
-                    alt="{{ post.featuredImageAlt | default: 'featured image' }}"
+                    alt="{{ post.thumbnailImageAlt | default: post.featuredImageAlt | default: 'featured image' }}"
                 >
                 {% else %}
                 <img

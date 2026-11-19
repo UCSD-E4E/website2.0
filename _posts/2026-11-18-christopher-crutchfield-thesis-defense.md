@@ -2,9 +2,12 @@
 date: 2026-11-18 00:00:00-08:00
 layout: blog-post
 title: "Ph.D Thesis Defense: Christopher Crutchfield"
+description: "Designing for Citizen Science: Fish Length…"
 categories:
 - news-and-updates
 featuredImage: assets/fishsense/christopher-crutchfield-thesis-defense.png
+thumbnailImage: assets/fishsense/christopher-crutchfield-portrait.jpeg
+thumbnailImageAlt: "Christopher Crutchfield wearing a suit and tie."
 featuredImageMaxHeight: 600
 portraitImage: assets/fishsense/christopher-crutchfield-portrait.jpeg
 portraitImageAlt: "Christopher Crutchfield wearing a suit and tie."
