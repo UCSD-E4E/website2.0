@@ -15,12 +15,36 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  <div class="featured-post-image">
+  {% if page.portraitImage %}
+  <style data-page-styles>
+    .featured-post-image.with-portrait {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: center;
+      justify-items: center;
+      gap: 32px;
+      max-width: 840px;
+      margin: 32px auto;
+      padding: 0 8px;
+    }
+    .featured-post-image.with-portrait img { width: 100%; max-width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; }
+    .featured-post-image.with-portrait .wp-post-thumbnail { object-position: center bottom; }
+    @media (max-width: 600px) {
+      .featured-post-image.with-portrait { grid-template-columns: 1fr; gap: 28px; }
+      .featured-post-image.with-portrait img { max-width: 320px; }
+    }
+  </style>
+  {% endif %}
+  <div class="featured-post-image{% if page.portraitImage %} with-portrait{% endif %}">
+    {% if page.portraitImage %}
+    <img class="post-portrait" src="{{ page.portraitImage | relative_url }}" alt="{{ page.portraitImageAlt | escape }}" width="450" height="450">
+    {% endif %}
     <!-- we do allow for no images to be shown, could lead to bugs here... -->
-    <img 
-      alt="{{ page.featuredImageAlt | default: 'featured image' }}" 
-      width="816" 
-      src="{{ page.featuredImage | relative_url }}" 
+    <img
+      alt="{{ page.featuredImageAlt | default: 'featured image' }}"
+      width="816"
+      {% if page.featuredImageMaxHeight and page.portraitImage == nil %}style="max-height: {{ page.featuredImageMaxHeight | escape }}px; width: auto; max-width: 100%; height: auto;"{% endif %}
+      src="{{ page.featuredImage | relative_url }}"
       class="attachment-post-thumbnail size-post-thumbnail wp-post-thumbnail" >
 
   </div>

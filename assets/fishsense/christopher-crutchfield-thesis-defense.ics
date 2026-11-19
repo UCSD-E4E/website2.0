@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UCSD Engineers for Exploration//Thesis Defense//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:christopher-crutchfield-thesis-defense-20261119@e4e.ucsd.edu
+DTSTAMP:20261119T014510Z
+DTSTART:20261119T210000Z
+SUMMARY:Ph.D Thesis Defense: Christopher Crutchfield
+LOCATION:Henry Booker Room\, Jacobs Hall\, UC San Diego
+DESCRIPTION:Designing for Citizen Science: Fish Length Measurement with Com
+ mercial Off-the-Shelf Hardware\nOpen to the public\, in person or online.\
+ nEmail ccrutchf@ucsd.edu for the Zoom link.\nStart time: 1:00 PM Pacific S
+ tandard Time. No end time was provided in the announcement.
+URL:https://ccrutchf.github.io/2026-11-08-thesis_defense_announcement/
+END:VEVENT
+END:VCALENDAR
