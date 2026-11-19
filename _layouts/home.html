@@ -45,10 +45,11 @@ layout: default
             {%- for post in posts -%}
             <li class="home_post_container  home_post_page home_post_page_{{i}}">
               <div class="home-post-image">
-                {%- if post.featuredImage -%}
+                {%- assign thumbnail_image = post.thumbnailImage | default: post.featuredImage -%}
+                {%- if thumbnail_image -%}
                 <img 
-                  src="{{ post.featuredImage | string |  crop: '3:2+0+0,Center' | resize: '300x200!' | format: 'webp' | absolute_url }}"
-                  alt="{{ post.featuredImageAlt | default: 'featured image' }}"
+                  src="{{ thumbnail_image | string |  crop: '3:2+0+0,Center' | resize: '300x200!' | format: 'webp' | absolute_url }}"
+                  alt="{{ post.thumbnailImageAlt | default: post.featuredImageAlt | default: 'featured image' }}"
                   >
                 {% else %}
                 <img 
