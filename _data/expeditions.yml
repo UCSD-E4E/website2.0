@@ -58,6 +58,13 @@
   month: February
   media:
     - https://www.flickr.com/photos/ucsd-e4e/albums/72157648413456271
+  people:
+    - Albert Lin
+    - Curt Schurgers
+    - Ryan kastner
+    - Eric Lo
+    - Dominique Meyer
+    - Perry Naughton
 - project: Maya Archaeology
   location: El Zotz - Guatemala
   date: 2014-05
@@ -65,6 +72,12 @@
   month: May
   media:
     - https://www.flickr.com/photos/ucsd-e4e/albums/72157648413456271
+  people:
+    - Dustin Richmond
+    - Curt Schurgers
+    - Ryan Kastner
+    - David Dantas
+    - Sabrina Trinh
 - project: Vaquita
   location: San Felipe - Mexico
   date: 2014-01
@@ -95,14 +108,14 @@
   date: 2015-06
   year: 2015
   month: June
-  media:
-    - https://www.flickr.com/photos/ucsd-e4e/albums/72157648413456271
   people:
-    - Dustin Richmond
-    - Curt Schurgers
     - Ryan Kastner
-    - David Dantas
-    - Sabrina Trinh
+    - Albert Lin
+    - Domonique Meyer
+    - Eric Lo
+    - Curt Schurgers
+    - Nathan Hui
+    - Dustin Richmond
 - project: Vaquita
   location: Mission Bay
   date: 2015-09
